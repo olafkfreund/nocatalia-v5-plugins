@@ -7,7 +7,7 @@
   "minNoctaliaVersion": "4.5.0",
   "author": "0b10headedcalf",
   "license": "MIT",
-  "repository": "https://github.com/0b10headedcalf/noctalia-obsidian-quickview",
+  "repository": "https://github.com/noctalia-dev/noctalia-plugins",
   "entryPoints": {
     "main": "Main.qml",
     "launcherProvider": "LauncherProvider.qml",
