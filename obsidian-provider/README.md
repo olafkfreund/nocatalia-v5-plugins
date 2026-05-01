@@ -1,10 +1,10 @@
-# Obsidian Quickview
+# Obsidian Provider
 ![splash](preview.png)
 
 ## A Noctalia launcher provider for quickly switching between Obsidian vaults.
 
 ### Preview:
-![preview](recording1.mp4)
+<video src="recording1.mp4" controls width="100%"></video>
 
 
 ## Features
