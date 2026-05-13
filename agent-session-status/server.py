@@ -81,8 +81,15 @@ class SessionStore:
             grouped.setdefault(entry["agent"], []).append(dict(entry))
 
         agents = []
-        for agent in sorted(grouped.keys(), key=str.lower):
-            sessions = sorted(grouped[agent], key=lambda item: item["updatedAt"], reverse=True)
+        for agent in sorted(grouped.keys(), key=lambda name: (
+            not any(item["status"] == "running" for item in grouped[name]),
+            -max(item["updatedAt"] for item in grouped[name]),
+            name.lower(),
+        )):
+            sessions = sorted(
+                grouped[agent],
+                key=lambda item: (item["status"] != "running", -item["updatedAt"]),
+            )
             agents.append({
                 "agent": agent,
                 "runningCount": sum(1 for item in sessions if item["status"] == "running"),

@@ -2,6 +2,7 @@ import json
 import os
 import sys
 import unittest
+from unittest.mock import patch
 
 
 PLUGIN_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -37,6 +38,28 @@ class SessionStoreTest(unittest.TestCase):
         self.store.upsert("claude", {"id": "c", "title": "C", "status": "completed"})
 
         self.assertEqual(self.store.snapshot()["runningCount"], 1)
+
+    def test_sessions_sort_running_first_then_updated_desc(self):
+        with patch("server.time.time", side_effect=[100, 200, 300, 400, 500]):
+            self.store.upsert("codex", {"id": "running-old", "title": "Running old", "status": "running"})
+            self.store.upsert("codex", {"id": "running-new", "title": "Running new", "status": "running"})
+            self.store.upsert("codex", {"id": "blocked", "title": "Blocked", "status": "blocked"})
+            self.store.upsert("codex", {"id": "completed", "title": "Completed", "status": "completed"})
+            sessions = self.store.snapshot()["agents"][0]["sessions"]
+
+        self.assertEqual(
+            [item["id"] for item in sessions],
+            ["running-new", "running-old", "completed", "blocked"],
+        )
+
+    def test_agent_groups_with_running_sessions_sort_first(self):
+        with patch("server.time.time", side_effect=[100, 200, 300, 400]):
+            self.store.upsert("aaa", {"id": "done", "title": "Done", "status": "completed"})
+            self.store.upsert("zzz", {"id": "run", "title": "Run", "status": "running"})
+            self.store.upsert("mmm", {"id": "blocked", "title": "Blocked", "status": "blocked"})
+            agents = self.store.snapshot()["agents"]
+
+        self.assertEqual([agent["agent"] for agent in agents], ["zzz", "mmm", "aaa"])
 
     def test_prune_inactive_removes_non_running_sessions(self):
         self.store.upsert("codex", {"id": "a", "title": "A", "status": "running"})
