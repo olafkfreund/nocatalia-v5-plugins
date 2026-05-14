@@ -467,6 +467,24 @@
       "lastUpdated": "2026-04-02T23:32:45+02:00"
     },
     {
+      "id": "git-companion",
+      "name": "Git Companion",
+      "version": "1.0.0",
+      "official": false,
+      "author": "Thomas Philippo",
+      "description": "Monitor your git repositories from the Noctalia bar. See open issues and pull requests at a glance, without leaving your desktop.",
+      "repository": "https://github.com/noctalia-dev/noctalia-plugins",
+      "minNoctaliaVersion": "4.6.6",
+      "license": "MIT",
+      "tags": [
+        "Development",
+        "Bar",
+        "Panel",
+        "Productivity"
+      ],
+      "lastUpdated": "2026-05-08T18:40:34+02:00"
+    },
+    {
       "id": "github-feed",
       "name": "GitHub Feed",
       "version": "1.3.1",
