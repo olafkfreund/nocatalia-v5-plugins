@@ -1,0 +1,16 @@
+{
+    "id": "thinkpad-fan",
+    "name": "Lenovo ThinkPad - Fan & Thermal Control",
+    "description": "Monitors system temperatures and provides manual overrides for fan speed profiles via sysfs.",
+    "version": "1.0.0",
+    "author": "Piero-93",
+    "entryPoints": {
+        "barWidget": "BarWidget.qml",
+        "panel": "FanPopup.qml"
+    },
+    "category": "System",
+    "settings": {
+        "fanDevicePath": "/proc/acpi/ibm/fan",
+        "thermalZonePath": "/sys/class/thermal/thermal_zone0/temp"
+    }
+}
