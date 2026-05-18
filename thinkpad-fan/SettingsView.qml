@@ -53,8 +53,8 @@ ColumnLayout {
     // Option 2: Left Click Interaction Toggle
     NToggle {
         Layout.fillWidth: true
-        label: "Allow opening controls"
-        description: "Enables left-clicking to open the manual fan override panel"
+        label: "Fan speed manual override"
+        description: "Left-click on the widget to open the manual fan override panel"
         checked: root.editAllowPopupOpening
         onToggled: checked => {
             root.editAllowPopupOpening = checked
