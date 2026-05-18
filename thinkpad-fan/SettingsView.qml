@@ -9,7 +9,7 @@ ColumnLayout {
 
     property var pluginApi: null
 
-    // ===== EDIT STATE (With native fallback to the manifest) =====
+    // ===== EDIT STATE =====
     property bool editColorizeByStatus:
         pluginApi?.pluginSettings?.colorizeByStatus ??
         pluginApi?.manifest?.metadata?.defaultSettings?.colorizeByStatus ??
@@ -23,16 +23,14 @@ ColumnLayout {
     // ===== SAVE =====
     function saveSettings() {
         if (!pluginApi) return
-
         pluginApi.pluginSettings.colorizeByStatus = root.editColorizeByStatus
         pluginApi.pluginSettings.allowPopupOpening = root.editAllowPopupOpening
-
         pluginApi.saveSettings()
     }
 
     // ===== UI =====
     NText {
-        text: "ThinkPad - Fan & Thermal Control - Settings"
+        text: pluginApi?.tr("settings.title") ?? "ThinkPad - Fan & Thermal Control - Settings"
         pointSize: Style.fontSizeM
         font.weight: Font.Bold
         color: Color.mOnSurface
@@ -41,8 +39,8 @@ ColumnLayout {
     // Option 1: Dynamic coloring based on fan status
     NToggle {
         Layout.fillWidth: true
-        label: "Dynamic coloring"
-        description: "Changes the color of the bar capsule when the fan is stopped or at a custom level"
+        label: pluginApi?.tr("settings.dynamic-coloring") ?? "Dynamic coloring"
+        description: pluginApi?.tr("settings.dynamic-coloring-desc") ?? "Changes the color of the bar capsule when the fan is stopped or at a custom level"
         checked: root.editColorizeByStatus
         onToggled: checked => {
             root.editColorizeByStatus = checked
@@ -53,8 +51,8 @@ ColumnLayout {
     // Option 2: Left Click Interaction Toggle
     NToggle {
         Layout.fillWidth: true
-        label: "Fan speed manual override"
-        description: "Left-click on the widget to open the manual fan override panel"
+        label: pluginApi?.tr("settings.allow-popup") ?? "Fan speed manual override"
+        description: pluginApi?.tr("settings.allow-popup-desc") ?? "Left-click on the widget to open the manual fan override panel"
         checked: root.editAllowPopupOpening
         onToggled: checked => {
             root.editAllowPopupOpening = checked

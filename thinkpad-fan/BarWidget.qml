@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Layouts
-import Quickshell as QS
+import QtQuick.Controls
+import Quickshell
 import Quickshell.Io as QSIo
 import qs.Commons
 import qs.Widgets
@@ -9,8 +10,9 @@ import qs.Services.UI
 Item {
     id: root
 
+    // ===== NOCTALIA REQUIRED PROPERTIES =====
     property var pluginApi: null
-    property QS.ShellScreen screen: null
+    property ShellScreen screen
     property string widgetId: ""
     property string section: ""
     property int sectionWidgetIndex: -1
@@ -26,6 +28,7 @@ Item {
     property int currentTemp: 0
     property bool isInitialized: false
 
+    // ===== READING NATIVE NOCTALIA SETTINGS =====
     readonly property bool colorizeByStatus:
         pluginApi?.pluginSettings?.colorizeByStatus ??
         pluginApi?.manifest?.metadata?.defaultSettings?.colorizeByStatus ??
@@ -49,7 +52,7 @@ Item {
         tempLoader.reload();
     }
 
-    // Reading fan state
+    // Hardware fan monitoring (passive tracking bound to thinkfan)
     QSIo.FileView {
         id: fanLoader
         path: "/proc/acpi/ibm/fan"
@@ -78,7 +81,7 @@ Item {
         }
     }
 
-    // Reading temperature
+    // System temperature monitoring
     QSIo.FileView {
         id: tempLoader
         path: "/sys/class/thermal/thermal_zone0/temp"
@@ -94,6 +97,7 @@ Item {
         }
     }
 
+    // Executing ACPI fan commands
     function setFanSpeed(targetLevel) {
         if (!root.isInitialized) return;
 
@@ -121,13 +125,13 @@ Item {
 
     readonly property bool isCustomActive: root.fanLevel !== "auto" && root.fanLevel !== "0"
 
-    // ===== Context menu =====
+    // ===== NATIVE NOCTALIA CONTEXT MENU =====
     NPopupContextMenu {
         id: contextMenu
 
         model: [
             {
-                "label": "Widget settings",
+                "label": "Widget Settings",
                 "action": "settings",
                 "icon": "settings"
             }
@@ -145,7 +149,7 @@ Item {
         }
     }
 
-    // ===== Appearance =====
+    // ===== GRAPHICAL INTERFACE (CAPSULE) =====
     Rectangle {
         id: visualCapsule
         anchors.centerIn: parent
@@ -169,7 +173,7 @@ Item {
         RowLayout {
             id: layout
             anchors.centerIn: parent
-            spacing: 4
+            spacing: (typeof Style !== "undefined") ? Style.marginXS : 4 // Fixed: Avoided hardcoded spacing value
 
             NIcon {
                 id: fanIcon
@@ -192,7 +196,7 @@ Item {
         }
     }
 
-    // ===== Mouse interactions =====
+    // ===== INTERACTION MANAGEMENT =====
     MouseArea {
         id: mouseArea
         anchors.fill: parent
@@ -202,7 +206,6 @@ Item {
         
         onClicked: (mouse) => {
             if (mouse.button === Qt.RightButton) {
-                // Sfrutta il PanelService nativo per posizionare il menu
                 PanelService.showContextMenu(contextMenu, root, screen)
             } else if (mouse.button === Qt.LeftButton) {
                 if (root.allowPopupOpening && pluginApi && typeof pluginApi.openPanel === "function") {

@@ -40,8 +40,7 @@ Item {
                 spacing: Style.marginS
 
                 NText {
-                    text: "Fan speed manual override"
-                    font.weight: Font.Bold
+                    text: pluginApi?.tr("popup.title") ?? "Fan speed manual override"                    font.weight: Font.Bold
                     pointSize: (typeof Style !== "undefined") ? Style.fontSizeS : 10
                     color: (typeof Color !== "undefined") ? Color.mOnSurface : "#ffffff"
                     Layout.alignment: Qt.AlignHCenter
@@ -55,18 +54,18 @@ Item {
                     Layout.fillHeight: true
 
                     // Automatic & disengaged
-                    SelectorButton { text: "Auto"; level: "auto"; Layout.columnSpan: 2; Layout.fillWidth: true }
-                    SelectorButton { text: "Full out"; level: "disengaged"; Layout.columnSpan: 2; Layout.fillWidth: true }
+                    SelectorButton { text: pluginApi?.tr("popup.auto") ?? "Auto"; level: "auto"; Layout.columnSpan: 2; Layout.fillWidth: true }
+SelectorButton { text: pluginApi?.tr("popup.full-out") ?? "Full out"; level: "disengaged"; Layout.columnSpan: 2; Layout.fillWidth: true }
 
                     // Numeric steps
-                    SelectorButton { text: "0"; level: "0" }
-                    SelectorButton { text: "1"; level: "1" }
-                    SelectorButton { text: "2"; level: "2" }
-                    SelectorButton { text: "3"; level: "3" }
-                    SelectorButton { text: "4"; level: "4" }
-                    SelectorButton { text: "5"; level: "5" }
-                    SelectorButton { text: "6"; level: "6" }
-                    SelectorButton { text: "7"; level: "7" }
+                    SelectorButton { text: pluginApi?.tr("popup.level-0") ?? "0"; level: "0" }
+                    SelectorButton { text: pluginApi?.tr("popup.level-1") ?? "1"; level: "1" }
+                    SelectorButton { text: pluginApi?.tr("popup.level-2") ?? "2"; level: "2" }
+                    SelectorButton { text: pluginApi?.tr("popup.level-3") ?? "3"; level: "3" }
+                    SelectorButton { text: pluginApi?.tr("popup.level-4") ?? "4"; level: "4" }
+                    SelectorButton { text: pluginApi?.tr("popup.level-5") ?? "5"; level: "5" }
+                    SelectorButton { text: pluginApi?.tr("popup.level-6") ?? "6"; level: "6" }
+                    SelectorButton { text: pluginApi?.tr("popup.level-7") ?? "7"; level: "7" }
                 }
             }
         }
