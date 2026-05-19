@@ -14,16 +14,12 @@ A Noctalia bar widget and panel for tracking Claude Code session limits and API 
 
 - [Claude Code](https://claude.ai/code) CLI installed and authenticated (`~/.claude/.credentials.json` must exist)
 - `python3` available in PATH
-- The helper script installed at `~/.local/bin/claude-usage-stats` (included in this plugin — copy it manually)
+
+The `claude-usage-stats` helper is bundled with the plugin and runs directly from the plugin directory — no manual install step.
 
 ## Setup
 
-1. Copy `claude-usage-stats` to `~/.local/bin/` and make it executable:
-   ```bash
-   cp claude-usage-stats ~/.local/bin/claude-usage-stats
-   chmod +x ~/.local/bin/claude-usage-stats
-   ```
-2. Enable the plugin in Noctalia settings and add it to your bar.
+Enable the plugin in Noctalia settings and add it to your bar.
 
 ## How it works
 

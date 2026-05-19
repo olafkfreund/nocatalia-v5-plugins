@@ -55,7 +55,7 @@ Item {
 
     Process {
         id: statsProc
-        command: ["python3", "/home/reinhart/.local/bin/claude-usage-stats"]
+        command: ["python3", (pluginApi?.pluginDir ?? "") + "/claude-usage-stats"]
         running: false
         stdout: statsOut
         stderr: statsErr

@@ -1,0 +1,106 @@
+#!/usr/bin/env python3
+import json, urllib.request
+from datetime import datetime, timezone, date
+from pathlib import Path
+
+PROJECTS_DIR = Path.home() / ".claude" / "projects"
+CREDS_FILE   = Path.home() / ".claude" / ".credentials.json"
+
+PRICING = {
+    "claude-sonnet-4-6":         {"input": 3.0,  "cache_creation": 3.75,  "cache_read": 0.30, "output": 15.0},
+    "claude-opus-4-7":           {"input": 15.0, "cache_creation": 18.75, "cache_read": 1.50, "output": 75.0},
+    "claude-opus-4-6":           {"input": 15.0, "cache_creation": 18.75, "cache_read": 1.50, "output": 75.0},
+    "claude-haiku-4-5-20251001": {"input": 0.80, "cache_creation": 1.0,   "cache_read": 0.08, "output": 4.0},
+}
+DEFAULT_PRICING = {"input": 3.0, "cache_creation": 3.75, "cache_read": 0.30, "output": 15.0}
+
+def calc_cost(usage, model):
+    p = PRICING.get(model, DEFAULT_PRICING)
+    return (
+        usage.get("input_tokens", 0)                * p["input"] +
+        usage.get("cache_creation_input_tokens", 0) * p["cache_creation"] +
+        usage.get("cache_read_input_tokens", 0)     * p["cache_read"] +
+        usage.get("output_tokens", 0)               * p["output"]
+    ) / 1_000_000
+
+def fmt_resets(iso_str):
+    if not iso_str:
+        return ""
+    try:
+        sec = int((datetime.fromisoformat(iso_str) - datetime.now(timezone.utc)).total_seconds())
+        if sec <= 0:
+            return "soon"
+        d, h, m = sec // 86400, (sec % 86400) // 3600, (sec % 3600) // 60
+        if d > 0:  return f"in {d}d {h}h"
+        if h > 0:  return f"in {h}h {m}m"
+        return f"in {m}m"
+    except Exception:
+        return ""
+
+LIMITS_CACHE = Path.home() / ".cache" / "claude-usage-limits.json"
+
+def fetch_limits():
+    def parse(w):
+        return {"percent": w.get("utilization") or 0, "resets": fmt_resets(w.get("resets_at", ""))} if w else None
+
+    try:
+        token = json.loads(CREDS_FILE.read_text())["claudeAiOauth"]["accessToken"]
+        req = urllib.request.Request(
+            "https://api.anthropic.com/api/oauth/usage",
+            headers={"Authorization": f"Bearer {token}", "anthropic-beta": "oauth-2025-04-20"},
+        )
+        with urllib.request.urlopen(req, timeout=5) as r:
+            data = json.loads(r.read())
+        result = {"session": parse(data.get("five_hour")), "weekly": parse(data.get("seven_day"))}
+        LIMITS_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        LIMITS_CACHE.write_text(json.dumps(result))
+        return result
+    except Exception:
+        try:
+            return json.loads(LIMITS_CACHE.read_text())
+        except Exception:
+            return {"session": None, "weekly": None}
+
+today     = date.today().isoformat()
+month_pfx = today[:7]
+
+td = {"cost": 0.0, "input_tokens": 0, "output_tokens": 0,
+      "cache_read_tokens": 0, "cache_write_tokens": 0, "sessions": set()}
+mo = {"cost": 0.0, "sessions": set()}
+al = {"cost": 0.0}
+
+for jsonl_file in PROJECTS_DIR.rglob("*.jsonl"):
+    sid = jsonl_file.stem
+    try:
+        with open(jsonl_file, errors="replace") as f:
+            for line in f:
+                try:
+                    d = json.loads(line)
+                    if d.get("type") != "assistant":
+                        continue
+                    msg   = d.get("message", {})
+                    usage = msg.get("usage")
+                    if not usage:
+                        continue
+                    cost = calc_cost(usage, msg.get("model", ""))
+                    ts   = d.get("timestamp", "")[:10]
+                    al["cost"] += cost
+                    if ts.startswith(month_pfx):
+                        mo["cost"] += cost
+                        mo["sessions"].add(sid)
+                    if ts == today:
+                        td["cost"]              += cost
+                        td["input_tokens"]       += usage.get("input_tokens", 0)
+                        td["output_tokens"]      += usage.get("output_tokens", 0)
+                        td["cache_read_tokens"]  += usage.get("cache_read_input_tokens", 0)
+                        td["cache_write_tokens"] += usage.get("cache_creation_input_tokens", 0)
+                        td["sessions"].add(sid)
+                except Exception:
+                    pass
+    except Exception:
+        pass
+
+td["sessions"] = len(td["sessions"])
+mo["sessions"] = len(mo["sessions"])
+
+print(json.dumps({"today": td, "month": mo, "all": al, "limits": fetch_limits()}))
