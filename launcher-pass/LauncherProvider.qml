@@ -419,7 +419,7 @@ Item {
     for (var i = 0; i < data.fields.length; i++) {
       ;(function(f) {
         results.push({
-          name: pluginApi?.tr("action.copyField", { key: f.key }) || ("Copy " + f.key),
+          name: pluginApi?.tr("action.copyField", { key: f.key }),
           description: f.value,
           icon: "copy",
           isTablerIcon: true,
@@ -427,7 +427,7 @@ Item {
           onActivate: function() { root.copyField(path, f) }
         })
         results.push({
-          name: pluginApi?.tr("action.typeField", { key: f.key }) || ("Type " + f.key),
+          name: pluginApi?.tr("action.typeField", { key: f.key }),
           description: f.value,
           icon: "typography",
           isTablerIcon: true,
