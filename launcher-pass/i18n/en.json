@@ -31,6 +31,10 @@
     "wtypeDelay": {
       "label": "Wtype Keystroke Delay",
       "desc": "Delay between keystrokes in ms for wtype (default: 12)"
+    },
+    "clipTimeout": {
+      "label": "Clipboard Timeout",
+      "desc": "Seconds before clipboard is cleared (empty = env/PASSWORD_STORE_CLIP_TIME, default: 45)"
     }
   },
   "notification": {

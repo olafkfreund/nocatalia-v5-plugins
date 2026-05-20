@@ -49,6 +49,20 @@ Item {
     return (cfg[key] || defaults[key] || fallback)
   }
 
+  function getClipTimeout() {
+    var configured = cfg.clipTimeout ?? defaults.clipTimeout ?? ""
+    if (configured !== "") {
+      var num = parseInt(configured, 10)
+      if (!isNaN(num) && num > 0) return num
+    }
+    var envValue = Quickshell.env("PASSWORD_STORE_CLIP_TIME") || ""
+    if (envValue !== "") {
+      var num = parseInt(envValue, 10)
+      if (!isNaN(num) && num > 0) return num
+    }
+    return 45
+  }
+
   Process {
     id: findProc
     stdout: StdioCollector {}
@@ -99,13 +113,12 @@ Item {
     stdout: StdioCollector {}
     onExited: function(exitCode, exitStatus) {
       if (exitCode !== 0) return
-      var otp = otpProc.stdout.text.trim()
       if (root.selectedAction === "copy") {
-        var escapedValue = shellEscape(otp)
         root.resetDetailMode()
         launcher.close()
-        actionProc.exec(["sh", "-c", "printf '%s' '" + escapedValue + "' | wl-copy"])
+        ToastService.showNotice(pluginApi?.tr("notification.copied"))
       } else if (root.selectedAction === "type") {
+        var otp = otpProc.stdout.text.trim()
         var typeDelay = getSetting("typeDelay", 0.5)
         var wtypeDelay = getSetting("wtypeDelay", 12)
         var escValue = shellEscape(otp)
@@ -119,7 +132,7 @@ Item {
   Process {
     id: actionProc
     onExited: function(exitCode, exitStatus) {
-      if (root.selectedAction === "copy") {
+      if (root.selectedAction === "copy" && exitCode === 0) {
         ToastService.showNotice(pluginApi?.tr("notification.copied"))
       }
     }
@@ -434,12 +447,26 @@ Item {
   }
 
   function copyField(path, field) {
-    var value = field ? field.value : (root.selectedEntry ? root.selectedEntry.data.password : "")
     root.selectedAction = "copy"
-    var escapedValue = shellEscape(value)
-    root.resetDetailMode()
-    launcher.close()
-    actionProc.exec(["sh", "-c", "printf '%s' '" + escapedValue + "' | wl-copy"])
+    if (field === null) {
+      var escapedPath = shellEscape(path)
+      var clipTimeout = getClipTimeout()
+      root.resetDetailMode()
+      launcher.close()
+      actionProc.exec({
+        command: ["pass", "-c", escapedPath],
+        environment: {
+          "PASSWORD_STORE_DIR": passwordStoreDir,
+          "PASSWORD_STORE_CLIP_TIME": String(clipTimeout)
+        }
+      })
+    } else {
+      var value = field.value
+      var escapedValue = shellEscape(value)
+      root.resetDetailMode()
+      launcher.close()
+      actionProc.exec(["sh", "-c", "printf '%s' '" + escapedValue + "' | wl-copy"])
+    }
   }
 
   function typeField(path, field) {
@@ -456,8 +483,19 @@ Item {
   function doOtp(path, actionType) {
     root.selectedAction = actionType
     var escapedPath = shellEscape(path)
-    otpProc.environment = { "PASSWORD_STORE_DIR": passwordStoreDir }
-    otpProc.exec(["pass", "otp", escapedPath])
+    if (actionType === "copy") {
+      var clipTimeout = getClipTimeout()
+      otpProc.exec({
+        command: ["pass", "otp", "-c", escapedPath],
+        environment: {
+          "PASSWORD_STORE_DIR": passwordStoreDir,
+          "PASSWORD_STORE_CLIP_TIME": String(clipTimeout)
+        }
+      })
+    } else {
+      otpProc.environment = { "PASSWORD_STORE_DIR": passwordStoreDir }
+      otpProc.exec(["pass", "otp", escapedPath])
+    }
   }
 
   function copyOtp(path) {

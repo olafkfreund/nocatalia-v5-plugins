@@ -13,6 +13,7 @@ ColumnLayout {
   property string editStorePath: cfg.storePath ?? defaults.storePath ?? ""
   property string editTypeDelay: String(cfg.typeDelay ?? defaults.typeDelay ?? 0.5)
   property string editWtypeDelay: String(cfg.wtypeDelay ?? defaults.wtypeDelay ?? 12)
+  property string editClipTimeout: cfg.clipTimeout ?? defaults.clipTimeout ?? ""
 
   spacing: Style.marginL
 
@@ -40,6 +41,14 @@ ColumnLayout {
     onTextChanged: root.editWtypeDelay = text
   }
 
+  NTextInput {
+    Layout.fillWidth: true
+    label: pluginApi?.tr("settings.clipTimeout.label")
+    description: pluginApi?.tr("settings.clipTimeout.desc")
+    text: root.editClipTimeout
+    onTextChanged: root.editClipTimeout = text
+  }
+
   function saveSettings() {
     if (!pluginApi) return;
     pluginApi.pluginSettings.storePath = root.editStorePath;
@@ -49,6 +58,8 @@ ColumnLayout {
 
     var wtypeDelayVal = parseInt(root.editWtypeDelay)
     pluginApi.pluginSettings.wtypeDelay = isNaN(wtypeDelayVal) || wtypeDelayVal < 0 ? 12 : wtypeDelayVal;
+
+    pluginApi.pluginSettings.clipTimeout = root.editClipTimeout;
 
     pluginApi.saveSettings();
   }

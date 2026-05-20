@@ -21,7 +21,8 @@
     "defaultSettings": {
       "storePath": "",
       "typeDelay": 0.5,
-      "wtypeDelay": 12
+      "wtypeDelay": 12,
+      "clipTimeout": ""
     }
   }
 }
