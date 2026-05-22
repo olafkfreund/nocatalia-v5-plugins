@@ -69,12 +69,12 @@ Item {
                         Layout.fillWidth: true
 
                         NLabel {
-                            label: "Claude Code"
+                            label: pluginApi?.tr("panel.title")
                         }
 
                         NLabel {
                             visible: (main?.sessionResetsIn ?? "") !== "" || (main?.weeklyResetsIn ?? "") !== ""
-                            label: "Updated just now"
+                            label: pluginApi?.tr("panel.updated")
                             labelColor: Color.mOnSurfaceVariant
                         }
                     }
@@ -113,7 +113,7 @@ Item {
                         spacing: Math.round(4 * Style.uiScaleRatio)
 
                         NLabel {
-                            label: "Session"
+                            label: pluginApi?.tr("panel.session")
                             labelColor: Color.mOnSurface
                         }
 
@@ -155,7 +155,7 @@ Item {
 
                             NLabel {
                                 visible: (main?.sessionResetsIn ?? "") !== ""
-                                label: "Resets " + (main?.sessionResetsIn ?? "")
+                                label: pluginApi?.tr("panel.resets") + " " + (main?.sessionResetsIn ?? "")
                                 labelColor: Color.mOnSurfaceVariant
                             }
                         }
@@ -175,7 +175,7 @@ Item {
                         spacing: Math.round(4 * Style.uiScaleRatio)
 
                         NLabel {
-                            label: "Weekly"
+                            label: pluginApi?.tr("panel.weekly")
                             labelColor: Color.mOnSurface
                         }
 
@@ -217,7 +217,7 @@ Item {
 
                             NLabel {
                                 visible: (main?.weeklyResetsIn ?? "") !== ""
-                                label: "Resets " + (main?.weeklyResetsIn ?? "")
+                                label: pluginApi?.tr("panel.resets") + " " + (main?.weeklyResetsIn ?? "")
                                 labelColor: Color.mOnSurfaceVariant
                             }
                         }
@@ -237,7 +237,7 @@ Item {
                     spacing: Style.marginS
 
                     NLabel {
-                        label: pluginApi?.tr("panel.cost") ?? "Cost"
+                        label: pluginApi?.tr("panel.cost")
                         labelColor: Color.mOnSurface
                         Layout.fillWidth: true
                     }
@@ -291,21 +291,21 @@ Item {
                     }
 
                     NLabel {
-                        label: (pluginApi?.tr("panel.today") ?? "Today") + ": " + root.fmtCost(main?.todayCost ?? 0) +
-                               "  ·  " + root.fmtTokens((main?.todayInputTokens ?? 0) + (main?.todayOutputTokens ?? 0)) + " " + (pluginApi?.tr("panel.tokens") ?? "tokens")
+                        label: pluginApi?.tr("panel.today") + ": " + root.fmtCost(main?.todayCost ?? 0) +
+                               "  ·  " + root.fmtTokens((main?.todayInputTokens ?? 0) + (main?.todayOutputTokens ?? 0)) + " " + pluginApi?.tr("panel.tokens")
                         labelColor: Color.mOnSurfaceVariant
                         Layout.fillWidth: true
                     }
 
                     NLabel {
-                        label: (pluginApi?.tr("panel.this-month") ?? "This month") + ": " + root.fmtCost(main?.monthCost ?? 0) +
-                               "  ·  " + (main?.monthSessions ?? 0) + " " + (pluginApi?.tr("panel.sessions") ?? "sessions")
+                        label: pluginApi?.tr("panel.this-month") + ": " + root.fmtCost(main?.monthCost ?? 0) +
+                               "  ·  " + (main?.monthSessions ?? 0) + " " + pluginApi?.tr("panel.sessions")
                         labelColor: Color.mOnSurfaceVariant
                         Layout.fillWidth: true
                     }
 
                     NLabel {
-                        label: (pluginApi?.tr("panel.all-time") ?? "All time") + ": " + root.fmtCost(main?.allCost ?? 0)
+                        label: pluginApi?.tr("panel.all-time") + ": " + root.fmtCost(main?.allCost ?? 0)
                         labelColor: Color.mOnSurfaceVariant
                         Layout.fillWidth: true
                     }

@@ -1,6 +1,14 @@
 {
   "settings": {
-    "pluginSettings": "Plugin settings"
+    "pluginSettings": "Plugin settings",
+    "barMetric": "Bar metric",
+    "barMetricDesc": "What the bar pill displays",
+    "alwaysShow": "Always show in bar",
+    "alwaysShowDesc": "Keep pill visible even when idle",
+    "pollInterval": "Refresh interval",
+    "pollIntervalDesc": "How often to re-read usage data",
+    "dailyBudget": "Daily budget ($)",
+    "dailyBudgetDesc": "Pill colour ramp activates above 50%. Set to 0 to disable."
   },
   "panel": {
     "title": "Claude Code",

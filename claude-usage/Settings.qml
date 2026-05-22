@@ -16,8 +16,8 @@ ColumnLayout {
     NComboBox {
         id: barMetricCombo
         Layout.fillWidth: true
-        label: "Bar metric"
-        description: "What the bar pill displays"
+        label: pluginApi?.tr("settings.barMetric")
+        description: pluginApi?.tr("settings.barMetricDesc")
         model: [
             { key: "auto",    name: "Auto (session % or cost)" },
             { key: "session", name: "Session %"                },
@@ -31,8 +31,8 @@ ColumnLayout {
     NToggle {
         id: displayToggle
         Layout.fillWidth: true
-        label: "Always show in bar"
-        description: "Keep pill visible even when idle"
+        label: pluginApi?.tr("settings.alwaysShow")
+        description: pluginApi?.tr("settings.alwaysShowDesc")
         checked: (ps.displayMode ?? "alwaysShow") === "alwaysShow"
     }
 
@@ -40,8 +40,8 @@ ColumnLayout {
     NComboBox {
         id: pollCombo
         Layout.fillWidth: true
-        label: "Refresh interval"
-        description: "How often to re-read usage data"
+        label: pluginApi?.tr("settings.pollInterval")
+        description: pluginApi?.tr("settings.pollIntervalDesc")
         model: [
             { key: "30000",  name: "30 seconds" },
             { key: "60000",  name: "1 minute"   },
@@ -55,8 +55,8 @@ ColumnLayout {
     NTextInput {
         id: budgetInput
         Layout.fillWidth: true
-        label: "Daily budget ($)"
-        description: "Pill colour ramp activates above 50%. Set to 0 to disable."
+        label: pluginApi?.tr("settings.dailyBudget")
+        description: pluginApi?.tr("settings.dailyBudgetDesc")
         text: String(ps.dailyBudget ?? 0)
     }
 
