@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "Délai d'expiration du presse-papiers",
-      "desc": "Secondes avant l'effacement du presse-papiers (vide = env/PASSWORD_STORE_CLIP_TIME, défaut: 45)"
+      "desc": "Secondes avant l'effacement du presse-papiers (défaut PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {

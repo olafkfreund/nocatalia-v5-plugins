@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "Tempo limite da área de transferência",
-      "desc": "Segundos antes de limpar a área de transferência (vazio = env/PASSWORD_STORE_CLIP_TIME, predefinido: 45)"
+      "desc": "Segundos antes de limpar a área de transferência (predefinido PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {

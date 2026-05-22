@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "クリップボードタイムアウト",
-      "desc": "クリップボードが消去されるまでの秒数（空 = env/PASSWORD_STORE_CLIP_TIME、デフォルト: 45）"
+      "desc": "クリップボードが消去されるまでの秒数（デフォルト PASSWORD_STORE_CLIP_TIME: {value}）"
     }
   },
   "notification": {

@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Layouts
+import Quickshell
 import qs.Commons
 import qs.Widgets
 
@@ -14,6 +15,8 @@ ColumnLayout {
   property string editTypeDelay: String(cfg.typeDelay ?? defaults.typeDelay ?? 500)
   property string editWtypeDelay: String(cfg.wtypeDelay ?? defaults.wtypeDelay ?? 12)
   property string editClipTimeout: cfg.clipTimeout ?? defaults.clipTimeout ?? ""
+
+  readonly property string envClipTimeout: Quickshell.env("PASSWORD_STORE_CLIP_TIME") || ""
 
   spacing: Style.marginL
 
@@ -57,7 +60,7 @@ ColumnLayout {
       NTextInput {
         Layout.fillWidth: true
         label: pluginApi?.tr("settings.clipTimeout.label")
-        description: pluginApi?.tr("settings.clipTimeout.desc")
+        description: pluginApi?.tr("settings.clipTimeout.desc", { value: root.envClipTimeout })
         text: root.editClipTimeout
         onTextChanged: root.editClipTimeout = text
       }

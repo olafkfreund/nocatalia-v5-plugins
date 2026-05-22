@@ -38,7 +38,7 @@
     },
     "clipTimeout": {
       "label": "Clipboard Timeout",
-      "desc": "Seconds before clipboard is cleared (empty = env/PASSWORD_STORE_CLIP_TIME, default: 45)"
+      "desc": "Seconds before clipboard is cleared (default PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {

@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "Tiempo de espera del portapapeles",
-      "desc": "Segundos antes de borrar el portapapeles (vacío = env/PASSWORD_STORE_CLIP_TIME, predeterminado: 45)"
+      "desc": "Segundos antes de borrar el portapapeles (predeterminado PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {

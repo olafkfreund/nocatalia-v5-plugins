@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "剪贴板超时",
-      "desc": "剪贴板清除前的秒数（空 = env/PASSWORD_STORE_CLIP_TIME，默认：45）"
+      "desc": "剪贴板清除前的秒数（默认 PASSWORD_STORE_CLIP_TIME: {value}）"
     }
   },
   "notification": {

@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "Тайм-аут буфера обмена",
-      "desc": "Секунды до очистки буфера обмена (пусто = env/PASSWORD_STORE_CLIP_TIME, по умолчанию: 45)"
+      "desc": "Секунды до очистки буфера обмена (по умолчанию PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {

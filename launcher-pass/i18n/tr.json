@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "Pano zaman aşımı",
-      "desc": "Panonun temizlenmesi için saniye (boş = env/PASSWORD_STORE_CLIP_TIME, varsayılan: 45)"
+      "desc": "Panonun temizlenmesi için saniye (varsayılan PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {

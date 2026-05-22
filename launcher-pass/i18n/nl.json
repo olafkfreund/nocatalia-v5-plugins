@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "Klembord timeout",
-      "desc": "Seconden voordat het klembord wordt gewist (leeg = env/PASSWORD_STORE_CLIP_TIME, standaard: 45)"
+      "desc": "Seconden voordat het klembord wordt gewist (standaard PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {

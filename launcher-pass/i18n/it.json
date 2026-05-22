@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "Timeout degli appunti",
-      "desc": "Secondi prima di cancellare gli appunti (vuoto = env/PASSWORD_STORE_CLIP_TIME, predefinito: 45)"
+      "desc": "Secondi prima di cancellare gli appunti (predefinito PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {

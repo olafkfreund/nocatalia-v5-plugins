@@ -39,7 +39,7 @@
     },
     "clipTimeout": {
       "label": "Zwischenablage-Timeout",
-      "desc": "Sekunden bis die Zwischenablage gelöscht wird (leer = env/PASSWORD_STORE_CLIP_TIME, Standard: 45)"
+      "desc": "Sekunden bis die Zwischenablage gelöscht wird (Standard PASSWORD_STORE_CLIP_TIME: {value})"
     }
   },
   "notification": {
