@@ -16,19 +16,12 @@ Item {
   property int sectionWidgetIndex: -1
   property int sectionWidgetsCount: 0
 
-  property bool vibrantEnabled: false
-  property int vibranceValue: 512
-  property int displayCount: 1
+  readonly property var cfg: pluginApi?.pluginSettings ?? ({})
+  readonly property var defaults: pluginApi?.manifest?.metadata?.defaultSettings ?? ({})
 
-  onPluginApiChanged: {
-    if (pluginApi) {
-      var s = pluginApi.pluginSettings
-      var d = pluginApi?.manifest?.metadata?.defaultSettings
-      vibrantEnabled = s?.enabled       ?? d?.enabled       ?? false
-      vibranceValue  = s?.vibranceValue ?? d?.vibranceValue ?? 512
-      displayCount   = s?.displayCount  ?? d?.displayCount  ?? 1
-    }
-  }
+  readonly property bool vibrantEnabled: cfg.enabled ?? defaults.enabled ?? false
+  readonly property int vibranceValue: cfg.vibranceValue ?? defaults.vibranceValue ?? 512
+  readonly property int displayCount: cfg.displayCount ?? defaults.displayCount ?? 1
 
   readonly property real contentWidth: Style.capsuleHeight
   readonly property real contentHeight: Style.capsuleHeight
@@ -36,27 +29,9 @@ Item {
   implicitWidth: contentWidth
   implicitHeight: contentHeight
 
-  function buildCmd(value) {
-    var parts = ["/usr/sbin/nvibrant"]
-    for (var i = 0; i < displayCount; i++)
-      parts.push(value)
-    return parts.join(" ")
-  }
-
-  function runNvibrant(value) {
-    var cmd = buildCmd(value)
-    Logger.i("NVibrant", "BarWidget running: " + cmd)
-    Qt.createQmlObject(
-      'import Quickshell.Io; Process { command: ["bash","-c","' + cmd + '"]; running: true }',
-      root, "nvibrantRun"
-    )
-  }
-
   function toggle() {
-    vibrantEnabled = !vibrantEnabled
-    runNvibrant(vibrantEnabled ? vibranceValue : 0)
     if (pluginApi) {
-      pluginApi.pluginSettings.enabled = vibrantEnabled
+      pluginApi.pluginSettings.enabled = !vibrantEnabled
       pluginApi.saveSettings()
     }
   }
@@ -86,12 +61,14 @@ Item {
     id: contextMenu
     model: [
       {
-        "label": root.vibrantEnabled ? "Disable Vibrance" : "Enable Vibrance",
+        "label": root.vibrantEnabled 
+          ? pluginApi?.tr("panel.disable-vibrance") 
+          : pluginApi?.tr("panel.enable-vibrance"),
         "action": "toggle",
         "icon": root.vibrantEnabled ? "eye-off" : "eye"
       },
       {
-        "label": "Settings",
+        "label": pluginApi?.tr("panel.settings"),
         "action": "widget-settings",
         "icon": "settings"
       }

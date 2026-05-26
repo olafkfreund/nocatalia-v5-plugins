@@ -7,46 +7,34 @@ Item {
   id: root
   property var pluginApi: null
 
-  property bool vibrantEnabled: false
-  property int vibranceValue: 512
-  property int displayCount: 1
+  readonly property var cfg: pluginApi?.pluginSettings ?? ({})
+  readonly property var defaults: pluginApi?.manifest?.metadata?.defaultSettings ?? ({})
 
-  onPluginApiChanged: {
-    if (pluginApi) {
-      loadSettings()
-    }
-  }
-
-  function loadSettings() {
-    var s = pluginApi?.pluginSettings
-    var d = pluginApi?.manifest?.metadata?.defaultSettings
-    root.vibranceValue  = s?.vibranceValue ?? d?.vibranceValue ?? 512
-    root.displayCount   = s?.displayCount  ?? d?.displayCount  ?? 1
-    root.vibrantEnabled = s?.enabled       ?? d?.enabled       ?? false
-    applyVibrance(root.vibrantEnabled ? root.vibranceValue : 0)
-  }
+  readonly property bool vibrantEnabled: cfg.enabled ?? defaults.enabled ?? false
+  readonly property int vibranceValue: cfg.vibranceValue ?? defaults.vibranceValue ?? 512
+  readonly property int displayCount: cfg.displayCount ?? defaults.displayCount ?? 1
 
   function buildCmd(value) {
-    var parts = ["/usr/sbin/nvibrant"]
+    var args = ["/usr/sbin/nvibrant"]
     for (var i = 0; i < root.displayCount; i++)
-      parts.push(value)
-    return parts.join(" ")
+      args.push(value.toString())
+    return args
   }
 
   function applyVibrance(value) {
     var cmd = buildCmd(value)
-    Logger.i("NVibrant", "Running: " + cmd)
-    Qt.createQmlObject(
-      'import Quickshell.Io; Process { command: ["bash","-c","' + cmd + '"]; running: true }',
-      root, "nvibrantRun"
-    )
+    Logger.i("NVibrant", "Running: " + cmd.join(" "))
+    Quickshell.exec(cmd)
   }
 
+  // Reactively apply vibrance when any relevant property changes
+  onVibrantEnabledChanged: applyVibrance(vibrantEnabled ? vibranceValue : 0)
+  onVibranceValueChanged: if (vibrantEnabled) applyVibrance(vibranceValue)
+  onDisplayCountChanged: applyVibrance(vibrantEnabled ? vibranceValue : 0)
+
   function toggle() {
-    root.vibrantEnabled = !root.vibrantEnabled
-    applyVibrance(root.vibrantEnabled ? root.vibranceValue : 0)
     if (pluginApi) {
-      pluginApi.pluginSettings.enabled = root.vibrantEnabled
+      pluginApi.pluginSettings.enabled = !vibrantEnabled
       pluginApi.saveSettings()
     }
   }

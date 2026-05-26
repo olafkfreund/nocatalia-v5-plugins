@@ -24,11 +24,10 @@ A Noctalia plugin to toggle **NVIDIA digital vibrance** (color saturation) direc
 Install via the Noctalia plugin manager, or manually:
 
 ```bash
-cd ~/.config/noctalia/plugins
-git clone https://github.com/noctalia-dev/noctalia-plugins tmp-clone
-cp -r tmp-clone/nvibrant .
-rm -rf tmp-clone
+git clone https://github.com/noctalia-dev/noctalia-plugins ~/.config/noctalia/plugins/nvibrant
 ```
+
+*Note: If cloning manually, ensure the `nvibrant` folder is located directly inside your plugins directory.*
 
 Then enable the plugin and add the bar widget in Noctalia Settings.
 
