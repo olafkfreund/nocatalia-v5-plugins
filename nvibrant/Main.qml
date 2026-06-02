@@ -23,11 +23,11 @@ Item {
   }
 
   function buildCmd(value) {
-    var args = ["/usr/sbin/nvibrant"]
+    var parts = ["nvibrant"]
     for (var i = 0; i < root.displayIndex; i++)
-      args.push("0")
-    args.push(value.toString())
-    return args
+      parts.push("0")
+    parts.push(value.toString())
+    return ["bash", "-lc", parts.join(" ")]
   }
 
   function applyVibrance(value) {
