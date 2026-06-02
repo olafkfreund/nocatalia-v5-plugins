@@ -12,12 +12,13 @@ Item {
 
   readonly property bool vibrantEnabled: cfg.enabled ?? defaults.enabled ?? false
   readonly property int vibranceValue: cfg.vibranceValue ?? defaults.vibranceValue ?? 512
-  readonly property int displayCount: cfg.displayCount ?? defaults.displayCount ?? 1
+  readonly property int displayIndex: cfg.displayIndex ?? defaults.displayIndex ?? 0
 
   function buildCmd(value) {
     var args = ["/usr/sbin/nvibrant"]
-    for (var i = 0; i < root.displayCount; i++)
-      args.push(value.toString())
+    for (var i = 0; i < root.displayIndex; i++)
+      args.push("0")
+    args.push(value.toString())
     return args
   }
 
@@ -30,7 +31,7 @@ Item {
   // Reactively apply vibrance when any relevant property changes
   onVibrantEnabledChanged: applyVibrance(vibrantEnabled ? vibranceValue : 0)
   onVibranceValueChanged: if (vibrantEnabled) applyVibrance(vibranceValue)
-  onDisplayCountChanged: applyVibrance(vibrantEnabled ? vibranceValue : 0)
+  onDisplayIndexChanged: applyVibrance(vibrantEnabled ? vibranceValue : 0)
 
   function toggle() {
     if (pluginApi) {
