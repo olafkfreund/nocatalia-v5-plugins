@@ -1325,6 +1325,23 @@
       "lastUpdated": "2026-04-10T15:49:56+02:00"
     },
     {
+      "id": "nvibrant",
+      "name": "NVibrant",
+      "version": "1.0.0",
+      "official": false,
+      "author": "NoFilterA1",
+      "description": "Toggle NVIDIA digital vibrance (color saturation) via nvibrant.",
+      "repository": "https://github.com/noctalia-dev/noctalia-plugins",
+      "minNoctaliaVersion": "4.0.0",
+      "license": "MIT",
+      "tags": [
+        "Bar",
+        "System",
+        "Gaming"
+      ],
+      "lastUpdated": "2026-05-08T13:25:33+02:00"
+    },
+    {
       "id": "nvim-session-provider",
       "name": "Neovim Session Provider",
       "version": "1.0.2",
