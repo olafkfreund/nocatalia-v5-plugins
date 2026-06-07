@@ -55,6 +55,35 @@ NIconButton {
     pluginApi.saveSettings()
   }
 
+  function loadSettings() {
+    if (!pluginApi || !pluginApi.pluginSettings)
+      return
+
+    var nextDisplayMode = pluginApi.pluginSettings.displayMode || "text"
+    var nextMiddleClickAction = pluginApi.pluginSettings.middleClickAction || "previous"
+    var nextPollIntervalMs = pluginApi.pluginSettings.pollIntervalMs || 750
+
+    var changed = false
+
+    if (root.displayMode !== nextDisplayMode) {
+      root.displayMode = nextDisplayMode
+      changed = true
+    }
+
+    if (root.middleClickAction !== nextMiddleClickAction) {
+      root.middleClickAction = nextMiddleClickAction
+      changed = true
+    }
+
+    if (root.pollIntervalMs !== nextPollIntervalMs) {
+      root.pollIntervalMs = nextPollIntervalMs
+      changed = true
+    }
+
+    if (changed)
+      root.rebuildContextMenuModel()
+  }
+
   function codeForLayout(name) {
     var n = (name || "").toLowerCase()
 
@@ -191,6 +220,8 @@ NIconButton {
   }
 
   function refresh() {
+    root.loadSettings()
+
     if (!readLayoutsProc.running)
       readLayoutsProc.exec(["niri", "msg", "keyboard-layouts"])
   }
@@ -268,6 +299,7 @@ NIconButton {
   }
 
   onRightClicked: {
+    root.loadSettings()
     root.refresh()
     root.rebuildContextMenuModel()
     PanelService.showContextMenu(contextMenu, root, screen)
@@ -317,6 +349,7 @@ NIconButton {
   }
 
   Component.onCompleted: {
+    root.loadSettings()
     root.refresh()
     root.rebuildContextMenuModel()
     Logger.i("NiriLayoutIndicator", "Loaded")
