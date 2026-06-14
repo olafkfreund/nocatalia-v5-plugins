@@ -1,163 +1,54 @@
 # GitHub Feed Plugin for Noctalia
 
-Display GitHub activity from users you follow and activity on your own repositories.
+Displays GitHub unread notifications count in the bar and followed activity feed in the launcher search provider.
+
+![Preview](preview.png)
+
+---
 
 ## Features
 
-**Activity from Followed Users:**
-- Stars - repos they starred
-- Forks - repos they forked
-- Pull Requests - PRs they opened/merged
-- Repository Creations - new repos they created
+- **Activity Feed in Launcher:** Type `/github <filter>` in the launcher to browse recent activity (stars, forks, pull requests, creations) from people you follow. Press Enter on any event to open the target URL directly in your default browser.
+- **Bar Widget Integration:** Displays an unread notification count badge in your shell's bar. Hovering shows configuration info and status.
+- **Background Polling:** A headless service runs in the background to fetch new notifications and feed items periodically.
+- **Enterprise Support:** Configure a custom base URL to support GitHub Enterprise instances.
 
-**Activity on Your Repos:**
-- Stars - when someone stars your repo
-- Forks - when someone forks your repo
-
-**GitHub Notifications:**
-- Overview over notifications you receive
-
-**Technical:**
-- Parallel GraphQL fetching for 5-6x faster load times
-- Queries ALL followed users efficiently
-- Automatic retry on transient failures
-- Caches results to minimize API calls
-- Displays user avatars
-- Click events to open in browser
+---
 
 ## Requirements
 
-- GitHub Personal Access Token with `read:user` scope
-  - If you want to use the notifications feature the token also needs `notifications` scope
-- Create one at: https://github.com/settings/tokens
+- **Noctalia Shell ≥ 5.0.0**
+- A GitHub Personal Access Token with `read:user` and `notifications` scopes. Create one at: https://github.com/settings/tokens.
+
+---
 
 ## Configuration
 
-1. Open Noctalia settings
-2. Navigate to the GitHub Feed plugin
-3. Enter your GitHub username
-4. Enter your Personal Access Token
-5. Toggle which event types to show
-6. Adjust refresh interval and maximum events as needed
+Configure settings globally in Noctalia's plugin manager under *Settings → Plugins*:
 
-## How It Works
+- `username`: Your GitHub username.
+- `token`: Your GitHub Personal Access Token.
+- `github_url`: Custom base URL (if using GitHub Enterprise Server).
+- `refresh_interval`: Period in seconds between update checks (default 1800 / 30 mins).
+- `max_events`: Maximum number of feed events to load.
 
-### Parallel GraphQL Fetching
+---
 
-The plugin uses GitHub's GraphQL API with parallel requests for maximum speed:
-
-1. Fetches your complete following list via REST API
-2. Splits users into batches of 8
-3. Runs 6 parallel GraphQL queries simultaneously
-4. Each query fetches per user:
-   - Last 3 starred repositories
-   - Last 2 created repositories
-   - Last 2 forked repositories
-   - Last 2 pull requests
-5. Automatic retry (up to 3 attempts) on failed requests
-6. Queries your top 10 repos for recent stars and forks
-7. Merges, deduplicates, and sorts events by date
-8. Caches results for the configured refresh interval
-
-### Performance
-
-- **Before (v1.0.7)**: ~128 seconds for 137 users (sequential)
-- **After (v1.1.0)**: ~20 seconds for 137 users (parallel)
-- **Speedup**: 5-6x faster
-
-### API Usage
-
-- REST API: 1 request per 100 followed users
-- GraphQL API: ~1 point per batch + 1 point for your repos
-- For 137 followed users: ~20 GraphQL points total
-- Well within GitHub's rate limits (5000 points/hour)
-
-## IPC Commands
-
-Refresh feed:
-```bash
-qs -c noctalia-shell ipc call plugin:github-feed refresh
-```
-
-Toggle panel:
-```bash
-qs -c noctalia-shell ipc call plugin:github-feed toggle
-```
-
-## Event Types
-
-**From Followed Users:**
-- WatchEvent - when they star a repo
-- ForkEvent - when they fork a repo
-- PullRequestEvent - when they open/merge a PR
-- CreateEvent - when they create a new repo
-
-**On Your Repos:**
-- WatchEvent - when someone stars your repo
-- ForkEvent - when someone forks your repo
-
-## Cache
-
-Events are cached in:
-```
-~/.config/noctalia/plugins/github-feed/cache/events.json
-```
-
-Avatars are cached in:
-```
-~/.config/noctalia/plugins/github-feed/cache/avatars/
-```
-
-To force a fresh fetch, delete the cache directory and refresh.
-
-## Files
+## File Layout
 
 ```
 github-feed/
-  manifest.json      # Plugin metadata
-  Main.qml           # Core logic, parallel GraphQL fetching
-  BarWidget.qml      # Bar button (GitHub icon)
-  Panel.qml          # Popup panel with event list
-  Settings.qml       # Configuration UI
-  cache/
-    events.json      # Cached events
-    avatars/         # Cached user avatars
+├── plugin.toml         # Plugin manifest and settings schema
+├── service.luau        # Background service that polls the GitHub APIs
+├── widget.luau         # Bar widget representation
+├── launcher.luau       # Launcher provider (/github query handler)
+├── translations/
+│   └── en.json         # Dotted-key translations
+├── preview.png
+└── README.md
 ```
 
-## Version History
-
-### 1.2.0
-- Added GitHub Notifications support
-  - Displays unread notification count in bar tooltip
-  - Lists detailed notifications in the feed in a separate tab
-  - Split view into "Activity" and "Notifications" tabs
-  - Added settings toggle to set the default tab
-  - Added optional customizable notifications badge to bar icon
-- Added optional system notifications for events and notifications
-
-### 1.1.0
-- Parallel GraphQL fetching (6 concurrent requests)
-- 5-6x faster load times (~20s vs ~128s for 137 users)
-- Automatic retry on transient failures (up to 3 attempts)
-- Improved error handling and logging
-
-### 1.0.7
-- Added forks from followed users
-- Added pull requests from followed users
-- Added stars/forks on YOUR repositories
-- Separate toggles for each event type
-- Improved event display formatting
-
-### 1.0.5
-- Complete rewrite using GraphQL batching
-- Queries ALL followed users (previously limited)
-- Simplified to stars and repo creations
-- Improved caching and error handling
-- Fixed avatar loading
-
-### 1.0.3
-- Initial REST API implementation
-- Limited to configurable number of users
+---
 
 ## License
 

@@ -1,0 +1,46 @@
+id = "keybind-cheatsheet"
+name = "Keybind Cheatsheet"
+version = "3.8.0"
+min_noctalia = "5.0.0"
+author = "blacku"
+license = "MIT"
+tags = ["Bar", "Launcher", "System", "Indicator"]
+icon = "keyboard"
+description = "Universal keyboard shortcuts keymap that automatically detects and displays keybindings for Hyprland, Niri, or MangoWC."
+
+[[setting]]
+key = "hyprland_config_path"
+type = "string"
+label = "Hyprland config path"
+default = "~/.config/hypr/hyprland.conf"
+description = "Path to your Hyprland configuration file."
+
+[[setting]]
+key = "niri_config_path"
+type = "string"
+label = "Niri config path"
+default = "~/.config/niri/config.kdl"
+description = "Path to your Niri configuration file."
+
+[[setting]]
+key = "mango_config_path"
+type = "string"
+label = "MangoWC config path"
+default = "~/.config/mango/config.conf"
+description = "Path to your MangoWC configuration file."
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/keys"
+glyph = "keyboard"
+include_in_global_search = false
+debounce_ms = 100

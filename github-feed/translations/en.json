@@ -1,0 +1,6 @@
+{
+  "error.title": "GitHub Feed",
+  "error.username": "Please configure your GitHub username in settings.",
+  "error.token": "Please configure your Personal Access Token in settings.",
+  "error.network": "Failed to fetch GitHub data. Please check network connection."
+}
