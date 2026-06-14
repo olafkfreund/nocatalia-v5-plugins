@@ -187,3 +187,58 @@ icon = "battery"
 description = "A plugin that allows you to run custom actions when battery state changes."
 min_noctalia = "5.0.0"
 tags = ["System"]
+
+[[plugin]]
+id = "battery-and-power-management"
+name = "Battery & Power Management"
+version = "1.0.1"
+author = "Piero-93"
+license = "MIT"
+icon = "battery"
+description = "Battery diagnostics showing power draw in Watts, control power profiles, and set battery charge thresholds"
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Indicator", "Utility"]
+
+[[plugin]]
+id = "battery-monitor-plus"
+name = "Battery Monitor Plus"
+version = "1.0.0"
+author = "krteke"
+license = "MIT"
+icon = "battery"
+description = "Extended battery monitor with power draw, remaining time, health, and current power profile"
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "Indicator", "System"]
+
+[[plugin]]
+id = "battery-threshold"
+name = "Battery Threshold Control"
+version = "1.2.5"
+author = "Wilfred Mallawa"
+license = "MIT"
+icon = "shield-heart"
+description = "Set the battery threshold for laptop batteries to extend battery lifespan"
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "System"]
+
+[[plugin]]
+id = "calendar-widget"
+name = "Desktop Calendar"
+version = "1.0.10"
+author = "Simon"
+license = "MIT"
+icon = "calendar"
+description = "Monthly calendar with today highlighted."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Utility"]
+
+[[plugin]]
+id = "catwalk"
+name = "Catwalk"
+version = "1.1.7"
+author = "MannuVilasara"
+license = "MIT"
+icon = "cat"
+description = "A cute animated cat for your bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop", "Panel", "Fun"]

@@ -1,0 +1,6 @@
+{
+  "settings.showBackground.label": "Hintergrund anzeigen",
+  "settings.showBackground.desc": "Zeigt den Hintergrundcontainer für das Kalender-Widget an.",
+  "settings.roundedCorners.label": "Abgerundete Ecken",
+  "settings.roundedCorners.desc": "Verwendet abgerundete Ecken für den Widget-Hintergrund."
+}

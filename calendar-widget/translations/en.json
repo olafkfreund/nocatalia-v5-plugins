@@ -1,0 +1,6 @@
+{
+  "settings.showBackground.label": "Show background",
+  "settings.showBackground.desc": "Show the background container for the calendar widget.",
+  "settings.roundedCorners.label": "Rounded corners",
+  "settings.roundedCorners.desc": "Use rounded corners for the widget background."
+}

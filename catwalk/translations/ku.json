@@ -1,0 +1,12 @@
+{
+  "panel.cpuLabel": "CPU: {usage}%",
+  "panel.title": "Rêwînga pisîkan",
+  "settings.currentThreshold": "Astana niha: {value}%",
+  "settings.hideBackground.description": "Paşxana wîceta sermaseyê veşêre",
+  "settings.hideBackground.label": "Veşartina Paşxanê",
+  "settings.minimumThreshold.description": "Divê bikaranîna CPU ji vê rêjeyê bilindtir be da ku pisîk dest bi bezê bike",
+  "settings.minimumThreshold.label": "Sînorê herî kêm ê CPU",
+  "settings.title": "Mîhenên Catwalkê",
+  "tooltip.running": "Pisîk direve",
+  "tooltip.sleeping": "Pisîk radizê."
+}

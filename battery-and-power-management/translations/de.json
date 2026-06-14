@@ -1,0 +1,9 @@
+{
+  "battery.status_not_charging": "Wird nicht geladen",
+  "battery.status_charging": "Wird geladen",
+  "battery.status_discharging": "Entladen",
+  "battery.status_full": "Voll",
+  "battery.status_unknown": "Unbekannt",
+  "battery.time_to_full": "Zeit bis voll: {time}",
+  "battery.remaining": "Verbleibend: {time}"
+}

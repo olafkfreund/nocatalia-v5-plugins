@@ -1,0 +1,12 @@
+{
+  "panel.cpuLabel": "CPU : {usage}%",
+  "panel.title": "Catwalk",
+  "settings.currentThreshold": "Seuil actuel : {value}%",
+  "settings.hideBackground.description": "Masquer l'arrière-plan du widget de bureau",
+  "settings.hideBackground.label": "Masquer l'arrière-plan",
+  "settings.minimumThreshold.description": "L'utilisation du CPU doit être supérieure à ce pourcentage pour que le chat commence à courir",
+  "settings.minimumThreshold.label": "Seuil minimum CPU",
+  "settings.title": "Paramètres Catwalk",
+  "tooltip.running": "Le chat court",
+  "tooltip.sleeping": "Le chat dort"
+}

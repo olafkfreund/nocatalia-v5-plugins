@@ -1,0 +1,28 @@
+id = "battery-and-power-management"
+name = "Battery & Power Management Plugin"
+version = "1.0.1"
+min_noctalia = "5.0.0"
+author = "Piero-93"
+license = "MIT"
+tags = ["Bar", "System", "Indicator", "Utility"]
+icon = "battery"
+description = "A lightweight, efficient battery status bar widget and interactive control popup/desktop widget."
+
+[[setting]]
+key = "batteryDevice"
+type = "string"
+label = "Battery Device Path"
+default = "/sys/class/power_supply/BAT0"
+description = "Path to the sysfs battery device"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"

@@ -1,0 +1,12 @@
+{
+  "panel.cpuLabel": "CPU: {usage}%",
+  "panel.title": "Catwalk",
+  "settings.currentThreshold": "Aktuelle Schwelle: {value}%",
+  "settings.hideBackground.description": "Verstecke den Hintergrund des Desktop-Widgets",
+  "settings.hideBackground.label": "Hintergrund ausblenden",
+  "settings.minimumThreshold.description": "Die CPU-Auslastung muss über diesem Prozentsatz liegen, damit die Katze zu laufen beginnt",
+  "settings.minimumThreshold.label": "Minimale CPU-Schwelle",
+  "settings.title": "Catwalk-Einstellungen",
+  "tooltip.running": "Katze läuft",
+  "tooltip.sleeping": "Katze schläft"
+}

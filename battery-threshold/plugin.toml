@@ -1,0 +1,37 @@
+id = "battery-threshold"
+name = "Battery Threshold Control"
+version = "1.2.5"
+min_noctalia = "5.0.0"
+author = "Wilfred Mallawa"
+license = "MIT"
+tags = ["Bar", "Panel", "System"]
+icon = "shield-heart"
+description = "Set the battery threshold for laptop batteries to extend battery lifespan"
+
+[[setting]]
+key = "chargeThreshold"
+type = "int"
+label = "Charge Threshold"
+default = 80
+min = 40
+max = 100
+description = "Target threshold percentage to stop charging"
+
+[[setting]]
+key = "batteryDevice"
+type = "string"
+label = "Battery Device"
+default = "/sys/class/power_supply/BAT0"
+description = "sysfs path of the battery device to configure"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"

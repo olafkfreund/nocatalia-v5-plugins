@@ -1,0 +1,12 @@
+{
+  "panel.cpuLabel": "CPU: {usage}%",
+  "panel.title": "Catwalk",
+  "settings.currentThreshold": "Limite atual: {value}%",
+  "settings.hideBackground.description": "Ocultar o fundo do widget da área de trabalho",
+  "settings.hideBackground.label": "Ocultar fundo",
+  "settings.minimumThreshold.description": "O uso da CPU deve estar acima desta porcentagem para o gato começar a correr",
+  "settings.minimumThreshold.label": "Limite mínimo de CPU",
+  "settings.title": "Configurações do Catwalk",
+  "tooltip.running": "O gato está correndo",
+  "tooltip.sleeping": "O gato está dormindo"
+}

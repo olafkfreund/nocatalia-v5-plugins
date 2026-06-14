@@ -1,0 +1,9 @@
+{
+  "battery.status_not_charging": "Not charging",
+  "battery.status_charging": "Charging",
+  "battery.status_discharging": "Discharging",
+  "battery.status_full": "Full",
+  "battery.status_unknown": "Unknown",
+  "battery.time_to_full": "Time to full: {time}",
+  "battery.remaining": "Remaining: {time}"
+}

@@ -1,0 +1,12 @@
+{
+  "panel.cpuLabel": "CPU: {usage}%",
+  "panel.title": "Catwalk",
+  "settings.currentThreshold": "Soglia attuale: {value}%",
+  "settings.hideBackground.description": "Nascondi lo sfondo del widget desktop",
+  "settings.hideBackground.label": "Nascondi sfondo",
+  "settings.minimumThreshold.description": "L'utilizzo della CPU deve essere superiore a questa percentuale affinché il gatto inizi a correre",
+  "settings.minimumThreshold.label": "Soglia minima CPU",
+  "settings.title": "Impostazioni Catwalk",
+  "tooltip.running": "Il gatto sta correndo",
+  "tooltip.sleeping": "Il gatto sta dormendo"
+}

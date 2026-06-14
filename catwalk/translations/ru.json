@@ -1,0 +1,12 @@
+{
+  "panel.cpuLabel": "CPU: {usage}%",
+  "panel.title": "Catwalk",
+  "settings.currentThreshold": "Текущий порог: {value}%",
+  "settings.hideBackground.description": "Скрыть фон виджета рабочего стола",
+  "settings.hideBackground.label": "Скрыть фон",
+  "settings.minimumThreshold.description": "Использование CPU должно быть выше этого процента, чтобы кот начал бежать",
+  "settings.minimumThreshold.label": "Минимальный порог CPU",
+  "settings.title": "Настройки Catwalk",
+  "tooltip.running": "Кот бежит",
+  "tooltip.sleeping": "Кот спит"
+}

@@ -1,0 +1,12 @@
+{
+  "panel.cpuLabel": "CPU: {usage}%",
+  "panel.title": "Catwalk",
+  "settings.currentThreshold": "Current threshold: {value}%",
+  "settings.hideBackground.description": "Hide the background of the desktop widget",
+  "settings.hideBackground.label": "Hide Background",
+  "settings.minimumThreshold.description": "CPU usage must be above this percentage for the cat to start running",
+  "settings.minimumThreshold.label": "Minimum CPU Threshold",
+  "settings.title": "Catwalk Settings",
+  "tooltip.running": "Cat is running",
+  "tooltip.sleeping": "Cat is sleeping"
+}

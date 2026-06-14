@@ -1,0 +1,25 @@
+id = "calendar-widget"
+name = "Desktop Calendar"
+version = "1.0.10"
+min_noctalia = "5.0.0"
+author = "Simon"
+license = "MIT"
+tags = ["Desktop", "Utility"]
+icon = "calendar"
+description = "Monthly calendar with today highlighted."
+
+[[setting]]
+key = "showBackground"
+type = "bool"
+label = "Show Background"
+default = true
+
+[[setting]]
+key = "roundedCorners"
+type = "bool"
+label = "Rounded Corners"
+default = true
+
+[[desktop_widget]]
+id = "calendar"
+entry = "desktop_widget.luau"

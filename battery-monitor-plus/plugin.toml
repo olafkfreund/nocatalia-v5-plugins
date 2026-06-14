@@ -1,0 +1,77 @@
+id = "battery-monitor-plus"
+name = "Battery Monitor Plus"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+author = "krteke"
+license = "MIT"
+tags = ["Bar", "Panel", "Indicator", "System"]
+icon = "battery"
+description = "Extended battery monitor with current power draw, remaining time, battery health, and current power profile."
+
+[[setting]]
+key = "displayMode"
+type = "string"
+label = "Display Mode"
+default = "graphic-clean"
+
+[[setting]]
+key = "deviceNativePath"
+type = "string"
+label = "Device Native Path"
+default = "__default__"
+
+[[setting]]
+key = "showPowerProfiles"
+type = "bool"
+label = "Show Power Profiles"
+default = false
+
+[[setting]]
+key = "showNoctaliaPerformance"
+type = "bool"
+label = "Show Noctalia Performance"
+default = false
+
+[[setting]]
+key = "hideIfNotDetected"
+type = "bool"
+label = "Hide If Not Detected"
+default = true
+
+[[setting]]
+key = "hideIfIdle"
+type = "bool"
+label = "Hide If Idle"
+default = false
+
+[[setting]]
+key = "refreshIntervalSeconds"
+type = "int"
+label = "Refresh Interval (seconds)"
+default = 5
+min = 1
+max = 60
+
+[[setting]]
+key = "showPowerInBar"
+type = "bool"
+label = "Show Power In Bar"
+default = true
+
+[[setting]]
+key = "showTimeInBar"
+type = "bool"
+label = "Show Time In Bar"
+default = true
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
