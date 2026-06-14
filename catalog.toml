@@ -1,0 +1,46 @@
+# Noctalia Community Plugins Catalog
+# Keep one [[plugin]] row per plugin subdirectory.
+
+[[plugin]]
+id = "claude-code-panel"
+name = "Claude Code Panel"
+version = "1.0.0"
+author = "d7om"
+license = "MIT"
+icon = "terminal"
+description = "Claude Code (Anthropic agentic CLI) with terminal execution and launcher integration"
+min_noctalia = "5.0.0"
+tags = ["Bar", "Launcher", "AI", "Productivity"]
+
+[[plugin]]
+id = "github-feed"
+name = "GitHub Feed"
+version = "1.4.0"
+author = "linuxmobile"
+license = "MIT"
+icon = "brand-github"
+description = "Displays GitHub unread notifications count in the bar and followed activity feed in the launcher."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Launcher", "Development", "Network"]
+
+[[plugin]]
+id = "keybind-cheatsheet"
+name = "Keybind Cheatsheet"
+version = "3.8.0"
+author = "blacku"
+license = "MIT"
+icon = "keyboard"
+description = "Universal keyboard shortcuts keymap that automatically detects and displays keybindings for Hyprland, Niri, or MangoWC."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Launcher", "System", "Indicator"]
+
+[[plugin]]
+id = "show-keys"
+name = "Show Keys"
+version = "1.1.0"
+author = "onez3r0"
+license = "MIT"
+icon = "keyboard"
+description = "Displays real-time keyboard input on your desktop using evtest."
+min_noctalia = "5.0.0"
+tags = ["Indicator", "System", "Desktop"]
