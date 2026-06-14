@@ -51,10 +51,10 @@ local function parseFlatpak(stdout)
 end
 
 local function checkNoctalia(list)
-  local noctaliaNames = { "noctalia-qs", "noctalia-shell" }
+  local noctaliaNames = { "noctalia", "noctalia-qs", "noctalia-shell" }
   for _, item in list do
     for _, name in noctaliaNames do
-      if item.name:find(name, 1, true) then
+      if item.name == name or item.name:find(name, 1, true) then
         return true
       end
     end
