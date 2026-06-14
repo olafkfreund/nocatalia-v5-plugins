@@ -1,0 +1,82 @@
+id = "arch-updater"
+name = "Arch Updater"
+version = "2.2.0"
+min_noctalia = "5.0.0"
+author = "Ast"
+license = "MIT"
+tags = ["Bar", "Desktop", "Launcher", "System", "Utility"]
+icon = "arrow-big-down-lines"
+description = "A plugin to manage updates on Arch"
+
+[[setting]]
+key = "systemCmd"
+type = "string"
+label = "System check command"
+default = "checkupdates 2>/dev/null"
+description = "Command to list official repo updates"
+
+[[setting]]
+key = "aurCmd"
+type = "string"
+label = "AUR check command"
+default = "paru -Qua 2>/dev/null"
+description = "Command to list AUR updates"
+
+[[setting]]
+key = "updateCmd"
+type = "string"
+label = "Update command"
+default = "ghostty -e bash -c 'echo \"Updating System...\";paru; flatpak update; read -n 1 -p \"Press any key to exit...\"'"
+description = "Command run in terminal to perform updates"
+
+[[setting]]
+key = "flatpak"
+type = "bool"
+label = "Check Flatpak updates"
+default = true
+
+[[setting]]
+key = "hideOnEmpty"
+type = "bool"
+label = "Hide widget when up to date"
+default = false
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (minutes)"
+default = 120
+min = 10
+max = 1440
+
+[[setting]]
+key = "iconName"
+type = "string"
+label = "Icon name"
+default = "arrow-big-down-lines"
+
+[[setting]]
+key = "enableColorization"
+type = "bool"
+label = "Colorize icon on updates"
+default = false
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop_widget"
+entry = "desktop_widget.luau"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/arch"
+glyph = "arrow-big-down-lines"
+include_in_global_search = false
+debounce_ms = 300

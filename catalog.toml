@@ -56,3 +56,15 @@ description = "Displays real-time air quality data with EPA color coding. Suppor
 min_noctalia = "5.0.0"
 tags = ["Bar", "Desktop", "System", "Utility"]
 
+[[plugin]]
+id = "arch-updater"
+name = "Arch Updater"
+version = "2.2.0"
+author = "Ast"
+license = "MIT"
+icon = "arrow-big-down-lines"
+description = "A plugin to manage updates on Arch"
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop", "Launcher", "System", "Utility"]
+
+
