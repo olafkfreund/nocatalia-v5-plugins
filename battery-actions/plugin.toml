@@ -1,0 +1,27 @@
+id = "battery-actions"
+name = "Battery Actions"
+version = "1.0.3"
+min_noctalia = "5.0.0"
+author = "itscrystalline"
+license = "MIT"
+tags = ["System"]
+icon = "battery"
+description = "A plugin that allows you to run custom actions when battery state changes."
+
+[[setting]]
+key = "pluggedInScript"
+type = "string"
+label = "Plugged In Script"
+default = ""
+description = "Script or command to run when plugged into power"
+
+[[setting]]
+key = "onBatteryScript"
+type = "string"
+label = "On Battery Script"
+default = ""
+description = "Script or command to run when running on battery"
+
+[[service]]
+id = "service"
+entry = "service.luau"

@@ -1,0 +1,77 @@
+id = "assistant-panel"
+name = "Assistant Panel"
+version = "2.1.6"
+min_noctalia = "5.0.0"
+author = "j-1in"
+license = "MIT"
+tags = ["Bar", "Launcher", "AI", "Productivity", "Network"]
+icon = "message-code"
+description = "AI Chat and Translation from the launcher using Gemini, OpenAI, Claude, or Ollama."
+
+[[setting]]
+key = "ai_provider"
+type = "select"
+label = "AI Provider"
+default = "google"
+description = "Choose the AI chat provider"
+options = [
+  { value = "google", label = "Google Gemini" },
+  { value = "openai", label = "OpenAI" },
+  { value = "anthropic", label = "Anthropic Claude" },
+  { value = "ollama", label = "Ollama (Local)" }
+]
+
+[[setting]]
+key = "ai_apiKey"
+type = "string"
+label = "API Key"
+default = ""
+description = "API Key for your chosen cloud provider (leave blank for Ollama)"
+
+[[setting]]
+key = "ai_model"
+type = "string"
+label = "AI Model"
+default = "gemini-2.5-flash"
+description = "Model identifier (e.g. gemini-2.5-flash, gpt-4o, claude-3-7-sonnet-latest, llama3)"
+
+[[setting]]
+key = "ai_temperature"
+type = "string"
+label = "Temperature"
+default = "0.7"
+description = "Creativity level (0.0 to 1.0)"
+
+[[setting]]
+key = "ai_systemPrompt"
+type = "string"
+label = "System Prompt"
+default = "You are a helpful assistant integrated into a Linux desktop shell. Be concise and helpful."
+description = "Initial instruction for the AI"
+
+[[setting]]
+key = "tr_defaultTarget"
+type = "string"
+label = "Default Translation Language"
+default = "en"
+description = "ISO code of the target language (e.g. en, es, de, fr, ja)"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[launcher_provider]]
+id = "chat"
+entry = "chat.luau"
+prefix = "/ai"
+glyph = "message-code"
+include_in_global_search = false
+debounce_ms = 800
+
+[[launcher_provider]]
+id = "translate"
+entry = "translate.luau"
+prefix = "/aitr"
+glyph = "language"
+include_in_global_search = false
+debounce_ms = 400

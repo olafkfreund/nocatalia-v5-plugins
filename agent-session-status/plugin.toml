@@ -1,0 +1,58 @@
+id = "agent-session-status"
+name = "Agent Session Status"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+author = "nzlov"
+license = "MIT"
+tags = ["Bar", "Panel", "Development", "Indicator", "AI"]
+icon = "bot"
+description = "Runs a local MCP HTTP service for agents to report session status and shows active sessions in the bar."
+
+[[setting]]
+key = "bindAddress"
+type = "string"
+label = "Listen address"
+default = "127.0.0.1"
+description = "Address for the local MCP HTTP service to bind."
+
+[[setting]]
+key = "port"
+type = "int"
+label = "Port"
+default = 55854
+description = "Port for the MCP endpoint used by agents."
+
+[[setting]]
+key = "token"
+type = "string"
+label = "Auth token"
+default = ""
+description = "Agents must send Authorization: Bearer <token>."
+
+[[setting]]
+key = "pollIntervalSec"
+type = "int"
+label = "Poll interval (seconds)"
+default = 2
+min = 1
+max = 60
+description = "How often the shell refreshes session status."
+
+[[setting]]
+key = "hideWhenEmpty"
+type = "bool"
+label = "Hide when empty"
+default = false
+description = "Hide the bar widget when no sessions are running."
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"

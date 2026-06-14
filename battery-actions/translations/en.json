@@ -1,0 +1,11 @@
+{
+  "settings.plugged_in_label": "When Plugged In",
+  "settings.plugged_in_desc": "The script that will be executed when the system is plugged in.",
+  "settings.on_battery_label": "When On Battery",
+  "settings.on_battery_desc": "The script that will be executed when the system is on battery power.",
+  "settings.env_vars_title": "Additional Environment Variables Provided",
+  "settings.env_vars_percentage": "Battery Percentage",
+  "settings.env_vars_state": "Battery State (Charging, Discharging, Fully Charged, etc.)",
+  "settings.env_vars_rate": "Battery Charge rate (in Watts)",
+  "settings.env_vars_path": "OS Battery path (/sys/class/power_supply/...)"
+}

@@ -1,0 +1,7 @@
+{
+  "tooltip.standard": "Standard",
+  "tooltip.quiet": "Quiet",
+  "tooltip.high": "High-Performance",
+  "tooltip.full": "Full",
+  "tooltip.unknown": "Unknown"
+}

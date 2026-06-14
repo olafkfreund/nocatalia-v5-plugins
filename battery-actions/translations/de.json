@@ -1,0 +1,11 @@
+{
+  "settings.plugged_in_label": "Wenn angeschlossen",
+  "settings.plugged_in_desc": "Das Skript, das ausgeführt wird, wenn das System angeschlossen wird",
+  "settings.on_battery_label": "Im Akkubetrieb",
+  "settings.on_battery_desc": "Das Skript, das ausgeführt wird, wenn das System im Akkubetrieb ist",
+  "settings.env_vars_title": "Zusätzliche bereitgestellte Umgebungsvariablen",
+  "settings.env_vars_percentage": "Batteriestand in Prozent",
+  "settings.env_vars_state": "Batteriestatus (Laden, Entladen, Vollständig geladen usw.)",
+  "settings.env_vars_rate": "Batterieladeleistung (in Watt)",
+  "settings.env_vars_path": "OS-Batteriepfad (/sys/class/power_supply/...)"
+}
