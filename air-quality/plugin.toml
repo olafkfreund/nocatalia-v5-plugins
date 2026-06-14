@@ -1,0 +1,86 @@
+id = "air-quality"
+name = "Air Quality"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "adriamartin91"
+license = "MIT"
+tags = ["Bar", "Desktop", "System", "Utility"]
+icon = "wind"
+description = "Displays real-time air quality data with EPA color coding. Supports Open-Meteo and AQICN data sources."
+
+[[setting]]
+key = "aqiScale"
+type = "select"
+label = "AQI Scale"
+default = "us"
+description = "Choose the air quality index scale"
+options = [
+  { value = "us", label = "US AQI (EPA)" },
+  { value = "eu", label = "European AQI" }
+]
+
+[[setting]]
+key = "dataSource"
+type = "select"
+label = "Data source"
+default = "open-meteo"
+description = "Choose where air quality data comes from"
+options = [
+  { value = "open-meteo", label = "Open-Meteo (no key needed)" },
+  { value = "aqicn", label = "AQICN (real station data)" }
+]
+
+[[setting]]
+key = "aqicnToken"
+type = "string"
+label = "AQICN API Token"
+default = ""
+description = "Get your free token at aqicn.org/data-platform/token"
+
+[[setting]]
+key = "useNoctaliaLocation"
+type = "bool"
+label = "Use Noctalia location"
+default = true
+description = "Use the location configured in Noctalia settings"
+
+[[setting]]
+key = "customLatitude"
+type = "string"
+label = "Latitude"
+default = ""
+description = "Enter latitude manually if not using Noctalia location"
+
+[[setting]]
+key = "customLongitude"
+type = "string"
+label = "Longitude"
+default = ""
+description = "Enter longitude manually if not using Noctalia location"
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (minutes)"
+default = 30
+min = 5
+max = 1440
+
+[[setting]]
+key = "boldText"
+type = "bool"
+label = "Bold text"
+default = true
+description = "Display the AQI number in bold"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop_widget"
+entry = "desktop_widget.luau"

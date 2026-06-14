@@ -44,3 +44,15 @@ icon = "keyboard"
 description = "Displays real-time keyboard input on your desktop using evtest."
 min_noctalia = "5.0.0"
 tags = ["Indicator", "System", "Desktop"]
+
+[[plugin]]
+id = "air-quality"
+name = "Air Quality"
+version = "2.0.0"
+author = "adriamartin91"
+license = "MIT"
+icon = "wind"
+description = "Displays real-time air quality data with EPA color coding. Supports Open-Meteo and AQICN data sources."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop", "System", "Utility"]
+
