@@ -1,0 +1,40 @@
+id = "show-keys"
+name = "Show Keys"
+version = "1.1.0"
+min_noctalia = "5.0.0"
+author = "onez3r0"
+license = "MIT"
+tags = ["Indicator", "System", "Desktop"]
+icon = "keyboard"
+description = "Displays real-time keyboard input on your desktop using evtest."
+
+[[setting]]
+key = "capture_enabled"
+type = "bool"
+label = "Capture enabled"
+default = true
+description = "Enable or disable keyboard event capture."
+
+[[setting]]
+key = "evtest_device"
+type = "string"
+label = "evtest device path"
+default = "/dev/input/event3"
+description = "The input event device path to monitor."
+
+[[setting]]
+key = "hide_delay_sec"
+type = "int"
+label = "Hide delay (seconds)"
+default = 2
+min = 1
+max = 10
+description = "How long to display the keys before fading out."
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[desktop_widget]]
+id = "keys"
+entry = "widget.luau"

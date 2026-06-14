@@ -1,0 +1,18 @@
+{
+  "widget.label.unavailable": "Claude CLI not found",
+  "widget.tooltip.unavailable": "Install claude via npm: npm i -g @anthropic-ai/claude-code",
+  "widget.label.running": "Claude Code",
+  "widget.tooltip.running": "Claude Code is currently running in a terminal",
+  "widget.label.idle": "Claude Code",
+  "widget.tooltip.idle": "Click to launch Claude Code in a terminal",
+  "widget.error.title": "Claude Code",
+  "widget.error.not_found": "Claude CLI is not installed or not found on PATH. Please check settings.",
+  "launcher.hint.title": "Ask Claude Code",
+  "launcher.hint.desc": "Type a prompt for Claude Code (e.g. /claude analyze this repo)",
+  "launcher.query.thinking": "Claude is thinking...",
+  "launcher.error.title": "Error executing Claude",
+  "launcher.error.failed": "Claude execution failed",
+  "launcher.results.empty": "No output returned from Claude.",
+  "launcher.results.copy": "Copy full response",
+  "launcher.results.copied": "Response copied to clipboard."
+}

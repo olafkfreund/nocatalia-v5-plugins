@@ -1,0 +1,74 @@
+id = "claude-code-panel"
+name = "Claude Code Panel"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+author = "d7om"
+license = "MIT"
+tags = ["AI", "Productivity", "Terminal"]
+icon = "terminal"
+description = "Claude Code terminal launcher and quick query interface."
+
+[[setting]]
+key = "binary"
+type = "string"
+label = "Claude CLI binary path"
+default = "claude"
+description = "Name or full path of the Claude Code CLI binary."
+
+[[setting]]
+key = "working_dir"
+type = "string"
+label = "Working directory"
+default = ""
+description = "Directory where Claude Code will start. If empty, the current directory or home is used."
+
+[[setting]]
+key = "model"
+type = "string"
+label = "Model override"
+default = ""
+description = "Pin to a specific Anthropic model (e.g. claude-3-7-sonnet-latest). Leave blank for default."
+
+[[setting]]
+key = "allowed_tools"
+type = "string"
+label = "Allowed tools"
+default = ""
+description = "Comma-separated list of allowed tools (e.g. ReadFile,EditFile)."
+
+[[setting]]
+key = "disallowed_tools"
+type = "string"
+label = "Disallowed tools"
+default = ""
+description = "Comma-separated list of disallowed tools."
+
+[[setting]]
+key = "dangerously_skip_permissions"
+type = "bool"
+label = "Dangerously skip permissions"
+default = false
+description = "Run every tool without prompting (DANGEROUS)."
+
+[[setting]]
+key = "inject_noctalia_context"
+type = "bool"
+label = "Inject Noctalia desktop context"
+default = true
+description = "Tell Claude about the Noctalia IPC surface so it can control the desktop directly."
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/claude"
+glyph = "terminal"
+include_in_global_search = false
+debounce_ms = 500
