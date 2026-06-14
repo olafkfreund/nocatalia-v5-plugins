@@ -1,0 +1,8 @@
+{
+  "settings.launcher.title": "Launcher",
+  "settings.launcher.description": "The program used to open book files",
+  "settings.forcegrid.label": "Force grid view",
+  "settings.forcegrid.description": "Always use grid view to display results. If disabled, use current launcher configuration",
+  "settings.recentlyOpened.label": "Recently opened count",
+  "settings.recentlyOpened.description": "How many recently opened entries to remember"
+}

@@ -1,0 +1,8 @@
+{
+  "settings.launcher.title": "Launcher",
+  "settings.launcher.description": "Das Programm zum Öffnen von Buchdateien",
+  "settings.forcegrid.label": "Rasteransicht erzwingen",
+  "settings.forcegrid.description": "Verwende immer die Rasteransicht, um Ergebnisse anzuzeigen. Wenn deaktiviert, verwende die aktuelle Launcher-Konfiguration",
+  "settings.recentlyOpened.label": "Anzahl der kürzlich geöffneten",
+  "settings.recentlyOpened.description": "Die Anzahl der zuletzt geöffneten Einträge, die gespeichert werden sollen"
+}

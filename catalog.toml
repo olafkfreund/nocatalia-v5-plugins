@@ -67,4 +67,16 @@ description = "A plugin to manage updates on Arch"
 min_noctalia = "5.0.0"
 tags = ["Bar", "Desktop", "Launcher", "System", "Utility"]
 
+[[plugin]]
+id = "calibre-provider"
+name = "Calibre Provider"
+version = "2.0.0"
+author = "Krendil"
+license = "MIT"
+icon = "books"
+description = "Search for books in your Calibre library"
+min_noctalia = "5.0.0"
+tags = ["Launcher"]
+
+
 

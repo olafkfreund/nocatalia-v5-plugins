@@ -1,0 +1,32 @@
+id = "calibre-provider"
+name = "Calibre Provider"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Krendil"
+license = "MIT"
+tags = ["Launcher"]
+icon = "books"
+description = "Search for books in your Calibre library"
+
+[[setting]]
+key = "launcher"
+type = "string"
+label = "eBook Reader Command"
+default = "xdg-open"
+description = "Command used to open ebook files"
+
+[[setting]]
+key = "recentlyOpenedMax"
+type = "int"
+label = "Max recently opened books"
+default = 36
+min = 5
+max = 100
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/cb"
+glyph = "books"
+include_in_global_search = false
+debounce_ms = 300
