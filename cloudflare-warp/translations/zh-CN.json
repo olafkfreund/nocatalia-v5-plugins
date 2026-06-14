@@ -1,0 +1,21 @@
+{
+  "context.connect": "连接",
+  "context.disconnect": "断开连接",
+  "actions.widget-settings": "小部件设置",
+  "panel.title": "Cloudflare WARP",
+  "panel.status.connected": "已连接",
+  "panel.status.disconnected": "未连接",
+  "panel.mode": "模式",
+  "panel.not-installed": "未找到 warp-cli。请安装 Cloudflare WARP 以使用此插件。",
+  "settings.title": "Cloudflare WARP",
+  "settings.description": "从任务栏切换 Cloudflare WARP 并自定义外观。",
+  "settings.connected-color": "连接时颜色",
+  "settings.connected-color-desc": "WARP 连接时的图标颜色",
+  "settings.disconnected-color": "断开时颜色",
+  "settings.disconnected-color-desc": "WARP 断开时的图标颜色",
+  "settings.refresh-interval": "刷新间隔",
+  "settings.refresh-interval-desc": "轮询 warp-cli 获取状态的频率",
+  "toast.title": "Cloudflare WARP",
+  "toast.connected": "已连接到 WARP",
+  "toast.disconnected": "已断开 WARP 连接"
+}

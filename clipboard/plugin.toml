@@ -1,0 +1,33 @@
+id = "clipboard"
+name = "Clipboard"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "yanekyuk"
+license = "MIT"
+tags = ["Utility", "Bar", "Launcher"]
+icon = "clipboard"
+description = "Clipboard history manager with search, pinning, and deletion"
+
+[[setting]]
+key = "maxHistorySize"
+type = "int"
+label = "Max History Size"
+default = 100
+min = 10
+max = 500
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/clip"
+glyph = "clipboard"
+include_in_global_search = false
+debounce_ms = 100

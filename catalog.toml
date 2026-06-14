@@ -78,5 +78,57 @@ description = "Search for books in your Calibre library"
 min_noctalia = "5.0.0"
 tags = ["Launcher"]
 
+[[plugin]]
+id = "clipboard"
+name = "Clipboard"
+version = "2.0.0"
+author = "yanekyuk"
+license = "MIT"
+icon = "clipboard"
+description = "Clipboard history manager with search, pinning, and deletion"
+min_noctalia = "5.0.0"
+tags = ["Utility", "Bar", "Launcher"]
 
+[[plugin]]
+id = "clipper"
+name = "Clipper"
+version = "3.0.0"
+author = "blackbartblues"
+license = "MIT"
+icon = "notes"
+description = "Advanced clipboard and notecard manager with launcher integration"
+min_noctalia = "5.0.0"
+tags = ["Utility", "Bar", "Launcher"]
 
+[[plugin]]
+id = "cloudflare-warp"
+name = "Cloudflare WARP"
+version = "2.0.0"
+author = "ToRvaLDz"
+license = "MIT"
+icon = "cloud-lock"
+description = "Toggle Cloudflare WARP from the bar. Shows connection status and mode."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Network", "Panel"]
+
+[[plugin]]
+id = "coin-flip"
+name = "Coin Flipper"
+version = "2.0.0"
+author = "DanisDeveloper"
+license = "MIT"
+icon = "coin"
+description = "Flip a coin from your bar or desktop"
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop"]
+
+[[plugin]]
+id = "color-scheme-creator"
+name = "Color Scheme Creator"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "palette"
+description = "Manage and apply color schemes from the launcher"
+min_noctalia = "5.0.0"
+tags = ["Theming", "Utility"]

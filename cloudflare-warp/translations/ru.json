@@ -1,0 +1,21 @@
+{
+  "context.connect": "Подключить",
+  "context.disconnect": "Отключить",
+  "actions.widget-settings": "Настройки виджета",
+  "panel.title": "Cloudflare WARP",
+  "panel.status.connected": "Подключено",
+  "panel.status.disconnected": "Отключено",
+  "panel.mode": "Режим",
+  "panel.not-installed": "warp-cli не найден. Установите Cloudflare WARP для использования этого плагина.",
+  "settings.title": "Cloudflare WARP",
+  "settings.description": "Включайте и отключайте Cloudflare WARP с панели и настраивайте внешний вид.",
+  "settings.connected-color": "Цвет при подключении",
+  "settings.connected-color-desc": "Цвет значка, когда WARP подключён",
+  "settings.disconnected-color": "Цвет при отключении",
+  "settings.disconnected-color-desc": "Цвет значка, когда WARP отключён",
+  "settings.refresh-interval": "Интервал обновления",
+  "settings.refresh-interval-desc": "Как часто опрашивать warp-cli для получения статуса",
+  "toast.title": "Cloudflare WARP",
+  "toast.connected": "Подключено к WARP",
+  "toast.disconnected": "Отключено от WARP"
+}

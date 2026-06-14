@@ -1,0 +1,21 @@
+{
+  "context.connect": "接続",
+  "context.disconnect": "切断",
+  "actions.widget-settings": "ウィジェット設定",
+  "panel.title": "Cloudflare WARP",
+  "panel.status.connected": "接続済み",
+  "panel.status.disconnected": "未接続",
+  "panel.mode": "モード",
+  "panel.not-installed": "warp-cliが見つかりません。このプラグインを使用するにはCloudflare WARPをインストールしてください。",
+  "settings.title": "Cloudflare WARP",
+  "settings.description": "バーからCloudflare WARPをオン・オフにして外観をカスタマイズします。",
+  "settings.connected-color": "接続時の色",
+  "settings.connected-color-desc": "WARP接続時のアイコンの色",
+  "settings.disconnected-color": "切断時の色",
+  "settings.disconnected-color-desc": "WARP切断時のアイコンの色",
+  "settings.refresh-interval": "更新間隔",
+  "settings.refresh-interval-desc": "warp-cliのステータスをポーリングする頻度",
+  "toast.title": "Cloudflare WARP",
+  "toast.connected": "WARPに接続しました",
+  "toast.disconnected": "WARPから切断しました"
+}

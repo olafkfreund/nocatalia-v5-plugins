@@ -1,0 +1,7 @@
+{
+  "common.heads": "Kopf",
+  "common.tails": "Zahl",
+  "settings.delay.label": "Animationsverzögerung",
+  "settings.delay.description": "Verzögerung zwischen den Bildern",
+  "widget.tooltip": "Münzwurf"
+}

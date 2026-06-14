@@ -1,0 +1,21 @@
+{
+  "context.connect": "Csatlakozás",
+  "context.disconnect": "Lecsatlakozás",
+  "actions.widget-settings": "Widget beállítások",
+  "panel.title": "Cloudflare WARP",
+  "panel.status.connected": "Csatlakozva",
+  "panel.status.disconnected": "Lecsatlakozva",
+  "panel.mode": "Mód",
+  "panel.not-installed": "A warp-cli nem található. Telepítsd a Cloudflare WARP-ot a plugin használatához.",
+  "settings.title": "Cloudflare WARP",
+  "settings.description": "Kapcsold be és ki a Cloudflare WARP-ot a sávból, és szabd testre a megjelenést.",
+  "settings.connected-color": "Csatlakozott szín",
+  "settings.connected-color-desc": "Az ikon színe, ha WARP csatlakozva van",
+  "settings.disconnected-color": "Lecsatlakozott szín",
+  "settings.disconnected-color-desc": "Az ikon színe, ha WARP lecsatlakozva van",
+  "settings.refresh-interval": "Frissítési intervallum",
+  "settings.refresh-interval-desc": "Milyen gyakran kérdezi le a warp-cli az állapotot",
+  "toast.title": "Cloudflare WARP",
+  "toast.connected": "Csatlakozva a WARP-hoz",
+  "toast.disconnected": "Lecsatlakozva a WARP-ról"
+}

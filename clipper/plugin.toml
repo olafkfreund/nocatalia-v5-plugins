@@ -1,0 +1,37 @@
+id = "clipper"
+name = "Clipper"
+version = "3.0.0"
+min_noctalia = "5.0.0"
+author = "blackbartblues"
+license = "MIT"
+tags = ["Utility", "Bar", "Launcher"]
+icon = "notes"
+description = "Advanced clipboard and notecard manager with launcher integration"
+
+[[setting]]
+key = "enableTodoIntegration"
+type = "bool"
+label = "Enable ToDo Integration"
+default = false
+
+[[setting]]
+key = "notecardsEnabled"
+type = "bool"
+label = "Enable Notecards"
+default = true
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/clipper"
+glyph = "notes"
+include_in_global_search = false
+debounce_ms = 100

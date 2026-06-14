@@ -1,0 +1,7 @@
+{
+  "common.heads": "Heads",
+  "common.tails": "Tails",
+  "settings.delay.label": "Animation delay",
+  "settings.delay.description": "Delay between frames",
+  "widget.tooltip": "Coin flip"
+}

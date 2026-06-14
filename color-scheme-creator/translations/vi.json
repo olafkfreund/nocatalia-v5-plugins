@@ -1,0 +1,15 @@
+{
+  "menu.settings": "Cài đặt tiện ích",
+  "notifications.save-error": "Không lưu được bộ màu",
+  "notifications.saved": "Đã lưu bộ màu thành công",
+  "panel.dark": "Tối",
+  "panel.light": "Sáng",
+  "panel.preview": "Xem trước",
+  "panel.reset": "Đặt lại",
+  "panel.save": "Lưu",
+  "panel.scheme-name-placeholder": "Chủ đề của tôi",
+  "panel.title": "Trình tạo bộ màu",
+  "settings.iconColor.desc": "Màu của biểu tượng trên thanh.",
+  "settings.iconColor.label": "Màu biểu tượng",
+  "widget.tooltip": "Trình tạo bộ màu"
+}

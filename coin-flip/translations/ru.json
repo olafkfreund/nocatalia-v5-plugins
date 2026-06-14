@@ -1,0 +1,7 @@
+{
+  "common.heads": "Орел",
+  "common.tails": "Решка",
+  "settings.delay.label": "Задержка",
+  "settings.delay.description": "Задержка между кадрами",
+  "widget.tooltip": "Бросок монеты"
+}

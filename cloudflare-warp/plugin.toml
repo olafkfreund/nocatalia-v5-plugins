@@ -1,0 +1,43 @@
+id = "cloudflare-warp"
+name = "Cloudflare WARP"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "ToRvaLDz"
+license = "MIT"
+tags = ["Bar", "Network", "Panel"]
+icon = "cloud-lock"
+description = "Toggle Cloudflare WARP from the bar. Shows connection status and mode."
+
+[[setting]]
+key = "connectedColor"
+type = "string"
+label = "Connected color"
+default = "primary"
+description = "Icon color when WARP is connected"
+
+[[setting]]
+key = "disconnectedColor"
+type = "string"
+label = "Disconnected color"
+default = "on_surface_variant"
+description = "Icon color when WARP is disconnected"
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (ms)"
+default = 5000
+min = 1000
+max = 60000
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[shortcut]]
+id = "toggle"
+entry = "shortcut.luau"

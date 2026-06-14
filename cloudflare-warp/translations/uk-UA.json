@@ -1,0 +1,21 @@
+{
+  "context.connect": "Підключити",
+  "context.disconnect": "Відключити",
+  "actions.widget-settings": "Налаштування віджету",
+  "panel.title": "Cloudflare WARP",
+  "panel.status.connected": "Підключено",
+  "panel.status.disconnected": "Відключено",
+  "panel.mode": "Режим",
+  "panel.not-installed": "warp-cli не знайдено. Встановіть Cloudflare WARP для використання цього плагіна.",
+  "settings.title": "Cloudflare WARP",
+  "settings.description": "Вмикайте та вимикайте Cloudflare WARP з панелі та налаштовуйте зовнішній вигляд.",
+  "settings.connected-color": "Колір при підключенні",
+  "settings.connected-color-desc": "Колір значка, коли WARP підключено",
+  "settings.disconnected-color": "Колір при відключенні",
+  "settings.disconnected-color-desc": "Колір значка, коли WARP відключено",
+  "settings.refresh-interval": "Інтервал оновлення",
+  "settings.refresh-interval-desc": "Як часто опитувати warp-cli для отримання статусу",
+  "toast.title": "Cloudflare WARP",
+  "toast.connected": "Підключено до WARP",
+  "toast.disconnected": "Відключено від WARP"
+}

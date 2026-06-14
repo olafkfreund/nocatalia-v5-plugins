@@ -1,0 +1,21 @@
+{
+  "context.connect": "Connect",
+  "context.disconnect": "Disconnect",
+  "actions.widget-settings": "Widget settings",
+  "panel.title": "Cloudflare WARP",
+  "panel.status.connected": "Connected",
+  "panel.status.disconnected": "Disconnected",
+  "panel.mode": "Mode",
+  "panel.not-installed": "warp-cli not found. Install Cloudflare WARP to use this plugin.",
+  "settings.title": "Cloudflare WARP",
+  "settings.description": "Toggle Cloudflare WARP from the bar and customize how it looks.",
+  "settings.connected-color": "Connected color",
+  "settings.connected-color-desc": "Icon color when WARP is connected",
+  "settings.disconnected-color": "Disconnected color",
+  "settings.disconnected-color-desc": "Icon color when WARP is disconnected",
+  "settings.refresh-interval": "Refresh interval",
+  "settings.refresh-interval-desc": "How often to poll warp-cli for status",
+  "toast.title": "Cloudflare WARP",
+  "toast.connected": "Connected to WARP",
+  "toast.disconnected": "Disconnected from WARP"
+}

@@ -1,0 +1,23 @@
+id = "coin-flip"
+name = "Coin Flipper"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "DanisDeveloper"
+license = "MIT"
+tags = ["Bar", "Desktop"]
+icon = "coin"
+description = "Flip a coin from your bar or desktop"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon Color"
+default = "primary"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"

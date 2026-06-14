@@ -1,0 +1,15 @@
+{
+  "menu.settings": "Widget Einstellungen",
+  "notifications.save-error": "Schema konnte nicht gespeichert werden",
+  "notifications.saved": "Schema erfolgreich gespeichert",
+  "panel.dark": "Dunkel",
+  "panel.light": "Hell",
+  "panel.preview": "Vorschau",
+  "panel.reset": "Zurücksetzen",
+  "panel.save": "Speichern",
+  "panel.scheme-name-placeholder": "Mein Theme",
+  "panel.title": "Color Scheme Creator",
+  "settings.iconColor.desc": "Farbe des Symbols in der Leiste",
+  "settings.iconColor.label": "Symbolfarbe",
+  "widget.tooltip": "Color Scheme Creator"
+}

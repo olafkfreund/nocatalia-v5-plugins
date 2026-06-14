@@ -1,0 +1,21 @@
+{
+  "context.connect": "Bağlan",
+  "context.disconnect": "Bağlantıyı Kes",
+  "actions.widget-settings": "Widget ayarları",
+  "panel.title": "Cloudflare WARP",
+  "panel.status.connected": "Bağlandı",
+  "panel.status.disconnected": "Bağlantı Kesildi",
+  "panel.mode": "Mod",
+  "panel.not-installed": "warp-cli bulunamadı. Bu eklentiyi kullanmak için Cloudflare WARP'ı yükleyin.",
+  "settings.title": "Cloudflare WARP",
+  "settings.description": "Cloudflare WARP'ı çubuktan açıp kapatın ve görünümünü özelleştirin.",
+  "settings.connected-color": "Bağlı rengi",
+  "settings.connected-color-desc": "WARP bağlıyken simge rengi",
+  "settings.disconnected-color": "Bağlantı kesik rengi",
+  "settings.disconnected-color-desc": "WARP bağlantısı kesildiğinde simge rengi",
+  "settings.refresh-interval": "Yenileme aralığı",
+  "settings.refresh-interval-desc": "warp-cli'nin durum için ne sıklıkta sorgulanacağı",
+  "toast.title": "Cloudflare WARP",
+  "toast.connected": "WARP'a bağlandı",
+  "toast.disconnected": "WARP bağlantısı kesildi"
+}
