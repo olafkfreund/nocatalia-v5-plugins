@@ -17,7 +17,7 @@ end
 
 local function setWallpaper(filePath)
   noctalia.log(`DailyWallpaper: Setting wallpaper to {filePath}`)
-  noctalia.runAsync(`qs -c noctalia-shell ipc call wallpaper set '{filePath}'`, function(res)
+  noctalia.runAsync(`noctalia msg wallpaper-set '{filePath}'`, function(res)
     if res.exitCode == 0 then
       noctalia.notify("Daily Wallpaper", "Wallpaper updated successfully!")
     else

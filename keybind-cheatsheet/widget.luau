@@ -19,7 +19,7 @@ end
 
 function onClick()
   -- Toggle launcher
-  noctalia.runAsync("qs -c noctalia-shell ipc call launcher toggle")
+  noctalia.runAsync("noctalia msg panel-toggle launcher \"/keys \"")
 end
 
 noctalia.state.watch("cheatsheet_data", function(val)

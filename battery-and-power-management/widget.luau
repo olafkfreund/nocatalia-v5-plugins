@@ -45,7 +45,7 @@ local function render()
 end
 
 function onClick()
-  noctalia.runAsync("qs -c noctalia-shell ipc call launcher toggle") -- Fallback or trigger desktop widget toggle
+  noctalia.runAsync("noctalia msg panel-toggle control-center") -- Toggle control-center panel
 end
 
 noctalia.state.watch("batPercent", function(val)

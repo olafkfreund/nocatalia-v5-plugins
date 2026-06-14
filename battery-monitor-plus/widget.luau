@@ -67,7 +67,7 @@ local function render()
 end
 
 function onClick()
-  noctalia.runAsync("qs -c noctalia-shell ipc call launcher toggle")
+  noctalia.runAsync("noctalia msg panel-toggle control-center")
 end
 
 noctalia.state.watch("ok", function(val)

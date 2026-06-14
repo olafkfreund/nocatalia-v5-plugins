@@ -116,7 +116,7 @@ function onActivate(id)
     if res.exitCode == 0 then
       noctalia.runAsync(`bash -c "printf '%s' '$1' > '$2'" -- '{schemeJson:gsub("'", "'\\''")}' '{filePath}'`, function(writeRes)
         if writeRes.exitCode == 0 then
-          noctalia.runAsync(`qs -c noctalia-shell ipc call colorScheme predefined set '{themeName}'`, function(ipcRes)
+          noctalia.runAsync(`noctalia msg color-scheme-set custom '{themeName}'`, function(ipcRes)
             noctalia.notify("Theme Manager", `Theme '{selectedPreset.title}' applied successfully!`)
           end)
         else
