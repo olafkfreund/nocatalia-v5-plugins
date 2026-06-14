@@ -140,7 +140,7 @@ Item {
     reloadProc.command = ["sh", "-c",
       "setsid sh -c 'niri-screensaver-launch kill; "
       + "rm -f \"$HOME/.config/niri-screensaver/disabled\"; "
-      + "sleep 0.3; qs kill; sleep 0.6; exec qs -c noctalia-shell' "
+      + "sleep 0.3; pkill noctalia; sleep 0.6; exec noctalia' "
       + "</dev/null >/dev/null 2>&1 &"]
     reloadProc.running = true
   }

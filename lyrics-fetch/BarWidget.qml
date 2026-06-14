@@ -224,7 +224,7 @@ Item {
 
         Process {
             id: openMediaPlayer
-            command: ["qs", "-c", "noctalia-shell", "ipc", "call", "media", "toggle"]
+            command: ["noctalia", "msg", "media", "toggle"]
             running: false
         }
     }

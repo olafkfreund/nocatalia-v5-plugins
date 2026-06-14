@@ -35,26 +35,22 @@ local function buildQueryCommand(prompt)
   end
 
   if injectContext then
-    local promptText = [[You are Claude running under the **claude-code-panel** plugin in **Noctalia Shell** (a Quickshell-based Wayland desktop).
+    local promptText = [[You are Claude running under the **claude-code-panel** plugin in **Noctalia Shell** (a C++ based Wayland desktop shell).
 
 ## Desktop control — Noctalia IPC
 Invoke IPC from Bash:
-qs -c noctalia-shell ipc call <target> <function> [args...]
+noctalia msg <command> [args...]
 
 Discovery (use first when unsure):
-- qs -c noctalia-shell ipc show — list every target and its function signatures
-- qs -c noctalia-shell ipc call state all — full JSON snapshot (screens, settings, widgets)
+- noctalia msg status — JSON snapshot of current shell state
+- noctalia msg --help — list all available commands and arguments
 
-Common targets (non-exhaustive — run `ipc show` for the authoritative list):
-- Appearance: darkMode, nightLight, colorScheme, wallpaper
-- Shell UI: bar, dock, controlCenter, launcher, settings, calendar, desktopWidgets, systemMonitor
-- Notifications: notifications, toast
-- Hardware: brightness, volume, monitors, wifi, bluetooth, airplaneMode, network, battery
-- Power/session: powerProfile, lockScreen, sessionMenu, idleInhibitor
-- Media: media (playPause, next, previous, seekRelative, seekByRatio)
-- Other: location, plugin
-
-Many functions take a <screen> argument (e.g. wallpaper random eDP-1). Get screen names from `ipc call state all`. When the user doesn't specify one, apply to all screens.
+Common commands:
+- Appearance: theme-mode-set <dark|light|auto>, theme-mode-toggle, wallpaper-set <path>, wallpaper-random
+- Shell UI: panel-toggle <launcher|control-center>, settings-toggle, dock-toggle
+- Session & Power: session <lock|suspend|reboot|shutdown>, caffeine-toggle, power-set <profile>
+- Hardware: volume-set <0-100>, volume-mute, brightness-up [step], brightness-down [step], wifi-toggle
+- Media: media <next|previous|toggle|stop>
 
 ## Conventions
 - IPC first for desktop actions ("dark mode", "lock screen", "set wallpaper") — immediate, reversible, no config mutation.
