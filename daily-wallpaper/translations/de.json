@@ -1,0 +1,6 @@
+{
+  "settings.source.label": "Quelle",
+  "settings.source.options.bing": "Bing",
+  "settings.source.options.nasa": "NASA",
+  "settings.locale.label": "Region"
+}

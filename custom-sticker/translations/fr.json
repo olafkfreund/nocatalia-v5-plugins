@@ -1,0 +1,15 @@
+{
+  "desktopWidgetSettings.selection-title": "Sélectionner une image",
+  "desktopWidgetSettings.selection-description": "Sélectionnez l'image à afficher.",
+  "desktopWidgetSettings.selection-tooltip": "Sélectionnez l'image à afficher sur le sticker.",
+  "desktopWidgetSettings.opacity-label": "Opacité",
+  "desktopWidgetSettings.opacity-description": "Ajustez l'opacité de l'image.",
+  "desktopWidgetSettings.mirror-label": "Miroir",
+  "desktopWidgetSettings.mirror-description": "Miroir horizontal de l'image.",
+  "desktopWidgetSettings.vertical-mirror-label": "Miroir vertical",
+  "desktopWidgetSettings.vertical-mirror-description": "Miroir vertical de l'image.",
+  "desktopWidgetSettings.show-background-label": "Afficher l'arrière-plan",
+  "desktopWidgetSettings.show-background-description": "Afficher le conteneur d'arrière-plan pour le widget sticker personnalisé.",
+  "desktopWidgetSettings.rounded-corners-label": "Coins arrondis",
+  "desktopWidgetSettings.rounded-corners-description": "Utiliser des coins arrondis pour l'arrière-plan du widget."
+}

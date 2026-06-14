@@ -1,0 +1,13 @@
+{
+  "launcher.command.name": ">run",
+  "launcher.command.description": "Exécuter une commande personnalisée",
+  "settings.title": "Commandes personnalisées",
+  "settings.description": "Définissez des commandes shell pouvant être lancées depuis le lanceur. Utilisez >run dans le lanceur pour y accéder.",
+  "settings.commandName": "Nom de la commande",
+  "settings.shellCommand": "Commande shell",
+  "settings.chooseIcon": "Choisir une icône",
+  "settings.moveUp": "Monter",
+  "settings.moveDown": "Descendre",
+  "settings.remove": "Supprimer la commande",
+  "settings.add": "Ajouter une commande"
+}

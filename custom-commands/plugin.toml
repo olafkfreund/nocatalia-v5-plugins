@@ -1,0 +1,24 @@
+id = "noctalia-team/custom-commands"
+name = "Custom Commands"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noctalia Team"
+license = "MIT"
+tags = ["Launcher"]
+icon = "terminal-2"
+description = "Define and run custom shell commands from the launcher"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/run"
+glyph = "terminal-2"
+include_in_global_search = true
+debounce_ms = 100
+
+[[setting]]
+key = "commandsJson"
+type = "string"
+label = "Commands JSON"
+description = "JSON array of commands. Format: [{\"name\":\"Name\",\"command\":\"cmd\",\"icon\":\"icon\"}]"
+default = '[{"name":"File Manager","command":"xdg-open ~","icon":"folder"},{"name":"System Monitor","command":"gnome-system-monitor || plasma-systemmonitor || xfce4-taskmanager","icon":"activity"}]'

@@ -1,0 +1,30 @@
+id = "digitallyrefined/daily-wallpaper"
+name = "Daily Wallpaper"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "DigitallyRefined"
+license = "MIT"
+tags = ["Desktop", "Fun", "Utility"]
+icon = "photo"
+description = "Fetches a new daily wallpaper from Bing or NASA"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[setting]]
+key = "source"
+type = "select"
+label = "Wallpaper Source"
+default = "bing"
+options = [
+  { value = "bing", label = "Bing Image of the Day" },
+  { value = "nasa", label = "NASA Image of the Day" }
+]
+
+[[setting]]
+key = "locale"
+type = "string"
+label = "Locale (for Bing)"
+description = "e.g., en-US, zh-CN, de-DE. Leave blank for system default."
+default = ""

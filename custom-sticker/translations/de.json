@@ -1,0 +1,15 @@
+{
+  "desktopWidgetSettings.selection-title": "Bild auswählen",
+  "desktopWidgetSettings.selection-description": "Wähle das Bild aus, das angezeigt werden soll",
+  "desktopWidgetSettings.selection-tooltip": "Wähle das Bild aus, das auf dem Sticker angezeigt werden soll",
+  "desktopWidgetSettings.opacity-label": "Deckkraft",
+  "desktopWidgetSettings.opacity-description": "Passe die Deckkraft des Bildes an",
+  "desktopWidgetSettings.mirror-label": "Spiegel",
+  "desktopWidgetSettings.mirror-description": "Spiegle das Bild horizontal",
+  "desktopWidgetSettings.vertical-mirror-label": "Vertikaler Spiegel",
+  "desktopWidgetSettings.vertical-mirror-description": "Spiegle das Bild vertikal",
+  "desktopWidgetSettings.show-background-label": "Hintergrund anzeigen",
+  "desktopWidgetSettings.show-background-description": "Zeige den Hintergrundcontainer für das benutzerdefinierte Sticker-Widget an",
+  "desktopWidgetSettings.rounded-corners-label": "Abgerundete Ecken",
+  "desktopWidgetSettings.rounded-corners-description": "Verwende abgerundete Ecken für den Hintergrund des Widgets"
+}

@@ -1,0 +1,56 @@
+id = "balor/currency-exchange"
+name = "Currency Exchange"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "balor"
+license = "MIT"
+tags = ["Launcher", "Utility"]
+icon = "cash"
+description = "Currency conversion utility via launcher and bar widget"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/fx"
+glyph = "cash"
+include_in_global_search = false
+debounce_ms = 200
+
+[[setting]]
+key = "sourceCurrency"
+type = "string"
+label = "Source Currency"
+default = "USD"
+
+[[setting]]
+key = "targetCurrency"
+type = "string"
+label = "Target Currency"
+default = "EUR"
+
+[[setting]]
+key = "widgetDisplayMode"
+type = "select"
+label = "Widget Display Mode"
+default = "icon"
+options = [
+  { value = "icon", label = "Icon Only" },
+  { value = "compact", label = "Compact (Rate Only)" },
+  { value = "full", label = "Full (1 USD = X EUR)" }
+]
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh Interval (minutes)"
+default = 60
+min = 5
+max = 1440

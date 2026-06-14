@@ -1,0 +1,101 @@
+id = "elrondforwin/cookie-clock"
+name = "Cookie Clock"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "elrondforwin"
+license = "GPLv3"
+tags = ["Desktop", "Fun"]
+icon = "cookie"
+description = "An analog cookie-shaped clock desktop widget. Features a sine-wave cookie background, hour/minute/second hands, dial marks and date bubbless."
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[setting]]
+key = "sides"
+type = "int"
+label = "Cookie Shape Corners"
+default = 9
+min = 3
+max = 20
+
+[[setting]]
+key = "dialStyle"
+type = "select"
+label = "Dial Marks Style"
+default = "dots"
+options = [
+  { value = "dots", label = "Dots" },
+  { value = "numbers", label = "Numbers" },
+  { value = "full", label = "Full lines" },
+  { value = "none", label = "None" }
+]
+
+[[setting]]
+key = "hourHandStyle"
+type = "select"
+label = "Hour Hand Style"
+default = "fill"
+options = [
+  { value = "fill", label = "Fill" },
+  { value = "hollow", label = "Hollow" },
+  { value = "classic", label = "Classic" },
+  { value = "hide", label = "Hide" }
+]
+
+[[setting]]
+key = "minuteHandStyle"
+type = "select"
+label = "Minute Hand Style"
+default = "medium"
+options = [
+  { value = "bold", label = "Bold" },
+  { value = "medium", label = "Medium" },
+  { value = "thin", label = "Thin" },
+  { value = "classic", label = "Classic" },
+  { value = "hide", label = "Hide" }
+]
+
+[[setting]]
+key = "secondHandStyle"
+type = "select"
+label = "Second Hand Style"
+default = "dot"
+options = [
+  { value = "dot", label = "Dot" },
+  { value = "classic", label = "Classic" },
+  { value = "line", label = "Line" },
+  { value = "hide", label = "Hide" }
+]
+
+[[setting]]
+key = "dateStyle"
+type = "select"
+label = "Date Style"
+default = "bubble"
+options = [
+  { value = "bubble", label = "Bubbles" },
+  { value = "rect", label = "Rectangle" },
+  { value = "hide", label = "Hide" }
+]
+
+[[setting]]
+key = "showSeconds"
+type = "bool"
+label = "Show Seconds"
+default = true
+
+[[setting]]
+key = "showHourMarks"
+type = "bool"
+label = "Show Inner Hour Marks"
+default = false
+
+[[setting]]
+key = "backgroundOpacity"
+type = "double"
+label = "Background Opacity"
+default = 1.0
+min = 0.0
+max = 1.0

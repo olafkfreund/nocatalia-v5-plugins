@@ -242,3 +242,58 @@ icon = "cat"
 description = "A cute animated cat for your bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Desktop", "Panel", "Fun"]
+
+[[plugin]]
+id = "elrondforwin/cookie-clock"
+name = "Cookie Clock"
+version = "2.0.0"
+author = "elrondforwin"
+license = "GPLv3"
+icon = "cookie"
+description = "An analog cookie-shaped clock desktop widget. Features a sine-wave cookie background, hour/minute/second hands, dial marks and date bubbless."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Fun"]
+
+[[plugin]]
+id = "balor/currency-exchange"
+name = "Currency Exchange"
+version = "2.0.0"
+author = "balor"
+license = "MIT"
+icon = "cash"
+description = "Currency conversion utility via launcher and bar widget"
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Utility"]
+
+[[plugin]]
+id = "noctalia-team/custom-commands"
+name = "Custom Commands"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "terminal-2"
+description = "Define and run custom shell commands from the launcher"
+min_noctalia = "5.0.0"
+tags = ["Launcher"]
+
+[[plugin]]
+id = "spiros132/custom-sticker"
+name = "Custom Stickers"
+version = "2.0.0"
+author = "spiros132"
+license = "MIT"
+icon = "photo"
+description = "Custom stickers (images) that you can put on the desktop as desktop widgets."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Fun"]
+
+[[plugin]]
+id = "digitallyrefined/daily-wallpaper"
+name = "Daily Wallpaper"
+version = "2.0.0"
+author = "DigitallyRefined"
+license = "MIT"
+icon = "photo"
+description = "Fetches a new daily wallpaper from Bing or NASA"
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Fun", "Utility"]

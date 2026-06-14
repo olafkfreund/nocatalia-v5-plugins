@@ -1,0 +1,52 @@
+id = "spiros132/custom-sticker"
+name = "Custom Stickers"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "spiros132"
+license = "MIT"
+tags = ["Desktop", "Fun"]
+icon = "photo"
+description = "Custom stickers (images) that you can put on the desktop as desktop widgets."
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[setting]]
+key = "image"
+type = "file"
+label = "Sticker Image"
+description = "Choose an image file to display as a sticker"
+default = ""
+
+[[setting]]
+key = "opacity"
+type = "double"
+label = "Opacity"
+default = 1.0
+min = 0.0
+max = 1.0
+
+[[setting]]
+key = "mirror"
+type = "bool"
+label = "Mirror Horizontally"
+default = false
+
+[[setting]]
+key = "verticalMirror"
+type = "bool"
+label = "Mirror Vertically"
+default = false
+
+[[setting]]
+key = "showBackground"
+type = "bool"
+label = "Show Background"
+default = true
+
+[[setting]]
+key = "roundedCorners"
+type = "bool"
+label = "Rounded Corners"
+default = true
