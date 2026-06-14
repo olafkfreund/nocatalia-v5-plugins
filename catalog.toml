@@ -2,7 +2,7 @@
 # Keep one [[plugin]] row per plugin subdirectory.
 
 [[plugin]]
-id = "claude-code-panel"
+id = "d7om/claude-code-panel"
 name = "Claude Code Panel"
 version = "1.0.0"
 author = "d7om"
@@ -13,7 +13,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Launcher", "AI", "Productivity"]
 
 [[plugin]]
-id = "github-feed"
+id = "linuxmobile/github-feed"
 name = "GitHub Feed"
 version = "1.4.0"
 author = "linuxmobile"
@@ -24,7 +24,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Launcher", "Development", "Network"]
 
 [[plugin]]
-id = "keybind-cheatsheet"
+id = "blacku/keybind-cheatsheet"
 name = "Keybind Cheatsheet"
 version = "3.8.0"
 author = "blacku"
@@ -35,7 +35,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Launcher", "System", "Indicator"]
 
 [[plugin]]
-id = "show-keys"
+id = "onez3r0/show-keys"
 name = "Show Keys"
 version = "1.1.0"
 author = "onez3r0"
@@ -46,7 +46,7 @@ min_noctalia = "5.0.0"
 tags = ["Indicator", "System", "Desktop"]
 
 [[plugin]]
-id = "air-quality"
+id = "adriamartin91/air-quality"
 name = "Air Quality"
 version = "2.0.0"
 author = "adriamartin91"
@@ -57,7 +57,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Desktop", "System", "Utility"]
 
 [[plugin]]
-id = "arch-updater"
+id = "ast/arch-updater"
 name = "Arch Updater"
 version = "2.2.0"
 author = "Ast"
@@ -68,7 +68,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Desktop", "Launcher", "System", "Utility"]
 
 [[plugin]]
-id = "calibre-provider"
+id = "krendil/calibre-provider"
 name = "Calibre Provider"
 version = "2.0.0"
 author = "Krendil"
@@ -79,7 +79,7 @@ min_noctalia = "5.0.0"
 tags = ["Launcher"]
 
 [[plugin]]
-id = "clipboard"
+id = "yanekyuk/clipboard"
 name = "Clipboard"
 version = "2.0.0"
 author = "yanekyuk"
@@ -90,7 +90,7 @@ min_noctalia = "5.0.0"
 tags = ["Utility", "Bar", "Launcher"]
 
 [[plugin]]
-id = "clipper"
+id = "blackbartblues/clipper"
 name = "Clipper"
 version = "3.0.0"
 author = "blackbartblues"
@@ -101,7 +101,7 @@ min_noctalia = "5.0.0"
 tags = ["Utility", "Bar", "Launcher"]
 
 [[plugin]]
-id = "cloudflare-warp"
+id = "torvaldz/cloudflare-warp"
 name = "Cloudflare WARP"
 version = "2.0.0"
 author = "ToRvaLDz"
@@ -112,7 +112,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Network", "Panel"]
 
 [[plugin]]
-id = "coin-flip"
+id = "danisdeveloper/coin-flip"
 name = "Coin Flipper"
 version = "2.0.0"
 author = "DanisDeveloper"
@@ -123,7 +123,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Desktop"]
 
 [[plugin]]
-id = "color-scheme-creator"
+id = "noctalia-team/color-scheme-creator"
 name = "Color Scheme Creator"
 version = "2.0.0"
 author = "Noctalia Team"
@@ -134,7 +134,7 @@ min_noctalia = "5.0.0"
 tags = ["Theming", "Utility"]
 
 [[plugin]]
-id = "activate-linux"
+id = "pgattic/activate-linux"
 name = "Activate Linux Watermark"
 version = "1.1.0"
 author = "Preston Corless (pgattic)"
@@ -145,7 +145,7 @@ min_noctalia = "5.0.0"
 tags = ["Desktop", "Fun"]
 
 [[plugin]]
-id = "agent-session-status"
+id = "nzlov/agent-session-status"
 name = "Agent Session Status"
 version = "1.0.0"
 author = "nzlov"
@@ -156,7 +156,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Panel", "Development", "Indicator", "AI"]
 
 [[plugin]]
-id = "assistant-panel"
+id = "j-1in/assistant-panel"
 name = "Assistant Panel"
 version = "2.1.6"
 author = "j-1in"
@@ -167,7 +167,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Launcher", "AI", "Productivity", "Network"]
 
 [[plugin]]
-id = "asus-um5606-fan-state"
+id = "thatonecalculator/asus-um5606-fan-state"
 name = "ASUS UM5606 Fan State"
 version = "1.1.7"
 author = "ThatOneCalculator"
@@ -178,7 +178,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "System"]
 
 [[plugin]]
-id = "battery-actions"
+id = "itscrystalline/battery-actions"
 name = "Battery Actions"
 version = "1.0.3"
 author = "itscrystalline"
@@ -189,7 +189,7 @@ min_noctalia = "5.0.0"
 tags = ["System"]
 
 [[plugin]]
-id = "battery-and-power-management"
+id = "piero-93/battery-and-power-management"
 name = "Battery & Power Management"
 version = "1.0.1"
 author = "Piero-93"
@@ -200,7 +200,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "System", "Indicator", "Utility"]
 
 [[plugin]]
-id = "battery-monitor-plus"
+id = "krteke/battery-monitor-plus"
 name = "Battery Monitor Plus"
 version = "1.0.0"
 author = "krteke"
@@ -211,7 +211,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Panel", "Indicator", "System"]
 
 [[plugin]]
-id = "battery-threshold"
+id = "wilfred-mallawa/battery-threshold"
 name = "Battery Threshold Control"
 version = "1.2.5"
 author = "Wilfred Mallawa"
@@ -222,7 +222,7 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Panel", "System"]
 
 [[plugin]]
-id = "calendar-widget"
+id = "simon/calendar-widget"
 name = "Desktop Calendar"
 version = "1.0.10"
 author = "Simon"
@@ -233,7 +233,7 @@ min_noctalia = "5.0.0"
 tags = ["Desktop", "Utility"]
 
 [[plugin]]
-id = "catwalk"
+id = "mannuvilasara/catwalk"
 name = "Catwalk"
 version = "1.1.7"
 author = "MannuVilasara"

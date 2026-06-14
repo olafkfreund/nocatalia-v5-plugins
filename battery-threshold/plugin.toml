@@ -1,4 +1,4 @@
-id = "battery-threshold"
+id = "wilfred-mallawa/battery-threshold"
 name = "Battery Threshold Control"
 version = "1.2.5"
 min_noctalia = "5.0.0"

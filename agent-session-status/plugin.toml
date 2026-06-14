@@ -1,4 +1,4 @@
-id = "agent-session-status"
+id = "nzlov/agent-session-status"
 name = "Agent Session Status"
 version = "1.0.0"
 min_noctalia = "5.0.0"

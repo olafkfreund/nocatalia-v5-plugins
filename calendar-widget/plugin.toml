@@ -1,4 +1,4 @@
-id = "calendar-widget"
+id = "simon/calendar-widget"
 name = "Desktop Calendar"
 version = "1.0.10"
 min_noctalia = "5.0.0"

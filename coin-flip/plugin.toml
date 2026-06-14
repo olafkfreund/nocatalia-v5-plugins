@@ -1,4 +1,4 @@
-id = "coin-flip"
+id = "danisdeveloper/coin-flip"
 name = "Coin Flipper"
 version = "2.0.0"
 min_noctalia = "5.0.0"

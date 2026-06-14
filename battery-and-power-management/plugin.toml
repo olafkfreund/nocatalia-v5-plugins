@@ -1,4 +1,4 @@
-id = "battery-and-power-management"
+id = "piero-93/battery-and-power-management"
 name = "Battery & Power Management Plugin"
 version = "1.0.1"
 min_noctalia = "5.0.0"

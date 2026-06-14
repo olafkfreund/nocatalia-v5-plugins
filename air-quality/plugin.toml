@@ -1,4 +1,4 @@
-id = "air-quality"
+id = "adriamartin91/air-quality"
 name = "Air Quality"
 version = "2.0.0"
 min_noctalia = "5.0.0"

@@ -1,4 +1,4 @@
-id = "color-scheme-creator"
+id = "noctalia-team/color-scheme-creator"
 name = "Color Scheme Creator"
 version = "2.0.0"
 min_noctalia = "5.0.0"

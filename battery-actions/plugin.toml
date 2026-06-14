@@ -1,4 +1,4 @@
-id = "battery-actions"
+id = "itscrystalline/battery-actions"
 name = "Battery Actions"
 version = "1.0.3"
 min_noctalia = "5.0.0"

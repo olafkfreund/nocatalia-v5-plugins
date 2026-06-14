@@ -1,4 +1,4 @@
-id = "arch-updater"
+id = "ast/arch-updater"
 name = "Arch Updater"
 version = "2.2.0"
 min_noctalia = "5.0.0"

@@ -1,4 +1,4 @@
-id = "clipper"
+id = "blackbartblues/clipper"
 name = "Clipper"
 version = "3.0.0"
 min_noctalia = "5.0.0"
