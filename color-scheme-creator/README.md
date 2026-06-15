@@ -22,8 +22,8 @@ A visual editor for creating custom predefined color schemes directly from the N
 ## IPC Commands
 
 ```bash
-qs -c noctalia-shell ipc call plugin:color-scheme-creator toggle
-qs -c noctalia-shell ipc call plugin:color-scheme-creator open
+noctalia msg panel-toggle color-scheme-creator
+noctalia msg panel-open color-scheme-creator
 ```
 
 ## Requirements

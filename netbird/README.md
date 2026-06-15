@@ -63,7 +63,7 @@ qs -c noctalia-shell ipc call plugin:netbird <command>
 
 | Command | Description | Example |
 |---|---|---|
-| `toggle` | Toggle NetBird connection (connect/disconnect) | `qs -c noctalia-shell ipc call plugin:netbird toggle` |
+| `toggle` | Toggle NetBird connection (connect/disconnect) | `noctalia msg panel-toggle netbird` |
 | `status` | Get current NetBird status | `qs -c noctalia-shell ipc call plugin:netbird status` |
 | `refresh` | Force refresh NetBird status | `qs -c noctalia-shell ipc call plugin:netbird refresh` |
 
@@ -71,7 +71,7 @@ qs -c noctalia-shell ipc call plugin:netbird <command>
 
 **Connect to NetBird:**
 ```bash
-qs -c noctalia-shell ipc call plugin:netbird toggle
+noctalia msg panel-toggle netbird
 ```
 
 **Check current status:**

@@ -46,7 +46,7 @@ ColumnLayout {
 				id: commandText
 				anchors.fill: parent
 				anchors.margins: Style.marginM
-				text: "qs -c noctalia-shell ipc call plugin:mimeapp-gui openPanel"
+				text: "noctalia msg panel-open mimeapp-guiPanel"
 				font.pointSize: Style.fontSizeS
 				font.family: Settings.data.ui.fontFixed
 				color: Color.mPrimary

@@ -37,7 +37,7 @@ User-owned ports are listed first, followed by system ports.
 qs -c noctalia-shell ipc call plugin:port-monitor refresh
 
 # Toggle panel
-qs -c noctalia-shell ipc call plugin:port-monitor toggle
+noctalia msg panel-toggle port-monitor
 ```
 
 ## Requirements

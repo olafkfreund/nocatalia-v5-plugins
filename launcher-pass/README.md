@@ -27,7 +27,7 @@ A Noctalia launcher provider plugin for GNU Pass password store.
 
 ## IPC
 
-    qs -c noctalia-shell ipc call plugin:launcher-pass toggle
+    noctalia msg panel-toggle launcher-pass
 
 ## Requirements
 

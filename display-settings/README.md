@@ -24,7 +24,7 @@ On Niri, the plugin allows changing the settings and also parses the persistent 
 Toggle the panel via CLI:
 
 ```
-qs ipc call plugin:display-settings toggle
+noctalia msg panel-toggle display-settings
 ```
 
 On Niri, you can bind it to a keyboard shortcut by adding an entry to your `binds {}` block in `~/.config/niri/config.kdl`:

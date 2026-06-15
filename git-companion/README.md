@@ -38,7 +38,7 @@ glab auth login
 
 Toggle panel:
 ```bash
-qs -c noctalia-shell ipc call plugin:git-companion toggle
+noctalia msg panel-toggle git-companion
 ```
 
 ## License

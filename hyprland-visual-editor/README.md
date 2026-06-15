@@ -71,7 +71,7 @@ To ensure maximum stability, HVE follows the official Noctalia plugin architectu
 HVE supports native IPC calls. You can toggle the panel with a Hyprland keybind:
 
 ```bash
-bind = $mainMod, V, exec, qs -c noctalia-shell ipc call plugin:hyprland-visual-editor toggle
+bind = $mainMod, V, exec, noctalia msg panel-toggle hyprland-visual-editor
 ```
 
 ---

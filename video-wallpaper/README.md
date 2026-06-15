@@ -46,7 +46,7 @@ qs -c noctalia-shell ipc call plugin:videowallpaper clear
 
 ```bash
 # Toggle the video wallpaper on/off
-qs -c noctalia-shell ipc call plugin:videowallpaper toggleEnabled
+noctalia msg panel-toggle videowallpaperEnabled
 
 # Enable the video wallpaper
 qs -c noctalia-shell ipc call plugin:videowallpaper setEnabled true
@@ -62,10 +62,10 @@ qs -c noctalia-shell ipc call plugin:videowallpaper getEnabled
 
 ```bash
 # Play/pause the video (all monitors), note the "" at the end!
-qs -c noctalia-shell ipc call plugin:videowallpaper togglePlaying ""
+noctalia msg panel-toggle videowallpaperPlaying ""
 
 # Play/pause the video for a specific monitor
-qs -c noctalia-shell ipc call plugin:videowallpaper togglePlaying "DP-1"
+noctalia msg panel-toggle videowallpaperPlaying "DP-1"
 
 # Play the video (all monitors), note the "" at the end!
 qs -c noctalia-shell ipc call plugin:videowallpaper resume ""
@@ -84,10 +84,10 @@ qs -c noctalia-shell ipc call plugin:videowallpaper pause "DP-1"
 
 ```bash
 # Mute/unmute the video (all monitors), note the "" at the end!
-qs -c noctalia-shell ipc call plugin:videowallpaper toggleMute ""
+noctalia msg panel-toggle videowallpaperMute ""
 
 # Mute/unmute the video for a specific monitor
-qs -c noctalia-shell ipc call plugin:videowallpaper toggleMute "DP-1"
+noctalia msg panel-toggle videowallpaperMute "DP-1"
 
 # Mute the video (all monitors), note the "" at the end!
 qs -c noctalia-shell ipc call plugin:videowallpaper mute ""
@@ -124,7 +124,7 @@ qs -c noctalia-shell ipc call plugin:videowallpaper decreaseVolume "DP-1"
 
 ```bash
 # Open the panel in the current active monitor
-qs -c noctalia-shell ipc call plugin:videowallpaper openPanel
+noctalia msg panel-open videowallpaperPanel
 ```
 
 ## Troubleshooting

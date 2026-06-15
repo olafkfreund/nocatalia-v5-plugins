@@ -26,7 +26,7 @@ pacman -S ffmpeg mpvpaper imagemagick
 Control the plugin from the command line:
 
 ```sh
-qs -c noctalia-shell ipc call plugin:wallcards toggle
+noctalia msg panel-toggle wallcards
 ```
 
 ## Keybinding Examples
@@ -36,7 +36,7 @@ Add to your compositor configuration:
 ### Hyprland
 
 ```conf
-bind = SUPER, A, exec, qs -c noctalia-shell ipc call plugin:wallcards toggle
+bind = SUPER, A, exec, noctalia msg panel-toggle wallcards
 ```
 
 ### Keybinds

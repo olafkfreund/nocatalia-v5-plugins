@@ -92,16 +92,16 @@ You can quickly open the translator via IPC, which is useful for keybindings:
 ```bash
 # Toggle the translator launcher (opens with >translate )
 # Pass empty string "" to use default (no language pre-selected)
-qs -c noctalia-shell ipc call plugin:translator toggle "" ""
+noctalia msg panel-toggle translator "" ""
 
 # Open translator with a specific language (e.g., French)
-qs -c noctalia-shell ipc call plugin:translator toggle "fr" ""
+noctalia msg panel-toggle translator "fr" ""
 
 # You can use language codes or names (fr, french, français, etc.)
-qs -c noctalia-shell ipc call plugin:translator toggle "english" ""
+noctalia msg panel-toggle translator "english" ""
 
 # Open translator with text to be translated (e.g. selected text)
-qs -c noctalia-shell ipc call plugin:translator toggle "english" "$(wl-paste -n -p)"
+noctalia msg panel-toggle translator "english" "$(wl-paste -n -p)"
 ```
 
 ### Integration with Keybindings
@@ -120,15 +120,15 @@ Super+Shift+T { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "plugin:translator
 `spawn-sh`
 
 ```json
-Super+T { spawn-sh "qs -c noctalia-shell ipc call plugin:translator toggle \"\" \"\"" }
-Super+Shift+T { spawn-sh "qs -c noctalia-shell ipc call plugin:translator toggle \"fr\" \"\"" }
+Super+T { spawn-sh "noctalia msg panel-toggle translator \"\" \"\"" }
+Super+Shift+T { spawn-sh "noctalia msg panel-toggle translator \"fr\" \"\"" }
 ```
 
 #### Sway
 
 ```json
-bindsym Super+t exec qs -c noctalia-shell ipc call plugin:translator toggle "" ""
-bindsym Super+Shift+t exec qs -c noctalia-shell ipc call plugin:translator toggle "fr" ""
+bindsym Super+t exec noctalia msg panel-toggle translator "" ""
+bindsym Super+Shift+t exec noctalia msg panel-toggle translator "fr" ""
 ```
 
 - With empty string `""`: Opens the launcher with `>translate ` already entered, ready for you to select a language and type text to translate.

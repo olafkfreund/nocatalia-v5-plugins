@@ -71,7 +71,7 @@ You can open settings from:
 
 - **Plugins → OBS Control → Configure** in Noctalia
 - the **gear button** in the panel header
-- IPC with `qs -c noctalia-shell ipc call plugin:obs-control openSettings`
+- IPC with `noctalia msg panel-open obs-controlSettings`
 
 ## Troubleshooting
 

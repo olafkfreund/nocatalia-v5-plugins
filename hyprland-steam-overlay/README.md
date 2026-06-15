@@ -46,17 +46,17 @@ Click the gamepad icon in your top bar to toggle the Steam overlay.
 
 hyprlang config (`~/.config/hypr/hyprland.conf`):
 ```
-bind = SUPER, G, exec, qs -c noctalia-shell ipc call plugin:hyprland-steam-overlay toggle
+bind = SUPER, G, exec, noctalia msg panel-toggle hyprland-steam-overlay
 ```
 
 Lua config (`~/.config/hypr/hyprland.lua`, Hyprland 0.55+):
 ```lua
-hl.bind("SUPER + G", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call plugin:hyprland-steam-overlay toggle"))
+hl.bind("SUPER + G", hl.dsp.exec_cmd("noctalia msg panel-toggle hyprland-steam-overlay"))
 ```
 
 ### Via IPC Command
 ```bash
-qs -c noctalia-shell ipc call plugin:hyprland-steam-overlay toggle
+noctalia msg panel-toggle hyprland-steam-overlay
 ```
 
 ## How It Works

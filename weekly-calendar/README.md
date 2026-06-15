@@ -28,7 +28,7 @@ Currently there is `1` IPC command:
 
 ```bash
 # Toggle the panel
-qs -c noctalia-shell ipc call plugin:weekly-calendar togglePanel
+noctalia msg panel-toggle weekly-calendarPanel
 ```
 
 ## Usage

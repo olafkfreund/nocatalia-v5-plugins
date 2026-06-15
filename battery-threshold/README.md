@@ -47,7 +47,7 @@ This script will:
 
 ```bash
 # Toggle panel
-qs -c noctalia-shell ipc call plugin:battery-threshold togglePanel
+noctalia msg panel-toggle battery-thresholdPanel
 
 # Set threshold
 qs -c noctalia-shell ipc call plugin:battery-threshold set <value>

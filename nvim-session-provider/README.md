@@ -11,7 +11,7 @@ A launcher provider plugin that lets you open one of your saved Neovim sessions
 3. Add a search term after the command (e.g., `>nvim noct`), or browse the most recently saved sessions
 4. Select your session and press Enter
 
-Alternatively, you can trigger the provider by IPC with the command `qs -c noctalia-shell ipc call plugin:nvim-session-provider toggle`.
+Alternatively, you can trigger the provider by IPC with the command `noctalia msg panel-toggle nvim-session-provider`.
 
 ## Supported session manager plugins
 

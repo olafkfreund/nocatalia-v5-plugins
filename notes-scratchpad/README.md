@@ -6,7 +6,7 @@ A simple, single-buffer scratchpad extension for quick note-taking in Noctalia S
 
 Toggle the scratchpad panel with:
 ```bash
-qs -c noctalia-shell ipc call plugin:notes-scratchpad togglePanel
+noctalia msg panel-toggle notes-scratchpadPanel
 ```
 
 Bind this to a keyboard shortcut in your compositor configuration for quick access.

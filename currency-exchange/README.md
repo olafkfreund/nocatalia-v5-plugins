@@ -44,7 +44,7 @@ AUD, BRL, CAD, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HUF, IDR, ILS, INR, ISK, JPY, 
 Toggle currency converter panel:
 
 ```bash
-qs -c noctalia-shell ipc call plugin:currency-exchange togglePanel
+noctalia msg panel-toggle currency-exchangePanel
 ```
 
 ## TODO / IDEAS

@@ -57,7 +57,7 @@ tray icon and autostart entry.
 
 ```sh
 qs -c noctalia-shell ipc call plugin:mullvad status
-qs -c noctalia-shell ipc call plugin:mullvad toggle
+noctalia msg panel-toggle mullvad
 qs -c noctalia-shell ipc call plugin:mullvad setLocation se sto
 qs -c noctalia-shell ipc call plugin:mullvad setLockdown true
 ```

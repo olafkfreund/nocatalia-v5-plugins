@@ -38,7 +38,7 @@ Active sessions are detected by polling `pgrep -af "ssh "` at a configurable int
 qs -c noctalia-shell ipc call plugin:ssh-sessions refresh
 
 # Toggle panel
-qs -c noctalia-shell ipc call plugin:ssh-sessions toggle
+noctalia msg panel-toggle ssh-sessions
 ```
 
 ## Requirements

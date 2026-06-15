@@ -1,0 +1,118 @@
+id = "Qholin/special-workspaces"
+name = "Special Workspaces (Hyprland)"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Qholin"
+license = "MIT"
+tags = ["Bar", "Productivity", "Hyprland"]
+icon = "layout-grid"
+description = "Configurable Hyprland special workspaces indicator for the bar."
+
+[[setting]]
+key = "mainIcon"
+type = "string"
+label = "Drawer Icon"
+default = "layout-grid"
+description = "Drawer icon to show on the bar"
+
+[[setting]]
+key = "expandDirection"
+type = "select"
+label = "Expand Direction"
+default = "up"
+description = "Which direction the workspace pills expand from the drawer"
+options = [
+  { value = "up", label = "Up" },
+  { value = "down", label = "Down" },
+  { value = "left", label = "Left" },
+  { value = "right", label = "Right" }
+]
+
+[[setting]]
+key = "primarySymbolColor"
+type = "string"
+label = "Drawer Icon Color"
+default = "none"
+description = "Override the drawer icon color"
+
+[[setting]]
+key = "primaryShowPill"
+type = "bool"
+label = "Show Pill"
+default = true
+description = "Show a colored circle behind the drawer icon"
+
+[[setting]]
+key = "primaryPillColor"
+type = "string"
+label = "Pill Color"
+default = "none"
+description = "Override the drawer's pill color"
+
+[[setting]]
+key = "primarySize"
+type = "string"
+label = "Size"
+default = "0.9"
+description = "Size of the drawer button (0.0 to 1.0)"
+
+[[setting]]
+key = "primaryBorderRadius"
+type = "string"
+label = "Button Radius"
+default = "1.0"
+description = "Roundness of the drawer button (0.0 to 1.0)"
+
+[[setting]]
+key = "primaryFocusColor"
+type = "string"
+label = "Focus Color"
+default = "primary"
+description = "Color of the drawer button when active"
+
+[[setting]]
+key = "panelBackgroundColor"
+type = "string"
+label = "Panel Background Color"
+default = "none"
+description = "Background color of the floating panel"
+
+[[setting]]
+key = "panelBackgroundEnabled"
+type = "bool"
+label = "Panel Background Enabled"
+default = false
+description = "Show a background behind the floating panel"
+
+[[setting]]
+key = "drawer"
+type = "bool"
+label = "Show Drawer"
+default = true
+description = "Hide/show the drawer"
+
+[[setting]]
+key = "hideEmptyWorkspaces"
+type = "bool"
+label = "Hide Empty Workspaces"
+default = false
+description = "Hide workspaces in drawer when not focused/active"
+
+[[setting]]
+key = "workspaces"
+type = "string"
+label = "Workspaces JSON"
+default = '[{"name":"communication","icon":"message","symbolColor":"none","showPill":true,"pillColor":"primary","size":0.9,"borderRadius":1.0,"focusColor":"primary"},{"name":"music","icon":"music","symbolColor":"none","showPill":true,"pillColor":"primary","size":0.9,"borderRadius":1.0,"focusColor":"primary"},{"name":"agent","icon":"michelin-star","symbolColor":"none","showPill":true,"pillColor":"primary","size":0.9,"borderRadius":1.0,"focusColor":"primary"}]'
+description = "JSON array of workspaces configurations"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

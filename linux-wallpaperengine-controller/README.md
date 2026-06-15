@@ -28,7 +28,7 @@ qs ipc call plugin:linux-wallpaperengine-controller <command> [args...]
 
 ```bash
 # Toggle panel on current screen
-qs ipc call plugin:linux-wallpaperengine-controller toggle
+noctalia msg panel-toggle linux-wallpaperengine-controller
 
 # Apply wallpaper path to a specific screen
 qs ipc call plugin:linux-wallpaperengine-controller apply eDP-1 ~/.local/share/Steam/steamapps/workshop/content/431960/1234567890

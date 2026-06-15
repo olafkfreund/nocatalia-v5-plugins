@@ -11,7 +11,7 @@ A launcher provider plugin that lets you search your recently opened folders and
 3. Add a search term after the command (e.g., `>vsc noct`), or browse the most recently saved folders and workspaces
 4. Select your workspaces and press Enter
 
-Alternatively, you can trigger the provider by IPC with the command `qs -c noctalia-shell ipc call plugin:vscode-provider toggle`.
+Alternatively, you can trigger the provider by IPC with the command `noctalia msg panel-toggle vscode-provider`.
 
 ## Supported forks
 

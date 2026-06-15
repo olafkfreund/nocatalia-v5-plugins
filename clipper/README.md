@@ -89,7 +89,7 @@ Add to `~/.config/hypr/keybind.conf`:
 
 ```conf
 # Clipper - Clipboard Manager
-bindr = SUPER, V, exec, qs -c noctalia-shell ipc call plugin:clipper toggle
+bindr = SUPER, V, exec, noctalia msg panel-toggle clipper
 
 # Selection to ToDo (chord: Super+V, then C)
 binds = SUPER_L, V&C, exec, qs -c noctalia-shell ipc call plugin:clipper addSelectionToTodo
@@ -109,7 +109,7 @@ binds = SUPER_L, V&X, exec, qs -c noctalia-shell ipc call plugin:clipper addSele
 
 **Toggle Panel:**
 ```bash
-qs -c noctalia-shell ipc call plugin:clipper toggle
+noctalia msg panel-toggle clipper
 ```
 
 **Pin/Unpin Item:**
@@ -151,9 +151,9 @@ qs -c noctalia-shell ipc call plugin:clipper toggle
 
 ```bash
 # Panel Management
-qs -c noctalia-shell ipc call plugin:clipper openPanel
-qs -c noctalia-shell ipc call plugin:clipper closePanel
-qs -c noctalia-shell ipc call plugin:clipper togglePanel
+noctalia msg panel-open clipperPanel
+noctalia msg panel-close clipperPanel
+noctalia msg panel-toggle clipperPanel
 
 # Pinned Items
 qs -c noctalia-shell ipc call plugin:clipper pinClipboardItem "123456"

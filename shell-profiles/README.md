@@ -89,7 +89,7 @@ Send commands to the plugin from a script or keybind:
 
 ```bash
 # Toggle the profiles panel
-qs ipc call plugin:shell-profiles toggleProfiles
+noctalia msg panel-toggle shell-profilesProfiles
 
 # Apply a profile by name (uses the default includeWallpapers setting)
 qs ipc call plugin:shell-profiles applyProfile 'my-profile'
@@ -100,7 +100,7 @@ qs ipc call plugin:shell-profiles applyProfile 'my-profile'
 #### Hyprland (`~/.config/hypr/hyprland.conf`)
 
 ```ini
-bind = SUPER, P, exec, qs -c noctalia-shell ipc call plugin:shell-profiles toggleProfiles
+bind = SUPER, P, exec, noctalia msg panel-toggle shell-profilesProfiles
 bind = SUPER SHIFT, F1, exec, qs -c noctalia-shell ipc call plugin:shell-profiles applyProfile 'Darklestia'
 ```
 
@@ -108,7 +108,7 @@ bind = SUPER SHIFT, F1, exec, qs -c noctalia-shell ipc call plugin:shell-profile
 
 ```kdl
 binds {
-    Mod+Shift+P { spawn "sh" "-c" "qs ipc call plugin:shell-profiles toggleProfiles"; }
+    Mod+Shift+P { spawn "sh" "-c" "noctalia msg panel-toggle shell-profilesProfiles"; }
     Mod+Shift+F1 { spawn "sh" "-c" "qs ipc call plugin:shell-profiles applyProfile 'my-profile'"; }
 }
 ```
@@ -116,7 +116,7 @@ binds {
 #### Sway (`~/.config/sway/config`)
 
 ```
-bindsym $mod+Shift+p exec qs ipc call plugin:shell-profiles toggleProfiles
+bindsym $mod+Shift+p exec noctalia msg panel-toggle shell-profilesProfiles
 bindsym $mod+Shift+F1 exec qs ipc call plugin:shell-profiles applyProfile 'my-profile'
 ```
 
@@ -125,7 +125,7 @@ bindsym $mod+Shift+F1 exec qs ipc call plugin:shell-profiles applyProfile 'my-pr
 ```xml
 <keybind key="W-S-p">
   <action name="Execute">
-    <command>qs ipc call plugin:shell-profiles toggleProfiles</command>
+    <command>noctalia msg panel-toggle shell-profilesProfiles</command>
   </action>
 </keybind>
 <keybind key="W-S-F1">

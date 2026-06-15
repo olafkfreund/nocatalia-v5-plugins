@@ -11,7 +11,7 @@ It allows you to quickly jot down thoughts, code snippets, and to-do lists in be
 Use Noctalia IPC to control the panel:
 
 ```bash
-qs -c noctalia-shell ipc call plugin:sticky-notes toggle
+noctalia msg panel-toggle sticky-notes
 ```
 
 ---

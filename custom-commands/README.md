@@ -42,5 +42,5 @@ Changes are saved automatically to the plugin's `settings.json`.
 You can quickly browse your commands with the following IPC call:
 
 ```bash
-qs -c noctalia-shell ipc call plugin:custom-commands toggle
+noctalia msg panel-toggle custom-commands
 ```

@@ -50,7 +50,7 @@ This script will:
 
 ```bash
 # Toggle panel
-qs -c noctalia-shell ipc call plugin:ideapad-battery-health togglePanel
+noctalia msg panel-toggle ideapad-battery-healthPanel
 
 # Set preservation mode (0 for disabled, 1 for enabled)
 qs -c noctalia-shell ipc call plugin:ideapad-battery-health set <value>

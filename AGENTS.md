@@ -61,7 +61,7 @@ Item {
   // Shared state accessible from other components via pluginApi.mainInstance
   property bool isActive: false
 
-  // IPC handler for CLI control (qs ipc call plugin:my-plugin commandName)
+  // IPC handler for CLI control (noctalia msg plugin my-plugin main commandName)
   IpcHandler {
     target: "plugin:my-plugin"
 

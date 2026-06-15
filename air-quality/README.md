@@ -44,4 +44,4 @@ Shows AQI index (US EPA or European scale) and pollutant breakdown for PM2.5, PM
 
 **IPC**
 - Refresh: `qs -c noctalia-shell ipc call plugin:air-quality refresh`
-- Toggle panel: `qs -c noctalia-shell ipc call plugin:air-quality toggle`
+- Toggle panel: `noctalia msg panel-toggle air-quality`

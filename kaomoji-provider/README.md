@@ -18,7 +18,7 @@ A launcher provider plugin that adds kaomoji emoticon browsing and search to the
 
 ## IPC
 ```bash
-qs -c noctalia-shell ipc call plugin:kaomoji toggle
+noctalia msg panel-toggle kaomoji
 ```
 
 ## Categories

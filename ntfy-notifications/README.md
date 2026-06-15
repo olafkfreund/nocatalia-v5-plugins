@@ -41,7 +41,7 @@ Receive push notifications from [ntfy](https://ntfy.sh) directly in your Noctali
 qs ipc call plugin:ntfy-notifications refresh
 
 # Toggle panel
-qs ipc call plugin:ntfy-notifications toggle
+noctalia msg panel-toggle ntfy-notifications
 ```
 
 ## How It Works

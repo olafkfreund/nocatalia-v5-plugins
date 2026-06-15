@@ -26,13 +26,13 @@ You can toggle the overview using the Noctalia IPC interface. This is ideal for 
 
 **Command:**
 ```bash
-qs -c noctalia-shell ipc call plugin:workspace-overview toggle
+noctalia msg panel-toggle workspace-overview
 ```
 
 #### Hyprland Keybind Example
 Add the following to your `hyprland.conf`:
 ```bash
-bind = SUPER, TAB, exec, qs -c noctalia-shell ipc call plugin:workspace-overview toggle
+bind = SUPER, TAB, exec, noctalia msg panel-toggle workspace-overview
 ```
 
 ## Requirements

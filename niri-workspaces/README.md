@@ -35,7 +35,7 @@ Bind these to Niri keybindings for direct access:
 
 ```sh
 # Open/close the launcher in workspace mode (mirrors the shell's `launcher emoji` toggle).
-qs ipc call plugin:niri-workspaces toggle
+noctalia msg panel-toggle niri-workspaces
 
 # Rename / reset the focused workspace without opening the launcher.
 qs ipc call plugin:niri-workspaces renameCurrent "my name"

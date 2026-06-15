@@ -474,6 +474,18 @@ description = "An IPC-driven dmenu replacement that lets external scripts presen
 min_noctalia = "5.0.0"
 tags = ["Launcher", "Productivity", "Utility"]
 
+[[plugin]]
+id = "Qholin/special-workspaces"
+name = "Special Workspaces (Hyprland)"
+version = "2.0.0"
+author = "Qholin"
+license = "MIT"
+icon = "layout-grid"
+description = "Configurable Hyprland special workspaces indicator for the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Productivity", "Hyprland"]
+
+
 
 
 

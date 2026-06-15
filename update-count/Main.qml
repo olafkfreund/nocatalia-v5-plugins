@@ -116,7 +116,7 @@ Item {
   //
   function startDoSystemUpdate() {
     const updateCmd = root.customUpdater.cmdDoSystemUpdate || root.updater.cmdDoSystemUpdate || "echo 'No update cmd found.'"
-    const ipcCmd = "qs -c noctalia-shell ipc call plugin:update-count check"
+    const ipcCmd = "noctalia msg plugin update-count main check"
     const combinedCmd = updateCmd + " && " + ipcCmd
 
     const term = root.updateTerminalCommand.trim();

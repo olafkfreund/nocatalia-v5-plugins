@@ -31,7 +31,7 @@ qs -c noctalia-shell ipc call plugin:pomodoro <command>
 
 | Command | Description | Example |
 |---|---|---|
-| `toggle` | Opens or closes the pomodoro panel on the current screen | `qs -c noctalia-shell ipc call plugin:pomodoro toggle` |
+| `toggle` | Opens or closes the pomodoro panel on the current screen | `noctalia msg panel-toggle pomodoro` |
 | `start` | Starts/resumes the pomodoro timer | `qs -c noctalia-shell ipc call plugin:pomodoro start` |
 | `pause` | Pauses the running timer | `qs -c noctalia-shell ipc call plugin:pomodoro pause` |
 | `reset` | Resets the current session | `qs -c noctalia-shell ipc call plugin:pomodoro reset` |

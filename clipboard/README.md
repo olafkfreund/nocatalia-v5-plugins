@@ -77,7 +77,7 @@ binds {
 ### Hyprland
 
 ```ini
-bindr = SUPER, V, exec, qs -c noctalia-shell ipc call plugin:clipboard toggle
+bindr = SUPER, V, exec, noctalia msg panel-toggle clipboard
 bindr = SUPER SHIFT, V, exec, qs -c noctalia-shell ipc call plugin:clipboard wipe
 ```
 
@@ -86,7 +86,7 @@ bindr = SUPER SHIFT, V, exec, qs -c noctalia-shell ipc call plugin:clipboard wip
 Any compositor that can run a shell command from a keybind works:
 
 ```bash
-qs -c noctalia-shell ipc call plugin:clipboard toggle
+noctalia msg panel-toggle clipboard
 ```
 
 ## License

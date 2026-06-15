@@ -89,13 +89,13 @@ Control the plugin from the command line:
 
 ```bash
 # Toggle panel visibility
-qs -c noctalia-shell ipc call plugin:assistant-panel toggle
+noctalia msg panel-toggle assistant-panel
 
 # Open panel
-qs -c noctalia-shell ipc call plugin:assistant-panel open
+noctalia msg panel-open assistant-panel
 
 # Close panel
-qs -c noctalia-shell ipc call plugin:assistant-panel close
+noctalia msg panel-close assistant-panel
 
 # Send a message
 qs -c noctalia-shell ipc call plugin:assistant-panel send "Hello, how are you?"
@@ -119,7 +119,7 @@ Add to your compositor configuration:
 
 ### Hyprland
 ```conf
-bind = SUPER, A, exec, qs -c noctalia-shell ipc call plugin:assistant-panel toggle
+bind = SUPER, A, exec, noctalia msg panel-toggle assistant-panel
 ```
 
 ### Niri

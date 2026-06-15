@@ -37,7 +37,7 @@ Then enable the plugin and add the bar widget in Noctalia Settings.
 |---|---|
 | Left click | Toggle vibrance on/off |
 | Right click | Context menu (toggle + settings) |
-| IPC | `qs -c noctalia-shell ipc call plugin:nvibrant toggle` |
+| IPC | `noctalia msg panel-toggle nvibrant` |
 
 ## Settings
 

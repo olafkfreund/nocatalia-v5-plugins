@@ -48,7 +48,7 @@ qs -c noctalia-shell ipc call plugin:todo addTodoDefault "Buy groceries"
 qs -c noctalia-shell ipc call plugin:todo addTodo "Buy groceries" 0 "medium"
 
 # Toggle a todo's completion status (by ID)
-qs -c noctalia-shell ipc call plugin:todo toggleTodo "1234567890"
+noctalia msg panel-toggle todoTodo "1234567890"
 
 # Remove a specific todo (by ID)
 qs -c noctalia-shell ipc call plugin:todo removeTodo "1234567890"
@@ -57,7 +57,7 @@ qs -c noctalia-shell ipc call plugin:todo removeTodo "1234567890"
 qs -c noctalia-shell ipc call plugin:todo clearCompleted
 
 # Toggle the panel
-qs -c noctalia-shell ipc call plugin:todo togglePanel
+noctalia msg panel-toggle todoPanel
 ```
 
 ## Configuration

@@ -66,7 +66,7 @@ Control the screen recorder via IPC for keybindings or scripts:
 
 ```bash
 # Toggle recording on/off
-qs -c noctalia-shell ipc call plugin:screen-recorder toggle
+noctalia msg panel-toggle screen-recorder
 
 # Explicitly start recording
 qs -c noctalia-shell ipc call plugin:screen-recorder start
@@ -84,7 +84,7 @@ qs -c noctalia-shell ipc call plugin:screen-recorder saveReplay
 qs -c noctalia-shell ipc call plugin:screen-recorder stopReplay
 
 # Toggle replay buffer on/off
-qs -c noctalia-shell ipc call plugin:screen-recorder toggleReplay
+noctalia msg panel-toggle screen-recorderReplay
 ```
 
 ## Video Codecs

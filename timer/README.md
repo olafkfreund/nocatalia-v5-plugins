@@ -24,7 +24,7 @@ qs -c noctalia-shell ipc call plugin:timer <command>
 
 | Command | Arguments | Description | Example |
 |---|---|---|---|
-| `toggle` | | Opens or closes the timer panel on the current screen | `qs -c noctalia-shell ipc call plugin:timer toggle` |
+| `toggle` | | Opens or closes the timer panel on the current screen | `noctalia msg panel-toggle timer` |
 | `start` | `[duration]` or `stopwatch` (optional) | Starts/resumes timer or switches to stopwatch mode. | `qs -c noctalia-shell ipc call plugin:timer start 10m` |
 | `pause` | | Pauses the running timer/stopwatch | `qs -c noctalia-shell ipc call plugin:timer pause` |
 | `reset` | | Resets the timer/stopwatch to initial state | `qs -c noctalia-shell ipc call plugin:timer reset` |

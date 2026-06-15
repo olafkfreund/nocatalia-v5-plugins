@@ -53,7 +53,7 @@ You can control the web search plugin via the command line using the Noctalia IP
 
 | Command | Description | Example |
 |---|---|---|
-| `toggle` | Opens or closes the launcher on the current screen | `qs -c noctalia-shell ipc call plugin:web-search toggle` |
+| `toggle` | Opens or closes the launcher on the current screen | `noctalia msg panel-toggle web-search` |
 
 ## Configuration
 

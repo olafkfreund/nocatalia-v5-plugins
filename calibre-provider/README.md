@@ -11,7 +11,7 @@ A launcher provider plugin that lets you search your Calibre library by title or
 3. Add a search term after the command (e.g., `>cb duns`)
 4. Select your book and press Enter
 
-Alternatively, you can trigger the provider by IPC with the command `qs -c noctalia-shell ipc call plugin:calibre-provider toggle`.
+Alternatively, you can trigger the provider by IPC with the command `noctalia msg panel-toggle calibre-provider`.
 
 ## Settings
 

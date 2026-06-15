@@ -30,13 +30,13 @@ target plugin:mimeapp-gui
 Example commands:
 
 ```bash
-qs -c noctalia-shell ipc call plugin:mimeapp-gui openPanel
+noctalia msg panel-open mimeapp-guiPanel
 ```
 
 Example `.desktop` `Exec` line:
 
 ```txt
-Exec=qs -c noctalia-shell ipc call plugin:mimeapp-gui openPanel
+Exec=noctalia msg panel-open mimeapp-guiPanel
 ```
 
 ## Features
