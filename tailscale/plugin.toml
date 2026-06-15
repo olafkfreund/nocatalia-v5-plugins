@@ -1,0 +1,91 @@
+id = "nineluj/tailscale"
+name = "Tailscale"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "nineluj"
+license = "MIT"
+tags = ["Bar", "Desktop", "Network"]
+icon = "shield"
+description = "Show Tailscale status in the menu bar and control it via desktop widget."
+
+[[setting]]
+key = "compactMode"
+type = "bool"
+label = "Compact Mode"
+default = false
+description = "Show only icon in the bar"
+
+[[setting]]
+key = "showIpAddress"
+type = "bool"
+label = "Show IP Address"
+default = true
+description = "Display Tailscale IP in the bar widget"
+
+[[setting]]
+key = "showPeerCount"
+type = "bool"
+label = "Show Peer Count"
+default = true
+description = "Display connected device count in the bar"
+
+[[setting]]
+key = "terminalCommand"
+type = "string"
+label = "Terminal Command"
+default = ""
+description = "Command to launch terminal for SSH/ping (e.g., 'ghostty', 'alacritty')"
+
+[[setting]]
+key = "sshUsername"
+type = "string"
+label = "SSH Username"
+default = ""
+description = "Username for SSH connections (defaults to host username if empty)"
+
+[[setting]]
+key = "pingCount"
+type = "int"
+label = "Ping Count"
+default = 5
+description = "Number of ping packets to send"
+
+[[setting]]
+key = "taildropEnabled"
+type = "bool"
+label = "Enable Taildrop"
+default = true
+description = "Allow sending and receiving files via Taildrop"
+
+[[setting]]
+key = "taildropDownloadDir"
+type = "string"
+label = "Taildrop Download Directory"
+default = "~/Downloads"
+description = "Directory where received files are saved"
+
+[[setting]]
+key = "taildropReceiveMode"
+type = "string"
+label = "Taildrop Receive Mode"
+default = "operator"
+description = "operator (requires setup) or pkexec (prompts each time)"
+
+[[setting]]
+key = "loginServer"
+type = "string"
+label = "Login Server"
+default = ""
+description = "Custom login server URL (e.g. Headscale)"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

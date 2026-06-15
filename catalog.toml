@@ -364,3 +364,59 @@ description = "Hardware-accelerated screen recording using gpu-screen-recorder."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Utility"]
 
+[[plugin]]
+id = "werwolv/kde-connect"
+name = "KDE Connect"
+version = "2.0.0"
+author = "WerWolv"
+license = "GPLv2"
+icon = "device-mobile"
+description = "A plugin integrating your mobile devices using KDE Connect."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop", "Utility", "System"]
+
+[[plugin]]
+id = "ocspg/mullvad"
+name = "Mullvad VPN"
+version = "2.0.0"
+author = "OCSPG"
+license = "MIT"
+icon = "shield"
+description = "Control Mullvad VPN from the bar and desktop."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop", "Network"]
+
+[[plugin]]
+id = "nineluj/tailscale"
+name = "Tailscale"
+version = "2.0.0"
+author = "nineluj"
+license = "MIT"
+icon = "shield"
+description = "Show Tailscale status in the menu bar and control it via desktop widget."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop", "Network"]
+
+[[plugin]]
+id = "tonigineer/network-indicator"
+name = "Network Indicator"
+version = "2.0.0"
+author = "tonigineer"
+license = "MIT"
+icon = "arrow-up-down"
+description = "Show network activity speeds in the bar and desktop."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Network", "Indicator"]
+
+[[plugin]]
+id = "notprayasmitra/pomodoro"
+name = "Pomodoro"
+version = "2.0.0"
+author = "notprayasmitra"
+license = "MIT"
+icon = "clock"
+description = "A Pomodoro timer plugin to help boost productivity."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Productivity", "Desktop"]
+
+

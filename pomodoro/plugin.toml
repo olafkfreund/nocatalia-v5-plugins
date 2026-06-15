@@ -1,0 +1,70 @@
+id = "notprayasmitra/pomodoro"
+name = "Pomodoro"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "notprayasmitra"
+license = "MIT"
+tags = ["Bar", "Productivity", "Desktop"]
+icon = "clock"
+description = "A Pomodoro timer plugin to help boost productivity."
+
+[[setting]]
+key = "workDuration"
+type = "int"
+label = "Work Duration (minutes)"
+default = 25
+description = "Duration of each work session"
+
+[[setting]]
+key = "shortBreakDuration"
+type = "int"
+label = "Short Break Duration (minutes)"
+default = 5
+description = "Duration of short breaks"
+
+[[setting]]
+key = "longBreakDuration"
+type = "int"
+label = "Long Break Duration (minutes)"
+default = 15
+description = "Duration of long breaks"
+
+[[setting]]
+key = "sessionsBeforeLongBreak"
+type = "int"
+label = "Sessions Before Long Break"
+default = 4
+description = "Number of work sessions before a long break"
+
+[[setting]]
+key = "autoStartBreaks"
+type = "bool"
+label = "Auto-start Breaks"
+default = false
+description = "Automatically start break timer after work session"
+
+[[setting]]
+key = "autoStartWork"
+type = "bool"
+label = "Auto-start Work"
+default = false
+description = "Automatically start work timer after break"
+
+[[setting]]
+key = "playSound"
+type = "bool"
+label = "Play Sound"
+default = true
+description = "Play alarm sound when session ends"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

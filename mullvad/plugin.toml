@@ -1,0 +1,70 @@
+id = "ocspg/mullvad"
+name = "Mullvad VPN"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "OCSPG"
+license = "MIT"
+tags = ["Bar", "Desktop", "Network"]
+icon = "shield"
+description = "Control Mullvad VPN from the bar and desktop."
+
+[[setting]]
+key = "showCountryFlag"
+type = "bool"
+label = "Show Country Flag"
+default = true
+description = "Show country flag in the bar widget"
+
+[[setting]]
+key = "showCityName"
+type = "bool"
+label = "Show City Name"
+default = false
+description = "Show city name in the bar widget"
+
+[[setting]]
+key = "showIp"
+type = "bool"
+label = "Show IP"
+default = false
+description = "Show exit node IP in the bar widget"
+
+[[setting]]
+key = "compactMode"
+type = "bool"
+label = "Compact Mode"
+default = false
+description = "Use a compact layout for the desktop widget"
+
+[[setting]]
+key = "relayClickConnects"
+type = "bool"
+label = "Relay Click Connects"
+default = true
+description = "Connect immediately when selecting a relay"
+
+[[setting]]
+key = "confirmDisconnectInLockdown"
+type = "bool"
+label = "Confirm Disconnect in Lockdown"
+default = true
+description = "Confirm before disconnecting when lockdown mode is active"
+
+[[setting]]
+key = "expiryWarningDays"
+type = "int"
+label = "Expiry Warning Days"
+default = 7
+description = "Days before expiry to show warnings"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

@@ -1,0 +1,28 @@
+id = "tonigineer/network-indicator"
+name = "Network Indicator"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "tonigineer"
+license = "MIT"
+tags = ["Bar", "Network", "Indicator"]
+icon = "arrow-up-down"
+description = "Show network activity speeds in the bar and desktop."
+
+[[setting]]
+key = "byteThresholdActive"
+type = "int"
+label = "Activity Threshold"
+default = 5000
+description = "Traffic below this value (B/s) is shown as inactive"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"
