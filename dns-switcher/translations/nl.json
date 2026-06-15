@@ -1,0 +1,15 @@
+{
+  "plugin.title": "DNS Wisselaar",
+  "plugin.short_title": "DNS",
+  "status.checking": "Controleren...",
+  "status.switching": "Wisselen...",
+  "status.default": "Standaard (ISP)",
+  "status.custom": "Aangepast ({ip})",
+  "status.unknown": "Onbekend",
+  "panel.add_server": "Server Toevoegen",
+  "panel.cancel": "Annuleren",
+  "panel.save": "Opslaan",
+  "panel.reset": "Herstellen (ISP)",
+  "panel.name_placeholder": "Naam",
+  "panel.ip_placeholder": "IP"
+}

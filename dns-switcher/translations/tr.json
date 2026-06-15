@@ -1,0 +1,15 @@
+{
+  "plugin.title": "DNS Değiştirici",
+  "plugin.short_title": "DNS",
+  "status.checking": "Kontrol ediliyor...",
+  "status.switching": "Değiştiriliyor...",
+  "status.default": "Varsayılan (ISP)",
+  "status.custom": "Özel ({ip})",
+  "status.unknown": "Bilinmiyor",
+  "panel.add_server": "Sunucu Ekle",
+  "panel.cancel": "İptal",
+  "panel.save": "Kaydet",
+  "panel.reset": "Varsayılana Dön (ISP)",
+  "panel.name_placeholder": "İsim",
+  "panel.ip_placeholder": "IP"
+}

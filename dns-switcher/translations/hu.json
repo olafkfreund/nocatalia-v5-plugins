@@ -1,0 +1,15 @@
+{
+  "plugin.title": "DNS Váltó",
+  "plugin.short_title": "DNS",
+  "status.checking": "Ellenőrzés...",
+  "status.switching": "Váltás...",
+  "status.default": "Alapértelmezett (ISP)",
+  "status.custom": "Egyéni ({ip})",
+  "status.unknown": "Ismeretlen",
+  "panel.add_server": "Szerver Hozzáadása",
+  "panel.cancel": "Mégse",
+  "panel.save": "Mentés",
+  "panel.reset": "Visszaállítás (ISP)",
+  "panel.name_placeholder": "Név",
+  "panel.ip_placeholder": "IP"
+}

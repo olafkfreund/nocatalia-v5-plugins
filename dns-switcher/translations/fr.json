@@ -1,0 +1,15 @@
+{
+  "plugin.title": "Changeur DNS",
+  "plugin.short_title": "DNS",
+  "status.checking": "Vérification...",
+  "status.switching": "Changement...",
+  "status.default": "Par défaut (FAI)",
+  "status.custom": "Personnalisé ({ip})",
+  "status.unknown": "Inconnu",
+  "panel.add_server": "Ajouter un serveur",
+  "panel.cancel": "Annuler",
+  "panel.save": "Enregistrer",
+  "panel.reset": "Réinitialiser (FAI)",
+  "panel.name_placeholder": "Nom",
+  "panel.ip_placeholder": "IP"
+}

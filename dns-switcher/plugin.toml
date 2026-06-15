@@ -1,0 +1,21 @@
+id = "ronin-ck/dns-switcher"
+name = "DNS Switcher"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Ronin-CK"
+license = "MIT"
+tags = ["Bar", "Network"]
+icon = "globe"
+description = "DNS Manager with custom server support for Noctalia."
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

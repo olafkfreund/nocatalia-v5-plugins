@@ -1,0 +1,15 @@
+{
+  "plugin.title": "DNS スイッチャー",
+  "plugin.short_title": "DNS",
+  "status.checking": "確認中...",
+  "status.switching": "切り替え中...",
+  "status.default": "デフォルト (ISP)",
+  "status.custom": "カスタム ({ip})",
+  "status.unknown": "不明",
+  "panel.add_server": "サーバーを追加",
+  "panel.cancel": "キャンセル",
+  "panel.save": "保存",
+  "panel.reset": "リセット (ISP)",
+  "panel.name_placeholder": "名前",
+  "panel.ip_placeholder": "IP"
+}

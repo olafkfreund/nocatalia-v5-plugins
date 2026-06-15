@@ -1,0 +1,15 @@
+{
+  "plugin.title": "Switcher DNS",
+  "plugin.short_title": "DNS",
+  "status.checking": "Verifica in corso...",
+  "status.switching": "Cambio in corso...",
+  "status.default": "Predefinito (ISP)",
+  "status.custom": "Personalizzato ({ip})",
+  "status.unknown": "Sconosciuto",
+  "panel.add_server": "Aggiungi Server",
+  "panel.cancel": "Annulla",
+  "panel.save": "Salva",
+  "panel.reset": "Ripristina (ISP)",
+  "panel.name_placeholder": "Nome",
+  "panel.ip_placeholder": "IP"
+}

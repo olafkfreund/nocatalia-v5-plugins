@@ -1,0 +1,15 @@
+{
+  "plugin.title": "Przełącznik DNS",
+  "plugin.short_title": "DNS",
+  "status.checking": "Sprawdzanie...",
+  "status.switching": "Przełączanie...",
+  "status.default": "Domyślny (ISP)",
+  "status.custom": "Własny ({ip})",
+  "status.unknown": "Nieznany",
+  "panel.add_server": "Dodaj Serwer",
+  "panel.cancel": "Anuluj",
+  "panel.save": "Zapisz",
+  "panel.reset": "Przywróć Domyślne (ISP)",
+  "panel.name_placeholder": "Nazwa",
+  "panel.ip_placeholder": "IP"
+}

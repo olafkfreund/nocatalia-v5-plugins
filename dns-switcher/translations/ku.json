@@ -1,0 +1,15 @@
+{
+  "plugin.title": "Guhertoka DNS",
+  "plugin.short_title": "DNS",
+  "status.checking": "Kontrol dike...",
+  "status.switching": "Diguhere...",
+  "status.default": "Standard (ISP)",
+  "status.custom": "Taybet ({ip})",
+  "status.unknown": "Nenas",
+  "panel.add_server": "Pêşkêşkar Zêde Bike",
+  "panel.cancel": "Betal Bike",
+  "panel.save": "Tomar Bike",
+  "panel.reset": "Vegere Standard (ISP)",
+  "panel.name_placeholder": "Nav",
+  "panel.ip_placeholder": "IP"
+}

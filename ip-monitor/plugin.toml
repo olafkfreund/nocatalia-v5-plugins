@@ -1,0 +1,51 @@
+id = "deepalpha/ip-monitor"
+name = "IP Monitor"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "deepalpha"
+license = "MIT"
+tags = ["Bar", "Development"]
+icon = "network"
+description = "Plugin showing current external IP."
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon Color"
+default = "primary"
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh Interval (Seconds)"
+default = 300
+
+[[setting]]
+key = "successIcon"
+type = "string"
+label = "Success Icon"
+default = "network"
+
+[[setting]]
+key = "errorIcon"
+type = "string"
+label = "Error Icon"
+default = "alert-circle"
+
+[[setting]]
+key = "loadingIcon"
+type = "string"
+label = "Loading Icon"
+default = "loader"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

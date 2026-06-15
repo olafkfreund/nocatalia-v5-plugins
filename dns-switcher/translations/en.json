@@ -1,0 +1,15 @@
+{
+  "plugin.title": "DNS Switcher",
+  "plugin.short_title": "DNS",
+  "status.checking": "Checking...",
+  "status.switching": "Switching...",
+  "status.default": "Default (ISP)",
+  "status.custom": "Custom ({ip})",
+  "status.unknown": "Unknown",
+  "panel.add_server": "Add Custom Server",
+  "panel.cancel": "Cancel",
+  "panel.save": "Save",
+  "panel.reset": "Reset to Default (ISP)",
+  "panel.name_placeholder": "Name",
+  "panel.ip_placeholder": "IP"
+}

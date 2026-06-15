@@ -1,0 +1,39 @@
+id = "borhaneddine-guemidi/latency-monitor"
+name = "Latency Monitor"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Borhaneddine GUEMIDI"
+license = "MIT"
+tags = ["Bar", "Network"]
+icon = "cloud"
+description = "Network latency monitor — multi-host, windowed averages."
+
+[[setting]]
+key = "intervalSeconds"
+type = "int"
+label = "Interval (Seconds)"
+default = 5
+
+[[setting]]
+key = "thresholdGood"
+type = "int"
+label = "Good Threshold (ms)"
+default = 20
+
+[[setting]]
+key = "thresholdWarning"
+type = "int"
+label = "Warning Threshold (ms)"
+default = 70
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

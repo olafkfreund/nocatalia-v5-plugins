@@ -419,4 +419,40 @@ description = "A Pomodoro timer plugin to help boost productivity."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Productivity", "Desktop"]
 
+[[plugin]]
+id = "ronin-ck/dns-switcher"
+name = "DNS Switcher"
+version = "2.0.0"
+author = "Ronin-CK"
+license = "MIT"
+icon = "globe"
+description = "DNS Manager with custom server support for Noctalia."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Network"]
+
+[[plugin]]
+id = "deepalpha/ip-monitor"
+name = "IP Monitor"
+version = "2.0.0"
+author = "deepalpha"
+license = "MIT"
+icon = "network"
+description = "Plugin showing current external IP."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Development"]
+
+[[plugin]]
+id = "borhaneddine-guemidi/latency-monitor"
+name = "Latency Monitor"
+version = "2.0.0"
+author = "Borhaneddine GUEMIDI"
+license = "MIT"
+icon = "cloud"
+description = "Network latency monitor — multi-host, windowed averages."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Network"]
+
+
+
+
 
