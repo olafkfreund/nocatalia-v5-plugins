@@ -230,25 +230,25 @@ local function parseConfig(comp, text)
 end
 
 local function detectCompositor(callback)
-  noctalia.processMatches(function(niriRunning)
-    if niriRunning then
+  noctalia.runAsync("pgrep -x niri", function(res)
+    if res.exitCode == 0 then
       callback("niri")
-    else
-      noctalia.processMatches(function(hyprRunning)
-        if hyprRunning then
-          callback("hyprland")
-        else
-          noctalia.processMatches(function(mangoRunning)
-            if mangoRunning then
-              callback("mangowc")
-            else
-              callback("unknown")
-            end
-          end, "mangowc")
-        end
-      end, "hyprland")
+      return
     end
-  end, "niri")
+    noctalia.runAsync("pgrep -x hyprland", function(res2)
+      if res2.exitCode == 0 then
+        callback("hyprland")
+        return
+      end
+      noctalia.runAsync("pgrep -x mangowc", function(res3)
+        if res3.exitCode == 0 then
+          callback("mangowc")
+        else
+          callback("unknown")
+        end
+      end)
+    end)
+  end)
 end
 
 function update()

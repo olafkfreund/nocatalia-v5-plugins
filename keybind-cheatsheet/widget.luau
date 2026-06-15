@@ -5,6 +5,8 @@ local compositor = ""
 
 local function render()
   barWidget.setGlyph("keyboard")
+  barWidget.setGlyphColor("primary")
+  barWidget.setText("")
   
   local tooltip = "Keybind Cheatsheet\n"
   if compositor ~= "" then
