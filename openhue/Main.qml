@@ -130,7 +130,7 @@ Item {
     id: setter
     running: false
     onStarted: {
-      console.log("Running setter command: ", command)
+      Logger.i("Running setter command: ", command)
     }
     onExited: {
       refresh()
