@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "倒數",
+  "panel.pause": "暫停",
+  "panel.reset": "重置",
+  "panel.resume": "繼續",
+  "panel.settings": "小工具設定",
+  "panel.start": "開始",
+  "panel.stopwatch": "碼表",
+  "panel.title": "計時器",
+  "settings.compact-mode": "緊湊模式",
+  "settings.compact-mode-desc": "隱藏進度圓環以得到更精簡的外觀",
+  "toast.finished": "時間到了!",
+  "toast.title": "計時器"
+}

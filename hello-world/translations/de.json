@@ -1,0 +1,11 @@
+{
+  "menu.settings": "Widget Einstellungen",
+  "panel.test": "Diese Zeichenkette wird über die Plugin-API übersetzt",
+  "panel.open-settings": "Plugin-Einstellungen öffnen",
+  "settings.iconColor.desc": "Farbe des Bar Widget Symbols.",
+  "settings.iconColor.label": "Symbolfarbe",
+  "settings.message.desc": "Benutzerdefinierte Nachricht, die im Panel angezeigt werden soll.",
+  "settings.message.label": "Nachricht",
+  "settings.message.placeholder": "Nachricht eingeben...",
+  "widget.tooltip": "Hallo Welt"
+}

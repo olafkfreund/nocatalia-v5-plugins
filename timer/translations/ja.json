@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "カウントダウン",
+  "panel.pause": "一時停止",
+  "panel.reset": "リセット",
+  "panel.resume": "再開",
+  "panel.settings": "ウィジェット設定",
+  "panel.start": "開始",
+  "panel.stopwatch": "ストップウォッチ",
+  "panel.title": "タイマー",
+  "settings.compact-mode": "コンパクトモード",
+  "settings.compact-mode-desc": "円形の進行状況バーを非表示にして、すっきりとした見た目にする",
+  "toast.finished": "タイマー終了！",
+  "toast.title": "タイマー"
+}

@@ -1,0 +1,23 @@
+{
+  "settings.showTempValue.desc": "Affiche les degrés actuels à côté de la condition.",
+  "settings.showTempValue.label": "Afficher la valeur de la température",
+  "settings.showTempUnit.desc": "Affiche l'unité de température °C ou °F lors de l'utilisation d'une barre horizontale.",
+  "settings.showTempUnit.label": "Afficher l'unité de température (horizontal)",
+  "settings.showConditionIcon.desc": "Inclut le symbole météo visuel dans le widget.",
+  "settings.showConditionIcon.label": "Afficher l'icône de condition",
+  "settings.tooltipOption.desc": "Choisissez ce que vous souhaitez afficher dans l'infobulle.",
+  "settings.tooltipOption.label": "Options de l'infobulle",
+  "settings.customColor.desc": "Choisissez la couleur de l'icône et du texte.",
+  "settings.customColor.label": "Couleur personnalisée",
+  "settings.mode.disable": "Désactiver l'infobulle",
+  "settings.mode.highlow": "Températures Max/Min",
+  "settings.mode.sunrise": "Heures de lever/coucher du soleil",
+  "settings.mode.everything": "Tout afficher",
+  "tooltips.current": "Actuel",
+  "tooltips.high": "Max",
+  "tooltips.low": "Min",
+  "tooltips.sunrise": "Lever du soleil",
+  "tooltips.sunset": "Coucher du soleil",
+  "menu.openPanel": "Ouvrir la météo",
+  "menu.settings": "Paramètres du widget"
+}

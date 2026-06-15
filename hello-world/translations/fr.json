@@ -1,0 +1,11 @@
+{
+  "menu.settings": "Paramètres du widget",
+  "panel.test": "Cette chaîne est traduite via l'API du plugin",
+  "panel.open-settings": "Ouvrir les paramètres du plugin",
+  "settings.iconColor.desc": "Couleur de l'icône du widget de la barre.",
+  "settings.iconColor.label": "Couleur de l'icône",
+  "settings.message.desc": "Message personnalisé à afficher dans le panneau.",
+  "settings.message.label": "Message",
+  "settings.message.placeholder": "Entrez un message...",
+  "widget.tooltip": "Hello World"
+}

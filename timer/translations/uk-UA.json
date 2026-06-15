@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "Зворотний відлік",
+  "panel.pause": "Пауза",
+  "panel.reset": "Скинути",
+  "panel.resume": "Продовжити",
+  "panel.settings": "Налаштування віджета",
+  "panel.start": "Старт",
+  "panel.stopwatch": "Секундомір",
+  "panel.title": "Таймер",
+  "settings.compact-mode": "Компактний режим",
+  "settings.compact-mode-desc": "Приховати круговий індикатор прогресу для чистішого вигляду",
+  "toast.finished": "Таймер завершено!",
+  "toast.title": "Таймер"
+}

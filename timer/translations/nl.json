@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "Aftellen",
+  "panel.pause": "Pauze",
+  "panel.reset": "Resetten",
+  "panel.resume": "Hervatten",
+  "panel.settings": "Widget-instellingen",
+  "panel.start": "Start",
+  "panel.stopwatch": "Stopwatch",
+  "panel.title": "Timer",
+  "settings.compact-mode": "Compacte modus",
+  "settings.compact-mode-desc": "Verberg de circulaire voortgangsbalk voor een schoner uiterlijk",
+  "toast.finished": "Timer afgelopen!",
+  "toast.title": "Timer"
+}

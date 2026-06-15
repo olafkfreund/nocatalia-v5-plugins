@@ -1,0 +1,90 @@
+id = "sovereign/weather-indicator"
+name = "Weather Indicator"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Sovereign"
+license = "MIT"
+tags = ["Bar", "Desktop", "Utility"]
+icon = "weather-partly-cloudy"
+description = "Shows the current weather condition and temperature."
+
+[[setting]]
+key = "showTempValue"
+type = "bool"
+label = "Show Temperature Value"
+default = true
+description = "Display the temperature value in the bar widget"
+
+[[setting]]
+key = "showTempUnit"
+type = "bool"
+label = "Show Temperature Unit"
+default = true
+description = "Show °C or °F indicating the unit"
+
+[[setting]]
+key = "showConditionIcon"
+type = "bool"
+label = "Show Condition Icon"
+default = true
+description = "Include the weather symbol in the bar widget"
+
+[[setting]]
+key = "useFahrenheit"
+type = "bool"
+label = "Use Fahrenheit"
+default = false
+description = "Display temperatures in Fahrenheit instead of Celsius"
+
+[[setting]]
+key = "customCityName"
+type = "string"
+label = "Custom City Name"
+default = ""
+description = "City name override for display (leave blank for geolocated name)"
+
+[[setting]]
+key = "customLatitude"
+type = "string"
+label = "Custom Latitude"
+default = ""
+description = "Manual latitude coordinate (e.g. 40.7128)"
+
+[[setting]]
+key = "customLongitude"
+type = "string"
+label = "Custom Longitude"
+default = ""
+description = "Manual longitude coordinate (e.g. -74.0060)"
+
+[[setting]]
+key = "customColor"
+type = "string"
+label = "Custom Color"
+default = "none"
+description = "Custom theme color for icon and text"
+
+[[setting]]
+key = "tooltipOption"
+type = "select"
+label = "Tooltip Options"
+default = "everything"
+description = "Select what to show in the tooltip hover"
+options = [
+  { value = "everything", label = "Show all" },
+  { value = "highlow", label = "High/Low temps" },
+  { value = "sunrise", label = "Sunrise/set times" },
+  { value = "disable", label = "Disable the Tooltip" }
+]
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

@@ -1,0 +1,56 @@
+id = "lonerOrz/todo"
+name = "Todo List"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "lonerOrz"
+license = "MIT"
+tags = ["Bar", "Desktop", "Productivity"]
+icon = "clipboard-check"
+description = "A simple todo list manager plugin."
+
+[[setting]]
+key = "showCompleted"
+type = "bool"
+label = "Show Completed"
+default = true
+description = "Show completed todo items"
+
+[[setting]]
+key = "showBackground"
+type = "bool"
+label = "Show Background"
+default = true
+description = "Show widget background"
+
+[[setting]]
+key = "exportPath"
+type = "string"
+label = "Export Path"
+default = "~/Documents"
+description = "Directory where todo lists will be exported"
+
+[[setting]]
+key = "exportFormat"
+type = "string"
+label = "Export Format"
+default = "markdown"
+description = "Format to export todos (markdown)"
+
+[[setting]]
+key = "exportEmptySections"
+type = "bool"
+label = "Export Empty Sections"
+default = false
+description = "Include empty pages in export files"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

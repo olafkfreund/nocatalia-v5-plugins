@@ -1,0 +1,23 @@
+{
+  "settings.showTempValue.desc": "Display the current degrees alongside the condition.",
+  "settings.showTempValue.label": "Show temperature value",
+  "settings.showTempUnit.desc": "Show °C or °F indicating the temperature unit when using a horizontal bar.",
+  "settings.showTempUnit.label": "Show temperature unit when horizontal",
+  "settings.showConditionIcon.desc": "Include the visual weather symbol in the widget.",
+  "settings.showConditionIcon.label": "Show condition icon",
+  "settings.tooltipOption.desc": "Choose what you would like the tooltip to display.",
+  "settings.tooltipOption.label": "Tooltip options",
+  "settings.customColor.desc": "Choose what color you would like the icon and text to be.",
+  "settings.customColor.label": "Custom color",
+  "settings.mode.disable": "Disable the Tooltip",
+  "settings.mode.highlow": "High/Low temps",
+  "settings.mode.sunrise": "Sunrise/set times",
+  "settings.mode.everything": "Show all",
+  "tooltips.current": "Current",
+  "tooltips.high": "High",
+  "tooltips.low": "Low",
+  "tooltips.sunrise": "Sunrise",
+  "tooltips.sunset": "Sunset",
+  "menu.openPanel": "Open Weather",
+  "menu.settings": "Widget Settings"
+}

@@ -297,3 +297,70 @@ icon = "photo"
 description = "Fetches a new daily wallpaper from Bing or NASA"
 min_noctalia = "5.0.0"
 tags = ["Desktop", "Fun", "Utility"]
+
+[[plugin]]
+id = "noctalia/hello-world"
+name = "Hello World"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "world"
+description = "A simple Hello World plugin demonstrating functionalities in Luau. For developers only."
+min_noctalia = "5.0.0"
+tags = ["Development"]
+
+[[plugin]]
+id = "noctalia/timer"
+name = "Timer"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "clock"
+description = "A timer and stopwatch plugin for the bar and desktop."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Utility", "Desktop"]
+
+[[plugin]]
+id = "lonerOrz/todo"
+name = "Todo List"
+version = "2.0.0"
+author = "lonerOrz"
+license = "MIT"
+icon = "clipboard-check"
+description = "A simple todo list manager plugin."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop", "Productivity"]
+
+[[plugin]]
+id = "sovereign/weather-indicator"
+name = "Weather Indicator"
+version = "2.0.0"
+author = "Sovereign"
+license = "MIT"
+icon = "weather-partly-cloudy"
+description = "Shows the current weather condition and temperature."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Desktop", "Utility"]
+
+[[plugin]]
+id = "cleboost/screenshot"
+name = "Screenshot"
+version = "2.0.0"
+author = "Cleboost"
+license = "MIT"
+icon = "camera"
+description = "Quick screenshot button in the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Utility"]
+
+[[plugin]]
+id = "noctalia/screen-recorder"
+name = "Screen Recorder"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "video"
+description = "Hardware-accelerated screen recording using gpu-screen-recorder."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Utility"]
+

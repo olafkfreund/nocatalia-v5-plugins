@@ -1,0 +1,7 @@
+{
+  "tooltip": "Tirar uma captura de tela",
+  "settings.mode.label": "Modo de captura",
+  "settings.mode.description": "Escolher entre seleção de região ou captura direta da tela",
+  "settings.mode.region": "Seleção de região",
+  "settings.mode.screen": "Tela cheia"
+}

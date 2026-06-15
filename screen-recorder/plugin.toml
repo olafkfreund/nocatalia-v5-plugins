@@ -1,0 +1,177 @@
+id = "noctalia/screen-recorder"
+name = "Screen Recorder"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noctalia Team"
+license = "MIT"
+tags = ["Bar", "Utility"]
+icon = "video"
+description = "Hardware-accelerated screen recording using gpu-screen-recorder."
+
+[[setting]]
+key = "video_source"
+type = "select"
+label = "Video Source"
+default = "portal"
+description = "GPU Screen Recorder capture mode"
+options = [
+  { value = "focused", label = "Focused Window" },
+  { value = "portal", label = "XDG Desktop Portal" },
+  { value = "region", label = "Region Selection" }
+]
+
+[[setting]]
+key = "directory"
+type = "string"
+label = "Output Directory"
+default = ""
+description = "Defaults to ~/Videos if empty"
+
+[[setting]]
+key = "filename_pattern"
+type = "string"
+label = "Filename Pattern"
+default = "recording_%Y%m%d_%H%M%S"
+description = "strftime pattern for the output filename"
+
+[[setting]]
+key = "frame_rate"
+type = "int"
+label = "Frame Rate"
+default = 60
+description = "Target recording frames per second"
+
+[[setting]]
+key = "video_codec"
+type = "select"
+label = "Video Codec"
+default = "h264"
+description = "Encoder codec to use"
+options = [
+  { value = "h264", label = "H.264" },
+  { value = "hevc", label = "HEVC / H.265" },
+  { value = "av1", label = "AV1" },
+  { value = "vp8", label = "VP8" },
+  { value = "vp9", label = "VP9" }
+]
+
+[[setting]]
+key = "quality"
+type = "select"
+label = "Quality"
+default = "very_high"
+description = "Target video quality preset"
+options = [
+  { value = "medium", label = "Medium" },
+  { value = "high", label = "High" },
+  { value = "very_high", label = "Very High" },
+  { value = "ultra", label = "Ultra" }
+]
+
+[[setting]]
+key = "resolution"
+type = "string"
+label = "Resolution"
+default = "original"
+description = "Target resolution (original, or WIDTHxHEIGHT)"
+
+[[setting]]
+key = "audio_source"
+type = "select"
+label = "Audio Source"
+default = "default_output"
+description = "Target audio recording source"
+options = [
+  { value = "default_output", label = "System Output" },
+  { value = "default_input", label = "Microphone Input" },
+  { value = "both", label = "System Output + Microphone" },
+  { value = "none", label = "Muted / No Audio" }
+]
+
+[[setting]]
+key = "audio_codec"
+type = "select"
+label = "Audio Codec"
+default = "opus"
+description = "Audio compression codec"
+options = [
+  { value = "opus", label = "Opus" },
+  { value = "aac", label = "AAC" },
+  { value = "flac", label = "FLAC (Lossless)" }
+]
+
+[[setting]]
+key = "show_cursor"
+type = "bool"
+label = "Show Cursor"
+default = true
+description = "Include the mouse pointer in the recording"
+
+[[setting]]
+key = "color_range"
+type = "select"
+label = "Color Range"
+default = "limited"
+description = "Select video color range specification"
+options = [
+  { value = "limited", label = "Limited (Recommended)" },
+  { value = "full", label = "Full" }
+]
+
+[[setting]]
+key = "copy_to_clipboard"
+type = "bool"
+label = "Copy Path to Clipboard"
+default = false
+description = "Copy the output file path to clipboard on save"
+
+[[setting]]
+key = "hide_inactive"
+type = "bool"
+label = "Hide Widget when Idle"
+default = false
+description = "Hide the bar widget when not recording or replaying"
+
+[[setting]]
+key = "replay_enabled"
+type = "bool"
+label = "Enable Replay Buffer"
+default = false
+description = "Maintain a rolling background recording buffer"
+
+[[setting]]
+key = "replay_duration"
+type = "int"
+label = "Replay Seconds"
+default = 30
+description = "Seconds of buffer to save when triggered"
+
+[[setting]]
+key = "replay_storage"
+type = "select"
+label = "Replay Storage"
+default = "ram"
+description = "Store buffer in RAM or Disk"
+options = [
+  { value = "ram", label = "RAM" },
+  { value = "disk", label = "Disk" }
+]
+
+[[setting]]
+key = "restore_portal"
+type = "bool"
+label = "Restore Portal Session"
+default = false
+description = "Attempt to restore the portal capture session across runs"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[shortcut]]
+id = "shortcut"
+entry = "shortcut.luau"

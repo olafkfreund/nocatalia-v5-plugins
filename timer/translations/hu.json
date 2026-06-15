@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "Visszaszámlálás",
+  "panel.pause": "Szünet",
+  "panel.reset": "Visszaállítás",
+  "panel.resume": "Folytatás",
+  "panel.settings": "Widget beállítások",
+  "panel.start": "Indítás",
+  "panel.stopwatch": "Stopper",
+  "panel.title": "Időzítő",
+  "settings.compact-mode": "Kompakt mód",
+  "settings.compact-mode-desc": "A körkörös folyamatjelző elrejtése a tisztább megjelenés érdekében",
+  "toast.finished": "Időzítő lejárt!",
+  "toast.title": "Időzítő"
+}

@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "Contagem regressiva",
+  "panel.pause": "Pausar",
+  "panel.reset": "Reiniciar",
+  "panel.resume": "Retomar",
+  "panel.settings": "Configurações do Widget",
+  "panel.start": "Iniciar",
+  "panel.stopwatch": "Cronômetro",
+  "panel.title": "Temporizador",
+  "settings.compact-mode": "Modo compacto",
+  "settings.compact-mode-desc": "Ocultar a barra de progresso circular para um visual mais limpo",
+  "toast.finished": "Temporizador finalizado!",
+  "toast.title": "Temporizador"
+}

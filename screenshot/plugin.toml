@@ -1,0 +1,28 @@
+id = "cleboost/screenshot"
+name = "Screenshot"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Cleboost"
+license = "MIT"
+tags = ["Bar", "Utility"]
+icon = "camera"
+description = "Quick screenshot button in the bar."
+
+[[setting]]
+key = "mode"
+type = "select"
+label = "Screenshot Mode"
+default = "region"
+description = "Choose between region selection or direct screen capture"
+options = [
+  { value = "region", label = "Region Selection" },
+  { value = "screen", label = "Full Screen" }
+]
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

@@ -1,0 +1,21 @@
+{
+  "settings.showTempValue.desc": "在天气状况旁显示当前温度。",
+  "settings.showTempValue.label": "显示温度值",
+  "settings.showTempUnit.desc": "在使用水平栏时显示°C或°F表示温度单位。",
+  "settings.showTempUnit.label": "水平时显示温度单位",
+  "settings.showConditionIcon.desc": "在部件中显示天气状况图标。",
+  "settings.showConditionIcon.label": "显示天气图标",
+  "settings.tooltipOption.desc": "选择您希望工具提示显示的内容。",
+  "settings.tooltipOption.label": "工具提示选项",
+  "settings.mode.disable": "禁用工具提示",
+  "settings.mode.highlow": "最高/最低温度",
+  "settings.mode.sunrise": "日出/日落时间",
+  "settings.mode.everything": "显示全部",
+  "tooltips.current": "当前",
+  "tooltips.high": "最高",
+  "tooltips.low": "最低",
+  "tooltips.sunrise": "日出",
+  "tooltips.sunset": "日落",
+  "menu.openPanel": "打开日历",
+  "menu.settings": "部件设置"
+}

@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "Odliczanie",
+  "panel.pause": "Pauza",
+  "panel.reset": "Resetuj",
+  "panel.resume": "Wznów",
+  "panel.settings": "Ustawienia widżetu",
+  "panel.start": "Start",
+  "panel.stopwatch": "Stoper",
+  "panel.title": "Czasomierz",
+  "settings.compact-mode": "Tryb kompaktowy",
+  "settings.compact-mode-desc": "Ukryj okrągły pasek postępu dla czystszego wyglądu",
+  "toast.finished": "Czasomierz zakończony!",
+  "toast.title": "Czasomierz"
+}

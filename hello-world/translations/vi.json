@@ -1,0 +1,11 @@
+{
+  "menu.settings": "Cài đặt tiện ích",
+  "panel.test": "Chuỗi này được dịch qua API plugin",
+  "panel.open-settings": "Mở cài đặt plugin",
+  "settings.iconColor.desc": "Màu của biểu tượng tiện ích trên thanh ngang/dọc.",
+  "settings.iconColor.label": "Màu biểu tượng",
+  "settings.message.desc": "Tin nhắn tùy chỉnh hiển thị trên bảng.",
+  "settings.message.label": "Tin nhắn",
+  "settings.message.placeholder": "Nhập tin nhắn...",
+  "widget.tooltip": "Xin chào Thế giới"
+}

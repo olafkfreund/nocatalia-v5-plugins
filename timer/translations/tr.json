@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "Geri Sayım",
+  "panel.pause": "Duraklat",
+  "panel.reset": "Sıfırla",
+  "panel.resume": "Devam Et",
+  "panel.settings": "Widget Ayarları",
+  "panel.start": "Başlat",
+  "panel.stopwatch": "Kronometre",
+  "panel.title": "Zamanlayıcı",
+  "settings.compact-mode": "Kompakt Mod",
+  "settings.compact-mode-desc": "Daha temiz bir görünüm için dairesel ilerleme çubuğunu gizle",
+  "toast.finished": "Zamanlayıcı bitti!",
+  "toast.title": "Zamanlayıcı"
+}

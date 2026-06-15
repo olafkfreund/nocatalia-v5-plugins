@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "Countdown",
+  "panel.pause": "Pause",
+  "panel.reset": "Reset",
+  "panel.resume": "Resume",
+  "panel.settings": "Widget Settings",
+  "panel.start": "Start",
+  "panel.stopwatch": "Stopwatch",
+  "panel.title": "Timer",
+  "settings.compact-mode": "Compact Mode",
+  "settings.compact-mode-desc": "Hide the circular progress bar for a cleaner look",
+  "toast.finished": "Timer finished!",
+  "toast.title": "Timer"
+}

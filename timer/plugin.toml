@@ -1,0 +1,34 @@
+id = "noctalia/timer"
+name = "Timer"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noctalia Team"
+license = "MIT"
+tags = ["Bar", "Utility", "Desktop"]
+icon = "clock"
+description = "A timer and stopwatch plugin for the bar and desktop."
+
+[[setting]]
+key = "defaultDuration"
+type = "int"
+label = "Default Duration (seconds)"
+default = 300
+description = "Default countdown duration"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon Color"
+default = "primary"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

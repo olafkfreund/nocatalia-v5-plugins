@@ -1,0 +1,14 @@
+{
+  "panel.countdown": "倒计时",
+  "panel.pause": "暂停",
+  "panel.reset": "重置",
+  "panel.resume": "继续",
+  "panel.settings": "小部件设置",
+  "panel.start": "开始",
+  "panel.stopwatch": "秒表",
+  "panel.title": "计时器",
+  "settings.compact-mode": "紧凑模式",
+  "settings.compact-mode-desc": "隐藏圆形进度条以获得更整洁的外观",
+  "toast.finished": "计时器结束！",
+  "toast.title": "计时器"
+}

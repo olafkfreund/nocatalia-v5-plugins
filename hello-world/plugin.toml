@@ -1,0 +1,34 @@
+id = "noctalia/hello-world"
+name = "Hello World"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noctalia Team"
+license = "MIT"
+tags = ["Development"]
+icon = "world"
+description = "A simple Hello World plugin demonstrating functionalities in Luau. For developers only."
+
+[[setting]]
+key = "message"
+type = "string"
+label = "Message"
+default = "Hello World"
+description = "Custom message to display"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon Color"
+default = "primary"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"
