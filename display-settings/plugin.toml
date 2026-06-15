@@ -1,0 +1,33 @@
+id = "fstanis/display-settings"
+name = "Display Settings"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "fstanis"
+license = "MIT"
+tags = ["Bar", "System", "Utility"]
+icon = "device-monitor"
+description = "View live display settings from wlr-randr and permanent niri KDL output configuration."
+
+[[setting]]
+key = "niriConfigPath"
+type = "string"
+label = "Niri Config Path"
+default = "~/.config/niri/config.kdl"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon Color"
+default = "primary"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

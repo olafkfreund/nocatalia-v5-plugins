@@ -74,7 +74,7 @@ if [[ -n "$ITEMS_FILE" ]]; then
         SEP_ESC=$(printf '%s' "$SEPARATOR" | sed 's/\\/\\\\/g; s/"/\\"/g')
         OPTIONS=$(echo "$OPTIONS" | sed "s/^{/{\"separator\":\"${SEP_ESC}\",/")
     fi
-    "$QS_CMD" ipc call plugin:dmenu showFromFile "$ITEMS_FILE" "$OPTIONS"
+    noctalia msg dmenu:showFromFile "$ITEMS_FILE" "$OPTIONS"
 else
     # Stdin mode — read input, use showItems
     if [[ -t 0 ]]; then
@@ -88,7 +88,7 @@ else
     SEP_ESC=$(printf '%s' "$SEPARATOR" | sed 's/\\/\\\\/g; s/"/\\"/g')
     OPTIONS=$(echo "$OPTIONS" | sed "s/^{/{\"separator\":\"${SEP_ESC}\",/")
 
-    "$QS_CMD" ipc call plugin:dmenu showItems "$INPUT" "$OPTIONS"
+    noctalia msg dmenu:showItems "$INPUT" "$OPTIONS"
 fi
 
 # Wait for result

@@ -452,6 +452,30 @@ description = "Network latency monitor — multi-host, windowed averages."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Network"]
 
+[[plugin]]
+id = "fstanis/display-settings"
+name = "Display Settings"
+version = "2.0.0"
+author = "fstanis"
+license = "MIT"
+icon = "device-monitor"
+description = "View live display settings from wlr-randr and permanent niri KDL output configuration."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Utility"]
+
+[[plugin]]
+id = "ben-hilton/dmenu"
+name = "Dmenu Provider"
+version = "2.0.0"
+author = "Ben Hilton"
+license = "MIT"
+icon = "search"
+description = "An IPC-driven dmenu replacement that lets external scripts present choices through the Noctalia launcher."
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Productivity", "Utility"]
+
+
+
 
 
 

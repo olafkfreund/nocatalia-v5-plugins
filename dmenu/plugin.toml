@@ -1,0 +1,39 @@
+id = "ben-hilton/dmenu"
+name = "Dmenu Provider"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Ben Hilton"
+license = "MIT"
+tags = ["Launcher", "Productivity", "Utility"]
+icon = "search"
+description = "An IPC-driven dmenu replacement that lets external scripts present choices through the Noctalia launcher."
+
+[[setting]]
+key = "resultFile"
+type = "string"
+label = "Result File"
+default = "/tmp/noctalia-dmenu-result"
+
+[[setting]]
+key = "showToastOnSelect"
+type = "bool"
+label = "Show toast on selection"
+default = false
+
+[[setting]]
+key = "maxResults"
+type = "int"
+label = "Maximum Results"
+default = 200
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = "/dmenu"
+glyph = "search"
+include_in_global_search = false
+debounce_ms = 50
