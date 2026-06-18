@@ -1,0 +1,24 @@
+id = "piero-93/thinkpad-fan"
+name = "ThinkPad Fan & Thermal"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Piero-93"
+license = "GPLv3"
+tags = ["Bar", "Indicator", "System", "Utility"]
+icon = "wind"
+description = "Monitors ThinkPad system temperatures and fan speed via sysfs/procfs."
+
+[[setting]]
+key = "colorizeByStatus"
+type = "bool"
+label = "Colorize by status"
+default = true
+description = "Change icon color based on thermal state (green < 60°C, yellow 60-80°C, red > 80°C)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

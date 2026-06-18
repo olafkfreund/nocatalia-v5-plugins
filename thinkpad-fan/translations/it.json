@@ -1,0 +1,18 @@
+{
+  "settings.title": "ThinkPad - Impostazioni ventola e controllo termico",
+  "settings.dynamic-coloring": "Colorazione dinamica",
+  "settings.dynamic-coloring-desc": "Cambia il colore della capsula nella barra quando la ventola è ferma o a un livello personalizzato",
+  "settings.allow-popup": "Forzatura manuale della velocità",
+  "settings.allow-popup-desc": "Fai clic con il tasto sinistro sul widget per aprire il pannello di controllo manuale della ventola",
+  "popup.title": "Controllo manuale della ventola",
+  "popup.auto": "Automatico",
+  "popup.full-out": "Massima velocità",
+  "popup.level-0": "0",
+  "popup.level-1": "1",
+  "popup.level-2": "2",
+  "popup.level-3": "3",
+  "popup.level-4": "4",
+  "popup.level-5": "5",
+  "popup.level-6": "6",
+  "popup.level-7": "7"
+}

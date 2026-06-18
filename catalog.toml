@@ -716,3 +716,14 @@ icon = "keyboard"
 description = "Toggle an on-screen keyboard (Squeekboard or wvkbd) with auto-detection and live availability monitoring."
 min_noctalia = "5.0.0"
 tags = ["System", "Bar", "Utility"]
+
+[[plugin]]
+id = "piero-93/thinkpad-fan"
+name = "ThinkPad Fan & Thermal"
+version = "2.0.0"
+author = "Piero-93"
+license = "GPLv3"
+icon = "wind"
+description = "Monitors ThinkPad system temperatures and fan speed via sysfs/procfs."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Indicator", "System", "Utility"]

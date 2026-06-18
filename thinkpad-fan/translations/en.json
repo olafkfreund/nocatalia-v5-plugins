@@ -1,0 +1,18 @@
+{
+  "settings.title": "ThinkPad - Fan & Thermal Control - Settings",
+  "settings.dynamic-coloring": "Dynamic coloring",
+  "settings.dynamic-coloring-desc": "Changes the color of the bar capsule when the fan is stopped or at a custom level",
+  "settings.allow-popup": "Fan speed manual override",
+  "settings.allow-popup-desc": "Left-click on the widget to open the manual fan override panel",
+  "popup.title": "Fan speed manual override",
+  "popup.auto": "Auto",
+  "popup.full-out": "Full out",
+  "popup.level-0": "0",
+  "popup.level-1": "1",
+  "popup.level-2": "2",
+  "popup.level-3": "3",
+  "popup.level-4": "4",
+  "popup.level-5": "5",
+  "popup.level-6": "6",
+  "popup.level-7": "7"
+}
