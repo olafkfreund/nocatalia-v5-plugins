@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "Îkon Hilbijêre",
+  "settings.currentCommands.label": "Niha emrên hatine sazkirin",
+  "settings.currentIconName.desc": "Navê îkona ku niha hatiye vesazkirin.",
+  "settings.currentIconName.label": "Nasnameya Îkonê",
+  "settings.currentNumUpdatesCmd.label": "Hejmara nûvekirinê",
+  "settings.currentUpdateCmd.label": "Nûkirina sîstemê",
+  "settings.customCmdDoSystemUpdate.desc": "Fermana şêlê ya ku ji bo pêkanîna nûvekirina pergalê tê bikaranîn.",
+  "settings.customCmdDoSystemUpdate.label": "Fermana Nûvekirina Sîstemê ya Xweser",
+  "settings.customCmdDoSystemUpdate.placeholder": "mînak, yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "Fermana shellê ya ku divê yek hejmarek temam derxe ku hejmara nûvekirinên berdest nîşan dide.",
+  "settings.customCmdGetNumUpdates.label": "Fermana Jimartinê ya Hejmara Nûvekirinê ya Xweser",
+  "settings.customCmdGetNumUpdates.placeholder": "mînak, yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "Demaşê widgetê gava jimara nûkirinên berdest 0 be.",
+  "settings.hideWidget.label": "Veşartin li ser Nûkirinên Sifir",
+  "settings.terminal.desc": "Fermana termînalê ya ku ji bo pêkanîna fermana nûvekirina pergalê tê bikaranîn. Vebijêrkî: {} ji bo fermana nûvekirinê.",
+  "settings.terminal.label": "Emulatorê Termînalê",
+  "settings.terminal.placeholder": "mînak, foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "Demê dûrî ji bo kontrolên nûvekirinê",
+  "settings.updateInterval.label": "Demê Kontrolkirina Nûvekirinê",
+  "tooltip.noUpdatesAvailable": "Tu nûvekirin hatin dîtin",
+  "tooltip.updatesAvailable": "Bitikîne da fermana nûkirina pergalê ya hatî vesazkirin bimeşîne"
+}

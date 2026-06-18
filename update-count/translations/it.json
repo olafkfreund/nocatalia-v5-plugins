@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "Seleziona icona",
+  "settings.currentCommands.label": "Comandi attualmente configurati",
+  "settings.currentIconName.desc": "Nome icona attualmente configurato.",
+  "settings.currentIconName.label": "Identificatore icona",
+  "settings.currentNumUpdatesCmd.label": "Conteggio aggiornamenti",
+  "settings.currentUpdateCmd.label": "Aggiornamento di sistema",
+  "settings.customCmdDoSystemUpdate.desc": "Comando shell usato per effettuare l’aggiornamento di sistema.",
+  "settings.customCmdDoSystemUpdate.label": "Comando personalizzato di aggiornamento",
+  "settings.customCmdDoSystemUpdate.placeholder": "es., yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "Comando shell che deve stampare un singolo intero che rappresenta il numero di aggiornamenti disponibili.",
+  "settings.customCmdGetNumUpdates.label": "Comando personalizzato per conteggio",
+  "settings.customCmdGetNumUpdates.placeholder": "es., yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "Nasconde il widget quando il numero di aggiornamenti disponibili è 0.",
+  "settings.hideWidget.label": "Nascondi con 0 aggiornamenti",
+  "settings.terminal.desc": "Comando del terminale usato per eseguire il comando di aggiornamento di sistema. Opzionale: {} per il comando di aggiornamento.",
+  "settings.terminal.label": "Emulatore di terminale",
+  "settings.terminal.placeholder": "es., foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "Intervallo di polling per i controlli aggiornamenti",
+  "settings.updateInterval.label": "Intervallo di verifica",
+  "tooltip.noUpdatesAvailable": "Nessun aggiornamento rilevato",
+  "tooltip.updatesAvailable": "Clicca per eseguire il comando di aggiornamento di sistema configurato"
+}

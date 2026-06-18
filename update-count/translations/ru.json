@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "Выбрать значок",
+  "settings.currentCommands.label": "Текущие настроенные команды",
+  "settings.currentIconName.desc": "Текущее настроенное имя значка.",
+  "settings.currentIconName.label": "Идентификатор значка",
+  "settings.currentNumUpdatesCmd.label": "Количество обновлений",
+  "settings.currentUpdateCmd.label": "Обновление системы",
+  "settings.customCmdDoSystemUpdate.desc": "Команда оболочки для выполнения обновления системы.",
+  "settings.customCmdDoSystemUpdate.label": "Пользовательская команда обновления",
+  "settings.customCmdDoSystemUpdate.placeholder": "например: yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "Команда оболочки должна вывести одно целое число — количество доступных обновлений.",
+  "settings.customCmdGetNumUpdates.label": "Пользовательская команда подсчёта",
+  "settings.customCmdGetNumUpdates.placeholder": "например: yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "Скрывает виджет, когда количество доступных обновлений равно 0.",
+  "settings.hideWidget.label": "Скрывать при 0 обновлений",
+  "settings.terminal.desc": "Команда терминала для выполнения команды обновления системы. Необязательно: {} для команды обновления.",
+  "settings.terminal.label": "Эмулятор терминала",
+  "settings.terminal.placeholder": "например: foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "Интервал опроса для проверки обновлений",
+  "settings.updateInterval.label": "Интервал проверки",
+  "tooltip.noUpdatesAvailable": "Обновления не обнаружены",
+  "tooltip.updatesAvailable": "Нажмите, чтобы выполнить настроенную команду обновления системы"
+}

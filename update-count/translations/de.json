@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "Icon auswählen",
+  "settings.currentCommands.label": "Aktuell konfigurierte Befehle",
+  "settings.currentIconName.desc": "Der aktuell konfigurierte Icon-Name.",
+  "settings.currentIconName.label": "Icon-Kennung",
+  "settings.currentNumUpdatesCmd.label": "Update-Anzahl",
+  "settings.currentUpdateCmd.label": "System-Update",
+  "settings.customCmdDoSystemUpdate.desc": "Shell-Befehl zum Ausführen des System-Updates.",
+  "settings.customCmdDoSystemUpdate.label": "Benutzerdefinierter System-Update-Befehl",
+  "settings.customCmdDoSystemUpdate.placeholder": "z. B. yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "Shell-Befehl, der eine einzelne Ganzzahl als Anzahl verfügbarer Updates ausgeben muss.",
+  "settings.customCmdGetNumUpdates.label": "Benutzerdefinierter Befehl für Update-Anzahl",
+  "settings.customCmdGetNumUpdates.placeholder": "z. B. yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "Blendet das Widget aus, wenn die Anzahl verfügbarer Updates 0 ist.",
+  "settings.hideWidget.label": "Bei 0 Updates ausblenden",
+  "settings.terminal.desc": "Terminalbefehl zum Ausführen des System-Update-Befehls. Optional: {} für den Update-Befehl.",
+  "settings.terminal.label": "Terminal-Emulator",
+  "settings.terminal.placeholder": "z. B. foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "Abfrageintervall für Update-Prüfungen",
+  "settings.updateInterval.label": "Intervall für Update-Prüfung",
+  "tooltip.noUpdatesAvailable": "Keine Updates gefunden",
+  "tooltip.updatesAvailable": "Klicken, um den konfigurierten System-Update-Befehl auszuführen"
+}

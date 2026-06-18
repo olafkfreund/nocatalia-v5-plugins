@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "Pictogram kiezen",
+  "settings.currentCommands.label": "Huidig geconfigureerde commando’s",
+  "settings.currentIconName.desc": "Huidig geconfigureerde pictogramnaam.",
+  "settings.currentIconName.label": "Pictogram-ID",
+  "settings.currentNumUpdatesCmd.label": "Update-aantal",
+  "settings.currentUpdateCmd.label": "Systeemupdate",
+  "settings.customCmdDoSystemUpdate.desc": "Shell-commando om de systeemupdate uit te voeren.",
+  "settings.customCmdDoSystemUpdate.label": "Aangepast systeemupdatecommando",
+  "settings.customCmdDoSystemUpdate.placeholder": "bijv. yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "Shell-commando dat één geheel getal moet uitvoereren met het aantal beschikbare updates.",
+  "settings.customCmdGetNumUpdates.label": "Aangepast commando voor update-aantal",
+  "settings.customCmdGetNumUpdates.placeholder": "bijv. yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "Verbergt de widget wanneer het aantal beschikbare updates 0 is.",
+  "settings.hideWidget.label": "Verbergen bij 0 updates",
+  "settings.terminal.desc": "Terminalcommando om het systeemupdatecommando uit te voeren. Optioneel: {} voor het updatecommando.",
+  "settings.terminal.label": "Terminalemulator",
+  "settings.terminal.placeholder": "bijv. foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "Poll-interval voor updatecontroles",
+  "settings.updateInterval.label": "Controle-interval",
+  "tooltip.noUpdatesAvailable": "Geen updates gevonden",
+  "tooltip.updatesAvailable": "Klik om het geconfigureerde systeemupdatecommando uit te voeren"
+}

@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "Select Icon",
+  "settings.currentCommands.label": "Currently configured commands",
+  "settings.currentIconName.desc": "Currently configured icon name.",
+  "settings.currentIconName.label": "Icon Identifier",
+  "settings.currentNumUpdatesCmd.label": "Update count",
+  "settings.currentUpdateCmd.label": "System update",
+  "settings.customCmdDoSystemUpdate.desc": "Shell command used to perform the system update.",
+  "settings.customCmdDoSystemUpdate.label": "Custom System Update Command",
+  "settings.customCmdDoSystemUpdate.placeholder": "e.g., yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "Shell command that must output a single integer representing the number of available updates.",
+  "settings.customCmdGetNumUpdates.label": "Custom Update Count Command",
+  "settings.customCmdGetNumUpdates.placeholder": "e.g., yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "Hide the widget when the available update count is 0.",
+  "settings.hideWidget.label": "Hide on Zero Updates",
+  "settings.terminal.desc": "Terminal command used to execute the system update command. Optional: {} for update command.",
+  "settings.terminal.label": "Terminal Emulator",
+  "settings.terminal.placeholder": "e.g., foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "Polling interval for update checks",
+  "settings.updateInterval.label": "Update Check Interval",
+  "tooltip.noUpdatesAvailable": "No updates detected",
+  "tooltip.updatesAvailable": "Click to run the configured system update command"
+}

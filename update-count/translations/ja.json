@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "アイコンを選択",
+  "settings.currentCommands.label": "現在の設定コマンド",
+  "settings.currentIconName.desc": "現在設定されているアイコン名です。",
+  "settings.currentIconName.label": "アイコン識別子",
+  "settings.currentNumUpdatesCmd.label": "更新件数",
+  "settings.currentUpdateCmd.label": "システム更新",
+  "settings.customCmdDoSystemUpdate.desc": "システム更新を実行するためのシェルコマンドです。",
+  "settings.customCmdDoSystemUpdate.label": "システム更新のカスタムコマンド",
+  "settings.customCmdDoSystemUpdate.placeholder": "例: yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "利用可能な更新数を表す整数を 1 つ出力する必要があります。",
+  "settings.customCmdGetNumUpdates.label": "更新件数のカスタムコマンド",
+  "settings.customCmdGetNumUpdates.placeholder": "例: yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "利用可能な更新数が 0 の場合にウィジェットを非表示にします。",
+  "settings.hideWidget.label": "更新 0 件で非表示",
+  "settings.terminal.desc": "システム更新コマンドを実行するためのターミナルコマンド。任意: 更新コマンド用に {} を使用します。",
+  "settings.terminal.label": "ターミナルエミュレーター",
+  "settings.terminal.placeholder": "例: foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "更新チェックのポーリング間隔",
+  "settings.updateInterval.label": "更新チェック間隔",
+  "tooltip.noUpdatesAvailable": "更新は検出されませんでした",
+  "tooltip.updatesAvailable": "クリックして設定済みのシステム更新コマンドを実行"
+}

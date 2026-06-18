@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "Вибрати іконку",
+  "settings.currentCommands.label": "Поточні налаштовані команди",
+  "settings.currentIconName.desc": "Поточна налаштована назва іконки.",
+  "settings.currentIconName.label": "Ідентифікатор іконки",
+  "settings.currentNumUpdatesCmd.label": "Кількість оновлень",
+  "settings.currentUpdateCmd.label": "Оновлення системи",
+  "settings.customCmdDoSystemUpdate.desc": "Команда оболонки для виконання оновлення системи.",
+  "settings.customCmdDoSystemUpdate.label": "Користувацька команда оновлення системи",
+  "settings.customCmdDoSystemUpdate.placeholder": "напр., yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "Команда оболонки має вивести одне ціле число, що представляє кількість доступних оновлень.",
+  "settings.customCmdGetNumUpdates.label": "Користувацька команда підрахунку оновлень",
+  "settings.customCmdGetNumUpdates.placeholder": "напр., yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "Приховує віджет, коли кількість доступних оновлень дорівнює 0.",
+  "settings.hideWidget.label": "Приховувати за 0 оновлень",
+  "settings.terminal.desc": "Команда термінала для виконання команди оновлення системи. Необов’язково: {} для команди оновлення.",
+  "settings.terminal.label": "Емулятор термінала",
+  "settings.terminal.placeholder": "напр., foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "Інтервал опитування для перевірок оновлень",
+  "settings.updateInterval.label": "Інтервал перевірки оновлень",
+  "tooltip.noUpdatesAvailable": "Оновлень не виявлено",
+  "tooltip.updatesAvailable": "Натисніть, щоб запустити налаштовану команду оновлення системи"
+}

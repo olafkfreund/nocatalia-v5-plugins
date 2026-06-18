@@ -661,3 +661,15 @@ description = "Search gnu pass password entries"
 min_noctalia = "5.0.0"
 tags = ["Launcher"]
 
+[[plugin]]
+id = "bukomoon/update-count"
+name = "Update Count"
+version = "2.0.0"
+author = "BukoMoon"
+license = "GPLv3"
+icon = "world-download"
+description = "Checks for system updates and shows the update count. Click to run update command in a terminal."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System"]
+
+

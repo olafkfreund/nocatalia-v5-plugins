@@ -1,0 +1,61 @@
+id = "bukomoon/update-count"
+name = "Update Count"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "BukoMoon"
+license = "GPLv3"
+tags = ["Bar", "System"]
+icon = "world-download"
+description = "Checks for system updates and shows the update count. Click to run update command in a terminal."
+
+[[setting]]
+key = "updateIntervalMinutes"
+type = "int"
+label = "Refresh interval (minutes)"
+default = 30
+min = 5
+max = 1440
+description = "How often to check for updates"
+
+[[setting]]
+key = "updateTerminalCommand"
+type = "string"
+label = "Terminal command prefix"
+default = "foot -e"
+description = "Terminal emulator prefix to run update command (e.g. foot -e, ghostty -e)"
+
+[[setting]]
+key = "currentIconName"
+type = "string"
+label = "Icon name"
+default = "world-download"
+description = "Tabler icon name to display in the bar"
+
+[[setting]]
+key = "hideOnZero"
+type = "bool"
+label = "Hide widget when zero"
+default = false
+description = "Hide the bar widget when there are no updates available"
+
+[[setting]]
+key = "customCmdGetNumUpdates"
+type = "string"
+label = "Custom get updates command"
+default = ""
+description = "Custom shell command to get the number of updates (overrides auto-detection)"
+
+[[setting]]
+key = "customCmdDoSystemUpdate"
+type = "string"
+label = "Custom do update command"
+default = ""
+description = "Custom shell command to perform system updates (overrides auto-detection)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

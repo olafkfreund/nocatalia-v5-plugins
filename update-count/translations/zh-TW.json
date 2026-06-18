@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "選取圖示",
+  "settings.currentCommands.label": "現在所設定的指令",
+  "settings.currentIconName.desc": "現在所設定的圖示名稱",
+  "settings.currentIconName.label": "圖示識別",
+  "settings.currentNumUpdatesCmd.label": "更新數量",
+  "settings.currentUpdateCmd.label": "系統更新",
+  "settings.customCmdDoSystemUpdate.desc": "用來執行系統更新的 shell 指令",
+  "settings.customCmdDoSystemUpdate.label": "自訂系統更新指令",
+  "settings.customCmdDoSystemUpdate.placeholder": "例如: yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "所使用的 shell 指令必須要輸出用來表示數量的整數值 (int)",
+  "settings.customCmdGetNumUpdates.label": "自訂更新數量指令",
+  "settings.customCmdGetNumUpdates.placeholder": "例如: yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "當可以更新的套件數量是0時隱藏小工具",
+  "settings.hideWidget.label": "零更新時隱藏",
+  "settings.terminal.desc": "用來執行系統更新指令用的終端機指令; 可選用: 以 {} 作為更新指令",
+  "settings.terminal.label": "終端機",
+  "settings.terminal.placeholder": "例如 foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "確認更新的時間間格",
+  "settings.updateInterval.label": "更新檢查間格",
+  "tooltip.noUpdatesAvailable": "沒有偵測到更新",
+  "tooltip.updatesAvailable": "點擊以執行設定好的系統更新指令"
+}

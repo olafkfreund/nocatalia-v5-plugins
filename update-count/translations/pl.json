@@ -1,0 +1,23 @@
+{
+  "settings.changeIcon.label": "Wybierz ikonę",
+  "settings.currentCommands.label": "Obecnie skonfigurowane polecenia",
+  "settings.currentIconName.desc": "Aktualnie skonfigurowana nazwa ikony.",
+  "settings.currentIconName.label": "Identyfikator ikony",
+  "settings.currentNumUpdatesCmd.label": "Liczba aktualizacji",
+  "settings.currentUpdateCmd.label": "Aktualizacja systemu",
+  "settings.customCmdDoSystemUpdate.desc": "Polecenie powłoki używane do przeprowadzania aktualizacji systemu.",
+  "settings.customCmdDoSystemUpdate.label": "Niestandardowe polecenie aktualizacji systemu",
+  "settings.customCmdDoSystemUpdate.placeholder": "np. yay -Syu",
+  "settings.customCmdGetNumUpdates.desc": "Polecenie powłoki, które musi zwrócić pojedynczą liczbę całkowitą reprezentującą liczbę dostępnych aktualizacji.",
+  "settings.customCmdGetNumUpdates.label": "Własna komenda aktualizująca liczbę",
+  "settings.customCmdGetNumUpdates.placeholder": "np. yay -Quq 2>/dev/null | wc -l",
+  "settings.hideWidget.desc": "Ukryj widżet, gdy liczba dostępnych aktualizacji wynosi 0.",
+  "settings.hideWidget.label": "Ukryj przy braku aktualizacji",
+  "settings.terminal.desc": "Polecenie terminala używane do wykonywania polecenia aktualizacji systemu. Opcjonalne: {} dla polecenia aktualizacji.",
+  "settings.terminal.label": "Emulator terminala",
+  "settings.terminal.placeholder": "np. foot -e, hyprctl dispatch exec '[float] kitty -e {}'",
+  "settings.updateInterval.desc": "Interwał odpytywania dla sprawdzania aktualizacji",
+  "settings.updateInterval.label": "Interwał sprawdzania aktualizacji",
+  "tooltip.noUpdatesAvailable": "Nie wykryto aktualizacji",
+  "tooltip.updatesAvailable": "Kliknij, aby uruchomić skonfigurowane polecenie aktualizacji systemu"
+}
