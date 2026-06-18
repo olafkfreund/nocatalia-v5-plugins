@@ -1,0 +1,17 @@
+id = "noctalia/kaomoji-provider"
+name = "Kaomoji Provider"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noctalia Team"
+license = "MIT"
+tags = ["Launcher", "Fun"]
+icon = "mood-wink"
+description = "Browse and search kaomoji emoticons from the launcher"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">kaomoji"
+glyph = "mood-wink"
+include_in_global_search = false
+debounce_ms = 100

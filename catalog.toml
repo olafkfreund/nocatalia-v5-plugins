@@ -517,3 +517,14 @@ icon = "contrast"
 description = "Toggle NVIDIA digital vibrance (color saturation) via nvibrant."
 min_noctalia = "5.0.0"
 tags = ["Bar", "System", "Gaming"]
+
+[[plugin]]
+id = "noctalia/kaomoji-provider"
+name = "Kaomoji Provider"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "mood-wink"
+description = "Browse and search kaomoji emoticons from the launcher"
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Fun"]
