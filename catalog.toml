@@ -683,5 +683,25 @@ description = "Toggle the Squeekboard on-screen keyboard with live availability 
 min_noctalia = "5.0.0"
 tags = ["System", "Bar", "Utility"]
 
+[[plugin]]
+id = "blackteaextract/not-just-text"
+name = "Not Just Text"
+version = "2.0.0"
+author = "blackteaextract"
+license = "MIT"
+icon = "writing"
+description = "Displays custom text, fortune quotes, or a random entry from a user-provided text file in the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Fun"]
 
 
+[[plugin]]
+id = "lokize/world-clock"
+name = "World Clock"
+version = "2.0.0"
+author = "Lokize"
+license = "MIT"
+icon = "clock"
+description = "Display time from multiple timezones around the world with automatic rotation."
+min_noctalia = "5.0.0"
+tags = ["Bar"]

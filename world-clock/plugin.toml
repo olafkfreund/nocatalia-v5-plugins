@@ -1,0 +1,51 @@
+id = "lokize/world-clock"
+name = "World Clock"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Lokize"
+license = "MIT"
+icon = "clock"
+tags = ["Bar"]
+description = "Display time from multiple timezones around the world with automatic rotation."
+
+[[setting]]
+key = "rotationInterval"
+type = "int"
+label = "Rotation Interval (ms)"
+default = 5000
+description = "How long (in milliseconds) each timezone is shown before rotating to the next."
+
+[[setting]]
+key = "showDate"
+type = "bool"
+label = "Show Date"
+default = true
+description = "Show the current date alongside the time."
+
+[[setting]]
+key = "timeFormat"
+type = "select"
+label = "Time Format"
+default = "HH:mm"
+description = "Display format for the time."
+options = [
+  { value = "HH:mm",     label = "24h (HH:mm)" },
+  { value = "HH:mm:ss",  label = "24h with seconds (HH:mm:ss)" },
+  { value = "h:mm A",    label = "12h (h:mm AM/PM)" },
+  { value = "h:mm:ss A", label = "12h with seconds (h:mm:ss AM/PM)" }
+]
+
+[[setting]]
+key = "timezones"
+type = "string"
+label = "Timezones (JSON)"
+default = ""
+description = "JSON array of timezone entries: [{\"name\":\"City\",\"timezone\":\"Region/City\",\"enabled\":true}]. Leave empty to use the built-in defaults (New York, London, Tokyo)."
+
+[[widget]]
+id = "world-clock-bar"
+entry = "widget.luau"
+
+[[service]]
+id = "world-clock-service"
+entry = "service.luau"
