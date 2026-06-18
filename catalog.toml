@@ -1123,3 +1123,25 @@ icon = "layout-grid"
 description = "Toggle the compositor workspace overview panel from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Workspaces", "Overview"]
+
+[[plugin]]
+id = "atheeq-rhxn/mangowc-layout-switcher"
+name = "MangoWC Layout Switcher"
+version = "2.0.0"
+author = "atheeq-rhxn"
+license = "MIT"
+icon = "layout"
+description = "Switch MangoWC window layouts from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "MangoWC", "Layout", "Monitor"]
+
+[[plugin]]
+id = "spiros132/mpvpaper"
+name = "mpvpaper"
+version = "2.0.0"
+author = "spiros132"
+license = "MIT"
+icon = "image"
+description = "Control mpvpaper animated wallpapers from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Wallpaper", "mpvpaper", "Media"]

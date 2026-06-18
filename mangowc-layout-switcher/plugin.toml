@@ -1,0 +1,24 @@
+id = "atheeq-rhxn/mangowc-layout-switcher"
+name = "MangoWC Layout Switcher"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "atheeq-rhxn"
+license = "MIT"
+tags = ["Bar", "MangoWC", "Layout", "Monitor"]
+icon = "layout"
+description = "Switch MangoWC window layouts from the bar. MangoWC compositor required."
+
+[[setting]]
+key = "monitorOrder"
+type = "string"
+label = "Monitor order"
+default = ""
+description = "Comma-separated order of monitor names"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
