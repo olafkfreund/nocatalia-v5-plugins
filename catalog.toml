@@ -1101,3 +1101,25 @@ icon = "calculator"
 description = "A calculator accessible from the bar as a panel."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Calculator", "Utility"]
+
+[[plugin]]
+id = "dbeidachazi/mpris-lyric"
+name = "MPRIS Lyric"
+version = "2.0.0"
+author = "DBeidachazi"
+license = "MIT"
+icon = "music"
+description = "Display real-time lyrics for the currently playing track via playerctl and LRCLIB."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Media", "Music", "MPRIS"]
+
+[[plugin]]
+id = "doughbran/workspace-overview"
+name = "Workspace Overview"
+version = "2.0.0"
+author = "doughbran"
+license = "MIT"
+icon = "layout-grid"
+description = "Toggle the compositor workspace overview panel from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Workspaces", "Overview"]

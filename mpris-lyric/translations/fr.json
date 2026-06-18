@@ -1,0 +1,14 @@
+{
+  "menu.play": "Lecture",
+  "menu.pause": "Pause",
+  "menu.previous": "Précédent",
+  "menu.next": "Suivant",
+  "settings.player-name": "Nom du lecteur",
+  "settings.player-name-desc": "Nom du lecteur MPRIS (ex: musicfox, spotify, firefox)",
+  "settings.hide-when-inactive": "Masquer si inactif",
+  "settings.hide-when-inactive-desc": "Masquer le widget quand la lecture est en pause ou arrêtée",
+  "settings.update-interval": "Intervalle de mise à jour : {value}ms",
+  "settings.update-interval-desc": "Fréquence de mise à jour des paroles (en millisecondes)",
+  "settings.width": "Largeur : {value}px",
+  "settings.width-desc": "Largeur du widget de paroles en pixels"
+}

@@ -1,0 +1,38 @@
+id = "dbeidachazi/mpris-lyric"
+name = "MPRIS Lyric"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "DBeidachazi"
+license = "MIT"
+tags = ["Bar", "Media", "Music", "MPRIS"]
+icon = "music"
+description = "Display real-time lyrics for the currently playing track via playerctl and LRCLIB."
+
+[[setting]]
+key = "playerName"
+type = "string"
+label = "Player name"
+default = ""
+description = "MPRIS player name to use (e.g. spotify, vlc, leave empty for any)"
+
+[[setting]]
+key = "hideWhenInactive"
+type = "bool"
+label = "Hide when inactive"
+default = false
+description = "Hide the widget when no music is playing"
+
+[[setting]]
+key = "updateInterval"
+type = "int"
+label = "Update interval (ms)"
+default = 500
+description = "How often to update the lyric display"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

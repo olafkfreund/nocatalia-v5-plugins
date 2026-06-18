@@ -1,0 +1,14 @@
+{
+  "menu.play": "Play",
+  "menu.pause": "Pause",
+  "menu.previous": "Previous",
+  "menu.next": "Next",
+  "settings.player-name": "Player Name",
+  "settings.player-name-desc": "MPRIS player name (e.g., musicfox, spotify, firefox)",
+  "settings.hide-when-inactive": "Hide When Inactive",
+  "settings.hide-when-inactive-desc": "Hide the widget when playback is paused or stopped",
+  "settings.update-interval": "Update Interval: {value}ms",
+  "settings.update-interval-desc": "How often to update lyrics (in milliseconds)",
+  "settings.width": "Width: {value}px",
+  "settings.width-desc": "Width of the lyric widget in pixels"
+}

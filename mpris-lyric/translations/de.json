@@ -1,0 +1,14 @@
+{
+  "menu.play": "Wiedergabe",
+  "menu.pause": "Pausieren",
+  "menu.previous": "Zurück",
+  "menu.next": "Vor",
+  "settings.player-name": "Name des Players",
+  "settings.player-name-desc": "Bezeichnung des MPRIS-Players (z.B. musicfox, spotify, firefox)",
+  "settings.hide-when-inactive": "Bei Inaktivität ausblenden",
+  "settings.hide-when-inactive-desc": "Blendet das Widget aus, wenn die Wiedergabe pausiert oder gestoppt ist",
+  "settings.update-interval": "Aktualisierungsintervall: {value} ms",
+  "settings.update-interval-desc": "Aktualisierungsintervall für Liedtexte (in Millisekunden)",
+  "settings.width": "Breite: {value} px",
+  "settings.width-desc": "Breite des Lyric-Widgets in Pixeln"
+}
