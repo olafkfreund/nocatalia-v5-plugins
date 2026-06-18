@@ -1,0 +1,45 @@
+id = "cleboost/netbird"
+name = "Netbird"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Cleboost"
+license = "MIT"
+tags = ["Bar", "Network", "Security"]
+icon = "network"
+description = "Monitor and control Netbird VPN/mesh network connection from the bar."
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (ms)"
+default = 5000
+description = "How often to check Netbird connection status"
+
+[[setting]]
+key = "showIpAddress"
+type = "bool"
+label = "Show IP address"
+default = true
+description = "Display the Netbird IP address in the bar"
+
+[[setting]]
+key = "compactMode"
+type = "bool"
+label = "Compact mode"
+default = false
+description = "Show only the icon without text"
+
+[[setting]]
+key = "hideDisconnected"
+type = "bool"
+label = "Hide when disconnected"
+default = false
+description = "Hide the widget when Netbird is not connected"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
