@@ -1,0 +1,66 @@
+id = "user/mawaqit"
+name = "Mawaqit (Prayer Times)"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "User"
+license = "MIT"
+tags = ["Bar", "Islamic", "Prayer Times", "Information"]
+icon = "building-mosque"
+description = "Display prayer times and show countdown to the next prayer using the Aladhan API."
+
+[[setting]]
+key = "city"
+type = "string"
+label = "City"
+default = "London"
+description = "Your city"
+
+[[setting]]
+key = "country"
+type = "string"
+label = "Country"
+default = "UK"
+description = "Your country code"
+
+[[setting]]
+key = "method"
+type = "int"
+label = "Calculation method"
+default = 3
+description = "Prayer time calculation method (3=MWL, 2=ISNA, 4=UMM)"
+
+[[setting]]
+key = "school"
+type = "int"
+label = "School"
+default = 0
+description = "Hanafi=1, Shafi=0"
+
+[[setting]]
+key = "showCountdown"
+type = "bool"
+label = "Show countdown"
+default = true
+description = "Show countdown to next prayer"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "none"
+description = "Icon tint color"
+
+[[setting]]
+key = "activeColor"
+type = "string"
+label = "Active color"
+default = "primary"
+description = "Color when prayer time is imminent"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

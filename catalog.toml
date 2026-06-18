@@ -969,3 +969,25 @@ icon = "moon"
 description = "Show Iftar and Suhoor times during Ramadan using the Aladhan API."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Islamic", "Prayer Times", "Information"]
+
+[[plugin]]
+id = "noam-stolero/keep-awake-plus"
+name = "Keep Awake Plus"
+version = "2.0.0"
+author = "Noam Stolero"
+license = "MIT"
+icon = "sun"
+description = "Prevent your system from sleeping with timed inhibit support."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Utility", "Power", "System"]
+
+[[plugin]]
+id = "user/mawaqit"
+name = "Mawaqit (Prayer Times)"
+version = "2.0.0"
+author = "User"
+license = "MIT"
+icon = "building-mosque"
+description = "Display prayer times and countdown to the next prayer using the Aladhan API."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Islamic", "Prayer Times", "Information"]

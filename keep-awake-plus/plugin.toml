@@ -1,0 +1,46 @@
+id = "noam-stolero/keep-awake-plus"
+name = "Keep Awake Plus"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noam Stolero"
+license = "MIT"
+tags = ["Bar", "Utility", "Power", "System"]
+icon = "sun"
+description = "Prevent your system from sleeping with timed inhibit support. Uses the bundled system-awake script."
+
+[[setting]]
+key = "defaultScope"
+type = "select"
+label = "Default scope"
+default = "partial"
+description = "Default inhibit scope"
+options = ["partial", "full"]
+
+[[setting]]
+key = "includeUnlimited"
+type = "bool"
+label = "Include unlimited option"
+default = true
+description = "Include an unlimited duration option"
+
+[[setting]]
+key = "quickExtendMinutes"
+type = "int"
+label = "Quick extend (minutes)"
+default = 30
+description = "Minutes to add when quick-extending"
+
+[[setting]]
+key = "showRemainingText"
+type = "bool"
+label = "Show remaining time"
+default = true
+description = "Show remaining time in the bar widget"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
