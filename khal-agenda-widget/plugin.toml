@@ -1,0 +1,13 @@
+id = "simon/khal-agenda-widget"
+name = "Khal Agenda Info"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Simon"
+license = "MIT"
+tags = ["Desktop", "System"]
+icon = "calendar-month"
+description = "Shows khal agenda."
+
+[[desktop_widget]]
+id = "khal_agenda"
+entry = "desktop_widget.luau"

@@ -485,10 +485,13 @@ description = "Configurable Hyprland special workspaces indicator for the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Productivity", "Hyprland"]
 
-
-
-
-
-
-
-
+[[plugin]]
+id = "simon/khal-agenda-widget"
+name = "Khal Agenda Info"
+version = "2.0.0"
+author = "Simon"
+license = "MIT"
+icon = "calendar-month"
+description = "Shows khal agenda."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "System"]
