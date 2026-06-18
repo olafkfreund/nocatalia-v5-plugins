@@ -925,3 +925,14 @@ icon = "git-branch"
 description = "Track GitHub/GitLab PRs and issues from the bar using gh or glab CLI."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Git", "DevOps", "Productivity"]
+
+[[plugin]]
+id = "noctalia-team/privacy-indicator"
+name = "Privacy Indicator"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "shield-check"
+description = "Monitor which applications are using your camera and microphone."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Privacy", "System", "Security"]

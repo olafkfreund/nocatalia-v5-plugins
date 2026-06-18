@@ -1,0 +1,52 @@
+id = "noctalia-team/privacy-indicator"
+name = "Privacy Indicator"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noctalia Team"
+license = "MIT"
+tags = ["Bar", "Privacy", "System", "Security"]
+icon = "shield-check"
+description = "Monitor which applications are using your camera and microphone."
+
+[[setting]]
+key = "hideInactive"
+type = "bool"
+label = "Hide when inactive"
+default = false
+description = "Hide widget when camera and mic are not in use"
+
+[[setting]]
+key = "activeColor"
+type = "string"
+label = "Active color"
+default = "primary"
+description = "Icon color when camera/mic is active"
+
+[[setting]]
+key = "inactiveColor"
+type = "string"
+label = "Inactive color"
+default = "none"
+description = "Icon color when camera/mic is inactive"
+
+[[setting]]
+key = "micFilterRegex"
+type = "string"
+label = "Mic filter (regex)"
+default = ""
+description = "Regex to filter mic process names (leave empty for all)"
+
+[[setting]]
+key = "camFilterRegex"
+type = "string"
+label = "Camera filter (regex)"
+default = ""
+description = "Regex to filter camera process names (leave empty for all)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
