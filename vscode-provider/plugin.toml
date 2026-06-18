@@ -1,0 +1,38 @@
+id = "krendil/vscode-provider"
+name = "VS Code Provider"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Krendil"
+license = "MIT"
+tags = ["Launcher", "Development"]
+icon = "brand-visual-studio"
+description = "Open VS Code Folders and Workspaces"
+
+[[setting]]
+key = "includeInSearch"
+type = "bool"
+label = "Include in main search"
+default = true
+description = "Whether to include VS Code workspaces in the main launcher search results"
+
+[[setting]]
+key = "command"
+type = "string"
+label = "Launch Command"
+default = "code"
+description = "The command to launch VS Code (e.g., code, code-oss, cursor)"
+
+[[setting]]
+key = "configName"
+type = "string"
+label = "Config Directory Name"
+default = "Code"
+description = "The configuration folder name in ~/.config (e.g. Code, VSCodium, Cursor)"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">vsc"
+glyph = "brand-visual-studio"
+include_in_global_search = true
+debounce_ms = 150

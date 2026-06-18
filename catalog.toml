@@ -572,3 +572,14 @@ icon = "code"
 description = "A zed provider for opening project easier using zed code editor"
 min_noctalia = "5.0.0"
 tags = ["Launcher", "Developer"]
+
+[[plugin]]
+id = "krendil/vscode-provider"
+name = "VS Code Provider"
+version = "2.0.0"
+author = "Krendil"
+license = "MIT"
+icon = "brand-visual-studio"
+description = "Open VS Code Folders and Workspaces"
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Development"]

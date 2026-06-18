@@ -1,0 +1,16 @@
+{
+  "settings.fork.label": "Version de VS Code",
+  "settings.fork.description": "Quelle version de VS Code vous utilisez",
+  "settings.includeInSearch.label": "Inclure dans la recherche principale",
+  "settings.includeInSearch.description": "Indique si les espaces de travail VS Code doivent être inclus dans les résultats de recherche du lanceur principal",
+  "settings.otherCommand.label": "Commande",
+  "settings.otherCommand.description": "La commande pour lancer cette version de VS Code",
+  "settings.otherConfigName.label": "Nom de configuration",
+  "settings.otherConfigName.description": "Le nom du répertoire de configuration de cette version dans ~/.config",
+  "launcher.title": "Espaces de travail VS Code",
+  "launcher.description": "Rechercher et ouvrir des espaces de travail VS Code",
+  "launcher.loading.title": "Chargement...",
+  "launcher.loading.description": "Chargement des sessions...",
+  "launcher.error.title": "Espaces de travail VS Code non chargés",
+  "launcher.error.description": "Vérifiez vos logs pour les messages d'erreur"
+}
