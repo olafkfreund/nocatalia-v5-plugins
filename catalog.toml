@@ -859,3 +859,14 @@ icon = "newspaper"
 description = "Display rolling news headlines from NewsAPI.org in the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "News", "Information"]
+
+[[plugin]]
+id = "cod3d/noctalia-supergfxctl"
+name = "GPU Switcher (supergfxctl)"
+version = "2.0.0"
+author = "cod3d"
+license = "GPL-3.0"
+icon = "cpu"
+description = "Control ASUS GPU switching modes via supergfxctl."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Hardware", "System", "ASUS"]

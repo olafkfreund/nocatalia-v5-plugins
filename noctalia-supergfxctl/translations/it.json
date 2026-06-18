@@ -1,0 +1,21 @@
+{
+  "action.AsusEgpuDisable": "Deaktiver først ASUS eGPU.",
+  "action.SwitchToIntegrated": "Esegui prima il passaggio alla GPU integrata.",
+  "context-menu.refresh": "I-refresh ang status",
+  "gpu": "GPU",
+  "mode.AsusEgpu": "Asus eGPU",
+  "mode.AsusMuxDgpu": "Asus MUX dGPU",
+  "mode.Hybrid": "Ibrido",
+  "mode.Integrated": "Integrato",
+  "mode.NvidiaNoModeset": "Nvidia walang modeset",
+  "mode.Vfio": "Trasferimento diretto VFIO",
+  "settings.debug.description": "Stampa informazioni di debug sulla console.",
+  "settings.debug.label": "Modalità debug",
+  "settings.rogcc.listenToNotifications.description": "Reagisci alle notifiche di cambio modalità GPU da rog-control-center.",
+  "settings.rogcc.listenToNotifications.label": "Ascolta le notifiche di cambio modalità",
+  "settings.supergfxctl.patchPending.description": "Indovina l'azione richiesta invece di affidarti all'output di supergfxctl.",
+  "settings.supergfxctl.patchPending.label": "Azione di fallback predefinita",
+  "settings.supergfxctl.polling.description": "Anfrage den Supergfxctl-Prozess periodisch nach Statusaktualisierungen. Warnung: Dies kann dazu führen, dass sich Supergfxctl aufhängt!",
+  "settings.supergfxctl.polling.label": "Pagboto",
+  "unknown": "Hindi alam"
+}

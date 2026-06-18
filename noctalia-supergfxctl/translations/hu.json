@@ -1,0 +1,21 @@
+{
+  "action.AsusEgpuDisable": "Először tiltsa le az ASUS eGPU-t.",
+  "action.SwitchToIntegrated": "Először váltson integrált GPU-ra.",
+  "context-menu.refresh": "Állapot frissítése",
+  "gpu": "GPU",
+  "mode.AsusEgpu": "Asus eGPU",
+  "mode.AsusMuxDgpu": "Asus MUX dGPU",
+  "mode.Hybrid": "Hibrid",
+  "mode.Integrated": "Integrált",
+  "mode.NvidiaNoModeset": "Nvidia no modeset",
+  "mode.Vfio": "VFIO Passthrough",
+  "settings.debug.description": "Hibainformációk kiírása a konzolra.",
+  "settings.debug.label": "Hibamód",
+  "settings.rogcc.listenToNotifications.description": "Reagáljon a rog-control-center GPU mód változás értesítéseire.",
+  "settings.rogcc.listenToNotifications.label": "Módosítási értesítések figyelése",
+  "settings.supergfxctl.patchPending.description": "Találd ki a szükséges műveletet ahelyett, hogy a supergfxctl kimenetére hagyatkoznál.",
+  "settings.supergfxctl.patchPending.label": "Találgatás a tartalék művelethez",
+  "settings.supergfxctl.polling.description": "Időnként lekérdezi a supergfxctl folyamatot az állapotfrissítésekhez. Figyelem: ez a supergfxctl lefagyását okozhatja!",
+  "settings.supergfxctl.polling.label": "Lekérdezés",
+  "unknown": "Ismeretlen"
+}

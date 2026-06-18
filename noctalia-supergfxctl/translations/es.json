@@ -1,0 +1,21 @@
+{
+  "action.AsusEgpuDisable": "Desactiva primero la eGPU de ASUS.",
+  "action.SwitchToIntegrated": "Cambia primero a la GPU integrada.",
+  "context-menu.refresh": "Actualizar estado",
+  "gpu": "GPU",
+  "mode.AsusEgpu": "eGPU de Asus",
+  "mode.AsusMuxDgpu": "Asus MUX dGPU",
+  "mode.Hybrid": "Híbrido",
+  "mode.Integrated": "Integrado/Integrada",
+  "mode.NvidiaNoModeset": "Nvidia sin modeset",
+  "mode.Vfio": "Transferencia directa de VFIO",
+  "settings.debug.description": "Imprimir información de depuración en la consola.",
+  "settings.debug.label": "Modo de depuración",
+  "settings.rogcc.listenToNotifications.description": "Reaccionar a las notificaciones de cambio de modo de GPU desde rog-control-center.",
+  "settings.rogcc.listenToNotifications.label": "Escuchar notificaciones de cambio de modo",
+  "settings.supergfxctl.patchPending.description": "Adivina la acción requerida en lugar de depender de la salida de supergfxctl.",
+  "settings.supergfxctl.patchPending.label": "Acción de reserva de adivinación",
+  "settings.supergfxctl.polling.description": "Consultar periódicamente el proceso supergfxctl para obtener actualizaciones de estado. Advertencia: ¡esto puede provocar que supergfxctl se bloquee!",
+  "settings.supergfxctl.polling.label": "Encuesta",
+  "unknown": "Desconocido"
+}

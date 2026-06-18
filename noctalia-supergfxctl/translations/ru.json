@@ -1,0 +1,21 @@
+{
+  "action.AsusEgpuDisable": "Сначала отключите ASUS eGPU.",
+  "action.SwitchToIntegrated": "Сначала переключитесь на интегрированную видеокарту.",
+  "context-menu.refresh": "Обновить статус",
+  "gpu": "Видеокарта",
+  "mode.AsusEgpu": "Asus eGPU",
+  "mode.AsusMuxDgpu": "Asus MUX dGPU",
+  "mode.Hybrid": "Гибрид",
+  "mode.Integrated": "Интегрированная",
+  "mode.NvidiaNoModeset": "Nvidia без modeset",
+  "mode.Vfio": "VFIO Passthrough",
+  "settings.debug.description": "Выводит доп. информацию в консоль.",
+  "settings.debug.label": "Режим отладки",
+  "settings.rogcc.listenToNotifications.description": "Реагировать на уведомления о смене режима видеокарты от rog-control-center.",
+  "settings.rogcc.listenToNotifications.label": "Слушать уведомления о смене режима",
+  "settings.supergfxctl.patchPending.description": "Угадывать необходимое действие вместо использования вывода supergfxctl.",
+  "settings.supergfxctl.patchPending.label": "Угадывать необходимое действие",
+  "settings.supergfxctl.polling.description": "Периодически опрашивать процесс supergfxctl для обновления режима.",
+  "settings.supergfxctl.polling.label": "Опрос",
+  "unknown": "Неизвестно"
+}

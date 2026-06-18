@@ -1,0 +1,21 @@
+{
+  "action.AsusEgpuDisable": "Deaktivieren Sie zuerst die ASUS eGPU.",
+  "action.SwitchToIntegrated": "Wechseln Sie zuerst zur integrierten GPU.",
+  "context-menu.refresh": "Status aktualisieren",
+  "gpu": "GPU",
+  "mode.AsusEgpu": "Asus eGPU",
+  "mode.AsusMuxDgpu": "Asus MUX dGPU",
+  "mode.Hybrid": "Hybrid",
+  "mode.Integrated": "Integriert",
+  "mode.NvidiaNoModeset": "Nvidia kein Modeset",
+  "mode.Vfio": "VFIO-Passthrough",
+  "settings.debug.description": "Debug-Informationen in die Konsole ausgeben.",
+  "settings.debug.label": "Debug-Modus",
+  "settings.rogcc.listenToNotifications.description": "Auf GPU-Modus-Änderungsbenachrichtigungen vom ROG-Control-Center reagieren.",
+  "settings.rogcc.listenToNotifications.label": "Auf Benachrichtigungen über Modusänderungen achten.",
+  "settings.supergfxctl.patchPending.description": "Errate die erforderliche Aktion, anstatt dich auf die Ausgabe von supergfxctl zu verlassen.",
+  "settings.supergfxctl.patchPending.label": "Fallback-Aktion erraten",
+  "settings.supergfxctl.polling.description": "Frage den supergfxctl-Prozess periodisch nach Statusaktualisierungen ab. Warnung: Dies kann dazu führen, dass sich supergfxctl aufhängt!",
+  "settings.supergfxctl.polling.label": "Abstimmung",
+  "unknown": "Unbekannt"
+}

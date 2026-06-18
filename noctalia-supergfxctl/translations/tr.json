@@ -1,0 +1,21 @@
+{
+  "action.AsusEgpuDisable": "Önce ASUS eGPU'yu devre dışı bırakın.",
+  "action.SwitchToIntegrated": "Önce tümleşik GPU'ya geçin.",
+  "context-menu.refresh": "Durumu yenile",
+  "gpu": "GPU",
+  "mode.AsusEgpu": "Asus eGPU",
+  "mode.AsusMuxDgpu": "Asus MUX dGPU",
+  "mode.Hybrid": "Melez",
+  "mode.Integrated": "Entegre",
+  "mode.NvidiaNoModeset": "Nvidia modeset yok",
+  "mode.Vfio": "VFIO Geçişi",
+  "settings.debug.description": "Konsola hata ayıklama bilgilerini yazdır.",
+  "settings.debug.label": "Hata ayıklama modu",
+  "settings.rogcc.listenToNotifications.description": "rog-control-center'dan GPU modu değişiklik bildirimlerine tepki ver.",
+  "settings.rogcc.listenToNotifications.label": "Mod değişiklik bildirimlerini dinle",
+  "settings.supergfxctl.patchPending.description": "supergfxctl çıktısına güvenmek yerine gerekli eylemi tahmin edin.",
+  "settings.supergfxctl.patchPending.label": "Tahmin yedek eylemi",
+  "settings.supergfxctl.polling.description": "Sürekli olarak supergfxctl sürecini durum güncellemeleri için yoklayın. Uyarı: Bu, supergfxctl'nin kilitlenmesine neden olabilir!",
+  "settings.supergfxctl.polling.label": "Anket",
+  "unknown": "Bilinmiyor"
+}

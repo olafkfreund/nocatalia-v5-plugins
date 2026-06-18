@@ -1,0 +1,31 @@
+id = "cod3d/noctalia-supergfxctl"
+name = "GPU Switcher (supergfxctl)"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "cod3d"
+license = "GPL-3.0"
+tags = ["Bar", "Hardware", "System", "ASUS"]
+icon = "cpu"
+description = "Control ASUS GPU switching modes (Hybrid, Dedicated, Integrated) via supergfxctl."
+
+[[setting]]
+key = "pollingInterval"
+type = "int"
+label = "Polling interval (ms)"
+default = 3000
+description = "How often to poll GPU mode from supergfxctl"
+
+[[setting]]
+key = "patchPending"
+type = "bool"
+label = "Show pending action"
+default = true
+description = "Show pending GPU mode switch in the bar"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

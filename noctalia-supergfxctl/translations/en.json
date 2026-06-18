@@ -1,0 +1,21 @@
+{
+  "action.AsusEgpuDisable": "Disable ASUS eGPU first.",
+  "action.SwitchToIntegrated": "Switch to integrated GPU first.",
+  "context-menu.refresh": "Refresh status",
+  "gpu": "GPU",
+  "mode.AsusEgpu": "Asus eGPU",
+  "mode.AsusMuxDgpu": "Asus MUX dGPU",
+  "mode.Hybrid": "Hybrid",
+  "mode.Integrated": "Integrated",
+  "mode.NvidiaNoModeset": "Nvidia no modeset",
+  "mode.Vfio": "VFIO Passthrough",
+  "settings.debug.description": "Print debug information to the console.",
+  "settings.debug.label": "Debug mode",
+  "settings.rogcc.listenToNotifications.description": "React to GPU mode change notifications from rog-control-center.",
+  "settings.rogcc.listenToNotifications.label": "Listen for mode change notifications",
+  "settings.supergfxctl.patchPending.description": "Guess the required action instead of relying on the output of supergfxctl.",
+  "settings.supergfxctl.patchPending.label": "Guess fallback action",
+  "settings.supergfxctl.polling.description": "Periodically poll the supergfxctl process for status updates. Warning: this can cause supergfxctl to hang!",
+  "settings.supergfxctl.polling.label": "Polling",
+  "unknown": "Unknown"
+}

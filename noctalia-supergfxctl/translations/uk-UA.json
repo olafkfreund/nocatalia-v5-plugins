@@ -1,0 +1,21 @@
+{
+  "action.AsusEgpuDisable": "Спочатку вимкните ASUS eGPU.",
+  "action.SwitchToIntegrated": "Спочатку перемкните на інтегровану відеокарту.",
+  "context-menu.refresh": "Оновити стан",
+  "gpu": "Відеокарта",
+  "mode.AsusEgpu": "Asus eGPU",
+  "mode.AsusMuxDgpu": "Asus MUX dGPU",
+  "mode.Hybrid": "Гібрид",
+  "mode.Integrated": "Інтегрована",
+  "mode.NvidiaNoModeset": "NVIDIA без modeset",
+  "mode.Vfio": "VFIO Passthrough",
+  "settings.debug.description": "Виводить доп. інформацію в консоль.",
+  "settings.debug.label": "Режим налагодження",
+  "settings.rogcc.listenToNotifications.description": "Реагувати на сповіщення про зміну режиму відеокарти від rog-control-center.",
+  "settings.rogcc.listenToNotifications.label": "Слухати сповіщення про зміну режиму",
+  "settings.supergfxctl.patchPending.description": "Вгадувати необхідну дію замість використання виводу supergfxctl.",
+  "settings.supergfxctl.patchPending.label": "Вгадувати дію",
+  "settings.supergfxctl.polling.description": "Періодично опитувати supergfxctl для оновлення стану.",
+  "settings.supergfxctl.polling.label": "Опитування",
+  "unknown": "Невідомо"
+}
