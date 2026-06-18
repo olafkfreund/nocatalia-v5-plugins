@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "Teclado activo · Clic para ocultar",
+  "tooltip.hidden": "Teclado oculto · Clic para mostrar",
+  "tooltip.noGsettings": "gsettings no disponible",
+  "tooltip.noSqueekboard": "Squeekboard no está en ejecución",
+  "menu.settings": "Ajustes del widget",
+  "settings.hideWhenUnavailable.label": "Ocultar cuando no disponible",
+  "settings.hideWhenUnavailable.desc": "Ocultar el widget por completo cuando Squeekboard no está en ejecución",
+  "settings.disableHoverIcon.label": "Desactivar icono al pasar el cursor",
+  "settings.disableHoverIcon.desc": "Mostrar siempre el icono de estado actual en lugar del icono al pasar el cursor. Nota: los iconos al pasar el cursor solo aparecen cuando la barra está arriba o abajo.",
+  "settings.recheck.label": "Verificar estado",
+  "settings.recheck.done": "¡Estado verificado!",
+  "settings.recheck.desc": "Sincronizar manualmente el estado de Squeekboard"
+}

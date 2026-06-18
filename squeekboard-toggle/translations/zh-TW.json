@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "鍵盤已啟用 · 點擊隱藏",
+  "tooltip.hidden": "鍵盤已隱藏 · 點擊顯示",
+  "tooltip.noGsettings": "gsettings 無法使用",
+  "tooltip.noSqueekboard": "Squeekboard 未執行",
+  "menu.settings": "小工具設定",
+  "settings.hideWhenUnavailable.label": "不可用時隱藏",
+  "settings.hideWhenUnavailable.desc": "當 Squeekboard 未執行時完全隱藏小工具",
+  "settings.disableHoverIcon.label": "停用懸停圖示",
+  "settings.disableHoverIcon.desc": "始終顯示目前狀態圖示而非懸停圖示。注意：懸停圖示僅在工具列位於頂部或底部時出現。",
+  "settings.recheck.label": "重新檢查狀態",
+  "settings.recheck.done": "狀態已重新檢查！",
+  "settings.recheck.desc": "手動同步 Squeekboard 狀態"
+}

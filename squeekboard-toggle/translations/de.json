@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "Tastatur aktiv · Klicken zum Ausblenden",
+  "tooltip.hidden": "Tastatur ausgeblendet · Klicken zum Anzeigen",
+  "tooltip.noGsettings": "gsettings nicht verfügbar",
+  "tooltip.noSqueekboard": "Squeekboard läuft nicht",
+  "menu.settings": "Widget-Einstellungen",
+  "settings.hideWhenUnavailable.label": "Ausblenden wenn nicht verfügbar",
+  "settings.hideWhenUnavailable.desc": "Widget vollständig ausblenden, wenn Squeekboard nicht läuft",
+  "settings.disableHoverIcon.label": "Hover-Symbol deaktivieren",
+  "settings.disableHoverIcon.desc": "Immer das aktuelle Statussymbol anzeigen statt eines Hover-Symbols. Hinweis: Hover-Symbole erscheinen nur, wenn die Leiste oben oder unten ist.",
+  "settings.recheck.label": "Status neu prüfen",
+  "settings.recheck.done": "Status neu geprüft!",
+  "settings.recheck.desc": "Squeekboard-Status manuell synchronisieren"
+}

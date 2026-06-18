@@ -672,4 +672,16 @@ description = "Checks for system updates and shows the update count. Click to ru
 min_noctalia = "5.0.0"
 tags = ["Bar", "System"]
 
+[[plugin]]
+id = "blackteaextract/squeekboard-toggle"
+name = "Squeekboard Toggle"
+version = "2.0.0"
+author = "blackteaextract"
+license = "MIT"
+icon = "keyboard"
+description = "Toggle the Squeekboard on-screen keyboard with live availability detection."
+min_noctalia = "5.0.0"
+tags = ["System", "Bar", "Utility"]
+
+
 

@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "Klavye çalak e · Bikirtînin ji bo veşartinê",
+  "tooltip.hidden": "Klavye veşartî ye · Bikirtînin ji bo nîşandanê",
+  "tooltip.noGsettings": "gsettings berdest nîne",
+  "tooltip.noSqueekboard": "Squeekboard naxebite",
+  "menu.settings": "Mîhengên widgetê",
+  "settings.hideWhenUnavailable.label": "Veşêre dema ku berdest nebe",
+  "settings.hideWhenUnavailable.desc": "Widgeta bi tevahî veşêre dema ku Squeekboard naxebite",
+  "settings.disableHoverIcon.label": "Îkona li ser mişkê neçalak bike",
+  "settings.disableHoverIcon.desc": "Her dem îkona rewşa heyî nîşan bide li şûna îkona li ser mişkê. Not: îkonên li ser mişkê tenê xuya dibin dema ku bar li jorê an jêrê be.",
+  "settings.recheck.label": "Rewşa ji nû ve kontrol bike",
+  "settings.recheck.done": "Rewş ji nû ve kontrolkirin!",
+  "settings.recheck.desc": "Rewşa Squeekboard bi destan hevdem bike"
+}

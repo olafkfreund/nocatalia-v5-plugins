@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "Clavier affiché · Cliquer pour masquer",
+  "tooltip.hidden": "Clavier masqué · Cliquer pour afficher",
+  "tooltip.noGsettings": "gsettings indisponible",
+  "tooltip.noSqueekboard": "Squeekboard n'est pas en cours d'exécution",
+  "menu.settings": "Paramètres du widget",
+  "settings.hideWhenUnavailable.label": "Masquer si indisponible",
+  "settings.hideWhenUnavailable.desc": "Masquer complètement le widget quand Squeekboard n'est pas en cours d'exécution",
+  "settings.disableHoverIcon.label": "Désactiver l'icône au survol",
+  "settings.disableHoverIcon.desc": "Toujours afficher l'icône d'état actuel au lieu d'une icône au survol. Remarque : les icônes au survol n'apparaissent que lorsque la barre est en haut ou en bas.",
+  "settings.recheck.label": "Revérifier l'état",
+  "settings.recheck.done": "État revérifié !",
+  "settings.recheck.desc": "Synchroniser manuellement l'état de Squeekboard"
+}

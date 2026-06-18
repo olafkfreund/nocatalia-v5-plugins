@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "Klawiatura aktywna · Kliknij, aby ukryć",
+  "tooltip.hidden": "Klawiatura ukryta · Kliknij, aby pokazać",
+  "tooltip.noGsettings": "gsettings niedostępny",
+  "tooltip.noSqueekboard": "Squeekboard nie działa",
+  "menu.settings": "Ustawienia widżetu",
+  "settings.hideWhenUnavailable.label": "Ukryj gdy niedostępny",
+  "settings.hideWhenUnavailable.desc": "Ukryj widget całkowicie, gdy Squeekboard nie działa",
+  "settings.disableHoverIcon.label": "Wyłącz ikonę po najechaniu",
+  "settings.disableHoverIcon.desc": "Zawsze pokazuj ikonę bieżącego stanu zamiast ikony po najechaniu. Uwaga: ikony po najechaniu pojawiają się tylko gdy pasek jest na górze lub na dole.",
+  "settings.recheck.label": "Sprawdź stan ponownie",
+  "settings.recheck.done": "Stan ponownie sprawdzony!",
+  "settings.recheck.desc": "Ręczna synchronizacja stanu Squeekboard"
+}

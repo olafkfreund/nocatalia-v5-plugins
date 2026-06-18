@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "Klavye etkin · Gizlemek için tıklayın",
+  "tooltip.hidden": "Klavye gizli · Göstermek için tıklayın",
+  "tooltip.noGsettings": "gsettings kullanılamıyor",
+  "tooltip.noSqueekboard": "Squeekboard çalışmıyor",
+  "menu.settings": "Widget ayarları",
+  "settings.hideWhenUnavailable.label": "Kullanılamadığında gizle",
+  "settings.hideWhenUnavailable.desc": "Squeekboard çalışmadığında widget'ı tamamen gizle",
+  "settings.disableHoverIcon.label": "Üzerine gelme simgesini devre dışı bırak",
+  "settings.disableHoverIcon.desc": "Üzerine gelme simgesi yerine her zaman mevcut durum simgesini göster. Not: üzerine gelme simgeleri yalnızca çubuk üstte veya altta olduğunda görünür.",
+  "settings.recheck.label": "Durumu yeniden kontrol et",
+  "settings.recheck.done": "Durum yeniden kontrol edildi!",
+  "settings.recheck.desc": "Squeekboard durumunu manuel olarak senkronize et"
+}

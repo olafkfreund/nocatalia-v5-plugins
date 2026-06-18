@@ -1,0 +1,31 @@
+id = "blackteaextract/squeekboard-toggle"
+name = "Squeekboard Toggle"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "blackteaextract"
+license = "MIT"
+tags = ["System", "Bar", "Utility"]
+icon = "keyboard"
+description = "Toggle the Squeekboard on-screen keyboard with live availability detection."
+
+[[setting]]
+key = "hideWhenUnavailable"
+type = "bool"
+label = "Hide when unavailable"
+default = false
+description = "Hide the widget when Squeekboard is not running"
+
+[[setting]]
+key = "disableHoverIcon"
+type = "bool"
+label = "Disable hover icon"
+default = false
+description = "Disable the toggle-direction indicator icon on hover"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

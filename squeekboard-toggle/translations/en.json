@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "Keyboard active · Click to hide",
+  "tooltip.hidden": "Keyboard hidden · Click to show",
+  "tooltip.noGsettings": "gsettings unavailable",
+  "tooltip.noSqueekboard": "Squeekboard is not running",
+  "menu.settings": "Widget settings",
+  "settings.hideWhenUnavailable.label": "Hide when unavailable",
+  "settings.hideWhenUnavailable.desc": "Hide the widget entirely when Squeekboard is not running",
+  "settings.disableHoverIcon.label": "Disable hover icon",
+  "settings.disableHoverIcon.desc": "Always show the current state icon instead of a hover icon. Note: hover icons only appear when the bar is at the top or bottom.",
+  "settings.recheck.label": "Recheck state",
+  "settings.recheck.done": "State rechecked!",
+  "settings.recheck.desc": "Manually sync Squeekboard state"
+}

@@ -1,0 +1,14 @@
+{
+  "tooltip.active": "Billentyűzet aktív · Kattintson az elrejtéshez",
+  "tooltip.hidden": "Billentyűzet elrejtve · Kattintson a megjelenítéshez",
+  "tooltip.noGsettings": "gsettings nem érhető el",
+  "tooltip.noSqueekboard": "A Squeekboard nem fut",
+  "menu.settings": "Widget beállítások",
+  "settings.hideWhenUnavailable.label": "Elrejtés, ha nem érhető el",
+  "settings.hideWhenUnavailable.desc": "A widget teljes elrejtése, ha a Squeekboard nem fut",
+  "settings.disableHoverIcon.label": "Lebegő ikon letiltása",
+  "settings.disableHoverIcon.desc": "Mindig az aktuális állapot ikonját jelenítse meg a lebegő ikon helyett. Megjegyzés: a lebegő ikonok csak akkor jelennek meg, ha a sáv felül vagy alul van.",
+  "settings.recheck.label": "Állapot újraellenőrzése",
+  "settings.recheck.done": "Állapot újraellenőrizve!",
+  "settings.recheck.desc": "A Squeekboard állapotának manuális szinkronizálása"
+}
