@@ -1024,3 +1024,25 @@ icon = "lightbulb"
 description = "Control Philips Hue lights from the bar using the openhue CLI."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Smart Home", "Hue", "Lights"]
+
+[[plugin]]
+id = "lokize/steam-price-watcher"
+name = "Steam Price Watcher"
+version = "2.0.0"
+author = "Lokize"
+license = "MIT"
+icon = "gamepad"
+description = "Watch Steam game prices and get notified when games go on sale."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Gaming", "Steam", "Prices"]
+
+[[plugin]]
+id = "archlexx/shell-profiles"
+name = "Shell Profiles"
+version = "2.0.0"
+author = "Archlexx"
+license = "MIT"
+icon = "wand"
+description = "Switch between shell profile configurations from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Profiles", "Customization"]

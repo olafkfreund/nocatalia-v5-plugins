@@ -1,0 +1,45 @@
+id = "archlexx/shell-profiles"
+name = "Shell Profiles"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Archlexx"
+license = "MIT"
+tags = ["Bar", "System", "Profiles", "Customization"]
+icon = "wand"
+description = "Switch between shell profile configurations from the bar."
+
+[[setting]]
+key = "profilesDir"
+type = "string"
+label = "Profiles directory"
+default = ""
+description = "Path to the directory containing profile scripts"
+
+[[setting]]
+key = "icon"
+type = "string"
+label = "Icon"
+default = "wand"
+description = "Icon for the bar widget"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "primary"
+description = "Icon tint color"
+
+[[setting]]
+key = "lastAppliedProfile"
+type = "string"
+label = "Last applied profile"
+default = ""
+description = "Name of the last applied profile"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

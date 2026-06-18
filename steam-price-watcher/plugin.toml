@@ -1,0 +1,45 @@
+id = "lokize/steam-price-watcher"
+name = "Steam Price Watcher"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Lokize"
+license = "MIT"
+tags = ["Bar", "Gaming", "Steam", "Prices"]
+icon = "gamepad"
+description = "Watch Steam game prices and get notified when games go on sale."
+
+[[setting]]
+key = "watchlist"
+type = "string"
+label = "Watchlist (JSON)"
+default = "[]"
+description = "JSON array of {appid, name, targetPrice} objects"
+
+[[setting]]
+key = "checkInterval"
+type = "int"
+label = "Check interval (minutes)"
+default = 30
+description = "How often to check prices"
+
+[[setting]]
+key = "currency"
+type = "string"
+label = "Currency code"
+default = "us"
+description = "Steam currency code (us, br, eu, etc.)"
+
+[[setting]]
+key = "currencySymbol"
+type = "string"
+label = "Currency symbol"
+default = "$"
+description = "Symbol to display before prices"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
