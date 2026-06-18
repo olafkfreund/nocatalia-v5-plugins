@@ -583,3 +583,14 @@ icon = "brand-visual-studio"
 description = "Open VS Code Folders and Workspaces"
 min_noctalia = "5.0.0"
 tags = ["Launcher", "Development"]
+
+[[plugin]]
+id = "ericbreh/file-search"
+name = "File Search"
+version = "2.0.0"
+author = "ericbreh"
+license = "MIT"
+icon = "file-search"
+description = "File search from the launcher."
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Productivity"]

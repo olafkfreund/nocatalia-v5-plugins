@@ -1,0 +1,57 @@
+id = "ericbreh/file-search"
+name = "File Search"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "ericbreh"
+license = "MIT"
+tags = ["Launcher", "Productivity"]
+icon = "file-search"
+description = "File search from the launcher."
+
+[[setting]]
+key = "showHidden"
+type = "bool"
+label = "settings.showHidden.label"
+default = false
+
+[[setting]]
+key = "maxResults"
+type = "int"
+label = "settings.maxResults.label"
+default = 100
+min = 0
+max = 1000
+description = "settings.maxResults.description"
+
+[[setting]]
+key = "fileOpener"
+type = "string"
+label = "settings.fileOpener.label"
+default = "xdg-open"
+description = "settings.fileOpener.description"
+
+[[setting]]
+key = "searchDirectory"
+type = "string"
+label = "settings.searchDirectory.label"
+default = "~"
+description = "settings.searchDirectory.description"
+
+[[setting]]
+key = "fdCommand"
+type = "string"
+label = "settings.fdCommand.label"
+default = "fd"
+description = "settings.fdCommand.description"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">file"
+glyph = "file-search"
+include_in_global_search = false
+debounce_ms = 300
