@@ -1,0 +1,45 @@
+id = "ultherego/kubectl-ctx"
+name = "kubectl Context"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "ultherego"
+license = "MIT"
+tags = ["Bar", "DevOps", "Kubernetes"]
+icon = "server"
+description = "Show and switch the active Kubernetes context from the bar."
+
+[[setting]]
+key = "kubeconfigPath"
+type = "string"
+label = "Kubeconfig path"
+default = ""
+description = "Path to kubeconfig file (uses default if empty)"
+
+[[setting]]
+key = "pollInterval"
+type = "int"
+label = "Poll interval (seconds)"
+default = 60
+description = "How often to refresh the context list"
+
+[[setting]]
+key = "showErrorBadge"
+type = "bool"
+label = "Show error badge"
+default = true
+description = "Show an error icon when kubectl is unavailable"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "none"
+description = "Color for the bar widget icon"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

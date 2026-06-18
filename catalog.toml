@@ -881,3 +881,25 @@ icon = "usb"
 description = "Monitor and manage USB drives: auto-mount, browse files, and safely unmount from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "System", "Hardware"]
+
+[[plugin]]
+id = "ultherego/kubectl-ctx"
+name = "kubectl Context"
+version = "2.0.0"
+author = "ultherego"
+license = "MIT"
+icon = "server"
+description = "Show and switch the active Kubernetes context from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "DevOps", "Kubernetes"]
+
+[[plugin]]
+id = "nzo/network-manager-vpn"
+name = "Network Manager VPN"
+version = "2.0.0"
+author = "nZO"
+license = "MIT"
+icon = "shield"
+description = "Control Network Manager VPN connections from the bar using nmcli."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Network", "Security", "VPN"]

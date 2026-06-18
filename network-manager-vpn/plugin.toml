@@ -1,0 +1,39 @@
+id = "nzo/network-manager-vpn"
+name = "Network Manager VPN"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "nZO"
+license = "MIT"
+tags = ["Bar", "Network", "Security", "VPN"]
+icon = "shield"
+description = "Control Network Manager VPN connections from the bar using nmcli."
+
+[[setting]]
+key = "displayMode"
+type = "select"
+label = "Display mode"
+default = "onhover"
+description = "When to show the widget text"
+options = ["always", "onhover", "connected-only"]
+
+[[setting]]
+key = "connectedColor"
+type = "string"
+label = "Connected color"
+default = "primary"
+description = "Icon color when VPN is connected"
+
+[[setting]]
+key = "disconnectedColor"
+type = "string"
+label = "Disconnected color"
+default = "none"
+description = "Icon color when VPN is disconnected (none = theme)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
