@@ -1,0 +1,8 @@
+{
+  "window.title": "Autentisering krävs",
+  "prompt.password": "Lösenord",
+  "action.cancel": "Avbryt",
+  "action.authenticate": "Autentisera",
+  "error.failed.title": "Autentisering misslyckades",
+  "error.failed.message": "Det angivna lösenordet var felaktigt."
+}

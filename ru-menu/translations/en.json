@@ -1,0 +1,5 @@
+{
+  "panel.error.no-menu": "Failed to load menu",
+  "panel.week-format": "Week of {date}",
+  "widget.tooltip": "Weekly menu"
+}

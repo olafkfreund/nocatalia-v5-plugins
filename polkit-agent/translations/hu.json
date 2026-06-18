@@ -1,0 +1,8 @@
+{
+  "window.title": "Hitelesítés szükséges",
+  "prompt.password": "Jelszó",
+  "action.cancel": "Mégse",
+  "action.authenticate": "Hitelesítés",
+  "error.failed.title": "Hitelesítés sikertelen",
+  "error.failed.message": "A megadott jelszó helytelen volt."
+}

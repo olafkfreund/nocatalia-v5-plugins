@@ -1,0 +1,8 @@
+{
+  "window.title": "Authenticatie vereist",
+  "prompt.password": "Wachtwoord",
+  "action.cancel": "Annuleren",
+  "action.authenticate": "Authenticeren",
+  "error.failed.title": "Authenticatie mislukt",
+  "error.failed.message": "Het ingevoerde wachtwoord was onjuist."
+}

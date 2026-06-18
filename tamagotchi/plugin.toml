@@ -1,0 +1,38 @@
+id = "righetti-bollati/tamagotchi"
+name = "Tamagotchi"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Joaquin Righetti, Lucia Bollati"
+license = "MIT"
+tags = ["Bar", "Fun", "Gaming"]
+icon = "heart"
+description = "A virtual pet Tamagotchi living in your bar!"
+
+[[setting]]
+key = "hunger"
+type = "int"
+label = "Initial hunger"
+default = 50
+description = "Starting hunger level (0-100)"
+
+[[setting]]
+key = "happiness"
+type = "int"
+label = "Initial happiness"
+default = 70
+description = "Starting happiness level (0-100)"
+
+[[setting]]
+key = "cleanliness"
+type = "int"
+label = "Initial cleanliness"
+default = 80
+description = "Starting cleanliness level (0-100)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

@@ -1,0 +1,8 @@
+{
+  "window.title": "Потрібна аутентифікація",
+  "prompt.password": "Пароль",
+  "action.cancel": "Скасувати",
+  "action.authenticate": "Аутентифікувати",
+  "error.failed.title": "Помилка аутентифікації",
+  "error.failed.message": "Введений пароль неправильний."
+}

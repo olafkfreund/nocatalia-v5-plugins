@@ -1,0 +1,17 @@
+{
+  "settings.volume": "Volume",
+  "settings.volume-desc": "Sound effects volume for feeding, playing and cleaning.",
+  "settings.difficulty": "Difficulty",
+  "settings.difficulty-desc": "Higher values make your pet require more frequent care.",
+  "settings.debug": "Debug Buttons",
+  "settings.debug-desc": "Show buttons to manually trigger stat changes for testing.",
+  "settings.percentage": "Percentage",
+  "settings.percentage-desc": "Show percentage values next to each stat bar.",
+  "settings.random": "Random Events",
+  "settings.random-desc": "Enable random events that affect your pet over time.",
+  "debug.action": "Action",
+  "debug.feed": "-10 Feed",
+  "debug.play": "-10 Play",
+  "debug.clean": "-10 Clean",
+  "debug.sleep": "-10 Sleep"
+}

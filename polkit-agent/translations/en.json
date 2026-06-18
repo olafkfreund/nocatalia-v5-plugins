@@ -1,0 +1,8 @@
+{
+  "window.title": "Authentication Required",
+  "prompt.password": "Password",
+  "action.cancel": "Cancel",
+  "action.authenticate": "Authenticate",
+  "error.failed.title": "Authentication Failed",
+  "error.failed.message": "The password you entered was incorrect."
+}

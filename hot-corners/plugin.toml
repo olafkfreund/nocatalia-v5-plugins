@@ -1,0 +1,52 @@
+id = "sapjax/hot-corners"
+name = "Hot Corners"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "sapjax"
+license = "MIT"
+tags = ["Desktop", "Productivity"]
+icon = "corners"
+description = "Trigger actions when the mouse cursor reaches screen corners."
+
+[[setting]]
+key = "topLeft"
+type = "string"
+label = "Top-left action"
+default = ""
+description = "Command to run when cursor reaches top-left corner"
+
+[[setting]]
+key = "topRight"
+type = "string"
+label = "Top-right action"
+default = ""
+description = "Command to run when cursor reaches top-right corner"
+
+[[setting]]
+key = "bottomLeft"
+type = "string"
+label = "Bottom-left action"
+default = ""
+description = "Command to run when cursor reaches bottom-left corner"
+
+[[setting]]
+key = "bottomRight"
+type = "string"
+label = "Bottom-right action"
+default = ""
+description = "Command to run when cursor reaches bottom-right corner"
+
+[[setting]]
+key = "triggerDelay"
+type = "int"
+label = "Trigger delay (ms)"
+default = 200
+description = "Delay before triggering the hot corner action"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

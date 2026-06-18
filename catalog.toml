@@ -1277,3 +1277,69 @@ icon = "monitor"
 description = "Visually arrange monitor layouts for Sway or Hyprland from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Panel", "System", "Utility", "Sway", "Hyprland"]
+
+[[plugin]]
+id = "sapjax/hot-corners"
+name = "Hot Corners"
+version = "2.0.0"
+author = "sapjax"
+license = "MIT"
+icon = "corners"
+description = "Trigger actions when the mouse cursor reaches screen corners."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Productivity"]
+
+[[plugin]]
+id = "blacku/plugin-manager"
+name = "Plugin Manager"
+version = "2.0.0"
+author = "blacku"
+license = "MIT"
+icon = "puzzle"
+description = "Manage Noctalia plugins from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "Development"]
+
+[[plugin]]
+id = "noctalia-team/polkit-agent"
+name = "Polkit Agent"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "shield"
+description = "A Polkit authentication agent for Noctalia Shell."
+min_noctalia = "5.0.0"
+tags = ["System", "Security"]
+
+[[plugin]]
+id = "kermut572/ru-menu"
+name = "RU Menu"
+version = "2.0.0"
+author = "Kermut572"
+license = "MIT"
+icon = "menu"
+description = "A customizable right-click menu for the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "Launcher"]
+
+[[plugin]]
+id = "tui/slowbongo"
+name = "Slowbongo"
+version = "2.0.0"
+author = "tui"
+license = "MIT"
+icon = "cat"
+description = "A cat that plays bongo drums to the beat of your music."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Audio", "Fun"]
+
+[[plugin]]
+id = "righetti-bollati/tamagotchi"
+name = "Tamagotchi"
+version = "2.0.0"
+author = "Joaquin Righetti, Lucia Bollati"
+license = "MIT"
+icon = "heart"
+description = "A virtual pet Tamagotchi living in your bar!"
+min_noctalia = "5.0.0"
+tags = ["Bar", "Fun", "Gaming"]

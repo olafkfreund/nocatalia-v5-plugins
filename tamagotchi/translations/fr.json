@@ -1,0 +1,17 @@
+{
+  "settings.volume": "Volume",
+  "settings.volume-desc": "Volume des effets sonores pour le nourrissage, le jeu et le nettoyage.",
+  "settings.difficulty": "Difficulté",
+  "settings.difficulty-desc": "Des valeurs plus élevées obligent votre animal à recevoir des soins plus fréquents.",
+  "settings.debug": "Boutons de débogage",
+  "settings.debug-desc": "Afficher les boutons pour déclencher manuellement les changements de statistiques pour les tests.",
+  "settings.percentage": "Pourcentage",
+  "settings.percentage-desc": "Afficher les valeurs de pourcentage à côté de chaque barre de statistiques.",
+  "settings.random": "Événements aléatoires",
+  "settings.random-desc": "Activer des événements aléatoires qui affectent votre animal de compagnie au fil du temps.",
+  "debug.action": "Action",
+  "debug.feed": "-10 Faim",
+  "debug.play": "-10 Jeu",
+  "debug.clean": "-10 Propreté",
+  "debug.sleep": "-10 Sommeil"
+}

@@ -1,0 +1,8 @@
+{
+  "window.title": "Wymagane uwierzytelnienie",
+  "prompt.password": "Hasło",
+  "action.cancel": "Anuluj",
+  "action.authenticate": "Uwierzytelnij",
+  "error.failed.title": "Uwierzytelnienie nie powiodło się",
+  "error.failed.message": "Wprowadzone hasło jest nieprawidłowe."
+}

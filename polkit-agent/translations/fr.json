@@ -1,0 +1,8 @@
+{
+  "window.title": "Authentification requise",
+  "prompt.password": "Mot de passe",
+  "action.cancel": "Annuler",
+  "action.authenticate": "S'authentifier",
+  "error.failed.title": "Authentification échouée",
+  "error.failed.message": "Le mot de passe saisi est incorrect."
+}

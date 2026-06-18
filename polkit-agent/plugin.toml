@@ -1,0 +1,17 @@
+id = "noctalia-team/polkit-agent"
+name = "Polkit Agent"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noctalia Team"
+license = "MIT"
+tags = ["System", "Security"]
+icon = "shield"
+description = "A Polkit authentication agent for Noctalia Shell."
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

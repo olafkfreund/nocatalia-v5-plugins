@@ -1,0 +1,24 @@
+id = "blacku/plugin-manager"
+name = "Plugin Manager"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "blacku"
+license = "MIT"
+tags = ["Bar", "Panel", "Development"]
+icon = "puzzle"
+description = "Manage Noctalia plugins from the bar."
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "on_surface"
+description = "Color of the bar widget icon"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

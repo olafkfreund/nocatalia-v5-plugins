@@ -1,0 +1,8 @@
+{
+  "window.title": "需要身份验证",
+  "prompt.password": "密码",
+  "action.cancel": "取消",
+  "action.authenticate": "验证",
+  "error.failed.title": "身份验证失败",
+  "error.failed.message": "您输入的密码不正确。"
+}
