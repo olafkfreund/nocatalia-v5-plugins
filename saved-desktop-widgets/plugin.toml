@@ -1,0 +1,29 @@
+id = "spiros132/saved-desktop-widgets"
+name = "Saved Desktop Widgets"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "spiros132"
+license = "MIT"
+tags = ["Fun", "System", "Desktop"]
+icon = "layout-dashboard"
+description = "Save and restore desktop widget layouts."
+
+[[setting]]
+key = "saveWidgets"
+type = "bool"
+label = "Auto-save widgets"
+default = true
+
+[[setting]]
+key = "loadWidgets"
+type = "bool"
+label = "Auto-load on startup"
+default = true
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

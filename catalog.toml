@@ -1343,3 +1343,58 @@ icon = "heart"
 description = "A virtual pet Tamagotchi living in your bar!"
 min_noctalia = "5.0.0"
 tags = ["Bar", "Fun", "Gaming"]
+
+[[plugin]]
+id = "kevichi7/music-search"
+name = "Music Search"
+version = "2.0.0"
+author = "kevichi7"
+license = "MIT"
+icon = "search"
+description = "Search and play music from the bar using various providers."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "Launcher", "Audio", "Music"]
+
+[[plugin]]
+id = "spiros132/saved-desktop-widgets"
+name = "Saved Desktop Widgets"
+version = "2.0.0"
+author = "spiros132"
+license = "MIT"
+icon = "layout-dashboard"
+description = "Save and restore desktop widget layouts."
+min_noctalia = "5.0.0"
+tags = ["Fun", "System", "Desktop"]
+
+[[plugin]]
+id = "ycf-anon/screen-toolkit"
+name = "Screen Toolkit"
+version = "2.0.0"
+author = "ycf-anon"
+license = "MIT"
+icon = "tool"
+description = "A toolkit of screen utilities including color picker, translator, and more."
+min_noctalia = "5.0.0"
+tags = ["Panel", "Bar", "Utility", "System"]
+
+[[plugin]]
+id = "spiros132/video-wallpaper"
+name = "Video Wallpaper"
+version = "2.0.0"
+author = "spiros132"
+license = "MIT"
+icon = "video"
+description = "Set animated video wallpapers using mpvpaper or swww."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "Fun", "System", "Wallpaper"]
+
+[[plugin]]
+id = "tonigineer/wallcards"
+name = "Wallcards"
+version = "2.0.0"
+author = "tonigineer"
+license = "MIT"
+icon = "image"
+description = "Display wallpapers as swipeable cards on the desktop."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Theming", "Wallpaper"]

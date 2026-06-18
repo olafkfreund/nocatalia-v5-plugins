@@ -1,0 +1,29 @@
+id = "tonigineer/wallcards"
+name = "Wallcards"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "tonigineer"
+license = "MIT"
+tags = ["Desktop", "Theming", "Wallpaper"]
+icon = "image"
+description = "Display wallpapers as swipeable cards on the desktop."
+
+[[setting]]
+key = "animation_cards_duration"
+type = "int"
+label = "Card animation duration (ms)"
+default = 300
+
+[[setting]]
+key = "animate_window"
+type = "bool"
+label = "Animate window"
+default = true
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

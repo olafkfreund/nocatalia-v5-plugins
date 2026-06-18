@@ -1,0 +1,9 @@
+{
+  "settings.list.remove": "Remove the following desktop widget setup.",
+  "settings.load_widgets.description": "Enable the loading of the widgets when the wallpaper changes.",
+  "settings.load_widgets.label": "Load Widgets",
+  "settings.save_widgets.description": "Enable saving the widgets whenever they are changed.",
+  "settings.save_widgets.label": "Save Widgets",
+  "settings.tool_row.nuke.text": "Nuke",
+  "settings.tool_row.nuke.tooltip": "Remove all setups. WARNING: THIS WILL REMOVE ALL THE OTHER SETUPS EXCEPT THE CURRENT ONE!"
+}

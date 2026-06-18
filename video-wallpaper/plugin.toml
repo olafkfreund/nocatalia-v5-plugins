@@ -1,0 +1,30 @@
+id = "spiros132/video-wallpaper"
+name = "Video Wallpaper"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "spiros132"
+license = "MIT"
+tags = ["Bar", "Panel", "Fun", "System", "Wallpaper"]
+icon = "video"
+description = "Set animated video wallpapers using mpvpaper or swww."
+
+[[setting]]
+key = "activeBackend"
+type = "select"
+label = "Backend"
+default = "mpvpaper"
+options = ["mpvpaper", "swww", "xwinwrap"]
+
+[[setting]]
+key = "automationMode"
+type = "bool"
+label = "Auto-rotate wallpapers"
+default = false
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

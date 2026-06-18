@@ -1,0 +1,23 @@
+id = "ycf-anon/screen-toolkit"
+name = "Screen Toolkit"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "ycf-anon"
+license = "MIT"
+tags = ["Panel", "Bar", "Utility", "System"]
+icon = "tool"
+description = "A toolkit of screen utilities including color picker, translator, and more."
+
+[[setting]]
+key = "colorHistory"
+type = "string"
+label = "Color history (JSON)"
+default = "[]"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

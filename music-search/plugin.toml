@@ -1,0 +1,24 @@
+id = "kevichi7/music-search"
+name = "Music Search"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "kevichi7"
+license = "MIT"
+tags = ["Bar", "Panel", "Launcher", "Audio", "Music"]
+icon = "search"
+description = "Search and play music from the bar using various providers."
+
+[[setting]]
+key = "previewMetadataMode"
+type = "select"
+label = "Preview mode"
+default = "compact"
+options = ["compact", "full", "hidden"]
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
