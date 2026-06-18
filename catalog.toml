@@ -914,3 +914,14 @@ icon = "box"
 description = "Show running Docker container count in the bar with quick controls."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Docker", "DevOps"]
+
+[[plugin]]
+id = "thomas-philippo/git-companion"
+name = "Git Companion"
+version = "2.0.0"
+author = "Thomas Philippo"
+license = "MIT"
+icon = "git-branch"
+description = "Track GitHub/GitLab PRs and issues from the bar using gh or glab CLI."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Git", "DevOps", "Productivity"]

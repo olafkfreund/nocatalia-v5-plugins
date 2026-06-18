@@ -1,0 +1,46 @@
+id = "thomas-philippo/git-companion"
+name = "Git Companion"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Thomas Philippo"
+license = "MIT"
+tags = ["Bar", "Git", "DevOps", "Productivity"]
+icon = "git-branch"
+description = "Track GitHub/GitLab PRs and issues from the bar using gh or glab CLI."
+
+[[setting]]
+key = "platform"
+type = "select"
+label = "Platform"
+default = "github"
+description = "Git platform to use"
+options = ["github", "gitlab"]
+
+[[setting]]
+key = "repo"
+type = "string"
+label = "Repository"
+default = ""
+description = "Repository in owner/name format (leave empty for all)"
+
+[[setting]]
+key = "group"
+type = "string"
+label = "Group/Owner"
+default = ""
+description = "GitHub organization or GitLab group to filter"
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (seconds)"
+default = 60
+description = "How often to check for new PRs/issues"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
