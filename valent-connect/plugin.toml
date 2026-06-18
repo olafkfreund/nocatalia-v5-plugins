@@ -1,0 +1,24 @@
+id = "suyash/valent-connect"
+name = "Valent Connect"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Suyash"
+license = "MIT"
+tags = ["Bar", "Android", "KDE Connect", "Device"]
+icon = "smartphone"
+description = "Show connected Android device status via Valent (KDE Connect alternative)."
+
+[[setting]]
+key = "mainDeviceId"
+type = "string"
+label = "Main device ID"
+default = ""
+description = "ID of the main device to track (leave empty for any)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

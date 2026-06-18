@@ -991,3 +991,14 @@ icon = "building-mosque"
 description = "Display prayer times and countdown to the next prayer using the Aladhan API."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Islamic", "Prayer Times", "Information"]
+
+[[plugin]]
+id = "suyash/valent-connect"
+name = "Valent Connect"
+version = "2.0.0"
+author = "Suyash"
+license = "MIT"
+icon = "smartphone"
+description = "Show connected Android device status via Valent (KDE Connect alternative)."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Android", "KDE Connect", "Device"]
