@@ -1,0 +1,31 @@
+id = "0b10headedcalf/obsidian-provider"
+name = "Obsidian Provider"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "0b10headedcalf"
+license = "MIT"
+tags = ["Launcher", "Productivity"]
+icon = "obsidian"
+description = "Switch between Obsidian vaults from the launcher."
+
+[[setting]]
+key = "obsidianConfigPath"
+type = "string"
+label = "settings.configPath.label"
+default = "~/.config/obsidian/obsidian.json"
+description = "settings.configPath.desc"
+
+[[setting]]
+key = "includeInSearch"
+type = "bool"
+label = "settings.includeInSearch.label"
+default = true
+description = "settings.includeInSearch.desc"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">obs"
+glyph = "obsidian"
+include_in_global_search = true
+debounce_ms = 150

@@ -594,3 +594,14 @@ icon = "file-search"
 description = "File search from the launcher."
 min_noctalia = "5.0.0"
 tags = ["Launcher", "Productivity"]
+
+[[plugin]]
+id = "0b10headedcalf/obsidian-provider"
+name = "Obsidian Provider"
+version = "2.0.0"
+author = "0b10headedcalf"
+license = "MIT"
+icon = "obsidian"
+description = "Switch between Obsidian vaults from the launcher."
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Productivity"]
