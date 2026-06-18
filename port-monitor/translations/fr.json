@@ -1,0 +1,23 @@
+{
+  "widget.tooltip": "Moniteur de ports",
+  "bar.noPorts": "Aucun port en écoute",
+  "bar.ports": "{count} port en écoute",
+  "bar.ports-plural": "{count} ports en écoute",
+  "panel.noPorts": "Aucun port en écoute",
+  "panel.refresh": "Rafraîchir",
+  "panel.portNumber": ":{port}",
+  "panel.processInfo": "{name} (PID {pid})",
+  "panel.unknownProcess": "—",
+  "panel.confirmKill": "Tuer le processus sur le port {port} ?",
+  "panel.confirmKillSystem": "Tuer le processus système sur le port {port} ? Cela ouvrira un terminal avec sudo.",
+  "panel.confirm": "Confirmer",
+  "panel.cancel": "Annuler",
+  "settings.refreshInterval": "Intervalle de rafraîchissement",
+  "settings.refreshIntervalDesc": "Secondes entre les scans de ports : {value}",
+  "settings.hideSystemPorts": "Masquer les ports système",
+  "settings.hideSystemPortsDesc": "Exclure les ports inférieurs à 1024",
+  "settings.hideWhenEmpty": "Masquer quand vide",
+  "settings.hideWhenEmptyDesc": "Masquer le widget de barre quand aucun port n'est en écoute",
+  "context.refresh": "Rafraîchir",
+  "context.settings": "Paramètres"
+}

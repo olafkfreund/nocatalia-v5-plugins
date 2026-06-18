@@ -782,3 +782,14 @@ icon = "gamepad"
 description = "Control DualShock 4 and DualSense controller LED colors from the bar."
 min_noctalia = "5.0.0"
 tags = ["Hardware", "Gaming", "Bar"]
+
+[[plugin]]
+id = "anonymous/port-monitor"
+name = "Port Monitor"
+version = "2.0.0"
+author = "anonymous"
+license = "MIT"
+icon = "network"
+description = "Monitor listening network ports and display count in the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Network", "Security"]

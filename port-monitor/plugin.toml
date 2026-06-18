@@ -1,0 +1,38 @@
+id = "anonymous/port-monitor"
+name = "Port Monitor"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "anonymous"
+license = "MIT"
+tags = ["Bar", "System", "Network", "Security"]
+icon = "network"
+description = "Monitor listening network ports and display count in the bar."
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (seconds)"
+default = 5
+description = "How often to scan for listening ports"
+
+[[setting]]
+key = "hideSystemPorts"
+type = "bool"
+label = "Hide system ports"
+default = false
+description = "Hide ports below 1024"
+
+[[setting]]
+key = "hideWhenEmpty"
+type = "bool"
+label = "Hide when empty"
+default = false
+description = "Hide the widget when no ports are listening"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
