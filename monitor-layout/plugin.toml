@@ -1,0 +1,38 @@
+id = "mathew-d/monitor-layout"
+name = "Monitor Layout"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Mathew-D"
+license = "MIT"
+tags = ["Bar", "Panel", "System", "Utility", "Sway", "Hyprland"]
+icon = "monitor"
+description = "Visually arrange monitor layouts for Sway or Hyprland from the bar."
+
+[[setting]]
+key = "backend"
+type = "select"
+label = "Compositor backend"
+default = "auto"
+options = ["auto", "sway", "hyprland"]
+
+[[setting]]
+key = "swayCommand"
+type = "string"
+label = "Sway command"
+default = "swaymsg"
+description = "Command to use for Sway IPC"
+
+[[setting]]
+key = "hyprctlCommand"
+type = "string"
+label = "hyprctl command"
+default = "hyprctl"
+description = "Command to use for Hyprland IPC"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

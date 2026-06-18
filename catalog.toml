@@ -1244,3 +1244,36 @@ icon = "grid"
 description = "Toggle the Niri overview/launcher panel from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Niri", "Launcher", "Overview"]
+
+[[plugin]]
+id = "mathew-d/mimeapp-gui"
+name = "MIME App GUI"
+version = "2.0.0"
+author = "Mathew-D"
+license = "MIT"
+icon = "apps"
+description = "A GUI for managing MIME type app associations from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "Utility", "System"]
+
+[[plugin]]
+id = "mathew-d/mirror-mirror"
+name = "Mirror Mirror"
+version = "2.0.0"
+author = "Mathew-D"
+license = "MIT"
+icon = "monitor"
+description = "Mirror display output to another monitor from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "Utility", "System"]
+
+[[plugin]]
+id = "mathew-d/monitor-layout"
+name = "Monitor Layout"
+version = "2.0.0"
+author = "Mathew-D"
+license = "MIT"
+icon = "monitor"
+description = "Visually arrange monitor layouts for Sway or Hyprland from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "System", "Utility", "Sway", "Hyprland"]

@@ -1,0 +1,24 @@
+id = "mathew-d/mimeapp-gui"
+name = "MIME App GUI"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Mathew-D"
+license = "MIT"
+tags = ["Bar", "Panel", "Utility", "System"]
+icon = "apps"
+description = "A GUI for managing MIME type app associations from the bar."
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "on_surface"
+description = "Color of the bar widget icon"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

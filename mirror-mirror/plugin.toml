@@ -1,0 +1,17 @@
+id = "mathew-d/mirror-mirror"
+name = "Mirror Mirror"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Mathew-D"
+license = "MIT"
+tags = ["Bar", "Panel", "Utility", "System"]
+icon = "monitor"
+description = "Mirror display output to another monitor from the bar."
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
