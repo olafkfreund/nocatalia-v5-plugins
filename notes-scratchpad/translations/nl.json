@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Kladblok",
+  "panel.header.title": "Kladblok",
+  "panel.stats.characters": "tekens",
+  "panel.stats.words": "woorden",
+  "panel.placeholder": "Begin hier met typen van je notities...",
+  "settings.panel_dimensions.title": "Paneelafmetingen",
+  "settings.panel_dimensions.description": "Configureer de grootte van het kladblokpaneel bij het openen.",
+  "settings.panel_dimensions.width": "Breedte",
+  "settings.panel_dimensions.height": "Hoogte",
+  "settings.file_storage.title": "Bestandsopslag",
+  "settings.file_storage.description": "Optioneel de inhoud van het kladblok opslaan in een bestand in plaats van plugin-instellingen. Laat leeg voor standaard opslag.",
+  "settings.file_storage.select": "Bestand selecteren",
+  "settings.file_storage.picker_title": "Kies bestand voor kladblok",
+  "settings.file_storage.not_writable": "⚠ Waarschuwing: Geen schrijfrechten voor deze locatie",
+  "settings.text_appearance.title": "Tekstweergave",
+  "settings.text_appearance.font_size": "Lettergrootte",
+  "settings.text_appearance.monospace": "Monospace lettertype",
+  "settings.text_appearance.monospace_description": "Gebruik een monospace lettertype voor het tekstvak",
+  "settings.keyboard_shortcut.title": "Sneltoets",
+  "settings.keyboard_shortcut.description": "Schakel het kladblokpaneel in met dit commando:"
+}

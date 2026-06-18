@@ -1,0 +1,38 @@
+id = "apt-get/notes-scratchpad"
+name = "Notes Scratchpad"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "apt-get"
+license = "MIT"
+tags = ["Bar", "Notes", "Productivity", "Scratchpad"]
+icon = "pencil"
+description = "A quick scratchpad for temporary notes accessible from the bar."
+
+[[setting]]
+key = "scratchpadContent"
+type = "string"
+label = "Default content"
+default = ""
+description = "Initial scratchpad content"
+
+[[setting]]
+key = "panelWidth"
+type = "int"
+label = "Panel width (px)"
+default = 400
+description = "Width of the scratchpad panel"
+
+[[setting]]
+key = "panelHeight"
+type = "int"
+label = "Panel height (px)"
+default = 300
+description = "Height of the scratchpad panel"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

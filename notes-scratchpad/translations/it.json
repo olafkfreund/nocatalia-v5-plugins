@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Blocco note",
+  "panel.header.title": "Blocco note",
+  "panel.stats.characters": "caratteri",
+  "panel.stats.words": "parole",
+  "panel.placeholder": "Inizia a digitare le tue note qui...",
+  "settings.panel_dimensions.title": "Dimensioni del pannello",
+  "settings.panel_dimensions.description": "Configura le dimensioni del pannello del blocco note all'apertura.",
+  "settings.panel_dimensions.width": "Larghezza",
+  "settings.panel_dimensions.height": "Altezza",
+  "settings.file_storage.title": "Archiviazione File",
+  "settings.file_storage.description": "Opzionalmente salvare il contenuto del blocco note in un file invece delle impostazioni del plugin. Lasciare vuoto per usare l'archiviazione predefinita.",
+  "settings.file_storage.select": "Seleziona file",
+  "settings.file_storage.picker_title": "Scegli file per blocco note",
+  "settings.file_storage.not_writable": "⚠ Avviso: Nessun permesso di scrittura per questa posizione",
+  "settings.text_appearance.title": "Aspetto del testo",
+  "settings.text_appearance.font_size": "Dimensione carattere",
+  "settings.text_appearance.monospace": "Carattere monospazio",
+  "settings.text_appearance.monospace_description": "Usa un carattere monospazio per l'area di testo",
+  "settings.keyboard_shortcut.title": "Scorciatoia da tastiera",
+  "settings.keyboard_shortcut.description": "Attiva/disattiva il pannello del blocco note con questo comando:"
+}

@@ -1,0 +1,45 @@
+id = "sapjax/sticky-notes"
+name = "Sticky Notes"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "sapjax"
+license = "MIT"
+tags = ["Bar", "Notes", "Productivity", "GitHub"]
+icon = "sticky-note"
+description = "Sticky notes with optional GitHub Gist synchronization."
+
+[[setting]]
+key = "notes"
+type = "string"
+label = "Notes (JSON)"
+default = "[]"
+description = "JSON array of note objects"
+
+[[setting]]
+key = "syncEnabled"
+type = "bool"
+label = "Enable Gist sync"
+default = false
+description = "Sync notes to GitHub Gist"
+
+[[setting]]
+key = "githubToken"
+type = "string"
+label = "GitHub token"
+default = ""
+description = "GitHub personal access token for Gist sync"
+
+[[setting]]
+key = "githubGistId"
+type = "string"
+label = "Gist ID"
+default = ""
+description = "GitHub Gist ID to sync with"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

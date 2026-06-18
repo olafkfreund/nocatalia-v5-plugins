@@ -1,0 +1,38 @@
+id = "pozzoo/hassio"
+name = "Home Assistant Control"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Pozzoo"
+license = "MIT"
+tags = ["Bar", "Home Assistant", "Smart Home", "IoT"]
+icon = "home"
+description = "Control Home Assistant entities from the bar."
+
+[[setting]]
+key = "haUrl"
+type = "string"
+label = "HA URL"
+default = "http://homeassistant.local:8123"
+description = "Home Assistant base URL"
+
+[[setting]]
+key = "haToken"
+type = "string"
+label = "Long-lived access token"
+default = ""
+description = "Home Assistant long-lived access token"
+
+[[setting]]
+key = "entities"
+type = "string"
+label = "Entities (JSON)"
+default = "[]"
+description = "JSON array of entity IDs to monitor"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

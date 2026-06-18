@@ -1145,3 +1145,47 @@ icon = "image"
 description = "Control mpvpaper animated wallpapers from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Wallpaper", "mpvpaper", "Media"]
+
+[[plugin]]
+id = "pozzoo/hassio"
+name = "Home Assistant Control"
+version = "2.0.0"
+author = "Pozzoo"
+license = "MIT"
+icon = "home"
+description = "Control Home Assistant entities from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Home Assistant", "Smart Home", "IoT"]
+
+[[plugin]]
+id = "apt-get/notes-scratchpad"
+name = "Notes Scratchpad"
+version = "2.0.0"
+author = "apt-get"
+license = "MIT"
+icon = "pencil"
+description = "A quick scratchpad for temporary notes accessible from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Notes", "Productivity", "Scratchpad"]
+
+[[plugin]]
+id = "sapjax/sticky-notes"
+name = "Sticky Notes"
+version = "2.0.0"
+author = "sapjax"
+license = "MIT"
+icon = "sticky-note"
+description = "Sticky notes with optional GitHub Gist synchronization."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Notes", "Productivity", "GitHub"]
+
+[[plugin]]
+id = "dodaars/weekly-calendar"
+name = "Weekly Calendar"
+version = "2.0.0"
+author = "dodaars"
+license = "MIT"
+icon = "calendar"
+description = "Show a weekly calendar panel from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Calendar", "Productivity", "Time"]

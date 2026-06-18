@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Vázlattömb",
+  "panel.header.title": "Vázlattömb",
+  "panel.stats.characters": "karakter",
+  "panel.stats.words": "szó",
+  "panel.placeholder": "Kezdje el gépelni a jegyzeteit itt...",
+  "settings.panel_dimensions.title": "Panel méretek",
+  "settings.panel_dimensions.description": "Állítsa be a vázlattömb panel méretét megnyitáskor.",
+  "settings.panel_dimensions.width": "Szélesség",
+  "settings.panel_dimensions.height": "Magasság",
+  "settings.file_storage.title": "Fájl Tárolás",
+  "settings.file_storage.description": "Opcionálisan mentse a jegyzettömb tartalmát fájlba a plugin beállítások helyett. Hagyja üresen az alapértelmezett tároláshoz.",
+  "settings.file_storage.select": "Fájl kiválasztása",
+  "settings.file_storage.picker_title": "Válasszon fájlt a jegyzettömböz",
+  "settings.file_storage.not_writable": "⚠ Figyelmeztetés: Nincs írási jogosultság ehhez a helyhez",
+  "settings.text_appearance.title": "Szöveg megjelenés",
+  "settings.text_appearance.font_size": "Betűméret",
+  "settings.text_appearance.monospace": "Monospace betűtípus",
+  "settings.text_appearance.monospace_description": "Monospace betűtípus használata a szövegterülethez",
+  "settings.keyboard_shortcut.title": "Billentyűparancs",
+  "settings.keyboard_shortcut.description": "Váltson a vázlattömb panelre ezzel a paranccsal:"
+}

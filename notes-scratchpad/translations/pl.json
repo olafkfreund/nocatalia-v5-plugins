@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Notatnik",
+  "panel.header.title": "Notatnik",
+  "panel.stats.characters": "znaków",
+  "panel.stats.words": "słów",
+  "panel.placeholder": "Zacznij pisać swoje notatki tutaj...",
+  "settings.panel_dimensions.title": "Wymiary panelu",
+  "settings.panel_dimensions.description": "Skonfiguruj rozmiar panelu notatnika przy otwieraniu.",
+  "settings.panel_dimensions.width": "Szerokość",
+  "settings.panel_dimensions.height": "Wysokość",
+  "settings.file_storage.title": "Przechowywanie Plików",
+  "settings.file_storage.description": "Opcjonalnie zapisz zawartość notatnika do pliku zamiast ustawień wtyczki. Pozostaw puste, aby użyć domyślnego przechowywania.",
+  "settings.file_storage.select": "Wybierz plik",
+  "settings.file_storage.picker_title": "Wybierz plik dla notatnika",
+  "settings.file_storage.not_writable": "⚠ Ostrzeżenie: Brak uprawnień do zapisu w tej lokalizacji",
+  "settings.text_appearance.title": "Wygląd tekstu",
+  "settings.text_appearance.font_size": "Rozmiar czcionki",
+  "settings.text_appearance.monospace": "Czcionka o stałej szerokości",
+  "settings.text_appearance.monospace_description": "Używaj czcionki o stałej szerokości w obszarze tekstu",
+  "settings.keyboard_shortcut.title": "Skrót klawiszowy",
+  "settings.keyboard_shortcut.description": "Przełącz panel notatnika tym poleceniem:"
+}

@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Bloco de notas",
+  "panel.header.title": "Bloco de notas",
+  "panel.stats.characters": "caracteres",
+  "panel.stats.words": "palavras",
+  "panel.placeholder": "Comece a digitar suas notas aqui...",
+  "settings.panel_dimensions.title": "Dimensões do painel",
+  "settings.panel_dimensions.description": "Configure o tamanho do painel do bloco de notas ao abrir.",
+  "settings.panel_dimensions.width": "Largura",
+  "settings.panel_dimensions.height": "Altura",
+  "settings.file_storage.title": "Armazenamento em Arquivo",
+  "settings.file_storage.description": "Opcionalmente salvar o conteúdo do rascunho em um arquivo em vez das configurações do plugin. Deixe vazio para usar o armazenamento padrão.",
+  "settings.file_storage.select": "Selecionar arquivo",
+  "settings.file_storage.picker_title": "Escolher arquivo para rascunho",
+  "settings.file_storage.not_writable": "⚠ Aviso: Sem permissão de escrita para este local",
+  "settings.text_appearance.title": "Aparência do texto",
+  "settings.text_appearance.font_size": "Tamanho da fonte",
+  "settings.text_appearance.monospace": "Fonte monoespaçada",
+  "settings.text_appearance.monospace_description": "Usar uma fonte monoespaçada para a área de texto",
+  "settings.keyboard_shortcut.title": "Atalho de teclado",
+  "settings.keyboard_shortcut.description": "Alternar o painel do bloco de notas com este comando:"
+}

@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "تێبینی",
+  "panel.header.title": "تێبینی",
+  "panel.stats.characters": "پیت",
+  "panel.stats.words": "وشە",
+  "panel.placeholder": "لێرە دەست بە نووسینی تێبینیەکانت بکە...",
+  "settings.panel_dimensions.title": "قەبارەی پانێڵ",
+  "settings.panel_dimensions.description": "قەبارەی پانێڵی تێبینی کاتی کردنەوە ڕێکبخە.",
+  "settings.panel_dimensions.width": "پانی",
+  "settings.panel_dimensions.height": "بەرزی",
+  "settings.file_storage.title": "هەڵگرتنی فایل",
+  "settings.file_storage.description": "بە ئیختیاری ناوەڕۆکی سکراچپادەکە لە فایلێکدا هەڵبگرە لە جیاتی ڕێکخستنی پلاگین. بەتاڵی بهێڵەرەوە بۆ بەکارهێنانی هەڵگرتنی بنەڕەتی.",
+  "settings.file_storage.select": "فایل هەڵبژێرە",
+  "settings.file_storage.picker_title": "فایلێک بۆ سکراچپاد هەڵبژێرە",
+  "settings.file_storage.not_writable": "⚠ ئاگاداری: مۆڵەتی نووسینی نییە بۆ ئەم شوێنە",
+  "settings.text_appearance.title": "شێوازی دەق",
+  "settings.text_appearance.font_size": "قەبارەی فۆنت",
+  "settings.text_appearance.monospace": "فۆنتی مۆنۆسپەیس",
+  "settings.text_appearance.monospace_description": "فۆنتی مۆنۆسپەیس بەکاربهێنە بۆ ناوچەی دەق",
+  "settings.keyboard_shortcut.title": "کورتبڕی تەختەکلیل",
+  "settings.keyboard_shortcut.description": "پانێڵی تێبینی بگۆڕە بەم فەرمانە:"
+}

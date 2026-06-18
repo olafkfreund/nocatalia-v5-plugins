@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Блокнот",
+  "panel.header.title": "Блокнот",
+  "panel.stats.characters": "символів",
+  "panel.stats.words": "слів",
+  "panel.placeholder": "Почніть вводити свої нотатки тут...",
+  "settings.panel_dimensions.title": "Розміри панелі",
+  "settings.panel_dimensions.description": "Налаштуйте розмір панелі блокнота при відкритті.",
+  "settings.panel_dimensions.width": "Ширина",
+  "settings.panel_dimensions.height": "Висота",
+  "settings.file_storage.title": "Зберігання у Файлі",
+  "settings.file_storage.description": "Необов'язково зберігати вміст блокнота у файл замість налаштувань плагіна. Залиште порожнім для використання сховища за замовчуванням.",
+  "settings.file_storage.select": "Вибрати файл",
+  "settings.file_storage.picker_title": "Вибрати файл для блокнота",
+  "settings.file_storage.not_writable": "⚠ Попередження: Немає дозволу на запис у це місце",
+  "settings.text_appearance.title": "Зовнішній вигляд тексту",
+  "settings.text_appearance.font_size": "Розмір шрифту",
+  "settings.text_appearance.monospace": "Моноширинний шрифт",
+  "settings.text_appearance.monospace_description": "Використовувати моноширинний шрифт для текстової області",
+  "settings.keyboard_shortcut.title": "Гаряча клавіша",
+  "settings.keyboard_shortcut.description": "Перемкніть панель блокнота цією командою:"
+}

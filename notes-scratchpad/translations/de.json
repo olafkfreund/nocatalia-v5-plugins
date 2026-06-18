@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Notizblock",
+  "panel.header.title": "Notizblock",
+  "panel.stats.characters": "Zeichen",
+  "panel.stats.words": "Wörter",
+  "panel.placeholder": "Beginne hier mit deinen Notizen...",
+  "settings.panel_dimensions.title": "Panel-Dimensionen",
+  "settings.panel_dimensions.description": "Konfigurieren Sie die Größe des Notizblock-Panels beim Öffnen.",
+  "settings.panel_dimensions.width": "Breite",
+  "settings.panel_dimensions.height": "Höhe",
+  "settings.file_storage.title": "Dateispeicherung",
+  "settings.file_storage.description": "Optional den Notizblock-Inhalt in einer Datei statt in den Plugin-Einstellungen speichern. Leer lassen für Standardspeicher.",
+  "settings.file_storage.select": "Datei auswählen",
+  "settings.file_storage.picker_title": "Datei für Notizblock auswählen",
+  "settings.file_storage.not_writable": "⚠ Warnung: Keine Schreibberechtigung für diesen Speicherort",
+  "settings.text_appearance.title": "Textdarstellung",
+  "settings.text_appearance.font_size": "Schriftgröße",
+  "settings.text_appearance.monospace": "Monospace-Schriftart",
+  "settings.text_appearance.monospace_description": "Monospace-Schriftart für den Textbereich verwenden",
+  "settings.keyboard_shortcut.title": "Tastenkombination",
+  "settings.keyboard_shortcut.description": "Notizblock-Panel mit diesem Befehl umschalten:"
+}

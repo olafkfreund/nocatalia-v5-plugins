@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Блокнот",
+  "panel.header.title": "Блокнот",
+  "panel.stats.characters": "символов",
+  "panel.stats.words": "слов",
+  "panel.placeholder": "Начните печатать свои заметки здесь...",
+  "settings.panel_dimensions.title": "Размеры панели",
+  "settings.panel_dimensions.description": "Настройте размер панели блокнота при открытии.",
+  "settings.panel_dimensions.width": "Ширина",
+  "settings.panel_dimensions.height": "Высота",
+  "settings.file_storage.title": "Хранение в Файле",
+  "settings.file_storage.description": "Необязательно сохранять содержимое блокнота в файл вместо настроек плагина. Оставьте пустым для использования хранилища по умолчанию.",
+  "settings.file_storage.select": "Выбрать файл",
+  "settings.file_storage.picker_title": "Выбрать файл для блокнота",
+  "settings.file_storage.not_writable": "⚠ Предупреждение: Нет разрешения на запись в это место",
+  "settings.text_appearance.title": "Внешний вид текста",
+  "settings.text_appearance.font_size": "Размер шрифта",
+  "settings.text_appearance.monospace": "Моноширинный шрифт",
+  "settings.text_appearance.monospace_description": "Использовать моноширинный шрифт для текстовой области",
+  "settings.keyboard_shortcut.title": "Горячая клавиша",
+  "settings.keyboard_shortcut.description": "Переключите панель блокнота этой командой:"
+}

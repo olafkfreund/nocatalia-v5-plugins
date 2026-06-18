@@ -1,0 +1,22 @@
+{
+  "bar_widget.tooltip": "Bloc-notes",
+  "panel.header.title": "Bloc-notes",
+  "panel.stats.characters": "caractères",
+  "panel.stats.words": "mots",
+  "panel.placeholder": "Commencez à taper vos notes ici...",
+  "settings.panel_dimensions.title": "Dimensions du panneau",
+  "settings.panel_dimensions.description": "Configurez la taille du panneau du bloc-notes lors de l'ouverture.",
+  "settings.panel_dimensions.width": "Largeur",
+  "settings.panel_dimensions.height": "Hauteur",
+  "settings.file_storage.title": "Stockage de Fichier",
+  "settings.file_storage.description": "Enregistrer facultativement le contenu du bloc-notes dans un fichier au lieu des paramètres du plugin. Laisser vide pour utiliser le stockage par défaut.",
+  "settings.file_storage.select": "Sélectionner un fichier",
+  "settings.file_storage.picker_title": "Choisir un fichier pour le bloc-notes",
+  "settings.file_storage.not_writable": "⚠ Avertissement : Pas de permission d'écriture pour cet emplacement",
+  "settings.text_appearance.title": "Apparence du texte",
+  "settings.text_appearance.font_size": "Taille de police",
+  "settings.text_appearance.monospace": "Police à chasse fixe",
+  "settings.text_appearance.monospace_description": "Utiliser une police à chasse fixe pour la zone de texte",
+  "settings.keyboard_shortcut.title": "Raccourci clavier",
+  "settings.keyboard_shortcut.description": "Basculer le panneau du bloc-notes avec cette commande:"
+}
