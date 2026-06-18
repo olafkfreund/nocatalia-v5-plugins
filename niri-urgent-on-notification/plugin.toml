@@ -1,0 +1,13 @@
+id = "matt-hb/niri-urgent-on-notification"
+name = "Niri Urgent on Notification"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "matt-hb"
+license = "MIT"
+tags = ["Bar", "Niri", "Notifications", "Workspaces"]
+icon = "bell-ring"
+description = "Automatically mark Niri workspaces as urgent when they receive notifications. Niri compositor required."
+
+[[service]]
+id = "service"
+entry = "service.luau"

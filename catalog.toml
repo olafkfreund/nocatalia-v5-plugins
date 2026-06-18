@@ -1046,3 +1046,36 @@ icon = "wand"
 description = "Switch between shell profile configurations from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "System", "Profiles", "Customization"]
+
+[[plugin]]
+id = "kohanyi-robert/niri-workspaces"
+name = "Niri Workspaces"
+version = "2.0.0"
+author = "Kohányi Róbert"
+license = "MIT"
+icon = "layout-grid"
+description = "Display and switch Niri workspaces from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Niri", "Workspaces"]
+
+[[plugin]]
+id = "jfreed-dev/niri-screensaver"
+name = "Niri Screensaver"
+version = "2.0.0"
+author = "jfreed-dev"
+license = "MIT"
+icon = "lock"
+description = "Control the Niri screensaver and idle settings."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Niri", "Screensaver", "Security"]
+
+[[plugin]]
+id = "matt-hb/niri-urgent-on-notification"
+name = "Niri Urgent on Notification"
+version = "2.0.0"
+author = "matt-hb"
+license = "MIT"
+icon = "bell-ring"
+description = "Automatically mark Niri workspaces as urgent when they receive notifications."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Niri", "Notifications", "Workspaces"]

@@ -1,0 +1,38 @@
+id = "jfreed-dev/niri-screensaver"
+name = "Niri Screensaver"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "jfreed-dev"
+license = "MIT"
+tags = ["Bar", "Niri", "Screensaver", "Security"]
+icon = "lock"
+description = "Control the Niri screensaver and idle settings. Niri compositor required."
+
+[[setting]]
+key = "enabled"
+type = "bool"
+label = "Enabled"
+default = true
+description = "Enable screensaver management"
+
+[[setting]]
+key = "idleSeconds"
+type = "int"
+label = "Idle timeout (seconds)"
+default = 300
+description = "Seconds before screensaver activates"
+
+[[setting]]
+key = "batteryMinPercent"
+type = "int"
+label = "Minimum battery %"
+default = 20
+description = "Reduce timeout when battery is below this level"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

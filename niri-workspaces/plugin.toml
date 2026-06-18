@@ -1,0 +1,24 @@
+id = "kohanyi-robert/niri-workspaces"
+name = "Niri Workspaces"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Kohányi Róbert"
+license = "MIT"
+tags = ["Bar", "Niri", "Workspaces"]
+icon = "layout-grid"
+description = "Display and switch Niri workspaces from the bar. Niri compositor required."
+
+[[setting]]
+key = "launcherPrefix"
+type = "string"
+label = "Launcher prefix"
+default = ""
+description = "Command prefix for opening apps in workspaces"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
