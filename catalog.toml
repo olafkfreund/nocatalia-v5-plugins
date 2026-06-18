@@ -1002,3 +1002,25 @@ icon = "smartphone"
 description = "Show connected Android device status via Valent (KDE Connect alternative)."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Android", "KDE Connect", "Device"]
+
+[[plugin]]
+id = "ayagmar/obs-control"
+name = "OBS Control"
+version = "2.0.0"
+author = "ayagmar"
+license = "MIT"
+icon = "video"
+description = "Monitor and control OBS Studio recording/streaming status from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Streaming", "Recording", "OBS"]
+
+[[plugin]]
+id = "alxndrv/openhue"
+name = "Openhue"
+version = "2.0.0"
+author = "alxndrv"
+license = "MIT"
+icon = "lightbulb"
+description = "Control Philips Hue lights from the bar using the openhue CLI."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Smart Home", "Hue", "Lights"]

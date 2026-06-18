@@ -1,0 +1,17 @@
+id = "alxndrv/openhue"
+name = "Openhue"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "alxndrv"
+license = "MIT"
+tags = ["Bar", "Smart Home", "Hue", "Lights"]
+icon = "lightbulb"
+description = "Control Philips Hue lights from the bar using the openhue CLI."
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

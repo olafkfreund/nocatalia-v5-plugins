@@ -1,0 +1,45 @@
+id = "ayagmar/obs-control"
+name = "OBS Control"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "ayagmar"
+license = "MIT"
+tags = ["Bar", "Streaming", "Recording", "OBS"]
+icon = "video"
+description = "Monitor and control OBS Studio recording/streaming status from the bar."
+
+[[setting]]
+key = "pollIntervalMs"
+type = "int"
+label = "Poll interval (ms)"
+default = 2500
+description = "How often to check OBS status"
+
+[[setting]]
+key = "showBarWhenRecording"
+type = "bool"
+label = "Show when recording"
+default = true
+description = "Show in bar when OBS is recording"
+
+[[setting]]
+key = "showBarWhenStreaming"
+type = "bool"
+label = "Show when streaming"
+default = true
+description = "Show in bar when OBS is streaming"
+
+[[setting]]
+key = "showBarWhenReady"
+type = "bool"
+label = "Show when ready"
+default = true
+description = "Show in bar when OBS is open but idle"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
