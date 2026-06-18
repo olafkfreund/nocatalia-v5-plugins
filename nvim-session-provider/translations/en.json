@@ -1,0 +1,18 @@
+{
+  "settings.nvim.title": "Neovim command",
+  "settings.nvim.description": "The Neovim executable or frontend to use. GUI frontends should include `--` after the command, e.g. `nvim-qt --`.",
+  "settings.runInTerminal.label": "Run in terminal",
+  "settings.runInTerminal.description": "Whether to run the command in a terminal emulator. Should be checked when using plain text-based nvim, and unchecked when using a GUI frontend.",
+  "settings.sessionDir.label": "Session file directory",
+  "settings.sessionDir.description": "Location where Neovim session files are stored",
+  "settings.sessionDir.select": "Select folder",
+  "settings.sessionDir.title": "Select a session file directory",
+  "settings.includeInSearch.label": "Include in main search",
+  "settings.includeInSearch.description": "Whether to include Neovim sessions in the main launcher search results",
+  "launcher.title": "Neovim sessions",
+  "launcher.description": "Search and open Neovim sessions",
+  "launcher.loading.title": "Loading...",
+  "launcher.loading.description": "Loading sessions...",
+  "launcher.error.title": "Neovim sessions not loaded",
+  "launcher.error.description": "Check your log for error messages"
+}

@@ -1,0 +1,45 @@
+id = "krendil/nvim-session-provider"
+name = "Neovim Session Provider"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Krendil"
+license = "MIT"
+tags = ["Launcher", "Development"]
+icon = "code"
+description = "Open Neovim Sessions"
+
+[[setting]]
+key = "nvim"
+type = "string"
+label = "settings.nvim.title"
+default = "nvim"
+description = "settings.nvim.description"
+
+[[setting]]
+key = "runInTerminal"
+type = "bool"
+label = "settings.runInTerminal.label"
+default = true
+description = "settings.runInTerminal.description"
+
+[[setting]]
+key = "sessionDir"
+type = "folder"
+label = "settings.sessionDir.label"
+default = "~/.local/share/nvim/sessions"
+description = "settings.sessionDir.description"
+
+[[setting]]
+key = "includeInSearch"
+type = "bool"
+label = "settings.includeInSearch.label"
+default = true
+description = "settings.includeInSearch.description"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">nvim"
+glyph = "code"
+include_in_global_search = true
+debounce_ms = 150

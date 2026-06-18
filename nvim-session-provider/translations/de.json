@@ -1,0 +1,18 @@
+{
+  "settings.nvim.title": "Neovim Befehl",
+  "settings.nvim.description": "Die Neovim-Ausführungsdatei oder das zu verwendende Frontend. Bei GUI-Frontends sollte nach dem Befehl ein `--` stehen, z. B. `nvim-qt --`",
+  "settings.runInTerminal.label": "Im Terminal ausführen",
+  "settings.runInTerminal.description": "Gibt an, ob der Befehl in einem Terminalemulator ausgeführt werden soll. Diese Option sollte aktiviert sein, wenn nvim im Textmodus verwendet wird, und deaktiviert, wenn ein GUI-Frontend verwendet wird.",
+  "settings.sessionDir.label": "Verzeichnis für Sitzungsdateien",
+  "settings.sessionDir.description": "Speicherort der Neovim Sitzungsdateien",
+  "settings.sessionDir.select": "Ordner auswählen",
+  "settings.sessionDir.title": "Wähle ein Verzeichnis für Sitzungsdateien aus",
+  "settings.includeInSearch.label": "In die Hauptsuche einbeziehen",
+  "settings.includeInSearch.description": "Ob Neovim-Sitzungen in die Suchergebnisse des Haupt-Launchers aufgenommen werden sollen",
+  "launcher.title": "Neovim Sitzungen",
+  "launcher.description": "Neovim Sitzungen suchen und öffnen",
+  "launcher.loading.title": "Wird geladen...",
+  "launcher.loading.description": "Sitzungen werden geladen...",
+  "launcher.error.title": "Neovim Sitzungen wurden nicht geladen",
+  "launcher.error.description": "Überprüfe dein Log auf Fehlermeldungen"
+}
