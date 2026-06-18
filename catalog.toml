@@ -539,3 +539,14 @@ icon = "search"
 description = "Get AI answers from Kagi in your launcher"
 min_noctalia = "5.0.0"
 tags = ["Launcher", "Productivity"]
+
+[[plugin]]
+id = "rigelyon/web-search"
+name = "Web Search"
+version = "2.0.0"
+author = "Rigelyon"
+license = "MIT"
+icon = "world"
+description = "Search the Internet from the Launcher."
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Utility"]

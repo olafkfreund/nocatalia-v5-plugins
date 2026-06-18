@@ -1,0 +1,47 @@
+id = "rigelyon/web-search"
+name = "Web Search"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Rigelyon"
+license = "MIT"
+tags = ["Launcher", "Utility"]
+icon = "world"
+description = "Search the Internet from the Launcher."
+
+[[setting]]
+key = "search_engine"
+type = "string"
+label = "Search Engine"
+default = "Google"
+description = "Choose your preferred search engine"
+
+[[setting]]
+key = "direct_url"
+type = "bool"
+label = "Direct URL"
+default = true
+description = "Open URLs directly instead of searching them"
+
+[[setting]]
+key = "show_suggestions"
+type = "bool"
+label = "Show Suggestions"
+default = true
+description = "Show search suggestions as you type"
+
+[[setting]]
+key = "max_results"
+type = "int"
+label = "Max Results"
+default = 5
+min = 1
+max = 15
+description = "Maximum number of search suggestions to display"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">web"
+glyph = "world"
+include_in_global_search = true
+debounce_ms = 150

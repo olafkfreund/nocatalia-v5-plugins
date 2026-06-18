@@ -1,0 +1,18 @@
+{
+  "settings.engine.label": "Suchmaschine",
+  "settings.engine.description": "Standard-Suchmaschine, die beim Suchen im Internet geöffnet wird",
+  "settings.directUrl.label": "Direkte URL-Öffnung",
+  "settings.directUrl.description": "URLs direkt im Browser öffnen, anstatt danach zu suchen",
+  "settings.suggestions.label": "Suchvorschläge anzeigen",
+  "settings.suggestions.description": "Echtzeit-Vorschläge während der Eingabe abrufen",
+  "settings.maxResults.label": "Maximale Ergebnisse",
+  "settings.maxResults.description": "Begrenze die Anzahl der angezeigten Vorschläge",
+  "launcher.typeSomething": "Etwas eingeben...",
+  "launcher.searchInternet": "Mit {engine} im Internet suchen",
+  "launcher.search": "„{query}“ suchen",
+  "launcher.openIn": "In {engine} öffnen",
+  "launcher.openUrl": "{url} öffnen",
+  "launcher.openUrlDescription": "URL direkt im Browser öffnen",
+  "launcher.suggestion": "Vorschlag von {engine}",
+  "launcher.command.description": "Im Internet nach etwas suchen"
+}

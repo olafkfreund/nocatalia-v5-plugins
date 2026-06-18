@@ -1,0 +1,18 @@
+{
+  "settings.engine.label": "Search Engine",
+  "settings.engine.description": "Default search engine to open when searching the web",
+  "settings.directUrl.label": "Direct URL Opening",
+  "settings.directUrl.description": "Open URLs directly in the browser instead of searching for them",
+  "settings.suggestions.label": "Show Search Suggestions",
+  "settings.suggestions.description": "Fetch real-time suggestions while typing",
+  "settings.maxResults.label": "Maximum Results",
+  "settings.maxResults.description": "Limit the number of suggestions displayed",
+  "launcher.typeSomething": "Type Something...",
+  "launcher.searchInternet": "Search internet from {engine}",
+  "launcher.search": "Search \"{query}\"",
+  "launcher.openIn": "Open in {engine}",
+  "launcher.openUrl": "Open {url}",
+  "launcher.openUrlDescription": "Open URL directly in browser",
+  "launcher.suggestion": "Suggestion from {engine}",
+  "launcher.command.description": "Search something from the internet"
+}

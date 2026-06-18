@@ -1,0 +1,18 @@
+{
+  "settings.engine.label": "Arama Motoru",
+  "settings.engine.description": "İnternette arama yapılacakken kullanılacak varsayılan arama motoru",
+  "settings.directUrl.label": "Doğrudan URL Açma",
+  "settings.directUrl.description": "URLleri aramak yerine direkt aç",
+  "settings.suggestions.label": "Arama Önerilerini Göster",
+  "settings.suggestions.description": "Yazarken gerçek zamanlı önerileri çek",
+  "settings.maxResults.label": "Maksimum Sonuç",
+  "settings.maxResults.description": "Gösterilecek öneri sınırı",
+  "launcher.typeSomething": "Bir Şeyler Yaz...",
+  "launcher.searchInternet": "{engine} ile internette ara",
+  "launcher.search": "\"{query}\" ara",
+  "launcher.openIn": "{engine} ile aç",
+  "launcher.openUrl": "{url} aç",
+  "launcher.openUrlDescription": "URLi direkt tarayıcıda aç",
+  "launcher.suggestion": "{engine} tarafından öneri",
+  "launcher.command.description": "İnternetten bir şeyler ara"
+}
