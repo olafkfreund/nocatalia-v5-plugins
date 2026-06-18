@@ -1,0 +1,52 @@
+id = "marcomelletti/launcher-pass"
+name = "Launcher pass"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Marco Melletti"
+license = "MIT"
+tags = ["Launcher"]
+icon = "lock"
+description = "Search gnu pass password entries"
+
+[[setting]]
+key = "includeInSearch"
+type = "bool"
+label = "Include in global search"
+default = true
+description = "Whether to include passwords in the global launcher search results"
+
+[[setting]]
+key = "storePath"
+type = "string"
+label = "settings.storePath.label"
+default = ""
+description = "settings.storePath.desc"
+
+[[setting]]
+key = "clipTimeout"
+type = "string"
+label = "settings.clipTimeout.label"
+default = ""
+description = "settings.clipTimeout.desc"
+
+[[setting]]
+key = "typeDelay"
+type = "int"
+label = "settings.typeDelay.label"
+default = 500
+description = "settings.typeDelay.desc"
+
+[[setting]]
+key = "wtypeDelay"
+type = "int"
+label = "settings.wtypeDelay.label"
+default = 12
+description = "settings.wtypeDelay.desc"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">pass"
+glyph = "lock"
+include_in_global_search = true
+debounce_ms = 150
