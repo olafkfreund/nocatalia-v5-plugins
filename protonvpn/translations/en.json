@@ -1,12 +1,14 @@
 {
   "settings.pluginSettings": "Plugin settings",
   "bar.disconnected-state": "ProtonVPN: Disconnected",
+  "bar.working": "ProtonVPN: Working\u2026",
+  "bar.connected": "ProtonVPN: Connected",
   "panel.title": "ProtonVPN",
   "panel.refresh": "Refresh",
   "panel.close": "Close",
   "panel.status-connected": "Connected",
   "panel.status-disconnected": "Disconnected",
-  "panel.status-working": "Working…",
+  "panel.status-working": "Working\u2026",
   "panel.status-unknown": "Unknown",
   "panel.disconnected": "disconnected",
   "panel.load": "Load",
@@ -15,8 +17,11 @@
   "panel.kill-switch": "Kill Switch",
   "panel.kill-switch-desc": "Blocks internet if VPN drops",
   "panel.kill-switch-disabled": "Disabled",
-  "panel.loading": "Loading…",
+  "panel.loading": "Loading\u2026",
   "panel.quick-connect": "Quick connect",
   "panel.secure-core": "Secure Core",
-  "panel.p2p": "P2P"
+  "panel.p2p": "P2P",
+  "toast.connected": "ProtonVPN Connected",
+  "toast.disconnected": "ProtonVPN Disconnected",
+  "toast.connect-failed": "ProtonVPN connection failed"
 }

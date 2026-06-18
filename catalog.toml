@@ -806,6 +806,17 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Network", "Security"]
 
 [[plugin]]
+id = "cleboost/netbird"
+name = "Netbird"
+version = "2.0.0"
+author = "Cleboost"
+license = "MIT"
+icon = "network"
+description = "Monitor and control Netbird VPN/mesh network connection from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Network", "Security"]
+
+[[plugin]]
 id = "lokize/rss-feed"
 name = "RSS Feed"
 version = "2.0.0"
