@@ -1,0 +1,17 @@
+id = "justkevv/zed-provider"
+name = "Zed Provider"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "justKevv"
+license = "MIT"
+tags = ["Launcher", "Developer"]
+icon = "code"
+description = "A zed provider for opening project easier using zed code editor"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">zed"
+glyph = "code"
+include_in_global_search = false
+debounce_ms = 100

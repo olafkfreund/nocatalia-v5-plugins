@@ -1,0 +1,7 @@
+{
+  "launcher.command_description": "Projelerinizi arayın",
+  "launcher.open_folder": "{path} yolunu aç",
+  "launcher.search_folder": "{path} yolunda ara",
+  "launcher.not_installed": "Zed yüklü değil",
+  "launcher.not_installed_desc": "Bu sağlayıcıyı kullanmak için Zed'i yükleyin"
+}
