@@ -528,3 +528,14 @@ icon = "mood-wink"
 description = "Browse and search kaomoji emoticons from the launcher"
 min_noctalia = "5.0.0"
 tags = ["Launcher", "Fun"]
+
+[[plugin]]
+id = "kainoak/kagi-quick-search"
+name = "Kagi Quick Search"
+version = "2.0.0"
+author = "Kainoa Kanter"
+license = "MIT"
+icon = "search"
+description = "Get AI answers from Kagi in your launcher"
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Productivity"]

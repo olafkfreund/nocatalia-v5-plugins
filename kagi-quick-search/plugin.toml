@@ -1,0 +1,34 @@
+id = "kainoak/kagi-quick-search"
+name = "Kagi Quick Search"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Kainoa Kanter"
+license = "MIT"
+tags = ["Launcher", "Productivity"]
+icon = "search"
+description = "Get AI answers from Kagi in your launcher"
+
+[[setting]]
+key = "kagiSessionToken"
+type = "string"
+label = "Kagi Session Token"
+default = ""
+description = "Your Kagi session cookie value"
+
+[[setting]]
+key = "debounceMs"
+type = "int"
+label = "Debounce (ms)"
+default = 500
+min = 300
+max = 1500
+step = 100
+description = "Wait duration after typing before requesting Kagi"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">kagi"
+glyph = "search"
+include_in_global_search = false
+debounce_ms = 500
