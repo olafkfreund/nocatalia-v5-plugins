@@ -1,0 +1,38 @@
+id = "mannuvilasara/mini-docker"
+name = "Mini Docker"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "MannuVilasara"
+license = "MIT"
+tags = ["Bar", "Docker", "DevOps"]
+icon = "box"
+description = "Show running Docker container count in the bar with quick controls."
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (seconds)"
+default = 5
+description = "How often to poll Docker container status"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "none"
+description = "Color for the bar icon"
+
+[[setting]]
+key = "activeColor"
+type = "string"
+label = "Active color"
+default = "primary"
+description = "Icon color when containers are running"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

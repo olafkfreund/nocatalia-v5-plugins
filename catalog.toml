@@ -903,3 +903,14 @@ icon = "shield"
 description = "Control Network Manager VPN connections from the bar using nmcli."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Network", "Security", "VPN"]
+
+[[plugin]]
+id = "mannuvilasara/mini-docker"
+name = "Mini Docker"
+version = "2.0.0"
+author = "MannuVilasara"
+license = "MIT"
+icon = "box"
+description = "Show running Docker container count in the bar with quick controls."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Docker", "DevOps"]
