@@ -1,0 +1,52 @@
+id = "vasqs/habitica"
+name = "Habitica"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "vasqs"
+license = "MIT"
+tags = ["Bar", "Productivity", "Tasks"]
+icon = "check-square"
+description = "Track Habitica daily tasks and to-dos from the bar."
+
+[[setting]]
+key = "habiticaUserId"
+type = "string"
+label = "User ID"
+default = ""
+description = "Your Habitica user ID"
+
+[[setting]]
+key = "habiticaApiToken"
+type = "string"
+label = "API Token"
+default = ""
+description = "Your Habitica API token"
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (minutes)"
+default = 15
+description = "How often to fetch Habitica data"
+
+[[setting]]
+key = "maxDailies"
+type = "int"
+label = "Max dailies"
+default = 5
+description = "Maximum number of dailies to show"
+
+[[setting]]
+key = "maxTodos"
+type = "int"
+label = "Max todos"
+default = 5
+description = "Maximum number of todos to show"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

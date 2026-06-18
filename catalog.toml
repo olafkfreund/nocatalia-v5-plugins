@@ -947,3 +947,25 @@ icon = "screenshot"
 description = "Take screenshots and record your screen from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Utility", "Screenshot", "Recording"]
+
+[[plugin]]
+id = "vasqs/habitica"
+name = "Habitica"
+version = "2.0.0"
+author = "vasqs"
+license = "MIT"
+icon = "check-square"
+description = "Track Habitica daily tasks and to-dos from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Productivity", "Tasks"]
+
+[[plugin]]
+id = "user/ramadan-iftar"
+name = "Ramadan Iftar"
+version = "2.0.0"
+author = "User"
+license = "MIT"
+icon = "moon"
+description = "Show Iftar and Suhoor times during Ramadan using the Aladhan API."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Islamic", "Prayer Times", "Information"]

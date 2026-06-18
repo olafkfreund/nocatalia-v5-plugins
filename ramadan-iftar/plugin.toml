@@ -1,0 +1,52 @@
+id = "user/ramadan-iftar"
+name = "Ramadan Iftar"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "User"
+license = "MIT"
+tags = ["Bar", "Islamic", "Prayer Times", "Information"]
+icon = "moon"
+description = "Show Iftar and Suhoor times during Ramadan using the Aladhan API."
+
+[[setting]]
+key = "city"
+type = "string"
+label = "City"
+default = ""
+description = "Your city for prayer time calculation"
+
+[[setting]]
+key = "country"
+type = "string"
+label = "Country"
+default = ""
+description = "Your country code (e.g. US, UK, SA)"
+
+[[setting]]
+key = "method"
+type = "int"
+label = "Calculation method"
+default = 2
+description = "Prayer time calculation method (2=ISNA, 4=UMM, 5=Egyptian)"
+
+[[setting]]
+key = "showAlways"
+type = "bool"
+label = "Show outside Ramadan"
+default = false
+description = "Show the widget even outside Ramadan"
+
+[[setting]]
+key = "showCountdown"
+type = "bool"
+label = "Show countdown"
+default = true
+description = "Show countdown timer to next Iftar/Suhoor"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
