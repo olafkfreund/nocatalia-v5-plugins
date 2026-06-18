@@ -1,0 +1,29 @@
+id = "blacku/hyprland-steam-overlay"
+name = "Hyprland Steam Overlay"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "blacku"
+license = "MIT"
+tags = ["Hyprland", "Gaming", "Steam"]
+icon = "gamepad"
+description = "A Steam-style overlay for Hyprland, showing friends list and game launcher. Hyprland compositor required."
+
+[[setting]]
+key = "autoLaunchSteam"
+type = "bool"
+label = "Auto-launch Steam"
+default = false
+
+[[setting]]
+key = "friendsWidthPercent"
+type = "int"
+label = "Friends panel width %"
+default = 25
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

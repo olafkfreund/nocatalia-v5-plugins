@@ -1,0 +1,14 @@
+{
+  "main.plugin_loaded": "Plugin API loaded",
+  "main.resolution_detected": "Detected resolution: {width} x {height}",
+  "main.windows_found": "Found {count} Steam windows",
+  "main.windows_moved": "Windows moved, exit code: {code}",
+  "main.workspace_toggled": "Workspace toggled",
+  "main.toggle_called": "Toggle called",
+  "main.launching_steam": "Launching Steam...",
+  "main.steam_launched": "Steam launched",
+  "main.no_windows_found": "No Steam windows found",
+  "main.ipc_received": "IPC toggle received",
+  "settings.custom-layout-label": "Use custom Hyprland layout (Lua)",
+  "settings.custom-layout-description": "Let a Hyprland custom Lua layout tile the windows instead of floating+positioning them. Requires Hyprland 0.55+ Lua config and steam-layout.lua (see README). When enabled, the width sliders below are handled by the Lua layout."
+}

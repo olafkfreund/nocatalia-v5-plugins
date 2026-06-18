@@ -1,0 +1,36 @@
+id = "cmptr/model-usage"
+name = "Model Usage"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "cmptr"
+license = "MIT"
+tags = ["Bar", "AI", "Productivity"]
+icon = "cpu"
+description = "Monitor AI model API usage and costs for multiple providers."
+
+[[setting]]
+key = "barDisplayMode"
+type = "select"
+label = "Display mode"
+default = "cost"
+options = ["cost", "tokens", "requests"]
+
+[[setting]]
+key = "barCycleIntervalSec"
+type = "int"
+label = "Cycle interval (s)"
+default = 5
+
+[[setting]]
+key = "refreshIntervalSec"
+type = "int"
+label = "Refresh interval (s)"
+default = 60
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

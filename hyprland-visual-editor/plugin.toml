@@ -1,0 +1,35 @@
+id = "ximocp/hyprland-visual-editor"
+name = "Hyprland Visual Editor"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "XimoCP"
+license = "MIT"
+tags = ["Panel", "Bar", "System", "Fun", "Theming", "Utility", "Hyprland"]
+icon = "settings"
+description = "A visual editor for Hyprland compositor settings. Hyprland compositor required."
+
+[[setting]]
+key = "isSystemActive"
+type = "bool"
+label = "Enable"
+default = true
+
+[[setting]]
+key = "borderSize"
+type = "int"
+label = "Border size"
+default = 2
+
+[[setting]]
+key = "autoApply"
+type = "bool"
+label = "Auto-apply changes"
+default = false
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

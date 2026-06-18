@@ -1,0 +1,30 @@
+id = "qholin/parallax-wallpaper"
+name = "Parallax Wallpaper"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Qholin"
+license = "MIT"
+tags = ["Desktop", "Wallpaper", "Fun"]
+icon = "layers"
+description = "Animated parallax effect wallpaper for the desktop."
+
+[[setting]]
+key = "zoomAmount"
+type = "int"
+label = "Zoom amount"
+default = 15
+
+[[setting]]
+key = "parallaxDirection"
+type = "select"
+label = "Direction"
+default = "both"
+options = ["both", "horizontal", "vertical"]
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

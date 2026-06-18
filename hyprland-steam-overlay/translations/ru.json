@@ -1,0 +1,14 @@
+{
+  "main.plugin_loaded": "API плагина загружен",
+  "main.resolution_detected": "Обнаружено разрешение: {width} x {height}",
+  "main.windows_found": "Найдено {count} окон Steam",
+  "main.windows_moved": "Окна перемещены, код выхода: {code}",
+  "main.workspace_toggled": "Рабочее пространство переключено",
+  "main.toggle_called": "Переключение вызвано",
+  "main.launching_steam": "Запуск Steam...",
+  "main.steam_launched": "Steam запущен",
+  "main.no_windows_found": "Окна Steam не найдены",
+  "main.ipc_received": "Получено переключение IPC",
+  "settings.custom-layout-label": "Use custom Hyprland layout (Lua)",
+  "settings.custom-layout-description": "Let a Hyprland custom Lua layout tile the windows instead of floating+positioning them. Requires Hyprland 0.55+ Lua config and steam-layout.lua (see README). When enabled, the width sliders below are handled by the Lua layout."
+}

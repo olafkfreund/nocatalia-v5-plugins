@@ -1,0 +1,43 @@
+id = "havekziad/deskvis"
+name = "DeskVis"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "HAVEKziad"
+license = "MIT"
+tags = ["Desktop", "Audio", "Visualizer"]
+icon = "activity"
+description = "A desktop audio visualizer with customizable bar display."
+
+[[setting]]
+key = "direction"
+type = "select"
+label = "Direction"
+default = "vertical"
+options = ["vertical", "horizontal"]
+
+[[setting]]
+key = "mode"
+type = "select"
+label = "Mode"
+default = "bars"
+options = ["bars", "waves", "dots"]
+
+[[setting]]
+key = "barCount"
+type = "int"
+label = "Bar count"
+default = 20
+
+[[setting]]
+key = "fps"
+type = "int"
+label = "FPS"
+default = 30
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

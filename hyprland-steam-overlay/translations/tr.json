@@ -1,0 +1,14 @@
+{
+  "main.plugin_loaded": "Eklenti API'si yüklendi",
+  "main.resolution_detected": "Çözünürlük algılandı: {width} x {height}",
+  "main.windows_found": "{count} Steam penceresi bulundu",
+  "main.windows_moved": "Pencereler taşındı, çıkış kodu: {code}",
+  "main.workspace_toggled": "Çalışma alanı değiştirildi",
+  "main.toggle_called": "Değiştirme çağrıldı",
+  "main.launching_steam": "Steam başlatılıyor...",
+  "main.steam_launched": "Steam başlatıldı",
+  "main.no_windows_found": "Steam penceresi bulunamadı",
+  "main.ipc_received": "IPC değiştirme alındı",
+  "settings.custom-layout-label": "Use custom Hyprland layout (Lua)",
+  "settings.custom-layout-description": "Let a Hyprland custom Lua layout tile the windows instead of floating+positioning them. Requires Hyprland 0.55+ Lua config and steam-layout.lua (see README). When enabled, the width sliders below are handled by the Lua layout."
+}

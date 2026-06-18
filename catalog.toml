@@ -1398,3 +1398,80 @@ icon = "image"
 description = "Display wallpapers as swipeable cards on the desktop."
 min_noctalia = "5.0.0"
 tags = ["Desktop", "Theming", "Wallpaper"]
+
+[[plugin]]
+id = "havekziad/deskvis"
+name = "DeskVis"
+version = "2.0.0"
+author = "HAVEKziad"
+license = "MIT"
+icon = "activity"
+description = "A desktop audio visualizer with customizable bar display."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Audio", "Visualizer"]
+
+[[plugin]]
+id = "noctalia-team/fancy-audiovisualizer"
+name = "Fancy Audio Visualizer"
+version = "2.0.0"
+author = "Noctalia Team"
+license = "MIT"
+icon = "radio"
+description = "A fancy ring-based audio visualizer for the desktop."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Audio", "Visualizer", "Fun"]
+
+[[plugin]]
+id = "qholin/parallax-wallpaper"
+name = "Parallax Wallpaper"
+version = "2.0.0"
+author = "Qholin"
+license = "MIT"
+icon = "layers"
+description = "Animated parallax effect wallpaper for the desktop."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "Wallpaper", "Fun"]
+
+[[plugin]]
+id = "blacku/hyprland-steam-overlay"
+name = "Hyprland Steam Overlay"
+version = "2.0.0"
+author = "blacku"
+license = "MIT"
+icon = "gamepad"
+description = "A Steam-style overlay for Hyprland, showing friends list and game launcher."
+min_noctalia = "5.0.0"
+tags = ["Hyprland", "Gaming", "Steam"]
+
+[[plugin]]
+id = "ximocp/hyprland-visual-editor"
+name = "Hyprland Visual Editor"
+version = "2.0.0"
+author = "XimoCP"
+license = "MIT"
+icon = "settings"
+description = "A visual editor for Hyprland compositor settings."
+min_noctalia = "5.0.0"
+tags = ["Panel", "Bar", "System", "Fun", "Theming", "Utility", "Hyprland"]
+
+[[plugin]]
+id = "palomiku/linux-wallpaperengine-controller"
+name = "Linux Wallpaper Engine Controller"
+version = "2.0.0"
+author = "PaloMiku"
+license = "MIT"
+icon = "wallpaper"
+description = "Control linux-wallpaperengine animated wallpapers from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Panel", "Theming", "Wallpaper"]
+
+[[plugin]]
+id = "cmptr/model-usage"
+name = "Model Usage"
+version = "2.0.0"
+author = "cmptr"
+license = "MIT"
+icon = "cpu"
+description = "Monitor AI model API usage and costs for multiple providers."
+min_noctalia = "5.0.0"
+tags = ["Bar", "AI", "Productivity"]

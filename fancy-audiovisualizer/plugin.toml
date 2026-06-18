@@ -1,0 +1,29 @@
+id = "noctalia-team/fancy-audiovisualizer"
+name = "Fancy Audio Visualizer"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Noctalia Team"
+license = "MIT"
+tags = ["Desktop", "Audio", "Visualizer", "Fun"]
+icon = "radio"
+description = "A fancy ring-based audio visualizer for the desktop."
+
+[[setting]]
+key = "sensitivity"
+type = "int"
+label = "Sensitivity"
+default = 80
+
+[[setting]]
+key = "rotationSpeed"
+type = "int"
+label = "Rotation speed"
+default = 1
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

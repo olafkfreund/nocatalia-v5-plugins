@@ -1,0 +1,30 @@
+id = "palomiku/linux-wallpaperengine-controller"
+name = "Linux Wallpaper Engine Controller"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "PaloMiku"
+license = "MIT"
+tags = ["Bar", "Panel", "Theming", "Wallpaper"]
+icon = "wallpaper"
+description = "Control linux-wallpaperengine animated wallpapers from the bar."
+
+[[setting]]
+key = "wallpapersFolder"
+type = "string"
+label = "Wallpapers folder"
+default = ""
+description = "Path to wallpapers (Steam/linux-wallpaperengine format)"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "on_surface"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
