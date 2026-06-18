@@ -1,0 +1,52 @@
+id = "pulsar/screen-shot-and-record"
+name = "Screenshot & Screen Record"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Pulsar"
+license = "MIT"
+tags = ["Bar", "Utility", "Screenshot", "Recording"]
+icon = "screenshot"
+description = "Take screenshots and record your screen using grimblast/grim and wf-recorder."
+
+[[setting]]
+key = "screenshotEditor"
+type = "string"
+label = "Screenshot editor"
+default = "swappy"
+description = "Command to open screenshots in for editing"
+
+[[setting]]
+key = "savePath"
+type = "string"
+label = "Screenshot save path"
+default = "~/Pictures/Screenshots"
+description = "Directory to save screenshots"
+
+[[setting]]
+key = "recordingSavePath"
+type = "string"
+label = "Recording save path"
+default = "~/Videos"
+description = "Directory to save screen recordings"
+
+[[setting]]
+key = "enableCross"
+type = "bool"
+label = "Enable area selection"
+default = true
+description = "Allow selecting area for screenshots"
+
+[[setting]]
+key = "recordingNotifications"
+type = "bool"
+label = "Recording notifications"
+default = true
+description = "Show notifications when recording starts/stops"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

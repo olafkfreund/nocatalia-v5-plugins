@@ -936,3 +936,14 @@ icon = "shield-check"
 description = "Monitor which applications are using your camera and microphone."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Privacy", "System", "Security"]
+
+[[plugin]]
+id = "pulsar/screen-shot-and-record"
+name = "Screenshot & Screen Record"
+version = "2.0.0"
+author = "Pulsar"
+license = "MIT"
+icon = "screenshot"
+description = "Take screenshots and record your screen from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Utility", "Screenshot", "Recording"]
