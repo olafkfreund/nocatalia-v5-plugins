@@ -1,0 +1,17 @@
+id = "eliahreeves/niri-overview-launcher"
+name = "Niri Overview Launcher"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "eliahreeves"
+license = "MIT"
+tags = ["Bar", "Niri", "Launcher", "Overview"]
+icon = "grid"
+description = "Toggle the Niri overview/launcher panel from the bar. Niri compositor required."
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

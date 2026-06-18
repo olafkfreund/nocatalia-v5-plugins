@@ -1189,3 +1189,58 @@ icon = "calendar"
 description = "Show a weekly calendar panel from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Calendar", "Productivity", "Time"]
+
+[[plugin]]
+id = "torvaldz/monique"
+name = "Monique"
+version = "2.0.0"
+author = "ToRvaLDz"
+license = "MIT"
+icon = "gauge"
+description = "Display Monique GPU performance profiles and stats from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Gaming", "Performance", "GPU"]
+
+[[plugin]]
+id = "pever3ll/lyrics-fetch"
+name = "Lyrics Fetch"
+version = "2.0.0"
+author = "Pever3ll"
+license = "MIT"
+icon = "file-text"
+description = "Fetch and display song lyrics for the currently playing track."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Media", "Music", "Lyrics"]
+
+[[plugin]]
+id = "pir0c0pter0/niri-auto-tile"
+name = "Niri Auto Tile"
+version = "2.0.0"
+author = "pir0c0pter0"
+license = "MIT"
+icon = "layout-grid"
+description = "Automatically tile windows in Niri based on workspace rules."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Niri", "Tiling", "Automation"]
+
+[[plugin]]
+id = "duncan-rose/niri-animation-picker"
+name = "Niri Animation Picker"
+version = "2.0.0"
+author = "Duncan-Rose"
+license = "MIT"
+icon = "sparkles"
+description = "Pick and apply Niri animation presets from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Niri", "Animation", "Customization"]
+
+[[plugin]]
+id = "eliahreeves/niri-overview-launcher"
+name = "Niri Overview Launcher"
+version = "2.0.0"
+author = "eliahreeves"
+license = "MIT"
+icon = "grid"
+description = "Toggle the Niri overview/launcher panel from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Niri", "Launcher", "Overview"]

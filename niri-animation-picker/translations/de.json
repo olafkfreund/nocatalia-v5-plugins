@@ -1,0 +1,21 @@
+{
+  "widget.tooltip": "Wähle eine Niri-Animationsvorlage aus",
+  "panel.title": "Niri-Animationsvorlage",
+  "panel.presetsAvailable": "{count} Vorlagen verfügbar",
+  "panel.scanning": "Wird gescannt…",
+  "panel.noPresetsFound": "Es wurden keine Vorlagen gefunden",
+  "panel.noFilesFound": "Es wurden keine .kdl Dateien gefunden",
+  "panel.scanningAnimations": "Animationen werden gescannt…",
+  "panel.applied": "Angewandt: {file}",
+  "panel.animationSet": "Animation auf {file} eingestellt",
+  "panel.writeFailed": "Schreiben fehlgeschlagen (exit {code})",
+  "panel.writeFailedToast": "Schreiben in Zieldatei fehlgeschlagen",
+  "settings.browse": "Durchsuchen…",
+  "settings.animationsFolder.label": "Animationen Ordner",
+  "settings.animationsFolder.description": "Ordner der deine .kdl Vorlagen-Dateien enthält",
+  "settings.animationsFolder.pickerTitle": "Animationen-Ordner auswählen",
+  "settings.targetFile.label": "Ziel KDL Datei",
+  "settings.targetFile.description": "Datei in die die include-Zeile geschrieben wird",
+  "settings.iconColor.label": "Symbolfarbe",
+  "settings.iconColor.description": "Farbe des Symbols für das Leisten-Widget"
+}

@@ -1,0 +1,31 @@
+id = "pever3ll/lyrics-fetch"
+name = "Lyrics Fetch"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Pever3ll"
+license = "MIT"
+tags = ["Bar", "Media", "Music", "Lyrics"]
+icon = "file-text"
+description = "Fetch and display song lyrics for the currently playing track."
+
+[[setting]]
+key = "scrollSpeed"
+type = "int"
+label = "Scroll speed (ms)"
+default = 3000
+description = "Milliseconds between lyric scroll steps"
+
+[[setting]]
+key = "scrollMode"
+type = "select"
+label = "Scroll mode"
+default = "marquee"
+options = ["marquee", "static", "disabled"]
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

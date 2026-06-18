@@ -1,0 +1,19 @@
+{
+  "panel.title": "Monitor Profiles",
+  "panel.no-profile": "No active profile",
+  "panel.no-profiles": "No profiles saved. Open Monique to create one.",
+  "panel.not-installed": "monique not found. Install Monique to use this plugin.",
+  "actions.open-monique": "Open Monique",
+  "actions.widget-settings": "Widget settings",
+  "settings.title": "Monique",
+  "settings.description": "Switch monitor profiles from the bar and customize how it looks.",
+  "settings.show-profile-label": "Show profile name",
+  "settings.show-profile-label-desc": "Display the active profile name next to the icon in the bar",
+  "settings.active-color": "Icon color",
+  "settings.active-color-desc": "Color of the icon in the bar",
+  "settings.refresh-interval": "Refresh interval",
+  "settings.refresh-interval-desc": "How often to poll for the active profile",
+  "toast.title": "Monitor Profiles",
+  "toast.switched": "Switched to {profile}",
+  "toast.error": "Failed to switch profile"
+}

@@ -1,0 +1,38 @@
+id = "duncan-rose/niri-animation-picker"
+name = "Niri Animation Picker"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Duncan-Rose"
+license = "MIT"
+tags = ["Bar", "Niri", "Animation", "Customization"]
+icon = "sparkles"
+description = "Pick and apply Niri animation presets from the bar. Niri compositor required."
+
+[[setting]]
+key = "animationsFolder"
+type = "string"
+label = "Animations folder"
+default = ""
+description = "Path to folder containing Niri animation config files"
+
+[[setting]]
+key = "targetFile"
+type = "string"
+label = "Target config file"
+default = ""
+description = "Path to the Niri config file to modify"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "on_surface"
+description = "Color of the bar widget icon"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

@@ -1,0 +1,19 @@
+{
+  "panel.title": "Профили монитора",
+  "panel.no-profile": "Нет активного профиля",
+  "panel.no-profiles": "Нет сохранённых профилей. Откройте Monique, чтобы создать один.",
+  "panel.not-installed": "monique не найден. Установите Monique для использования этого плагина.",
+  "actions.open-monique": "Открыть Monique",
+  "actions.widget-settings": "Настройки виджета",
+  "settings.title": "Monique",
+  "settings.description": "Переключайте профили монитора из панели и настраивайте внешний вид.",
+  "settings.show-profile-label": "Показывать имя профиля",
+  "settings.show-profile-label-desc": "Отображать имя активного профиля рядом со значком на панели",
+  "settings.active-color": "Цвет значка",
+  "settings.active-color-desc": "Цвет значка на панели",
+  "settings.refresh-interval": "Интервал обновления",
+  "settings.refresh-interval-desc": "Как часто опрашивается активный профиль",
+  "toast.title": "Профили монитора",
+  "toast.switched": "Переключено на {profile}",
+  "toast.error": "Не удалось переключить профиль"
+}

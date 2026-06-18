@@ -1,0 +1,38 @@
+id = "torvaldz/monique"
+name = "Monique"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "ToRvaLDz"
+license = "MIT"
+tags = ["Bar", "Gaming", "Performance", "GPU"]
+icon = "gauge"
+description = "Display Monique GPU performance profiles and stats from the bar."
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (ms)"
+default = 2000
+description = "How often to refresh Monique data"
+
+[[setting]]
+key = "activeColor"
+type = "string"
+label = "Active color"
+default = "primary"
+description = "Color when a performance profile is active"
+
+[[setting]]
+key = "showProfileLabel"
+type = "bool"
+label = "Show profile label"
+default = true
+description = "Show the current performance profile name in the bar"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
