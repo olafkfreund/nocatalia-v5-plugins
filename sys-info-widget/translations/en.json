@@ -1,0 +1,13 @@
+{
+  "widget.distribution": "System",
+  "widget.kernel": "Kernel",
+  "widget.uptime": "Uptime",
+  "widget.cpu": "CPU",
+  "widget.separator_at": "@",
+  "widget.memory": "Memory",
+  "widget.disk_root": "Disk /",
+  "widget.disk_home": "Disk /home",
+  "widget.ipaddress": "Public IP",
+  "widget.lanaddress": "Local IP",
+  "widget.loading": "Loading..."
+}

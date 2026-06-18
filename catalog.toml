@@ -495,3 +495,14 @@ icon = "calendar-month"
 description = "Shows khal agenda."
 min_noctalia = "5.0.0"
 tags = ["Desktop", "System"]
+
+[[plugin]]
+id = "simon/sys-info-widget"
+name = "System Info"
+version = "2.0.0"
+author = "Simon"
+license = "MIT"
+icon = "cpu"
+description = "Shows Distribution, Kernel, Uptime and IP addresses."
+min_noctalia = "5.0.0"
+tags = ["Desktop", "System"]

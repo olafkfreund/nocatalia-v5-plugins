@@ -1,0 +1,17 @@
+id = "simon/sys-info-widget"
+name = "System Info"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Simon"
+license = "MIT"
+tags = ["Desktop", "System"]
+icon = "cpu"
+description = "Shows Distribution, Kernel, Uptime and IP addresses."
+
+[[desktop_widget]]
+id = "sys-info-widget"
+entry = "desktop_widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

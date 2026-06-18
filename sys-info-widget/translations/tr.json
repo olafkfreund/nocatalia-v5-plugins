@@ -1,0 +1,13 @@
+{
+  "widget.distribution": "Sistem",
+  "widget.kernel": "Kernel",
+  "widget.uptime": "Çalışma",
+  "widget.cpu": "CPU",
+  "widget.separator_at": "@",
+  "widget.memory": "Hafıza",
+  "widget.disk_root": "Disk /",
+  "widget.disk_home": "Disk /home",
+  "widget.ipaddress": "Genel IP",
+  "widget.lanaddress": "Yerel IP",
+  "widget.loading": "Yükleniyor..."
+}

@@ -1,0 +1,13 @@
+{
+  "widget.distribution": "Distribution",
+  "widget.kernel": "Kernel",
+  "widget.uptime": "Betriebszeit",
+  "widget.cpu": "CPU",
+  "widget.separator_at": "@",
+  "widget.memory": "Speicher",
+  "widget.disk_root": "Festplatte /",
+  "widget.disk_home": "Festplatte /home",
+  "widget.ipaddress": "Öffentliche IP-Adresse",
+  "widget.lanaddress": "Lokale IP-Adresse",
+  "widget.loading": "Wird geladen..."
+}
