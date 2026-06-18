@@ -1,0 +1,60 @@
+id = "lazarh/news"
+name = "News"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "LazarH"
+license = "MIT"
+tags = ["Bar", "News", "Information"]
+icon = "newspaper"
+description = "Display rolling news headlines from NewsAPI.org in the bar."
+
+[[setting]]
+key = "apiKey"
+type = "string"
+label = "API Key"
+default = ""
+description = "Your NewsAPI.org API key"
+
+[[setting]]
+key = "country"
+type = "string"
+label = "Country"
+default = "us"
+description = "Country code for news (e.g. us, gb, de)"
+
+[[setting]]
+key = "language"
+type = "string"
+label = "Language"
+default = "en"
+description = "Language code for news (e.g. en, de, fr)"
+
+[[setting]]
+key = "category"
+type = "select"
+label = "Category"
+default = "general"
+description = "News category"
+options = ["general", "business", "entertainment", "health", "science", "sports", "technology"]
+
+[[setting]]
+key = "refreshInterval"
+type = "int"
+label = "Refresh interval (minutes)"
+default = 30
+description = "How often to fetch new headlines"
+
+[[setting]]
+key = "maxHeadlines"
+type = "int"
+label = "Max headlines"
+default = 10
+description = "Maximum number of headlines to fetch"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

@@ -848,3 +848,14 @@ icon = "music"
 description = "Control MPD (Music Player Daemon) from the bar with playback controls."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Music", "Audio"]
+
+[[plugin]]
+id = "lazarh/news"
+name = "News"
+version = "2.0.0"
+author = "LazarH"
+license = "MIT"
+icon = "newspaper"
+description = "Display rolling news headlines from NewsAPI.org in the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "News", "Information"]
