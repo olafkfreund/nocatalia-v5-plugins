@@ -1,0 +1,24 @@
+id = "daddeffe/unicode-picker"
+name = "Unicode Picker"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Daddeffe"
+license = "MIT"
+tags = ["Launcher", "Utility"]
+icon = "code"
+description = "Browse and search Unicode characters from the launcher"
+
+[[setting]]
+key = "auto_paste"
+type = "bool"
+label = "Auto Paste"
+default = true
+description = "Automatically paste selected character"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">unicode"
+glyph = "code"
+include_in_global_search = false
+debounce_ms = 150
