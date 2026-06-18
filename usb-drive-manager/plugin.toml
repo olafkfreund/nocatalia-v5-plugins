@@ -1,0 +1,52 @@
+id = "hennifant/usb-drive-manager"
+name = "USB Drive Manager"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "hennifant"
+license = "MIT"
+tags = ["Bar", "System", "Hardware"]
+icon = "usb"
+description = "Monitor and manage USB drives: auto-mount, browse files, and safely unmount from the bar."
+
+[[setting]]
+key = "autoMount"
+type = "bool"
+label = "Auto-mount"
+default = false
+description = "Automatically mount inserted USB drives"
+
+[[setting]]
+key = "fileBrowser"
+type = "string"
+label = "File browser"
+default = "yazi"
+description = "File browser command to open on drives"
+
+[[setting]]
+key = "terminalCommand"
+type = "string"
+label = "Terminal"
+default = "kitty"
+description = "Terminal emulator to open file browser in"
+
+[[setting]]
+key = "hideWhenEmpty"
+type = "bool"
+label = "Hide when no drives"
+default = false
+description = "Hide the widget when no USB drives are connected"
+
+[[setting]]
+key = "iconColor"
+type = "string"
+label = "Icon color"
+default = "none"
+description = "Color to tint the widget icon (none = theme default)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

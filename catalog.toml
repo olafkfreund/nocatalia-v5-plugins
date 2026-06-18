@@ -870,3 +870,14 @@ icon = "cpu"
 description = "Control ASUS GPU switching modes via supergfxctl."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Hardware", "System", "ASUS"]
+
+[[plugin]]
+id = "hennifant/usb-drive-manager"
+name = "USB Drive Manager"
+version = "2.0.0"
+author = "hennifant"
+license = "MIT"
+icon = "usb"
+description = "Monitor and manage USB drives: auto-mount, browse files, and safely unmount from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Hardware"]
