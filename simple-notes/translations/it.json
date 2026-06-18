@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "Einfache Notizen",
+  "panel.confirm.delete_message": "Sigurado ka bang gusto mong burahin ang notang ito?",
+  "panel.confirm.delete_title": "Fshij shënimin?",
+  "panel.editor.cancel_button": "Peruuta",
+  "panel.editor.content_placeholder": "Scrivi qui i tuoi pensieri...",
+  "panel.editor.delete_button": "Fshij",
+  "panel.editor.save_button": "Salva",
+  "panel.editor.title_placeholder": "Titill athugasemdar",
+  "panel.header.add_button": "Nová poznámka",
+  "panel.header.title": "Mga Tala",
+  "panel.list.empty_message": "Nema bilješki. Napravi jednu!",
+  "panel.list.last_modified": "Huling binago:",
+  "settings.show_count.description": "Zeige die Anzahl der Noten im Takt-Widget an.",
+  "settings.show_count.label": "Zeige Notizanzahl"
+}

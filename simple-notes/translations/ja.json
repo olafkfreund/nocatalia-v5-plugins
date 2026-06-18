@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "シンプルなメモ",
+  "panel.confirm.delete_message": "本当にこのメモを削除しますか？",
+  "panel.confirm.delete_title": "メモを削除しますか？",
+  "panel.editor.cancel_button": "キャンセル",
+  "panel.editor.content_placeholder": "ここにあなたの考えを書いてください...",
+  "panel.editor.delete_button": "削除 (Sakujo)",
+  "panel.editor.save_button": "保存",
+  "panel.editor.title_placeholder": "ノートのタイトル",
+  "panel.header.add_button": "新規メモ",
+  "panel.header.title": "注記",
+  "panel.list.empty_message": "まだノートはありません。作成しましょう！",
+  "panel.list.last_modified": "最終更新：",
+  "settings.show_count.description": "小節ウィジェットの音符数を表示する",
+  "settings.show_count.label": "ノート数を表示"
+}

@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "Simple Notes",
+  "panel.confirm.delete_message": "Are you sure you want to delete this note?",
+  "panel.confirm.delete_title": "Delete Note?",
+  "panel.editor.cancel_button": "Cancel",
+  "panel.editor.content_placeholder": "Write your thoughts here...",
+  "panel.editor.delete_button": "Delete",
+  "panel.editor.save_button": "Save",
+  "panel.editor.title_placeholder": "Note Title",
+  "panel.header.add_button": "New Note",
+  "panel.header.title": "Notes",
+  "panel.list.empty_message": "No notes yet. Create one!",
+  "panel.list.last_modified": "Last modified: ",
+  "settings.show_count.description": "Show the number of notes in the bar widget",
+  "settings.show_count.label": "Show Note Count"
+}

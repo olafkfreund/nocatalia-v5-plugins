@@ -1,0 +1,31 @@
+id = "pir0c0pter0/noctalia-calculator"
+name = "Noctalia Calculator"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "pir0c0pter0"
+license = "MIT"
+tags = ["Bar", "Calculator", "Utility"]
+icon = "calculator"
+description = "A calculator accessible from the bar as a panel."
+
+[[setting]]
+key = "showBarValue"
+type = "bool"
+label = "Show value in bar"
+default = true
+description = "Display the current result in the bar"
+
+[[setting]]
+key = "precision"
+type = "int"
+label = "Decimal precision"
+default = 8
+description = "Number of decimal places to show"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

@@ -1,0 +1,14 @@
+{
+  "state.error": "오류",
+  "bar.clear": "지우기",
+  "bar.settings": "설정",
+  "bar.tooltip-title": "계산기",
+  "panel.title": "계산기",
+  "panel.subtitle": "바에서 빠른 계산",
+  "settings.about": "정보",
+  "settings.show-bar": "바에 값 표시",
+  "settings.show-bar-desc": "계산기 아이콘 옆에 현재 값을 표시합니다",
+  "settings.precision": "소수점 정밀도: {value}",
+  "settings.precision-desc": "결과 포맷 시 최대 소수 자릿수",
+  "settings.developed-by": "Pir0c0pter0 개발<br>v{version}"
+}

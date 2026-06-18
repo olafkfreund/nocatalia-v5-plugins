@@ -1,0 +1,16 @@
+{
+  "state.error": "Fehler",
+  "bar.clear": "Loeschen",
+  "bar.settings": "Einstellungen",
+  "bar.tooltip-title": "Rechner",
+  "panel.title": "Rechner",
+  "panel.subtitle": "Schnellrechnung in der Leiste",
+  "panel.copy-result-tooltip": "Ergebnis kopieren",
+  "toast.copied": "Kopiert: {value}",
+  "settings.about": "Über",
+  "settings.show-bar": "Wert in der Leiste anzeigen",
+  "settings.show-bar-desc": "Zeigt den aktuellen Wert neben dem Rechner-Symbol an",
+  "settings.precision": "Dezimalgenauigkeit: {value}",
+  "settings.precision-desc": "Maximale Dezimalstellen bei der Ergebnisformatierung",
+  "settings.developed-by": "Entwickelt von Pir0c0pter0<br>v{version}"
+}

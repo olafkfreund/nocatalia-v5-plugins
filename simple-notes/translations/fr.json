@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "Notes simples",
+  "panel.confirm.delete_message": "Êtes-vous sûr de vouloir supprimer cette note ?",
+  "panel.confirm.delete_title": "Supprimer la note ?",
+  "panel.editor.cancel_button": "Annuler",
+  "panel.editor.content_placeholder": "Écrivez vos pensées ici...",
+  "panel.editor.delete_button": "Supprimer",
+  "panel.editor.save_button": "Enregistrer",
+  "panel.editor.title_placeholder": "Titre de la note",
+  "panel.header.add_button": "Nouvelle note",
+  "panel.header.title": "Remarques",
+  "panel.list.empty_message": "Aucune note pour l'instant. Créez-en une !",
+  "panel.list.last_modified": "Dernière modification :",
+  "settings.show_count.description": "Afficher le nombre de notes dans le widget de mesure.",
+  "settings.show_count.label": "Afficher le nombre de notes"
+}

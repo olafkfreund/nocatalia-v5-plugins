@@ -1079,3 +1079,25 @@ icon = "bell-ring"
 description = "Automatically mark Niri workspaces as urgent when they receive notifications."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Niri", "Notifications", "Workspaces"]
+
+[[plugin]]
+id = "fusuyfusuy/simple-notes"
+name = "Simple Notes"
+version = "2.0.0"
+author = "fusuyfusuy"
+license = "MIT"
+icon = "notebook"
+description = "Quick notes panel accessible from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Notes", "Productivity"]
+
+[[plugin]]
+id = "pir0c0pter0/noctalia-calculator"
+name = "Noctalia Calculator"
+version = "2.0.0"
+author = "pir0c0pter0"
+license = "MIT"
+icon = "calculator"
+description = "A calculator accessible from the bar as a panel."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Calculator", "Utility"]

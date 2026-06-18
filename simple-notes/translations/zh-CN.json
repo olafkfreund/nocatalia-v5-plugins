@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "简易笔记",
+  "panel.confirm.delete_message": "你确定要删除这条笔记吗？",
+  "panel.confirm.delete_title": "删除笔记？",
+  "panel.editor.cancel_button": "取消",
+  "panel.editor.content_placeholder": "在此处写下你的想法...",
+  "panel.editor.delete_button": "删除",
+  "panel.editor.save_button": "保存",
+  "panel.editor.title_placeholder": "笔记标题",
+  "panel.header.add_button": "新建笔记",
+  "panel.header.title": "笔记",
+  "panel.list.empty_message": "还没有笔记。创建一个吧！",
+  "panel.list.last_modified": "上次修改：",
+  "settings.show_count.description": "显示小节部件中的音符数量",
+  "settings.show_count.label": "显示笔记数量"
+}

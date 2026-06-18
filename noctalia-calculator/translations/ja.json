@@ -1,0 +1,14 @@
+{
+  "state.error": "エラー",
+  "bar.clear": "クリア",
+  "bar.settings": "設定",
+  "bar.tooltip-title": "電卓",
+  "panel.title": "電卓",
+  "panel.subtitle": "バーで素早く計算",
+  "settings.about": "このプラグインについて",
+  "settings.show-bar": "バーに数値を表示",
+  "settings.show-bar-desc": "電卓アイコンの横に現在の値を表示します",
+  "settings.precision": "小数精度: {value}",
+  "settings.precision-desc": "結果のフォーマット時の最大小数桁数",
+  "settings.developed-by": "Pir0c0pter0 が開発<br>v{version}"
+}

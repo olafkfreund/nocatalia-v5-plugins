@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "Proste notatki",
+  "panel.confirm.delete_message": "Czy na pewno chcesz usunąć tę notatkę?",
+  "panel.confirm.delete_title": "Usunąć notatkę?",
+  "panel.editor.cancel_button": "Anuluj",
+  "panel.editor.content_placeholder": "Zapisz tutaj swoje przemyślenia...",
+  "panel.editor.delete_button": "Usuń",
+  "panel.editor.save_button": "Zapisz",
+  "panel.editor.title_placeholder": "Tytuł notatki",
+  "panel.header.add_button": "Nowa notatka",
+  "panel.header.title": "Notatki",
+  "panel.list.empty_message": "Brak notatek. Utwórz nową!",
+  "panel.list.last_modified": "Ostatnio zmodyfikowano:",
+  "settings.show_count.description": "Pokaż liczbę notatek na widżecie paska",
+  "settings.show_count.label": "Pokaż liczbę notatek"
+}

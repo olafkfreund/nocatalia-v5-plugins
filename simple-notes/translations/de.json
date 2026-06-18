@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "Einfache Notizen",
+  "panel.confirm.delete_message": "Sind Sie sicher, dass Sie diese Notiz löschen möchten?",
+  "panel.confirm.delete_title": "Notiz löschen?",
+  "panel.editor.cancel_button": "Abbrechen",
+  "panel.editor.content_placeholder": "Schreibe hier deine Gedanken auf...",
+  "panel.editor.delete_button": "Löschen",
+  "panel.editor.save_button": "Speichern",
+  "panel.editor.title_placeholder": "Notiztitel",
+  "panel.header.add_button": "Neue Notiz",
+  "panel.header.title": "Notizen",
+  "panel.list.empty_message": "Noch keine Notizen. Erstelle eine!",
+  "panel.list.last_modified": "Letzte Änderung:",
+  "settings.show_count.description": "Zeige die Anzahl der Noten im Takt-Widget an.",
+  "settings.show_count.label": "Notizanzahl anzeigen"
+}

@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "Basit Notlar",
+  "panel.confirm.delete_message": "Bu notu silmek istediğinizden emin misiniz?",
+  "panel.confirm.delete_title": "Notu silmek mi?",
+  "panel.editor.cancel_button": "İptal",
+  "panel.editor.content_placeholder": "Düşüncelerinizi buraya yazın...",
+  "panel.editor.delete_button": "Sil",
+  "panel.editor.save_button": "Kaydet",
+  "panel.editor.title_placeholder": "Not Başlığı",
+  "panel.header.add_button": "Yeni Not",
+  "panel.header.title": "Notlar",
+  "panel.list.empty_message": "Henüz not yok. Bir tane oluştur!",
+  "panel.list.last_modified": "Son değiştirilme tarihi:",
+  "settings.show_count.description": "Çubuk widget'ındaki nota sayısını göster.",
+  "settings.show_count.label": "Not Sayısı Göster"
+}

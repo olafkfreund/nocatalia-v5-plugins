@@ -1,0 +1,14 @@
+{
+  "state.error": "Ошибка",
+  "bar.clear": "Очистить",
+  "bar.settings": "Настройки",
+  "bar.tooltip-title": "Калькулятор",
+  "panel.title": "Калькулятор",
+  "panel.subtitle": "Быстрый расчёт в панели",
+  "settings.about": "О плагине",
+  "settings.show-bar": "Показывать значение в панели",
+  "settings.show-bar-desc": "Отображает текущее значение рядом с иконкой калькулятора",
+  "settings.precision": "Десятичная точность: {value}",
+  "settings.precision-desc": "Максимальное количество десятичных знаков при форматировании результатов",
+  "settings.developed-by": "Разработано Pir0c0pter0<br>v{version}"
+}

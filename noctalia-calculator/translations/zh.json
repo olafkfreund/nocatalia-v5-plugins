@@ -1,0 +1,14 @@
+{
+  "state.error": "错误",
+  "bar.clear": "清除",
+  "bar.settings": "设置",
+  "bar.tooltip-title": "计算器",
+  "panel.title": "计算器",
+  "panel.subtitle": "栏内快速计算",
+  "settings.about": "关于",
+  "settings.show-bar": "在栏中显示数值",
+  "settings.show-bar-desc": "在计算器图标旁显示当前数值",
+  "settings.precision": "小数精度: {value}",
+  "settings.precision-desc": "格式化结果时的最大小数位数",
+  "settings.developed-by": "由 Pir0c0pter0 开发<br>v{version}"
+}

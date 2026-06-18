@@ -1,0 +1,31 @@
+id = "fusuyfusuy/simple-notes"
+name = "Simple Notes"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "fusuyfusuy"
+license = "MIT"
+tags = ["Bar", "Notes", "Productivity"]
+icon = "notebook"
+description = "Quick notes panel accessible from the bar."
+
+[[setting]]
+key = "showCountInBar"
+type = "bool"
+label = "Show note count in bar"
+default = true
+description = "Display number of notes in the bar widget"
+
+[[setting]]
+key = "notesFile"
+type = "string"
+label = "Notes file path"
+default = ""
+description = "Path to save notes (uses internal storage if empty)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

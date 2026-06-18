@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "Простые заметки",
+  "panel.confirm.delete_message": "Вы уверены, что хотите удалить эту заметку?",
+  "panel.confirm.delete_title": "Удалить заметку?",
+  "panel.editor.cancel_button": "Отменить",
+  "panel.editor.content_placeholder": "Напишите свои мысли здесь...",
+  "panel.editor.delete_button": "Удалить",
+  "panel.editor.save_button": "Сохранить",
+  "panel.editor.title_placeholder": "Заголовок заметки",
+  "panel.header.add_button": "Новая заметка",
+  "panel.header.title": "Примечания",
+  "panel.list.empty_message": "Пока нет заметок. Создайте!",
+  "panel.list.last_modified": "Последнее изменение:",
+  "settings.show_count.description": "Показать количество нот в виджете такта",
+  "settings.show_count.label": "Показать количество заметок"
+}

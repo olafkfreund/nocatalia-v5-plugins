@@ -1,0 +1,16 @@
+{
+  "bar_widget.tooltip": "Egyszerű jegyzetek",
+  "panel.confirm.delete_message": "Biztosan törölni szeretnéd ezt a jegyzetet?",
+  "panel.confirm.delete_title": "Jegyzet törlése?",
+  "panel.editor.cancel_button": "Mégse",
+  "panel.editor.content_placeholder": "Írd ide a gondolataid...",
+  "panel.editor.delete_button": "Törlés",
+  "panel.editor.save_button": "Mentés",
+  "panel.editor.title_placeholder": "Jegyzet címe",
+  "panel.header.add_button": "Új jegyzet",
+  "panel.header.title": "Jegyzetek",
+  "panel.list.empty_message": "Még nincsenek jegyzetek. Hozzon létre egyet!",
+  "panel.list.last_modified": "Utolsó módosítás:",
+  "settings.show_count.description": "Jegyzetek számának megjelenítése a sáv widgetben",
+  "settings.show_count.label": "Jegyzetek számának mutatása"
+}

@@ -1,0 +1,14 @@
+{
+  "state.error": "Error",
+  "bar.clear": "Limpiar",
+  "bar.settings": "Ajustes",
+  "bar.tooltip-title": "Calculadora",
+  "panel.title": "Calculadora",
+  "panel.subtitle": "Calculo rapido en la barra",
+  "settings.about": "Acerca de",
+  "settings.show-bar": "Mostrar valor en la barra",
+  "settings.show-bar-desc": "Muestra el valor actual junto al icono de la calculadora",
+  "settings.precision": "Precision decimal: {value}",
+  "settings.precision-desc": "Maximo de decimales al formatear resultados",
+  "settings.developed-by": "Desarrollado por Pir0c0pter0<br>v{version}"
+}

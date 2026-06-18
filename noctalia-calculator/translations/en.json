@@ -1,0 +1,16 @@
+{
+  "state.error": "Error",
+  "bar.clear": "Clear",
+  "bar.settings": "Settings",
+  "bar.tooltip-title": "Calculator",
+  "panel.title": "Calculator",
+  "panel.subtitle": "Quick math in the bar",
+  "panel.copy-result-tooltip": "Copy result",
+  "toast.copied": "Copied: {value}",
+  "settings.about": "About",
+  "settings.show-bar": "Show value in bar",
+  "settings.show-bar-desc": "Display the current value next to the calculator icon",
+  "settings.precision": "Decimal precision: {value}",
+  "settings.precision-desc": "Maximum decimals used when formatting results",
+  "settings.developed-by": "Developed by Pir0c0pter0<br>v{version}"
+}
