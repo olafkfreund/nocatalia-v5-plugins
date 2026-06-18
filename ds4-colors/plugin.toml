@@ -1,0 +1,38 @@
+id = "hy4ri/ds4-colors"
+name = "DS4 Colors"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Hy4ri"
+license = "MIT"
+tags = ["Hardware", "Gaming", "Bar"]
+icon = "gamepad"
+description = "Control DualShock 4 and DualSense controller LED colors from the bar."
+
+[[setting]]
+key = "color"
+type = "string"
+label = "LED Color"
+default = "#0064ff"
+description = "Hex color to set on controller LEDs"
+
+[[setting]]
+key = "colorIcon"
+type = "bool"
+label = "Color icon"
+default = false
+description = "Tint the bar widget icon with the controller color"
+
+[[setting]]
+key = "hideOnEmpty"
+type = "bool"
+label = "Hide when no controller"
+default = false
+description = "Hide the widget when no controller is connected"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

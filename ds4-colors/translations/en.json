@@ -1,0 +1,22 @@
+{
+  "errors.no_controllers": "No controllers detected",
+  "errors.controller_data_missing": "Controller data missing",
+  "errors.plugin_dir_not_found": "Plugin dir not found",
+  "errors.auth_failed": "Authentication failed or no permission",
+  "menu.settings": "Settings",
+  "menu.scan": "Scan",
+  "bar.controllers.count": "DS4: {count} controller(s)",
+  "bar.controllers.none": "DS4: No controllers",
+  "bar.battery": "Battery: {level}%",
+  "bar.error": "Error: {msg}",
+  "settings.lightbar_color": "Lightbar Color",
+  "settings.recent_colors": "Recent Colors",
+  "settings.widget_settings": "Widget Settings",
+  "settings.color_icon.label": "Color Widget Icon",
+  "settings.color_icon.desc": "Use the lightbar color for the bar widget icon",
+  "settings.hide_empty.label": "Hide When Disconnected",
+  "settings.hide_empty.desc": "Hide the bar widget if no controllers are detected",
+  "settings.info": "Info",
+  "settings.info_desc1": "This plugin controls DS4/DualSense LED colors via sysfs.",
+  "settings.info_desc2": "If colors don't apply, run: sudo ./scripts/setup_rules.sh"
+}

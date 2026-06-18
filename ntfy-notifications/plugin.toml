@@ -1,0 +1,85 @@
+id = "maxe/ntfy-notifications"
+name = "ntfy Notifications"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "maxe"
+license = "MIT"
+icon = "bell"
+description = "Subscribe to ntfy topics and receive push notifications directly in your bar, with full theming support"
+tags = ["Bar", "Network", "Notifications"]
+
+[[setting]]
+key = "serverUrl"
+type = "string"
+label = "Server URL"
+default = "https://ntfy.sh"
+description = "The ntfy server URL"
+
+[[setting]]
+key = "topics"
+type = "string"
+label = "Topics"
+default = ""
+description = "Comma-separated list of topics to subscribe to (e.g. alerts,backups,monitoring)"
+
+[[setting]]
+key = "authMethod"
+type = "select"
+label = "Authentication"
+default = "none"
+description = "Authentication method for private servers"
+options = [
+  { value = "none",  label = "None (public topics)" },
+  { value = "token", label = "Access Token" },
+  { value = "basic", label = "Username & Password" }
+]
+
+[[setting]]
+key = "authToken"
+type = "string"
+label = "Access Token"
+default = ""
+description = "Your ntfy access token (used when auth method is Token)"
+
+[[setting]]
+key = "authUsername"
+type = "string"
+label = "Username"
+default = ""
+description = "Username for Basic Auth"
+
+[[setting]]
+key = "authPassword"
+type = "string"
+label = "Password"
+default = ""
+description = "Password for Basic Auth"
+
+[[setting]]
+key = "pollInterval"
+type = "int"
+label = "Poll Interval (seconds)"
+default = 30
+description = "How often to check for new messages (in seconds)"
+
+[[setting]]
+key = "enableToasts"
+type = "bool"
+label = "Desktop Notifications"
+default = true
+description = "Show a toast notification when new messages arrive"
+
+[[setting]]
+key = "maxMessages"
+type = "int"
+label = "Max Messages"
+default = 100
+description = "Maximum number of messages to keep in history"
+
+[[service]]
+id = "ntfy-service"
+entry = "service.luau"
+
+[[widget]]
+id = "ntfy-widget"
+entry = "widget.luau"

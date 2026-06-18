@@ -749,3 +749,36 @@ icon = "battery"
 description = "Toggle IdeaPad battery conservation mode via sysfs to protect long-term battery health."
 min_noctalia = "5.0.0"
 tags = ["Bar", "System", "Laptop"]
+
+[[plugin]]
+id = "anonymous/port-monitor"
+name = "Port Monitor"
+version = "2.0.0"
+author = "anonymous"
+license = "MIT"
+icon = "network"
+description = "Monitor listening network ports and display count in the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Network", "Security"]
+
+[[plugin]]
+id = "maxe/ntfy-notifications"
+name = "ntfy Notifications"
+version = "2.0.0"
+author = "maxe"
+license = "MIT"
+icon = "bell"
+description = "Subscribe to ntfy topics and receive push notifications directly in your bar, with full theming support"
+min_noctalia = "5.0.0"
+tags = ["Bar", "Network", "Notifications"]
+
+[[plugin]]
+id = "hy4ri/ds4-colors"
+name = "DS4 Colors"
+version = "2.0.0"
+author = "Hy4ri"
+license = "MIT"
+icon = "gamepad"
+description = "Control DualShock 4 and DualSense controller LED colors from the bar."
+min_noctalia = "5.0.0"
+tags = ["Hardware", "Gaming", "Bar"]
