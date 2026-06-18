@@ -1,0 +1,33 @@
+id = "nofiltera1/nvibrant"
+name = "NVibrant"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "NoFilterA1"
+license = "MIT"
+tags = ["Bar", "System", "Gaming"]
+icon = "contrast"
+description = "Toggle NVIDIA digital vibrance (color saturation) via nvibrant."
+
+[[setting]]
+key = "vibranceValue"
+type = "int"
+label = "Vibrance Level"
+default = 512
+min = 0
+max = 1023
+step = 64
+description = "Digital vibrance intensity (0 = default, 1023 = maximum saturation)"
+
+[[setting]]
+key = "displayIndex"
+type = "int"
+label = "Display Port Index"
+default = 1
+min = 1
+max = 8
+step = 1
+description = "Display number (1 = first port). Run 'nvibrant' to find which number shows 'Success'"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

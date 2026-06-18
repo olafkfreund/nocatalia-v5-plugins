@@ -506,3 +506,14 @@ icon = "cpu"
 description = "Shows Distribution, Kernel, Uptime and IP addresses."
 min_noctalia = "5.0.0"
 tags = ["Desktop", "System"]
+
+[[plugin]]
+id = "nofiltera1/nvibrant"
+name = "NVibrant"
+version = "2.0.0"
+author = "NoFilterA1"
+license = "MIT"
+icon = "contrast"
+description = "Toggle NVIDIA digital vibrance (color saturation) via nvibrant."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Gaming"]
