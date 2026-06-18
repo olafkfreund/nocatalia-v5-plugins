@@ -1,0 +1,38 @@
+id = "sergiomendolia/giphy-search"
+name = "Giphy Search"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Sergio Mendolia"
+license = "MIT"
+description = "Search for GIFs on Giphy from the Launcher."
+tags = ["Launcher", "Utility", "Fun"]
+icon = "gif"
+
+[[setting]]
+key = "api_key"
+type = "string"
+label = "API Key"
+default = ""
+description = "Your Giphy API Key (optional but recommended)"
+
+[[setting]]
+key = "rating"
+type = "select"
+label = "Rating"
+default = "g"
+description = "Content rating (y, g, pg, pg-13, r)"
+options = [
+  { value = "y", label = "Y - All Audiences" },
+  { value = "g", label = "G - General Audiences" },
+  { value = "pg", label = "PG - Parental Guidance" },
+  { value = "pg-13", label = "PG-13 - Parents Strongly Cautioned" },
+  { value = "r", label = "R - Restricted" }
+]
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">gif"
+glyph = "gif"
+include_in_global_search = true
+debounce_ms = 300

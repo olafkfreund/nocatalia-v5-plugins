@@ -1,0 +1,15 @@
+{
+  "settings.apiKey.label": "Giphy API Key",
+  "settings.apiKey.description": "Hol dir deinen API-Schlüssel unter developers.giphy.com",
+  "settings.rating.label": "Altersfreigabe",
+  "settings.rating.description": "Ergebnisse nach Altersfreigabe filtern",
+  "launcher.typeSomething": "Gib etwas ein...",
+  "launcher.searchGiphy": "GIFs auf Giphy suchen",
+  "launcher.search": "Suche \"{query}\"",
+  "launcher.openOnGiphy": "Auf Giphy öffnen",
+  "launcher.noApiKey": "API-Schlüssel erforderlich",
+  "launcher.noApiKeyDescription": "Lege deinen Giphy-API-Schlüssel in den Plugin-Einstellungen fest",
+  "launcher.untitled": "GIF ohne Titel",
+  "launcher.copyUrl": "GIF-URL in die Zwischenablage kopieren",
+  "launcher.command.description": "GIFs auf Giphy suchen"
+}

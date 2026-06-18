@@ -605,3 +605,14 @@ icon = "obsidian"
 description = "Switch between Obsidian vaults from the launcher."
 min_noctalia = "5.0.0"
 tags = ["Launcher", "Productivity"]
+
+[[plugin]]
+id = "sergiomendolia/giphy-search"
+name = "Giphy Search"
+version = "2.0.0"
+author = "Sergio Mendolia"
+license = "MIT"
+icon = "gif"
+description = "Search for GIFs on Giphy from the Launcher."
+min_noctalia = "5.0.0"
+tags = ["Launcher", "Utility", "Fun"]
