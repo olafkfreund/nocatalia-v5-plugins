@@ -793,3 +793,14 @@ icon = "network"
 description = "Monitor listening network ports and display count in the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "System", "Network", "Security"]
+
+[[plugin]]
+id = "blessonmathewsam/protonvpn"
+name = "ProtonVPN"
+version = "2.0.0"
+author = "blessonmathewsam"
+license = "MIT"
+icon = "shield-lock"
+description = "Monitor and control ProtonVPN connection from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Network", "Security"]

@@ -1,0 +1,60 @@
+id = "blessonmathewsam/protonvpn"
+name = "ProtonVPN Status"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "blessonmathewsam"
+license = "MIT"
+tags = ["Bar", "Network", "Privacy"]
+icon = "shield"
+description = "Shows ProtonVPN connection status in the bar. Polls protonvpn-cli for status and supports connect, disconnect, Secure Core, and P2P quick-connect actions. Requires the ProtonVPN CLI (protonvpn-cli) installed and authenticated."
+
+[[setting]]
+key = "displayMode"
+type = "select"
+label = "Display Mode"
+default = "alwaysShow"
+description = "Controls when the bar widget text label is visible"
+options = [
+  { value = "alwaysShow", label = "Always Show" },
+  { value = "alwaysHide", label = "Always Hide" },
+  { value = "connectedOnly", label = "Connected Only" },
+]
+
+[[setting]]
+key = "connectedColor"
+type = "select"
+label = "Connected Colour"
+default = "primary"
+description = "Glyph colour when VPN is connected"
+options = [
+  { value = "primary", label = "Primary" },
+  { value = "on_surface", label = "On Surface" },
+  { value = "on_surface_variant", label = "On Surface Variant" },
+]
+
+[[setting]]
+key = "disconnectedColor"
+type = "select"
+label = "Disconnected Colour"
+default = "on_surface_variant"
+description = "Glyph colour when VPN is disconnected"
+options = [
+  { value = "none", label = "None (hidden)" },
+  { value = "on_surface_variant", label = "On Surface Variant" },
+  { value = "error", label = "Error" },
+]
+
+[[setting]]
+key = "pollInterval"
+type = "int"
+label = "Poll Interval (ms)"
+default = 5000
+description = "How often to query protonvpn status (milliseconds)"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+[[service]]
+id = "service"
+entry = "service.luau"

@@ -1,0 +1,22 @@
+{
+  "settings.pluginSettings": "Plugin settings",
+  "bar.disconnected-state": "ProtonVPN: Disconnected",
+  "panel.title": "ProtonVPN",
+  "panel.refresh": "Refresh",
+  "panel.close": "Close",
+  "panel.status-connected": "Connected",
+  "panel.status-disconnected": "Disconnected",
+  "panel.status-working": "Working…",
+  "panel.status-unknown": "Unknown",
+  "panel.disconnected": "disconnected",
+  "panel.load": "Load",
+  "panel.disconnect": "Disconnect",
+  "panel.connect-fastest": "Connect Fastest",
+  "panel.kill-switch": "Kill Switch",
+  "panel.kill-switch-desc": "Blocks internet if VPN drops",
+  "panel.kill-switch-disabled": "Disabled",
+  "panel.loading": "Loading…",
+  "panel.quick-connect": "Quick connect",
+  "panel.secure-core": "Secure Core",
+  "panel.p2p": "P2P"
+}
