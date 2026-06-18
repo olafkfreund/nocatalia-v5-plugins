@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Widget settings",
+  "fortune.notInstalled": "⚠ fortune not installed",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Just text",
+  "settings.text.desc": "The text to display in the bar",
+  "settings.fortune.label": "Fortune mode",
+  "settings.fortune.desc": "Show a random quote from fortune instead of custom text",
+  "settings.fortuneCategory.label": "Category",
+  "settings.fortuneCategory.desc": "Limit quotes to a specific fortune category (e.g. computers, science)",
+  "settings.fortuneMaxLength.label": "Max quote length: {value}",
+  "settings.fortuneMaxLength.desc": "Maximum number of characters a fortune quote may have",
+  "settings.fortuneOffensive.label": "Include offensive (-o)",
+  "settings.fortuneOffensive.desc": "Also draw from the offensive fortune database",
+  "settings.fortuneEqual.label": "Equal probability (-e)",
+  "settings.fortuneEqual.desc": "Give all categories equal chance regardless of their size",
+  "settings.list.label": "List mode",
+  "settings.list.desc": "Show a random entry from a text file instead of custom text",
+  "settings.textFile.label": "Text file",
+  "settings.textFile.desc": "Path to a text file with one entry per line. See examples.txt for a starting point.",
+  "settings.refreshOnWallpaper.label": "Refresh on wallpaper change",
+  "settings.refreshOnWallpaper.desc": "Pick a new text when the wallpaper changes. Disable to only pick once per session."
+}

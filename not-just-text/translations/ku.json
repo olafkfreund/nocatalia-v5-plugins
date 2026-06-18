@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Mîhengên wîdcetê",
+  "fortune.notInstalled": "⚠ fortune nehatiye saz kirin",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Tenê nivîs",
+  "settings.text.desc": "Nivîsa ku di barê de were xuyang kirin",
+  "settings.fortune.label": "Moda fortune",
+  "settings.fortune.desc": "Li şûna nivîsa xwerû ramaneke tesadufî ji fortune nîşan bide",
+  "settings.fortuneCategory.label": "Kategorî",
+  "settings.fortuneCategory.desc": "Ramanan bi kategoriyeke fortune-ê ya taybet ve sînordar bike (wek: computers, science)",
+  "settings.fortuneMaxLength.label": "Dirêjahiya herî zêde ya ramanê: {value}",
+  "settings.fortuneMaxLength.desc": "Hejmara herî zêde ya tîpên ku ramanek fortune-ê dikare hebe",
+  "settings.fortuneOffensive.label": "Naverokên saldirker bihewîne (-o)",
+  "settings.fortuneOffensive.desc": "Ji databaza fortune-ê ya saldirker jî bikşîne",
+  "settings.fortuneEqual.label": "Îhtîmala wekhev (-e)",
+  "settings.fortuneEqual.desc": "Ji her kategoriyê re bêyî girêdana mezinahiyê şansek wekhev bide",
+  "settings.list.label": "Moda lîsteyê",
+  "settings.list.desc": "Li şûna nivîsa xwerû têkelek tesadufî ji peleke nivîsê nîşan bide",
+  "settings.textFile.label": "Pelê nivîsê",
+  "settings.textFile.desc": "Rêça peleke nivîsê ya bi têkelek di her rêzê de. Ji examples.txt re binêre.",
+  "settings.refreshOnWallpaper.label": "Di guhertina dîmenê de nûve bike",
+  "settings.refreshOnWallpaper.desc": "Dema ku dîmen diguhere nivîseke nû hilbijêre. Neçalak bike da ku di her danişînê de tenê carekê were hilbijartin."
+}

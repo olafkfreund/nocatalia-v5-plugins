@@ -705,3 +705,14 @@ icon = "clock"
 description = "Display time from multiple timezones around the world with automatic rotation."
 min_noctalia = "5.0.0"
 tags = ["Bar"]
+
+[[plugin]]
+id = "blackteaextract/osk-toggle"
+name = "OSK Toggle"
+version = "2.0.0"
+author = "blackteaextract"
+license = "MIT"
+icon = "keyboard"
+description = "Toggle an on-screen keyboard (Squeekboard or wvkbd) with auto-detection and live availability monitoring."
+min_noctalia = "5.0.0"
+tags = ["System", "Bar", "Utility"]

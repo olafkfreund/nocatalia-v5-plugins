@@ -1,0 +1,23 @@
+{
+  "tooltip.active": "Клавіатура активна · Натисніть, щоб приховати",
+  "tooltip.hidden": "Клавіатура прихована · Натисніть, щоб показати",
+  "tooltip.noGsettings": "gsettings недоступний",
+  "tooltip.noSqueekboard": "Squeekboard не запущено",
+  "tooltip.noWvkbd": "wvkbd не знайдено",
+  "tooltip.detecting": "Бекенд не виявлено · Відкрити налаштування",
+  "menu.settings": "Налаштування віджета",
+  "settings.backend.label": "Бекенд",
+  "settings.backend.desc": "Яку екранну клавіатуру використовувати: auto, squeekboard або wvkbd (auto визначає при запуску)",
+  "settings.backend.option.auto": "Авто",
+  "settings.backend.option.squeekboard": "Squeekboard",
+  "settings.backend.option.wvkbd": "wvkbd",
+  "settings.hideWhenUnavailable.label": "Приховувати, коли недоступний",
+  "settings.hideWhenUnavailable.desc": "Повністю приховувати віджет, коли клавіатура недоступна",
+  "settings.disableHoverIcon.label": "Вимкнути іконку при наведенні",
+  "settings.disableHoverIcon.desc": "Завжди показувати іконку поточного стану замість іконки при наведенні. Примітка: іконки при наведенні відображаються лише коли панель знаходиться зверху або знизу.",
+  "settings.wvkbdBin.label": "Виконуваний файл wvkbd",
+  "settings.wvkbdBin.desc": "Ім'я або шлях до виконуваного файлу (напр. wvkbd-mobintl, wvkbd-comp, wvkbd-abc)",
+  "settings.recheck.label": "Перевірити стан знову",
+  "settings.recheck.done": "Стан перевірено!",
+  "settings.recheck.desc": "Вручну синхронізувати стан клавіатури"
+}

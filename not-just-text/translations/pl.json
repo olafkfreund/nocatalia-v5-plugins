@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Ustawienia widżetu",
+  "fortune.notInstalled": "⚠ fortune nie jest zainstalowany",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Tylko tekst",
+  "settings.text.desc": "Tekst wyświetlany na pasku",
+  "settings.fortune.label": "Tryb fortune",
+  "settings.fortune.desc": "Wyświetlaj losowy cytat z fortune zamiast własnego tekstu",
+  "settings.fortuneCategory.label": "Kategoria",
+  "settings.fortuneCategory.desc": "Ogranicz cytaty do określonej kategorii fortune (np. computers, science)",
+  "settings.fortuneMaxLength.label": "Maks. długość cytatu: {value}",
+  "settings.fortuneMaxLength.desc": "Maksymalna liczba znaków, jaką może mieć cytat fortune",
+  "settings.fortuneOffensive.label": "Uwzględnij obraźliwe (-o)",
+  "settings.fortuneOffensive.desc": "Pobieraj również z obraźliwej bazy danych fortune",
+  "settings.fortuneEqual.label": "Równe prawdopodobieństwo (-e)",
+  "settings.fortuneEqual.desc": "Nadaj wszystkim kategoriom równe szanse niezależnie od ich rozmiaru",
+  "settings.list.label": "Tryb listy",
+  "settings.list.desc": "Wyświetlaj losowy wpis z pliku tekstowego zamiast własnego tekstu",
+  "settings.textFile.label": "Plik tekstowy",
+  "settings.textFile.desc": "Ścieżka do pliku tekstowego z jednym wpisem w każdym wierszu. Jako punkt startowy skorzystaj z examples.txt.",
+  "settings.refreshOnWallpaper.label": "Odświeżaj przy zmianie tapety",
+  "settings.refreshOnWallpaper.desc": "Wybiera nowy tekst po zmianie tapety. Wyłącz, aby wybierać tylko raz na sesję."
+}

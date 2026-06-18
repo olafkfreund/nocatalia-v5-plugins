@@ -1,0 +1,73 @@
+id          = "blackteaextract/not-just-text"
+name        = "Not Just Text"
+version     = "2.0.0"
+min_noctalia = "5.0.0"
+author      = "blackteaextract"
+license     = "MIT"
+icon        = "writing"
+tags        = ["Bar", "Fun"]
+description = "Displays custom text, fortune quotes, or a random entry from a user-provided text file in the bar."
+
+[[setting]]
+key         = "text"
+type        = "string"
+label       = "Just text"
+default     = "Hello"
+description = "The text to display in the bar"
+
+[[setting]]
+key         = "fortuneEnabled"
+type        = "bool"
+label       = "Fortune mode"
+default     = false
+description = "Show a random quote from fortune instead of custom text"
+
+[[setting]]
+key         = "fortuneOffensive"
+type        = "bool"
+label       = "Include offensive (-o)"
+default     = false
+description = "Also draw from the offensive fortune database"
+
+[[setting]]
+key         = "fortuneEqual"
+type        = "bool"
+label       = "Equal probability (-e)"
+default     = false
+description = "Give all categories equal chance regardless of their size"
+
+[[setting]]
+key         = "fortuneCategory"
+type        = "string"
+label       = "Fortune category"
+default     = ""
+description = "Limit quotes to a specific fortune category (e.g. computers, science)"
+
+[[setting]]
+key         = "fortuneMaxLength"
+type        = "int"
+label       = "Max quote length"
+default     = 60
+description = "Maximum number of characters a fortune quote may have"
+
+[[setting]]
+key         = "listEnabled"
+type        = "bool"
+label       = "List mode"
+default     = false
+description = "Show a random entry from a text file instead of custom text"
+
+[[setting]]
+key         = "textFile"
+type        = "string"
+label       = "Text file"
+default     = ""
+description = "Path to a text file with one entry per line. Leave empty to use the built-in examples.txt."
+
+[[service]]
+id    = "not-just-text-service"
+entry = "service.luau"
+
+[[widget]]
+id    = "not-just-text-widget"
+entry = "widget.luau"

@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Impostazioni widget",
+  "fortune.notInstalled": "⚠ fortune non installato",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Solo testo",
+  "settings.text.desc": "Il testo da visualizzare nella barra",
+  "settings.fortune.label": "Modalità fortune",
+  "settings.fortune.desc": "Mostra una citazione casuale da fortune invece del testo personalizzato",
+  "settings.fortuneCategory.label": "Categoria",
+  "settings.fortuneCategory.desc": "Limita le citazioni a una categoria fortune specifica (es. computers, science)",
+  "settings.fortuneMaxLength.label": "Lunghezza massima citazione: {value}",
+  "settings.fortuneMaxLength.desc": "Numero massimo di caratteri che una citazione fortune può avere",
+  "settings.fortuneOffensive.label": "Includi offensivo (-o)",
+  "settings.fortuneOffensive.desc": "Estrai anche dal database fortune offensivo",
+  "settings.fortuneEqual.label": "Probabilità uguale (-e)",
+  "settings.fortuneEqual.desc": "Dai a tutte le categorie la stessa probabilità indipendentemente dalla dimensione",
+  "settings.list.label": "Modalità lista",
+  "settings.list.desc": "Mostra una voce casuale da un file di testo invece del testo personalizzato",
+  "settings.textFile.label": "File di testo",
+  "settings.textFile.desc": "Percorso a un file di testo con una voce per riga. Vedi examples.txt per un punto di partenza.",
+  "settings.refreshOnWallpaper.label": "Aggiorna al cambio sfondo",
+  "settings.refreshOnWallpaper.desc": "Scegli un nuovo testo quando cambia lo sfondo. Disabilita per scegliere solo una volta per sessione."
+}

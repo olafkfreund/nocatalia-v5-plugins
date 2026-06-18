@@ -1,0 +1,23 @@
+{
+  "tooltip.active": "Billentyűzet aktív · Kattintson az elrejtéshez",
+  "tooltip.hidden": "Billentyűzet elrejtve · Kattintson a megjelenítéshez",
+  "tooltip.noGsettings": "gsettings nem érhető el",
+  "tooltip.noSqueekboard": "A Squeekboard nem fut",
+  "tooltip.noWvkbd": "A wvkbd nem található",
+  "tooltip.detecting": "Nem található backend · Beállítások megnyitása",
+  "menu.settings": "Widget beállítások",
+  "settings.backend.label": "Backend",
+  "settings.backend.desc": "Melyik képernyő-billentyűzetet irányítsa: auto, squeekboard vagy wvkbd (az auto indításkor automatikusan felismeri)",
+  "settings.backend.option.auto": "Automatikus",
+  "settings.backend.option.squeekboard": "Squeekboard",
+  "settings.backend.option.wvkbd": "wvkbd",
+  "settings.hideWhenUnavailable.label": "Elrejtés, ha nem érhető el",
+  "settings.hideWhenUnavailable.desc": "A widget teljes elrejtése, ha a billentyűzet nem érhető el",
+  "settings.disableHoverIcon.label": "Lebegő ikon letiltása",
+  "settings.disableHoverIcon.desc": "Mindig az aktuális állapot ikonját jelenítse meg a lebegő ikon helyett. Megjegyzés: a lebegő ikonok csak akkor jelennek meg, ha a sáv felül vagy alul van.",
+  "settings.wvkbdBin.label": "wvkbd bináris",
+  "settings.wvkbdBin.desc": "Bináris neve vagy elérési útja (pl. wvkbd-mobintl, wvkbd-comp, wvkbd-abc)",
+  "settings.recheck.label": "Állapot újraellenőrzése",
+  "settings.recheck.done": "Állapot újraellenőrizve!",
+  "settings.recheck.desc": "A billentyűzet állapotának manuális szinkronizálása"
+}

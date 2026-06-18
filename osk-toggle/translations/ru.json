@@ -1,0 +1,23 @@
+{
+  "tooltip.active": "Клавиатура активна · Нажмите, чтобы скрыть",
+  "tooltip.hidden": "Клавиатура скрыта · Нажмите, чтобы показать",
+  "tooltip.noGsettings": "gsettings недоступен",
+  "tooltip.noSqueekboard": "Squeekboard не запущен",
+  "tooltip.noWvkbd": "wvkbd не найден",
+  "tooltip.detecting": "Бэкенд не обнаружен · Открыть настройки",
+  "menu.settings": "Настройки виджета",
+  "settings.backend.label": "Бэкенд",
+  "settings.backend.desc": "Какую экранную клавиатуру использовать: auto, squeekboard или wvkbd (auto определяет при запуске)",
+  "settings.backend.option.auto": "Авто",
+  "settings.backend.option.squeekboard": "Squeekboard",
+  "settings.backend.option.wvkbd": "wvkbd",
+  "settings.hideWhenUnavailable.label": "Скрывать при недоступности",
+  "settings.hideWhenUnavailable.desc": "Полностью скрывать виджет, когда клавиатура недоступна",
+  "settings.disableHoverIcon.label": "Отключить иконку при наведении",
+  "settings.disableHoverIcon.desc": "Всегда показывать иконку текущего состояния вместо иконки при наведении. Примечание: иконки при наведении отображаются только когда панель расположена сверху или снизу.",
+  "settings.wvkbdBin.label": "Исполняемый файл wvkbd",
+  "settings.wvkbdBin.desc": "Имя или путь к исполняемому файлу (напр. wvkbd-mobintl, wvkbd-comp, wvkbd-abc)",
+  "settings.recheck.label": "Повторная проверка",
+  "settings.recheck.done": "Состояние обновлено!",
+  "settings.recheck.desc": "Вручную синхронизировать состояние клавиатуры"
+}

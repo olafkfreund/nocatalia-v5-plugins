@@ -1,0 +1,46 @@
+id = "blackteaextract/osk-toggle"
+name = "OSK Toggle"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "blackteaextract"
+license = "MIT"
+tags = ["System", "Bar", "Utility"]
+icon = "keyboard"
+description = "Toggle an on-screen keyboard (Squeekboard or wvkbd) with auto-detection and live availability monitoring."
+
+[[setting]]
+key = "backend"
+type = "select"
+label = "Backend"
+default = "auto"
+description = "Which OSK backend to use"
+options = ["auto", "squeekboard", "wvkbd"]
+
+[[setting]]
+key = "hideWhenUnavailable"
+type = "bool"
+label = "Hide when unavailable"
+default = false
+description = "Hide the widget when the OSK is not available"
+
+[[setting]]
+key = "disableHoverIcon"
+type = "bool"
+label = "Disable hover icon"
+default = false
+description = "Disable the toggle-direction indicator icon on hover"
+
+[[setting]]
+key = "wvkbdBin"
+type = "string"
+label = "wvkbd binary"
+default = "wvkbd-mobintl"
+description = "Path or name of the wvkbd binary to use"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

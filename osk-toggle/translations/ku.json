@@ -1,0 +1,23 @@
+{
+  "tooltip.active": "Klavye çalak e · Bikirtînin ji bo veşartinê",
+  "tooltip.hidden": "Klavye veşartî ye · Bikirtînin ji bo nîşandanê",
+  "tooltip.noGsettings": "gsettings berdest nîne",
+  "tooltip.noSqueekboard": "Squeekboard naxebite",
+  "tooltip.noWvkbd": "wvkbd nehat dîtin",
+  "tooltip.detecting": "Backend nehat dîtin · Mîhengan veke",
+  "menu.settings": "Mîhengên widgetê",
+  "settings.backend.label": "Backend",
+  "settings.backend.desc": "Kîjan klavyeya ekranê kontrol bike: auto, squeekboard, an jî wvkbd (auto di destpêkê de xweser tespît dike)",
+  "settings.backend.option.auto": "Xweser",
+  "settings.backend.option.squeekboard": "Squeekboard",
+  "settings.backend.option.wvkbd": "wvkbd",
+  "settings.hideWhenUnavailable.label": "Veşêre dema ku berdest nebe",
+  "settings.hideWhenUnavailable.desc": "Widgeta bi tevahî veşêre dema ku klavye berdest nebe",
+  "settings.disableHoverIcon.label": "Îkona li ser mişkê neçalak bike",
+  "settings.disableHoverIcon.desc": "Her dem îkona rewşa heyî nîşan bide li şûna îkona li ser mişkê. Not: îkonên li ser mişkê tenê xuya dibin dema ku bar li jorê an jêrê be.",
+  "settings.wvkbdBin.label": "Bernameya wvkbd",
+  "settings.wvkbdBin.desc": "Navê an rêça bernamesaziyê (mînak wvkbd-mobintl, wvkbd-comp, wvkbd-abc)",
+  "settings.recheck.label": "Rewşa ji nû ve kontrol bike",
+  "settings.recheck.done": "Rewş ji nû ve kontrolkirin!",
+  "settings.recheck.desc": "Rewşa klavyeyê bi destan hevdem bike"
+}

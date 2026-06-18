@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Widget-instellingen",
+  "fortune.notInstalled": "⚠ fortune niet geïnstalleerd",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Gewoon tekst",
+  "settings.text.desc": "De tekst die in de balk wordt weergegeven",
+  "settings.fortune.label": "Fortune-modus",
+  "settings.fortune.desc": "Toon een willekeurig citaat van fortune in plaats van aangepaste tekst",
+  "settings.fortuneCategory.label": "Categorie",
+  "settings.fortuneCategory.desc": "Beperk citaten tot een specifieke fortune-categorie (bijv. computers, science)",
+  "settings.fortuneMaxLength.label": "Max. citatlengte: {value}",
+  "settings.fortuneMaxLength.desc": "Maximum aantal tekens dat een fortune-citaat mag bevatten",
+  "settings.fortuneOffensive.label": "Aanstootgevend inschakelen (-o)",
+  "settings.fortuneOffensive.desc": "Haal ook uit de aanstootgevende fortune-database",
+  "settings.fortuneEqual.label": "Gelijke kans (-e)",
+  "settings.fortuneEqual.desc": "Geef alle categorieën een gelijke kans ongeacht hun omvang",
+  "settings.list.label": "Lijstmodus",
+  "settings.list.desc": "Toon een willekeurig item uit een tekstbestand in plaats van aangepaste tekst",
+  "settings.textFile.label": "Tekstbestand",
+  "settings.textFile.desc": "Pad naar een tekstbestand met één item per regel. Zie examples.txt als startpunt.",
+  "settings.refreshOnWallpaper.label": "Vernieuwen bij achtergrondwijziging",
+  "settings.refreshOnWallpaper.desc": "Kies een nieuwe tekst wanneer de achtergrond verandert. Uitschakelen om slechts één keer per sessie te kiezen."
+}

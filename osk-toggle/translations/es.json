@@ -1,0 +1,23 @@
+{
+  "tooltip.active": "Teclado activo · Clic para ocultar",
+  "tooltip.hidden": "Teclado oculto · Clic para mostrar",
+  "tooltip.noGsettings": "gsettings no disponible",
+  "tooltip.noSqueekboard": "Squeekboard no está en ejecución",
+  "tooltip.noWvkbd": "wvkbd no encontrado",
+  "tooltip.detecting": "No se detectó backend · Abrir ajustes",
+  "menu.settings": "Ajustes del widget",
+  "settings.backend.label": "Backend",
+  "settings.backend.desc": "Qué teclado en pantalla controlar: auto, squeekboard o wvkbd (auto detecta al inicio)",
+  "settings.backend.option.auto": "Automático",
+  "settings.backend.option.squeekboard": "Squeekboard",
+  "settings.backend.option.wvkbd": "wvkbd",
+  "settings.hideWhenUnavailable.label": "Ocultar cuando no disponible",
+  "settings.hideWhenUnavailable.desc": "Ocultar el widget por completo cuando el teclado no está disponible",
+  "settings.disableHoverIcon.label": "Desactivar icono al pasar el cursor",
+  "settings.disableHoverIcon.desc": "Mostrar siempre el icono de estado actual en lugar del icono al pasar el cursor. Nota: los iconos al pasar el cursor solo aparecen cuando la barra está arriba o abajo.",
+  "settings.wvkbdBin.label": "Binario wvkbd",
+  "settings.wvkbdBin.desc": "Nombre o ruta del binario (p. ej. wvkbd-mobintl, wvkbd-comp, wvkbd-abc)",
+  "settings.recheck.label": "Verificar estado",
+  "settings.recheck.done": "¡Estado verificado!",
+  "settings.recheck.desc": "Sincronizar manualmente el estado del teclado"
+}

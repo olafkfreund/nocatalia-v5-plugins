@@ -1,0 +1,23 @@
+{
+  "tooltip.active": "Klavye etkin · Gizlemek için tıklayın",
+  "tooltip.hidden": "Klavye gizli · Göstermek için tıklayın",
+  "tooltip.noGsettings": "gsettings kullanılamıyor",
+  "tooltip.noSqueekboard": "Squeekboard çalışmıyor",
+  "tooltip.noWvkbd": "wvkbd bulunamadı",
+  "tooltip.detecting": "Backend bulunamadı · Ayarları aç",
+  "menu.settings": "Widget ayarları",
+  "settings.backend.label": "Backend",
+  "settings.backend.desc": "Hangi ekran klavyesini kontrol edeceğini seçin: auto, squeekboard veya wvkbd (auto başlangıçta otomatik algılar)",
+  "settings.backend.option.auto": "Otomatik",
+  "settings.backend.option.squeekboard": "Squeekboard",
+  "settings.backend.option.wvkbd": "wvkbd",
+  "settings.hideWhenUnavailable.label": "Kullanılamadığında gizle",
+  "settings.hideWhenUnavailable.desc": "Klavye kullanılamadığında widget'ı tamamen gizle",
+  "settings.disableHoverIcon.label": "Üzerine gelme simgesini devre dışı bırak",
+  "settings.disableHoverIcon.desc": "Üzerine gelme simgesi yerine her zaman mevcut durum simgesini göster. Not: üzerine gelme simgeleri yalnızca çubuk üstte veya altta olduğunda görünür.",
+  "settings.wvkbdBin.label": "wvkbd programı",
+  "settings.wvkbdBin.desc": "Program adı veya yolu (örn. wvkbd-mobintl, wvkbd-comp, wvkbd-abc)",
+  "settings.recheck.label": "Durumu yeniden kontrol et",
+  "settings.recheck.done": "Durum yeniden kontrol edildi!",
+  "settings.recheck.desc": "Klavye durumunu manuel olarak senkronize et"
+}

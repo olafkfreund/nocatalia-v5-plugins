@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Налаштування віджету",
+  "fortune.notInstalled": "⚠ fortune не встановлено",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Просто текст",
+  "settings.text.desc": "Текст, що відображається на панелі",
+  "settings.fortune.label": "Режим fortune",
+  "settings.fortune.desc": "Показувати випадкову цитату з fortune замість користувацького тексту",
+  "settings.fortuneCategory.label": "Категорія",
+  "settings.fortuneCategory.desc": "Обмежити цитати певною категорією fortune (наприклад, computers, science)",
+  "settings.fortuneMaxLength.label": "Макс. довжина цитати: {value}",
+  "settings.fortuneMaxLength.desc": "Максимальна кількість символів у цитаті fortune",
+  "settings.fortuneOffensive.label": "Включити образливі (-o)",
+  "settings.fortuneOffensive.desc": "Також брати з образливої бази даних fortune",
+  "settings.fortuneEqual.label": "Рівна ймовірність (-e)",
+  "settings.fortuneEqual.desc": "Давати всім категоріям однаковий шанс незалежно від їх розміру",
+  "settings.list.label": "Режим списку",
+  "settings.list.desc": "Показувати випадковий запис з текстового файлу замість користувацького тексту",
+  "settings.textFile.label": "Текстовий файл",
+  "settings.textFile.desc": "Шлях до текстового файлу з одним записом у рядку. Використовуйте examples.txt як відправну точку.",
+  "settings.refreshOnWallpaper.label": "Оновлювати при зміні шпалер",
+  "settings.refreshOnWallpaper.desc": "Вибирати новий текст при зміні шпалер. Вимкніть, щоб вибирати лише один раз за сеанс."
+}

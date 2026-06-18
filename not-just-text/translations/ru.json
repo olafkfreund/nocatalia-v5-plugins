@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Настройки виджета",
+  "fortune.notInstalled": "⚠ fortune не установлен",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Просто текст",
+  "settings.text.desc": "Текст, отображаемый на панели",
+  "settings.fortune.label": "Режим fortune",
+  "settings.fortune.desc": "Показывать случайную цитату из fortune вместо пользовательского текста",
+  "settings.fortuneCategory.label": "Категория",
+  "settings.fortuneCategory.desc": "Ограничить цитаты определённой категорией fortune (например, computers, science)",
+  "settings.fortuneMaxLength.label": "Макс. длина цитаты: {value}",
+  "settings.fortuneMaxLength.desc": "Максимальное количество символов в цитате fortune",
+  "settings.fortuneOffensive.label": "Включить оскорбительные (-o)",
+  "settings.fortuneOffensive.desc": "Также брать из оскорбительной базы данных fortune",
+  "settings.fortuneEqual.label": "Равная вероятность (-e)",
+  "settings.fortuneEqual.desc": "Давать всем категориям одинаковый шанс независимо от их размера",
+  "settings.list.label": "Режим списка",
+  "settings.list.desc": "Показывать случайную запись из текстового файла вместо пользовательского текста",
+  "settings.textFile.label": "Текстовый файл",
+  "settings.textFile.desc": "Путь к текстовому файлу с одной записью на строку. Используйте examples.txt как отправную точку.",
+  "settings.refreshOnWallpaper.label": "Обновлять при смене обоев",
+  "settings.refreshOnWallpaper.desc": "Выбирать новый текст при смене обоев. Отключите, чтобы выбирать только один раз за сессию."
+}

@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Ajustes del widget",
+  "fortune.notInstalled": "⚠ fortune no instalado",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Solo texto",
+  "settings.text.desc": "El texto que se muestra en la barra",
+  "settings.fortune.label": "Modo fortune",
+  "settings.fortune.desc": "Mostrar una cita aleatoria de fortune en lugar de texto personalizado",
+  "settings.fortuneCategory.label": "Categoría",
+  "settings.fortuneCategory.desc": "Limitar las citas a una categoría específica de fortune (p. ej. computers, science)",
+  "settings.fortuneMaxLength.label": "Longitud máxima de cita: {value}",
+  "settings.fortuneMaxLength.desc": "Número máximo de caracteres que puede tener una cita de fortune",
+  "settings.fortuneOffensive.label": "Incluir ofensivo (-o)",
+  "settings.fortuneOffensive.desc": "También extraer de la base de datos ofensiva de fortune",
+  "settings.fortuneEqual.label": "Probabilidad igual (-e)",
+  "settings.fortuneEqual.desc": "Dar a todas las categorías la misma probabilidad independientemente de su tamaño",
+  "settings.list.label": "Modo lista",
+  "settings.list.desc": "Mostrar una entrada aleatoria de un archivo de texto en lugar de texto personalizado",
+  "settings.textFile.label": "Archivo de texto",
+  "settings.textFile.desc": "Ruta a un archivo de texto con una entrada por línea. Consulta examples.txt para un punto de partida.",
+  "settings.refreshOnWallpaper.label": "Actualizar al cambiar el fondo",
+  "settings.refreshOnWallpaper.desc": "Elegir un nuevo texto cuando cambie el fondo de pantalla. Desactívalo para elegir solo una vez por sesión."
+}

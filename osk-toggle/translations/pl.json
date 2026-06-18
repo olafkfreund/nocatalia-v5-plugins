@@ -1,0 +1,23 @@
+{
+  "tooltip.active": "Klawiatura aktywna · Kliknij, aby ukryć",
+  "tooltip.hidden": "Klawiatura ukryta · Kliknij, aby pokazać",
+  "tooltip.noGsettings": "gsettings niedostępny",
+  "tooltip.noSqueekboard": "Squeekboard nie działa",
+  "tooltip.noWvkbd": "wvkbd nie znaleziono",
+  "tooltip.detecting": "Nie wykryto backendu · Otwórz ustawienia",
+  "menu.settings": "Ustawienia widżetu",
+  "settings.backend.label": "Backend",
+  "settings.backend.desc": "Którą klawiaturę ekranową obsługiwać: auto, squeekboard lub wvkbd (auto wykrywa przy uruchomieniu)",
+  "settings.backend.option.auto": "Automatyczny",
+  "settings.backend.option.squeekboard": "Squeekboard",
+  "settings.backend.option.wvkbd": "wvkbd",
+  "settings.hideWhenUnavailable.label": "Ukryj gdy niedostępny",
+  "settings.hideWhenUnavailable.desc": "Ukryj widget całkowicie, gdy klawiatura jest niedostępna",
+  "settings.disableHoverIcon.label": "Wyłącz ikonę po najechaniu",
+  "settings.disableHoverIcon.desc": "Zawsze pokazuj ikonę bieżącego stanu zamiast ikony po najechaniu. Uwaga: ikony po najechaniu pojawiają się tylko gdy pasek jest na górze lub na dole.",
+  "settings.wvkbdBin.label": "Plik wykonywalny wvkbd",
+  "settings.wvkbdBin.desc": "Nazwa lub ścieżka pliku wykonywalnego (np. wvkbd-mobintl, wvkbd-comp, wvkbd-abc)",
+  "settings.recheck.label": "Sprawdź stan ponownie",
+  "settings.recheck.done": "Stan ponownie sprawdzony!",
+  "settings.recheck.desc": "Ręczna synchronizacja stanu klawiatury"
+}

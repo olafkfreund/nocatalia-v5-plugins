@@ -1,0 +1,23 @@
+{
+  "tooltip.active": "Tastiera attiva · Clic per nascondere",
+  "tooltip.hidden": "Tastiera nascosta · Clic per mostrare",
+  "tooltip.noGsettings": "gsettings non disponibile",
+  "tooltip.noSqueekboard": "Squeekboard non è in esecuzione",
+  "tooltip.noWvkbd": "wvkbd non trovato",
+  "tooltip.detecting": "Nessun backend rilevato · Apri impostazioni",
+  "menu.settings": "Impostazioni widget",
+  "settings.backend.label": "Backend",
+  "settings.backend.desc": "Quale tastiera su schermo controllare: auto, squeekboard o wvkbd (auto rileva all'avvio)",
+  "settings.backend.option.auto": "Automatico",
+  "settings.backend.option.squeekboard": "Squeekboard",
+  "settings.backend.option.wvkbd": "wvkbd",
+  "settings.hideWhenUnavailable.label": "Nascondi quando non disponibile",
+  "settings.hideWhenUnavailable.desc": "Nascondi completamente il widget quando la tastiera non è disponibile",
+  "settings.disableHoverIcon.label": "Disabilita icona al passaggio del mouse",
+  "settings.disableHoverIcon.desc": "Mostra sempre l'icona dello stato corrente invece di un'icona al passaggio del mouse. Nota: le icone al passaggio del mouse appaiono solo quando la barra è in alto o in basso.",
+  "settings.wvkbdBin.label": "Binario wvkbd",
+  "settings.wvkbdBin.desc": "Nome o percorso del binario (es. wvkbd-mobintl, wvkbd-comp, wvkbd-abc)",
+  "settings.recheck.label": "Ricontrolla stato",
+  "settings.recheck.done": "Stato ricontrollato!",
+  "settings.recheck.desc": "Sincronizza manualmente lo stato della tastiera"
+}

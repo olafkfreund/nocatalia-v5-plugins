@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Paramètres du widget",
+  "fortune.notInstalled": "⚠ fortune non installé",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Texte simple",
+  "settings.text.desc": "Le texte à afficher dans la barre",
+  "settings.fortune.label": "Mode fortune",
+  "settings.fortune.desc": "Afficher une citation aléatoire de fortune au lieu d'un texte personnalisé",
+  "settings.fortuneCategory.label": "Catégorie",
+  "settings.fortuneCategory.desc": "Limiter les citations à une catégorie fortune spécifique (ex. computers, science)",
+  "settings.fortuneMaxLength.label": "Longueur max. de citation : {value}",
+  "settings.fortuneMaxLength.desc": "Nombre maximum de caractères qu'une citation fortune peut contenir",
+  "settings.fortuneOffensive.label": "Inclure les offensants (-o)",
+  "settings.fortuneOffensive.desc": "Puiser aussi dans la base de données fortune offensive",
+  "settings.fortuneEqual.label": "Probabilité égale (-e)",
+  "settings.fortuneEqual.desc": "Donner à toutes les catégories la même chance quelle que soit leur taille",
+  "settings.list.label": "Mode liste",
+  "settings.list.desc": "Afficher une entrée aléatoire d'un fichier texte au lieu d'un texte personnalisé",
+  "settings.textFile.label": "Fichier texte",
+  "settings.textFile.desc": "Chemin vers un fichier texte avec une entrée par ligne. Voir examples.txt pour commencer.",
+  "settings.refreshOnWallpaper.label": "Actualiser au changement de fond d'écran",
+  "settings.refreshOnWallpaper.desc": "Choisir un nouveau texte lors du changement de fond d'écran. Désactiver pour ne choisir qu'une fois par session."
+}

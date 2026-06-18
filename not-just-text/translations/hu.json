@@ -1,0 +1,23 @@
+{
+  "menu.settings": "Widget beállítások",
+  "fortune.notInstalled": "⚠ fortune nincs telepítve",
+  "fortune.gaveUp": "(╯°□°）╯︵ ┻━┻",
+  "settings.text.label": "Csak szöveg",
+  "settings.text.desc": "A sávban megjelenítendő szöveg",
+  "settings.fortune.label": "Fortune mód",
+  "settings.fortune.desc": "Véletlenszerű idézet megjelenítése a fortune-ból egyedi szöveg helyett",
+  "settings.fortuneCategory.label": "Kategória",
+  "settings.fortuneCategory.desc": "Idézetek korlátozása egy adott fortune kategóriára (pl. computers, science)",
+  "settings.fortuneMaxLength.label": "Max. idézethossz: {value}",
+  "settings.fortuneMaxLength.desc": "A fortune-idézet maximálisan megengedett karakterszáma",
+  "settings.fortuneOffensive.label": "Sértő tartalom (-o)",
+  "settings.fortuneOffensive.desc": "A sértő fortune adatbázisból is merítsen",
+  "settings.fortuneEqual.label": "Egyenlő valószínűség (-e)",
+  "settings.fortuneEqual.desc": "Minden kategóriának egyenlő esélyt adjon méretüktől függetlenül",
+  "settings.list.label": "Listamód",
+  "settings.list.desc": "Véletlenszerű bejegyzés megjelenítése szövegfájlból egyedi szöveg helyett",
+  "settings.textFile.label": "Szövegfájl",
+  "settings.textFile.desc": "Szövegfájl elérési útja, soronként egy bejegyzéssel. Kiindulópontként lásd az examples.txt fájlt.",
+  "settings.refreshOnWallpaper.label": "Frissítés háttérkép-váltáskor",
+  "settings.refreshOnWallpaper.desc": "Új szöveg választása háttérkép-váltáskor. Letiltva munkamenetenként csak egyszer választ."
+}
