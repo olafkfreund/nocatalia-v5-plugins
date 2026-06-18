@@ -1,0 +1,66 @@
+id = "pever3ll/syncthing-status"
+name = "Syncthing Status"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Pever3ll"
+license = "MIT"
+tags = ["Bar", "System", "Network"]
+icon = "refresh"
+description = "Monitor Syncthing synchronization status from the bar."
+
+[[setting]]
+key = "enabled"
+type = "bool"
+label = "Enable monitoring"
+default = true
+description = "Enable or disable Syncthing polling"
+
+[[setting]]
+key = "apiUrl"
+type = "string"
+label = "API URL"
+default = ""
+description = "Syncthing API URL (auto-detected if empty)"
+
+[[setting]]
+key = "apiKey"
+type = "string"
+label = "API Key"
+default = ""
+description = "Syncthing API key (auto-detected from config if empty)"
+
+[[setting]]
+key = "configPath"
+type = "string"
+label = "Config path"
+default = ""
+description = "Path to Syncthing config.xml (auto-detected if empty)"
+
+[[setting]]
+key = "verifyTls"
+type = "bool"
+label = "Verify TLS"
+default = false
+description = "Verify TLS certificates when connecting to Syncthing API"
+
+[[setting]]
+key = "pollIntervalMs"
+type = "int"
+label = "Poll interval (ms)"
+default = 10000
+description = "How often to poll Syncthing status in milliseconds"
+
+[[setting]]
+key = "folderIds"
+type = "string"
+label = "Folder IDs"
+default = ""
+description = "Comma-separated list of folder IDs to monitor (all if empty)"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"

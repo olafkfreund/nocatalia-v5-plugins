@@ -727,3 +727,14 @@ icon = "wind"
 description = "Monitors ThinkPad system temperatures and fan speed via sysfs/procfs."
 min_noctalia = "5.0.0"
 tags = ["Bar", "Indicator", "System", "Utility"]
+
+[[plugin]]
+id = "pever3ll/syncthing-status"
+name = "Syncthing Status"
+version = "2.0.0"
+author = "Pever3ll"
+license = "MIT"
+icon = "refresh"
+description = "Monitor Syncthing synchronization status from the bar."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Network"]
