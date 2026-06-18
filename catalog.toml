@@ -627,3 +627,14 @@ icon = "code"
 description = "Open Neovim Sessions"
 min_noctalia = "5.0.0"
 tags = ["Launcher", "Development"]
+
+[[plugin]]
+id = "cleboost/translator"
+name = "Translator"
+version = "2.0.0"
+author = "Cleboost"
+license = "MIT"
+icon = "language"
+description = "Quick translate in launcher"
+min_noctalia = "5.0.0"
+tags = ["Launcher"]

@@ -1,0 +1,42 @@
+id = "cleboost/translator"
+name = "Translator"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Cleboost"
+license = "MIT"
+tags = ["Launcher", "Productivity"]
+icon = "language"
+description = "Quick translate in launcher"
+
+[[setting]]
+key = "backend"
+type = "select"
+label = "Backend"
+default = "google"
+description = "Choose translation engine (google, deepl)"
+options = [
+  { value = "google", label = "Google Translate (no key needed)" },
+  { value = "deepl", label = "DeepL Translate (requires API key)" }
+]
+
+[[setting]]
+key = "deeplApiKey"
+type = "string"
+label = "DeepL API Key"
+default = ""
+description = "Your DeepL Authentication Key"
+
+[[setting]]
+key = "realTimeTranslation"
+type = "bool"
+label = "Real-time translation"
+default = true
+description = "Translate as you type"
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">translate"
+glyph = "language"
+include_in_global_search = false
+debounce_ms = 300
