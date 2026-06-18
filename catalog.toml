@@ -806,12 +806,23 @@ min_noctalia = "5.0.0"
 tags = ["Bar", "Network", "Security"]
 
 [[plugin]]
-id = "cleboost/netbird"
-name = "Netbird"
+id = "lokize/rss-feed"
+name = "RSS Feed"
 version = "2.0.0"
-author = "Cleboost"
+author = "Lokize"
 license = "MIT"
-icon = "network"
-description = "Monitor and control Netbird VPN/mesh network connection from the bar."
+icon = "rss"
+description = "Fetch and display RSS feed items in the bar with unread count tracking."
 min_noctalia = "5.0.0"
-tags = ["Bar", "Network", "Security"]
+tags = ["Bar", "News", "Productivity"]
+
+[[plugin]]
+id = "lokize/rss-feed"
+name = "RSS Feed"
+version = "2.0.0"
+author = "Lokize"
+license = "MIT"
+icon = "rss"
+description = "Fetch and display RSS feed items in the bar with unread count tracking."
+min_noctalia = "5.0.0"
+tags = ["Bar", "News", "Productivity"]

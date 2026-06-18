@@ -1,0 +1,45 @@
+id = "lokize/rss-feed"
+name = "RSS Feed"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Lokize"
+license = "MIT"
+tags = ["Bar", "News", "Productivity"]
+icon = "rss"
+description = "Fetch and display RSS feed items in the bar with unread count tracking."
+
+[[setting]]
+key = "feeds"
+type = "string"
+label = "Feed URLs"
+default = ""
+description = "Comma-separated list of RSS feed URLs to monitor"
+
+[[setting]]
+key = "updateInterval"
+type = "int"
+label = "Update interval (seconds)"
+default = 600
+description = "How often to refresh feeds in seconds"
+
+[[setting]]
+key = "maxItemsPerFeed"
+type = "int"
+label = "Max items per feed"
+default = 10
+description = "Maximum number of items to fetch per feed"
+
+[[setting]]
+key = "showOnlyUnread"
+type = "bool"
+label = "Show only unread"
+default = false
+description = "Only count unread items in the badge"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
