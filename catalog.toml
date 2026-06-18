@@ -738,3 +738,14 @@ icon = "refresh"
 description = "Monitor Syncthing synchronization status from the bar."
 min_noctalia = "5.0.0"
 tags = ["Bar", "System", "Network"]
+
+[[plugin]]
+id = "anonymous/ideapad-battery-health"
+name = "IdeaPad Battery Health"
+version = "2.0.0"
+author = "anonymous"
+license = "MIT"
+icon = "battery"
+description = "Toggle IdeaPad battery conservation mode via sysfs to protect long-term battery health."
+min_noctalia = "5.0.0"
+tags = ["Bar", "System", "Laptop"]

@@ -1,0 +1,28 @@
+id = "anonymous/ideapad-battery-health"
+name = "IdeaPad Battery Health"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "anonymous"
+license = "MIT"
+tags = ["Bar", "System", "Laptop"]
+icon = "battery"
+description = "Toggle IdeaPad battery conservation mode via sysfs to protect long-term battery health."
+
+[[setting]]
+key = "preservation"
+type = "select"
+label = "Conservation mode"
+default = 0
+description = "Battery preservation threshold"
+options = [
+  { value = "0", label = "Disabled (full charge)" },
+  { value = "1", label = "Enabled (conservation)" },
+]
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
