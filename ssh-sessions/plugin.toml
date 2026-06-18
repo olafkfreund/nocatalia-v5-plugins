@@ -1,0 +1,43 @@
+id = "nofiltera1/ssh-sessions"
+name = "SSH Sessions"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "NoFilterA1"
+license = "MIT"
+tags = ["Bar", "Panel", "Launcher"]
+icon = "terminal"
+description = "SSH session manager for Noctalia"
+
+[[setting]]
+key = "pollInterval"
+type = "int"
+label = "settings.pollInterval"
+default = 10
+min = 2
+max = 60
+description = "settings.pollIntervalDesc"
+
+[[setting]]
+key = "showInactiveHosts"
+type = "bool"
+label = "settings.showInactiveHosts"
+default = true
+description = "settings.showInactiveHostsDesc"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
+
+
+
+[[launcher_provider]]
+id = "launcher"
+entry = "launcher.luau"
+prefix = ">ssh"
+glyph = "terminal"
+include_in_global_search = true
+debounce_ms = 150
