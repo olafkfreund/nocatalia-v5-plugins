@@ -837,3 +837,14 @@ icon = "rss"
 description = "Fetch and display RSS feed items in the bar with unread count tracking."
 min_noctalia = "5.0.0"
 tags = ["Bar", "News", "Productivity"]
+
+[[plugin]]
+id = "ido-perlmuter/mpd"
+name = "MPD"
+version = "2.0.0"
+author = "Ido Perlmuter"
+license = "MIT"
+icon = "music"
+description = "Control MPD (Music Player Daemon) from the bar with playback controls."
+min_noctalia = "5.0.0"
+tags = ["Bar", "Music", "Audio"]

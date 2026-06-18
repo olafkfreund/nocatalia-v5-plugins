@@ -1,0 +1,48 @@
+id = "ido-perlmuter/mpd"
+name = "MPD"
+version = "2.0.0"
+min_noctalia = "5.0.0"
+author = "Ido Perlmuter"
+license = "MIT"
+tags = ["Bar", "Music", "Audio"]
+icon = "music"
+description = "Control MPD (Music Player Daemon) from the bar with play/pause, next, previous controls."
+
+[[setting]]
+key = "leftButton"
+type = "select"
+label = "Left click action"
+default = "next"
+description = "Action on left click"
+options = ["none", "next", "prev", "toggle", "stop", "shuffle"]
+
+[[setting]]
+key = "rightButton"
+type = "select"
+label = "Right click action"
+default = "toggle"
+description = "Action on right click"
+options = ["none", "next", "prev", "toggle", "stop", "shuffle"]
+
+[[setting]]
+key = "middleButton"
+type = "select"
+label = "Middle click action"
+default = "shuffle"
+description = "Action on middle click"
+options = ["none", "next", "prev", "toggle", "stop", "shuffle"]
+
+[[setting]]
+key = "shuffleStopsPlayback"
+type = "bool"
+label = "Shuffle stops playback"
+default = true
+description = "Stop current song when toggling shuffle"
+
+[[service]]
+id = "service"
+entry = "service.luau"
+
+[[widget]]
+id = "widget"
+entry = "widget.luau"
